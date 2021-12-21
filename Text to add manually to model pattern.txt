@@ -1,0 +1,11 @@
+insert the following section before "<RTFTemplates>" in the MDG file.  Check to make sure your link paths below are where you put the MDG folder.
+
+<ModelTemplates>
+     <Model name="Add New Component" default="yes" description="The is a pattern to add a new Component" filter="Common" location="C:\Projects\MDGs\SAFe- MBSE\Component Model Pattern.xml" icon="34"/>
+     <Model name="Add New Epic" default="yes" description="The is a pattern to add a new Epic" filter="Common" location="C:\Projects\MDGs\SAFe- MBSE\Epic Model Pattern.xml" icon="34"/>
+     <Model name="Add Feature" default="yes" description="The is a pattern to add a new Feature" filter="Common" location="C:\Projects\MDGs\SAFe- MBSE\Feature Model Pattern.xml" icon="34"/>
+     <Model name="Create SAFe MBSE Model Pattern" default="yes" description="The is a pattern to add The MBSE Model Pattern" filter="Common" location="C:\Projects\MDGs\SAFe- MBSE\MBSE SAFe Model Pattern.xml" icon="34"/>
+     <Model name="Create A New Product Model" default="yes" description="This a pattern to start of the Architecture Model for a new product" filter="Common" location="C:\Projects\MDGs\SAFe- MBSE\Product Architecture Model Pattern.xml" icon="34"/>
+     <Model name="New Mission Analysis Model Pattern" default="yes" description="This a pattern to start mission analysis" filter="Common" location="C:\Projects\MDGs\SAFe- MBSE\Mission Analysis Model Pattern.xml" icon="34"/>
+     <Model name="New Stakeholder" default="yes" description="This a pattern to add a stakeholder" filter="Common" location="C:\Projects\MDGs\SAFe- MBSE\Stakeholder Model Pattern.xml" icon="34"/>
+</ModelTemplates>

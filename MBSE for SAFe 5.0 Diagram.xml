@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="F9B597A7-9" name="MBSE for SAFe 5.0" version="0.0.1b" notes="MBSE for SAFe 5.0"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Functional Decomposition (SAFe5.0)" notes="This diagram type is for functional decomposition using the SAFe 5.0 Agile Objects.  " cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Logical">
+						<Property name="alias" value="SAFe 5.0 Functional Decomposition"/>
+						<Property name="toolbox" value="MBSE for SAFe 5.0"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Kanban Board" notes="This is a SAFe Kanban board" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Custom">
+						<Property name="alias" value="Kanban"/>
+						<Property name="pdata" value="ShowIcons=1;"/>
+						<Property name="swimlanes" value="Lanes=4;Lane1=New;Lane2=To Do;Lane3=Inprogress; Lane4=Done;"/>
+						<Property name="toolbox" value="MBSE for SAFe 5.0 Toolbox"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="MBSE Behaviors" notes="This is an MBSE behaviors diagram for modeling stakeholder needs, use cases, etc" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Use Case">
+						<Property name="alias" value="MBSE Behavioral"/>
+						<Property name="toolbox" value="MBSE for SAFe 5.0_MBSE_Behavioral"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="MBSE for SAFe 5.0" notes="This diagram type is for functional decomposition using the SAFe 5.0 Agile Objects.  " cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Logical">
+						<Property name="alias" value="SAFe 5.0 Functional Decomposition"/>
+						<Property name="toolbox" value="MBSE for SAFe 5.0"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="MBSE Req Diagram" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Logical">
+						<Property name="toolbox" value="MBSE for SAFe 5.0"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

@@ -1,3 +1,5 @@
+   ****** this model pattern in a Beta and therfore some functions might not work.********
+
 This repo is for an Enteprise Architect UML profile extension for SAFe 5.0.  
 This was generated using EA's Model Driven Generation (MDG) profile helper.  
 

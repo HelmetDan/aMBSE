@@ -1,42 +1,136 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.1b" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.19b" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="Business Requirement" metatype="Business Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Blocker" metatype="Blocker" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAJFcVQ+RxTLJgUAAIggAAAHABEAc3RyLmRhdFVUDQAHEfQyYhH0MmIR9DJi
+7VlbbxNXEJ7XrdT/YJWXIFmCQBwHIR5IIAhVQhQH9bFybEJcfIlsp4hW/e/9vjN7fK57cVQn
+RELW7h7vzpnL983MXs5KLmUoV/JJOjLDaCJz+Vl+kn/MviNTnPsmC7mWNX7fSskX2H6Rc5xf
+yhhnlvj3vJxxKX9gzhSaPkOXlZ1C6gIanNxfWbkR5OaQC3W+MrMHkP0boz3Zl548lq48xfHh
+RuolfBnLCr6eY2/j2os8PYbNBex8wfkutt+xWR2qZwC5tZzC2hS/E0hzxhKa3pgr6s0QdqYV
+cg89r1TbexPXzXUVQYwDE+MgiHGO8Qxjzp3h7BCz1+YM8dRYT+S1vJMz7D+UUVu93DvMOhWI
+ucwopC4zLNtLw+6lx3sBuaW5Ss0cjcHABPs15F6A0ccbySYeBtiG2K7heYqYr6MK/Y+YqRG6
+aFNNilFhvB0Zm3NExRj3TBZy28feHZ39ar6ODSfM4G6ZzZzblSdeThfyCL9qHW8THU8qdJxh
+Hvm5MJk2xYi1d2W0nRssOsB5ZfasRrKh//2sWCF+cnpl5DmPSH2FRZ1BGepboLpVnpqp5avR
+N8KeEkSSHYAWJpAnluqrb+1lec5mXJH0AY32IECcOmiVOuaw6Ni0XIXSfoa4TGSP8aWIoc1q
+dsVPyACtGl6dlRGvcaRXXXkmR8F89rn5RsJyFVvQeqF9ayM/n9pTG9RwaWIlPgtT92Q57+WR
+8eEw8iK0o/iGMv9mmDpOmNoVB/TrSniX8eOsjvIwg3QcY3w95Jq62EmZvb6dVEuOD9YC+yN7
+cux1yE6oT/1u1qg1OEX/tTKsLnYp9Yp5ciD9UpfrU06/HR/gGNuyaNdbeYq57ELUp5p8rW6c
+ojwzXI8N2vXopBUW+5vDL5Sxmcufn70n5fndZ6/2vlFFVM/KXOwH80I+ed3yZvdEnrPsuB9Y
+ztXrqyTiu+2sP6q6qcZC5quruKlTv77nzGusd8f87jpWv8Q97cJ8Om2XbanNOIbm54hc1pyW
+535kzX3IGnef8zl8k3C4K3bu4i53M75UE5/GqxHuZWRyNfL21vCtii3EOfeOEUdm7x5pZGFs
+v35nsaXV2q4Ox5Aa4q3Kdgu+tS6wv0YkjGWJsftmUW27V2s9123qrOs7dDvr+q7vf/eqsp/n
+1Wf1XcJqO57ac+9HvxJ2OnKrX5fcHc1WbT7iHJcp28181OtIOcsh9n7niFm00qfBFBW+W1VH
+1DO9MpYJ+yzf26jpCPHbdzU3z47rsE2xv0kfTjnOof9bgv52uLbjiv6PcJU4ue9SFrn83cn2
+WjuKc615bqgn9WeJyFbCr2X89siaUfzy2dFDTLxDHtQwl6uKHOofEtTb4dieGz9S1//iL2Dx
+U0TqfRyhohlXwP9TR/kavc/VNUh4bs9g+6xQ3PzuX/esSAT72VoK2QsrSr+jH5k7ZT4H6AU1
+8B2izr5+zwq/poceKIO0zKdE64s+q1bZz6F/dmvob/f2UZed6T1zm2e4XK+LKy/tpTnsPt4a
+ds2Vtx2CvH6ICGM7dRWS5r9Fye6tVvs/Z8Hvs1WxNLGtXOje56N+JZLSlql2a8WFtF8rLoQr
+ihNhXuu60gX+sU+PN/Osf26OnwH02ubLNquEqkmfdDmLq152Rb0DyXP5U3T9kKtwE9FVOJed
+nN8pf6rBSvkZvA8eyOw+fuwyeqR9Wh4brL8In1RpV1dsC9zDt1+5VExORbuEHy87G3tbeHQz
+ucJL62vMmAvXKR9sMH9Qrju7zNHRf1BLAQIXCxQAAAAIAAJFcVQ+RxTLJgUAAIggAAAHAAkA
+AAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcR9DJiUEsFBgAAAAABAAEAPgAAAFwFAAAA
+AA==</Image>
 				<AppliesTo>
-					<Apply type="Requirement"/>
+					<Apply type="Task"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="REqToolID" type="" description="" unit="" values="" default=""/>
-					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
-					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
-					<Tag name="subType" type="" description="" unit="" values="" default=""/>
-					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
+					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+					<Tag name="ReqToolID" type="" description="" unit="" values="" default=""/>
+					<Tag name="StoryPoints" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Business Requirement" metatype="Business Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Requirement">
+						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroups" value="SMART Analysis"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Attainable" type="" description="" unit="" values="" default=""/>
+					<Tag name="measurable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Realistic" type="" description="" unit="" values="" default=""/>
+					<Tag name="Specific" type="" description="" unit="" values="" default=""/>
+					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Derived Requirement" metatype="Derived Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
-					<Apply type="Requirement"/>
+					<Apply type="Requirement">
+						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroups" value="SMART Analysis"/>
+					</Apply>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="REqToolID" type="" description="" unit="" values="" default=""/>
 					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
 					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
 					<Tag name="subType" type="" description="" unit="" values="" default=""/>
 					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="SubSystem Requirement" metatype="SubSystem Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Operational Objective" metatype="Operational Objective" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
-					<Apply type="Requirement"/>
+					<Apply type="UseCase"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="REqToolID" type="" description="" unit="" values="" default=""/>
-					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
-					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
-					<Tag name="subType" type="" description="" unit="" values="" default=""/>
-					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
+					<Tag name="Baseline Comparitive Action" type="" description="" unit="" values="" default=""/>
+					<Tag name="Customer Priority" type="" description="" unit="" values="" default=""/>
+					<Tag name="Primary Organization Responsible" type="" description="" unit="" values="" default=""/>
+					<Tag name="Priority" type="enumeration" description="" unit="" values="Must Have,Should Have,Could Have,Will Not Do,Not Prioritized" default="Not Prioritized"/>
+					<Tag name="Requirement Category" type="" description="" unit="" values="" default=""/>
+					<Tag name="TShirtSize" type="" description="" unit="" values="" default=""/>
+					<Tag name="Visibility" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Sprint" metatype="Sprint" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAE5FcVSzpjnFbQEAAN4DAAAHABEAc3RyLmRhdFVUDQAHj/QyYo/0MmKP9DJi
+nZJbSwJhEIbfW4P+g9iNgaIGURBeFNVdB7B7WV1tF2wVXQML/3vPzLrt5oEilm9mvvneObwz
+21JLVS2UKtAcOVLIPcBT1Y166usZ35z7DD0EEesdq8F7RxdEd9RGtnWpYx1htbQEG5IjzzbQ
+CnlLtgf0GVg7TY9pEt/xSDsLRcRZparesGIl7v90WdEE30pTKqR8K0d2VaPClB5D77Smqw3a
+7mNyxvrAqlPnnJqNjT79xs03zAKqvVLDsIbLsO2SLmIyGVAjpMKSDore6/QQoe0166jBSThF
+/OFI4xLCLYsa4k18kpZnu355XuWK2Ws+tQoI4zj2N7NCR8ewjcjd9X3kmSvst0+mib8nPt+f
+XRTI6M/IBZ6UDmLQE1BTpO2s2Ir1sG87/9tPxtn+n9SneqJHXfP/3WGV57g+OM98D9uztOnF
+3s3Ae7nnNsIKnX9ClLEvc9+dZwpq9sskLfcYZBm1y+lJL3Dq7WW11hdQSwECFwsUAAAACABO
+RXFUs6Y5xW0BAADeAwAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHj/QyYlBLBQYA
+AAAAAQABAD4AAACjAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="End Date" type="" description="" unit="" values="" default=""/>
+					<Tag name="Sprint Points" type="" description="" unit="" values="" default=""/>
+					<Tag name="Sprint Velocity" type="" description="" unit="" values="" default=""/>
+					<Tag name="Start Date" type="" description="" unit="" values="" default=""/>
+					<Tag name="Team Capacity" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Stakeholer Goal" metatype="Stakeholder Goal" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="SubSystem Requirement" metatype="SubSystem Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Requirement">
+						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroups" value="SMART Analysis"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Attainable" type="" description="" unit="" values="" default=""/>
+					<Tag name="measurable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Realistic" type="" description="" unit="" values="" default=""/>
+					<Tag name="Specific" type="" description="" unit="" values="" default=""/>
+					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Test Case" metatype="Test Case" notes="" cx="0" cy="0" bgcolor="16706043" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
@@ -61,6 +155,22 @@
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Capability" metatype="Capability" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////3O8O3O8O3O8O3O8O
+3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O9vsO9vsO3O8O////////
+////////////////////////////////////3O8O3O8O9vsO9vsO3O8O////////3O8O3O8O
+3O8O////////3O8O3O8O3O8O////3O8O3O8O9vsO9vsO3O8O////////3O8O////////////
+3O8O////////////////3O8O3O8O9vsO9vsO3O8O////////3O8O////////////3O8O////
+////////////3O8O3O8O9vsO9vsO3O8O////////3O8O3O8O////////3O8O////////////
+////3O8O3O8O9vsO9vsO3O8O////////3O8O////////////3O8O////////////////3O8O
+3O8O9vsO9vsO3O8O////////3O8O////////////3O8O////////////////3O8O3O8O9vsO
+9vsO3O8O////////3O8O3O8O3O8O////////3O8O3O8O3O8O////3O8O3O8O9vsO9vsO3O8O
+////////////////////////////////////////////3O8O3O8O3O8O3O8O3O8O3O8O3O8O
+3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////</Icon>
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMZMRVOvTtvFJAUAADwgAAAHABEAc3RyLmRhdFVUDQAHKx1cYSsdXGErHVxh
 7Vnbbhs3EJ1XFcg/CM2LAwho7FiWgyIPiRMHRYEgtRzksZCluFajiyvJDdKi/95zODsiueSu
 VkZl10AgiKJ2h3M5Z2b2wqVcyUCu5ZO0ZYrZWGbySL6Tv93YlgmOfZW53MgKn6+F5At8v5cL
@@ -90,6 +200,8 @@ y5hXkJoJ9ycfrxF/HOyQa8bo7F9QSwECFwsUAAAACADGTEVTr07bxSQFAAA8IAAABwAJAAAA
 AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHKx1cYVBLBQYAAAAAAQABAD4AAABaBQAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Package">
+						<Property name="_tagGroupings" value="WSJF_TimeCriticality=WSJF;WSJF=WSJF;WSJF_BusinessValue=WSJF;WSJF_CoD=WSJF;WSJF_JobSize=WSJF;WSJF_RROE=WSJF;"/>
+						<Property name="_tagGroups" value="WSJF"/>
 						<Property name="URI" value=""/>
 					</Apply>
 				</AppliesTo>
@@ -176,10 +288,18 @@ AAAIACaks1L7MbGSqgUAAEAkAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAf/daVg
 UEsFBgAAAAABAAEAPgAAAOAFAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Package">
+						<Property name="_tagGroupings" value="WSJF_TimeCriticality=WSJF;WSJF=WSJF;WSJF_BusinessValue=WSJF;WSJF_CoD=WSJF;WSJF_JobSize=WSJF;WSJF_RROE=WSJF;"/>
+						<Property name="_tagGroups" value="WSJF"/>
 						<Property name="URI" value=""/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="WSJF" type="" description="" unit="" values="" default=""/>
+					<Tag name="WSJF_BusinessValue" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
+					<Tag name="WSJF_CoD" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
+					<Tag name="WSJF_JobSize" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
+					<Tag name="WSJF_RROE" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
+					<Tag name="WSJF_TimeCriticality" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
 					<Tag name="End Date" type="" description="" unit="" values="" default=""/>
 					<Tag name="Feature Type" type="" description="" unit="" values="" default=""/>
 					<Tag name="Start Date" type="" description="" unit="" values="" default=""/>
@@ -251,63 +371,77 @@ hWFQSwUGAAAAAAEAAQA+AAAATAIAAAAA</Image>
 			</Stereotype>
 			<Stereotype name="Regulatory Requirement" metatype="Regulatory Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
-					<Apply type="Requirement"/>
+					<Apply type="Requirement">
+						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroups" value="SMART Analysis"/>
+					</Apply>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="REqToolID" type="" description="" unit="" values="" default=""/>
-					<Tag name="CockpitItemId" type="" description="" unit="" values="" default=""/>
-					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
-					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
-					<Tag name="subType" type="" description="" unit="" values="" default=""/>
-					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
+					<Tag name="Attainable" type="" description="" unit="" values="" default=""/>
+					<Tag name="measurable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Realistic" type="" description="" unit="" values="" default=""/>
+					<Tag name="Specific" type="" description="" unit="" values="" default=""/>
+					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="System Requirement" metatype="System Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
-					<Apply type="Requirement"/>
+					<Apply type="Requirement">
+						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroups" value="SMART Analysis"/>
+					</Apply>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="REqToolID" type="" description="" unit="" values="" default=""/>
-					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
-					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
-					<Tag name="subType" type="" description="" unit="" values="" default=""/>
-					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
+					<Tag name="Attainable" type="" description="" unit="" values="" default=""/>
+					<Tag name="measurable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Realistic" type="" description="" unit="" values="" default=""/>
+					<Tag name="Specific" type="" description="" unit="" values="" default=""/>
+					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Software Requirement" metatype="Software Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
-					<Apply type="Requirement"/>
+					<Apply type="Requirement">
+						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroups" value="SMART Analysis"/>
+					</Apply>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="REqToolID" type="" description="" unit="" values="" default=""/>
-					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
-					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
-					<Tag name="subType" type="" description="" unit="" values="" default=""/>
-					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
+					<Tag name="Attainable" type="" description="" unit="" values="" default=""/>
+					<Tag name="measurable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Realistic" type="" description="" unit="" values="" default=""/>
+					<Tag name="Specific" type="" description="" unit="" values="" default=""/>
+					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Hardware Requirement" metatype="Hardware Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
-					<Apply type="Requirement"/>
+					<Apply type="Requirement">
+						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroups" value="SMART Analysis"/>
+					</Apply>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="REqToolID" type="" description="" unit="" values="" default=""/>
-					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
-					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
-					<Tag name="subType" type="" description="" unit="" values="" default=""/>
-					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
+					<Tag name="Attainable" type="" description="" unit="" values="" default=""/>
+					<Tag name="measurable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Realistic" type="" description="" unit="" values="" default=""/>
+					<Tag name="Specific" type="" description="" unit="" values="" default=""/>
+					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Firmware Requirement" metatype="Firmware Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
-					<Apply type="Requirement"/>
+					<Apply type="Requirement">
+						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroups" value="SMART Analysis"/>
+					</Apply>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="REqToolID" type="" description="" unit="" values="" default=""/>
-					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
-					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
-					<Tag name="subType" type="" description="" unit="" values="" default=""/>
-					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
+					<Tag name="Attainable" type="" description="" unit="" values="" default=""/>
+					<Tag name="measurable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Realistic" type="" description="" unit="" values="" default=""/>
+					<Tag name="Specific" type="" description="" unit="" values="" default=""/>
+					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Responsibility " metatype="Responsibility " notes="" cx="0" cy="0" bgcolor="16645342" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
@@ -325,6 +459,7 @@ hWFQSwUGAAAAAAEAAQA+AAAATAIAAAAA</Image>
 					<Apply type="Actor"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
 					<Tag name="Actor Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
@@ -353,14 +488,17 @@ hWFQSwUGAAAAAAEAAQA+AAAATAIAAAAA</Image>
 			</Stereotype>
 			<Stereotype name="User Need" metatype="User Need" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
-					<Apply type="Requirement"/>
+					<Apply type="Requirement">
+						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroups" value="SMART Analysis"/>
+					</Apply>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="REqToolID" type="" description="" unit="" values="" default=""/>
-					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
-					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
-					<Tag name="subType" type="" description="" unit="" values="" default=""/>
-					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
+					<Tag name="Attainable" type="" description="" unit="" values="" default=""/>
+					<Tag name="measurable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Realistic" type="" description="" unit="" values="" default=""/>
+					<Tag name="Specific" type="" description="" unit="" values="" default=""/>
+					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="510 Submittal" metatype="Licensing Submittal" notes="" cx="50" cy="100" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Deliverables" baseStereotypes="Deliverables">
@@ -563,6 +701,8 @@ BwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHon2NX1BLBQYAAAAAAQABAD4AAABgBQAA
 AAA=</Image>
 				<AppliesTo>
 					<Apply type="Package">
+						<Property name="_tagGroupings" value="WSJF_TimeCriticality=WSJF;WSJF=WSJF;WSJF_BusinessValue=WSJF;WSJF_CoD=WSJF;WSJF_JobSize=WSJF;WSJF_RROE=WSJF;"/>
+						<Property name="_tagGroups" value="WSJF"/>
 						<Property name="URI" value=""/>
 					</Apply>
 				</AppliesTo>
@@ -669,8 +809,8 @@ ITUT7ks+3iD9uNhj9pmis38BUEsBAhcLFAAAAAgApEg9UZjPEwsiBQAAdCAAAAcACQAAAAAA
 AAAAAACAAAAAAHN0ci5kYXRVVAUAB+74cl9QSwUGAAAAAAEAAQA+AAAAWAUAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Feature">
-						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
-						<Property name="_tagGroups" value="Jira"/>
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;WSJF_TimeCriticality=WSJF ;WSJF=WSJF ;WSJF_BusinessValue=WSJF ;WSJF_CoD=WSJF ;WSJF_JobSize=WSJF ;WSJF_RROE=WSJF ;"/>
+						<Property name="_tagGroups" value="Jira,WSJF "/>
 						<Property name="isStatic" value="false"/>
 					</Apply>
 				</AppliesTo>
@@ -1054,6 +1194,8 @@ ZsKdySdrrJ8Ee+OaKzr7F1BLAQIXCxQAAAAIAOpIPVEtjwA8IAUAADYgAAAHAAkAAAAAAAAA
 AAAAgAAAAABzdHIuZGF0VVQFAAc5+XJfUEsFBgAAAAABAAEAPgAAAFYFAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Package">
+						<Property name="_tagGroupings" value="WSJF_TimeCriticality=WSJF;WSJF=WSJF;WSJF_BusinessValue=WSJF;WSJF_CoD=WSJF;WSJF_JobSize=WSJF;WSJF_RROE=WSJF;"/>
+						<Property name="_tagGroups" value="WSJF"/>
 						<Property name="URI" value=""/>
 					</Apply>
 				</AppliesTo>
@@ -1111,10 +1253,18 @@ eAWpmXB18tEa70fFSrPPFx19AVBLAQIXCxQAAAAIAPJIPVHS1Q/+IwUAAHogAAAHAAkAAAAA
 AAAAAAAAgAAAAABzdHIuZGF0VVQFAAdN+XJfUEsFBgAAAAABAAEAPgAAAFkFAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Package">
+						<Property name="_tagGroupings" value="WSJF_TimeCriticality=WSJF;WSJF=WSJF;WSJF_BusinessValue=WSJF;WSJF_CoD=WSJF;WSJF_JobSize=WSJF;WSJF_RROE=WSJF;"/>
+						<Property name="_tagGroups" value="WSJF"/>
 						<Property name="URI" value=""/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="WSJF" type="" description="" unit="" values="" default=""/>
+					<Tag name="WSJF_BusinessValue" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
+					<Tag name="WSJF_CoD" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
+					<Tag name="WSJF_JobSize" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
+					<Tag name="WSJF_RROE" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
+					<Tag name="WSJF_TimeCriticality" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
 					<Tag name="End Date" type="" description="" unit="" values="" default=""/>
 					<Tag name="Start Date" type="" description="" unit="" values="" default=""/>
 					<Tag name="SummedStoryPoints_E" type="" description="" unit="" values="" default=""/>
@@ -1170,8 +1320,8 @@ FAAAAAgAtkg9UUwvGP6sBQAAfCQAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB9f4
 cl9QSwUGAAAAAAEAAQA+AAAA4gUAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Feature">
-						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
-						<Property name="_tagGroups" value="Jira"/>
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;WSJF_TimeCriticality=WSJF ;WSJF=WSJF ;WSJF_BusinessValue=WSJF ;WSJF_CoD=WSJF ;WSJF_JobSize=WSJF ;WSJF_RROE=WSJF ;"/>
+						<Property name="_tagGroups" value="Jira,WSJF "/>
 						<Property name="isStatic" value="false"/>
 					</Apply>
 				</AppliesTo>

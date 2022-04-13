@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.1b" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.19b" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Context Diagraming" notes="This has context diagram elements" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -12,7 +12,6 @@
 					<Tag name="MBSE for SAFe 5.0::Enabler(UML::Class)" type="" description="" unit="" values="" default="Enabler"/>
 					<Tag name="MBSE for SAFe 5.0::Input(UML::Class)" type="" description="" unit="" values="" default="Input"/>
 					<Tag name="MBSE for SAFe 5.0::Output(UML::Class)" type="" description="" unit="" values="" default="Output"/>
-					<Tag name="MBSE for SAFe 5.0::test1(UML::Test)" type="" description="" unit="" values="" default="Test shapescript"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Action Item(UML::Task)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -555,8 +554,9 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="MBSE for SAFe 5.0::Operational Objective(UML::UseCase)" type="" description="" unit="" values="" default="Operational Objective"/>
 					<Tag name="MBSE for SAFe 5.0::Concern(UML::Class)" type="" description="" unit="" values="" default="Concern"/>
-					<Tag name="MBSE for SAFe 5.0::Goal(UML::Class)" type="" description="" unit="" values="" default="Goal"/>
+					<Tag name="MBSE for SAFe 5.0::Goal(UML::Class)" type="" description="" unit="" values="" default="User Goal"/>
 					<Tag name="MBSE for SAFe 5.0::Owns(UML::Association)" type="" description="" unit="" values="" default="Owns"/>
 					<Tag name="MBSE for SAFe 5.0::Persona(UML::Actor)" type="" description="" unit="" values="" default="Persona"/>
 					<Tag name="MBSE for SAFe 5.0::Responsibility (UML::Class)" type="" description="" unit="" values="" default="Responsibility"/>
@@ -585,6 +585,7 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="MBSE for SAFe 5.0::Blocker(UML::Task)" type="" description="" unit="" values="" default="Blocker"/>
 					<Tag name="MBSE for SAFe 5.0::510 Submittal(UML::Object)" type="" description="" unit="" values="" default="510 Submittal"/>
 					<Tag name="MBSE for SAFe 5.0::Action Item(UML::Task)" type="" description="" unit="" values="" default="Action Item"/>
 					<Tag name="MBSE for SAFe 5.0::Backlog(UML::Package)" type="" description="" unit="" values="" default="Backlog"/>
@@ -595,7 +596,6 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Tag name="MBSE for SAFe 5.0::EnablerStory(UML::Change)" type="" description="" unit="" values="" default="EnablerStory"/>
 					<Tag name="MBSE for SAFe 5.0::Epic Enabler(UML::Package)" type="" description="" unit="" values="" default="EpicEnabler"/>
 					<Tag name="MBSE for SAFe 5.0::Epic(UML::Package)" type="" description="" unit="" values="" default="Epic"/>
-					<Tag name="MBSE for SAFe 5.0::Feature(UML::Feature)" type="" description="" unit="" values="" default="Feature (Depreciated)"/>
 					<Tag name="MBSE for SAFe 5.0::Feature(UML::Package)" type="" description="" unit="" values="" default="Feature"/>
 					<Tag name="MBSE for SAFe 5.0::Program Epic(UML::Package)" type="" description="" unit="" values="" default="ProgramEpic"/>
 					<Tag name="MBSE for SAFe 5.0::Project(UML::Class)" type="" description="" unit="" values="" default="Project"/>
@@ -611,6 +611,7 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="MBSE for SAFe 5.0::Sprint(UML::Package)" type="" description="" unit="" values="" default="Sprint"/>
 					<Tag name="MBSE for SAFe 5.0::Calendar Year(UML::Object)" type="" description="" unit="" values="" default="Calendar Year"/>
 					<Tag name="MBSE for SAFe 5.0::Iteration(UML::Class)" type="" description="" unit="" values="" default="Iteration"/>
 					<Tag name="MBSE for SAFe 5.0::Quarter(UML::Object)" type="" description="" unit="" values="" default="Quarter"/>

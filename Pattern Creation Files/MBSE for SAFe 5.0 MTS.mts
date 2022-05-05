@@ -1,5 +1,5 @@
 <MDG.Selections model="C:\Projects\EA Projects\SAFe and MBSE model with content.eapx">
-	<Technology id="SAFe5.0" name="MBSE for SAFe 5.0" version="0.0.19b" notes="This is the Functional Decomposition MDG for SAFe 5.0.  " filename="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\MBSE for SAFe 5.0 MDG.xml"/>
+	<Technology id="SAFe5.0" name="MBSE for SAFe 5.0" version="0.0.20" notes="This is the Functional Decomposition MDG for SAFe 5.0.  " filename="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\MBSE for SAFe 5.0 MDG.xml"/>
 	<Profiles directory="C:\Projects\Github version control\aMBSE\Pattern Creation Files" files="MBSE for SAFe 5.0.xml"/>
 	<TagVals tags="Actor Type,Attainable,Baseline Comparitive Action,Capability Type,Customer Priority,EffectDirection,End Date,Epic Type,InvestigationState,measurable,ObservationContribution,PITag,Primary Organization Responsible,Priority,Rationale,Realistic,ReqToolID,Requirement Category,Scenario Type,SMART Analysis,Specific,Stakeholder Affected,Stakeholer Type,Start Date,StoryPoints,subType,Test Type,Testable &amp; Traceable,TShirtSize,values,Verification Method,Visibility"/>
 	<Images images=""/>

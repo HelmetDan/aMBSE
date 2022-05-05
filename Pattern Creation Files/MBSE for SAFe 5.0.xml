@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.19b" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.20" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
+			<Stereotype name="SubSystemUseCase" metatype="SubSystemUseCase" notes="" cx="0" cy="0" bgcolor="9109504" fontcolor="16775408" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Scenario Type" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="SystemUseCase" metatype="SystemUseCase" notes="" cx="0" cy="0" bgcolor="14772545" fontcolor="16777215" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Scenario Type" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="UserGoal" metatype="UserGoal" notes="" cx="0" cy="0" bgcolor="16436871" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="UseScenario" metatype="UseScenario" notes="" cx="0" cy="0" bgcolor="15453831" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Scenario Type" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
 			<Stereotype name="Blocker" metatype="Blocker" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAJFcVQ+RxTLJgUAAIggAAAHABEAc3RyLmRhdFVUDQAHEfQyYhH0MmIR9DJi
 7VlbbxNXEJ7XrdT/YJWXIFmCQBwHIR5IIAhVQhQH9bFybEJcfIlsp4hW/e/9vjN7fK57cVQn
@@ -70,7 +104,29 @@ AA==</Image>
 					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Operational Objective" metatype="Operational Objective" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="FigureOfMerit" metatype="FigureOfMerit" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="HF Study" metatype="HF Study" notes="" cx="0" cy="0" bgcolor="8888142" fontcolor="16777184" bordercolor="-1" borderwidth="2" hideicon="0">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Job" metatype="Job" notes="" cx="0" cy="0" bgcolor="16777215" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Operational Objective" metatype="Operational Objective" notes="" cx="0" cy="0" bgcolor="16777215" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="UseCase"/>
 				</AppliesTo>
@@ -80,9 +136,28 @@ AA==</Image>
 					<Tag name="Primary Organization Responsible" type="" description="" unit="" values="" default=""/>
 					<Tag name="Priority" type="enumeration" description="" unit="" values="Must Have,Should Have,Could Have,Will Not Do,Not Prioritized" default="Not Prioritized"/>
 					<Tag name="Requirement Category" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
 					<Tag name="TShirtSize" type="" description="" unit="" values="" default=""/>
 					<Tag name="Visibility" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Stakeholer Goal" metatype="Stakeholder Goal" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+					<Tag name="Scenario Type" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Question" metatype="Question" notes="" cx="0" cy="0" bgcolor="10592733" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Sprint" metatype="Sprint" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAE5FcVSzpjnFbQEAAN4DAAAHABEAc3RyLmRhdFVUDQAHj/QyYo/0MmKP9DJi
@@ -106,16 +181,6 @@ AAAAAQABAD4AAACjAQAAAAA=</Image>
 					<Tag name="Sprint Velocity" type="" description="" unit="" values="" default=""/>
 					<Tag name="Start Date" type="" description="" unit="" values="" default=""/>
 					<Tag name="Team Capacity" type="" description="" unit="" values="" default=""/>
-				</TaggedValues>
-			</Stereotype>
-			<Stereotype name="Stakeholer Goal" metatype="Stakeholder Goal" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<AppliesTo>
-					<Apply type="UseCase"/>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
-					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
-					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="SubSystem Requirement" metatype="SubSystem Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -142,6 +207,13 @@ AAAAAQABAD4AAACjAQAAAAA=</Image>
 					<Tag name="StoryPoints" type="" description="" unit="" values="" default=""/>
 					<Tag name="Test Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="VoC" metatype="VoC" notes="" cx="0" cy="0" bgcolor="9145088" fontcolor="16119285" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Backlog" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
@@ -353,6 +425,10 @@ AAAAAACAAAAAAHN0ci5kYXRVVAUAB4bPcWFQSwUGAAAAAAEAAQA+AAAALgIAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Actor"/>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Actor Type" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Req Shape Script Template" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFRiZVMh71a6FgIAADQGAAAHABEAc3RyLmRhdFVUDQAHMiGFYTIhhWEyIYVh

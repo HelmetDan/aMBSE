@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.19b" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.20" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Context Diagraming" notes="This has context diagram elements" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -12,6 +12,18 @@
 					<Tag name="MBSE for SAFe 5.0::Enabler(UML::Class)" type="" description="" unit="" values="" default="Enabler"/>
 					<Tag name="MBSE for SAFe 5.0::Input(UML::Class)" type="" description="" unit="" values="" default="Input"/>
 					<Tag name="MBSE for SAFe 5.0::Output(UML::Class)" type="" description="" unit="" values="" default="Output"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Human Factors" notes="Elements for Human Factors Modeling" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="MBSE for SAFe 5.0::FigureOfMerit(UML::Class)" type="" description="" unit="" values="" default="Figure of Merit"/>
+					<Tag name="MBSE for SAFe 5.0::HF Study(UML::UseCase)" type="" description="" unit="" values="" default="Human Factor Study"/>
+					<Tag name="MBSE for SAFe 5.0::Question(UML::Class)" type="" description="" unit="" values="" default="Question"/>
+					<Tag name="MBSE for SAFe 5.0::VoC(UML::Class)" type="" description="" unit="" values="" default="Voice of Customer"/>
+					<Tag name="UML::Activity" type="" description="" unit="" values="" default="Activity"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Action Item(UML::Task)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -554,9 +566,17 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="" type="" description="" unit="" values="" default="Realize"/>
+					<Tag name="MBSE for SAFe 5.0::Job(UML::UseCase)" type="" description="" unit="" values="" default="Job"/>
 					<Tag name="MBSE for SAFe 5.0::Operational Objective(UML::UseCase)" type="" description="" unit="" values="" default="Operational Objective"/>
+					<Tag name="MBSE for SAFe 5.0::Stakeholer Goal(UML::UseCase)" type="" description="" unit="" values="" default="Stakeholder Goal"/>
+					<Tag name="MBSE for SAFe 5.0::SubSystemUseCase(UML::UseCase)" type="" description="" unit="" values="" default="Subsystem Use Case"/>
+					<Tag name="MBSE for SAFe 5.0::SystemUseCase(UML::UseCase)" type="" description="" unit="" values="" default="System Use Case"/>
+					<Tag name="MBSE for SAFe 5.0::UserGoal(UML::UseCase)" type="" description="" unit="" values="" default="User Goal"/>
+					<Tag name="MBSE for SAFe 5.0::UseScenario(UML::UseCase)" type="" description="" unit="" values="" default="Use Scenario"/>
+					<Tag name="UML::Extension" type="" description="" unit="" values="" default="Extend"/>
+					<Tag name="UML::Realization" type="" description="" unit="" values="" default="Realize"/>
 					<Tag name="MBSE for SAFe 5.0::Concern(UML::Class)" type="" description="" unit="" values="" default="Concern"/>
-					<Tag name="MBSE for SAFe 5.0::Goal(UML::Class)" type="" description="" unit="" values="" default="User Goal"/>
 					<Tag name="MBSE for SAFe 5.0::Owns(UML::Association)" type="" description="" unit="" values="" default="Owns"/>
 					<Tag name="MBSE for SAFe 5.0::Persona(UML::Actor)" type="" description="" unit="" values="" default="Persona"/>
 					<Tag name="MBSE for SAFe 5.0::Responsibility (UML::Class)" type="" description="" unit="" values="" default="Responsibility"/>

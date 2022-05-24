@@ -1,0 +1,1961 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2021-12-13 12:52:23">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_37C13540_9EA5_4174_AE47_38A7CCCF09C5">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Agile Project Management " xmi.id="EAPK_37C13540_9EA5_4174_AE47_38A7CCCF09C5" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_8D4E5ACB_7B7E_4c1d_A94C_E28474B7E4BB"/>
+						<UML:TaggedValue tag="created" value="2020-12-22 07:37:58"/>
+						<UML:TaggedValue tag="modified" value="2021-03-29 12:04:03"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2021-12-07 20:38:48"/>
+						<UML:TaggedValue tag="lastsavedate" value="2021-12-07 20:38:48"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="6"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="30778880"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="6"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_37C13540_9EA5_4174_AE47_38A7CCCF09C5_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Program Backlog" xmi.id="EAID_09C61384_167D_4423_96BB_AE2A9FA1D85C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_37C13540_9EA5_4174_AE47_38A7CCCF09C5"/>
+										<UML:TaggedValue tag="date_created" value="2021-03-29 12:06:14"/>
+										<UML:TaggedValue tag="date_modified" value="2021-03-29 12:06:14"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_09C61384_167D_4423_96BB_AE2A9FA1D85C"/>
+										<UML:TaggedValue tag="package_name" value="Agile Project Management "/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="57"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Solution Backlog" xmi.id="EAID_3525E211_4658_4cd4_ACE3_63F4D53B56BF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_37C13540_9EA5_4174_AE47_38A7CCCF09C5"/>
+										<UML:TaggedValue tag="date_created" value="2021-03-29 12:04:52"/>
+										<UML:TaggedValue tag="date_modified" value="2021-03-29 12:04:52"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_3525E211_4658_4cd4_ACE3_63F4D53B56BF"/>
+										<UML:TaggedValue tag="package_name" value="Agile Project Management "/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="58"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Portfolio Backlog" xmi.id="EAID_4E398B3E_D1B6_4657_8623_5F8C7E7BB0AC" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_37C13540_9EA5_4174_AE47_38A7CCCF09C5"/>
+										<UML:TaggedValue tag="date_created" value="2021-03-29 12:04:32"/>
+										<UML:TaggedValue tag="date_modified" value="2021-03-29 12:04:46"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_4E398B3E_D1B6_4657_8623_5F8C7E7BB0AC"/>
+										<UML:TaggedValue tag="package_name" value="Agile Project Management "/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="55"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Calendar Elements" xmi.id="EAID_C837580C_258B_4078_A5A5_D7B1B8C550E3" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_37C13540_9EA5_4174_AE47_38A7CCCF09C5"/>
+										<UML:TaggedValue tag="date_created" value="2020-12-22 07:42:45"/>
+										<UML:TaggedValue tag="date_modified" value="2020-12-22 07:43:05"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+										<UML:TaggedValue tag="package_name" value="Agile Project Management "/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="53"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Package name="Calendar Elements" xmi.id="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_37C13540_9EA5_4174_AE47_38A7CCCF09C5"/>
+								<UML:TaggedValue tag="created" value="2020-12-22 07:42:45"/>
+								<UML:TaggedValue tag="modified" value="2020-12-22 07:43:05"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2021-12-07 20:38:48"/>
+								<UML:TaggedValue tag="lastsavedate" value="2021-12-07 20:38:48"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="30778880"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_C837580C_258B_4078_A5A5_D7B1B8C550E3_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="2026-Q1" xmi.id="EAID_01287D79_425F_4b0f_BF23_3E2066366AE2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_9A35D6DA_7364_48ed_BBD3_E1018F49C06C"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:57:07"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:58:26"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="311"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={AFF2CBA3-CA7F-436f-A82A-B709CABD60C1}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={01287D79-425F-4b0f-BF23-3E2066366AE2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2022" xmi.id="EAID_06B34F8E_BE84_4826_960B_0D5F92B9CAE4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Calendar Year"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:50:14"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:51:31"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Calendar Year"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="312"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C51A2AF3-C14C-4aba-8856-52973A7B878C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Calendar Year;FQName=MBSE for SAFe 5.0::Calendar Year;@ENDSTEREO;$DES;$CLT={06B34F8E-BE84-4826-960B-0D5F92B9CAE4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2022-Q2" xmi.id="EAID_19978325_B106_4dbd_8B1F_E9C587E83801" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_06B34F8E_BE84_4826_960B_0D5F92B9CAE4"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:53:40"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:54:52"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="313"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D7E07193-4F6B-47ee-9887-F117847B38A2}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={19978325-B106-4dbd-8B1F-E9C587E83801}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2022-Q4" xmi.id="EAID_1ED457EA_572C_4e80_9B7E_7B6238A7F3CA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_06B34F8E_BE84_4826_960B_0D5F92B9CAE4"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:53:36"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:54:38"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="314"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={96046C7E-21B7-4a71-8C59-C663E483E852}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={1ED457EA-572C-4e80-9B7E-7B6238A7F3CA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Template Diagrams" xmi.id="EAID_200A2041_A0F6_4a83_90DF_CBAE61BFD624" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="These template diagrams are meant to be copied for use in the main model.  Using these templates allows trace ability and DSM analysis on roadmap quarters, years etc.   "/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 08:20:12"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:21:12"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_200A2041_A0F6_4a83_90DF_CBAE61BFD624"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="54"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2025-Q4" xmi.id="EAID_207E2EC1_543D_49a6_8515_CCFF6858AE58" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_37561268_97A0_4df6_9405_D636044DA4D6"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:53:34"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:56:21"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="316"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B97186FE-58C1-4a83-B1F8-97BE5D984C4B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={207E2EC1-543D-49a6-8515-CCFF6858AE58}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2030-Q4" xmi.id="EAID_208E44D3_DE0B_46a4_94A9_127E648D1598" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_41EA8BD0_A5C9_43d2_8BE0_EBCFC23A1023"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 08:00:22"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:00:51"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="317"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={90EF3C8E-BD75-4785-9A9F-096111CDFD0C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={208E44D3-DE0B-46a4-94A9-127E648D1598}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2024-Q2" xmi.id="EAID_27F2CB6D_4843_44b3_AA95_8630F4EE71C6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_39EF2721_306F_47c0_BFCB_64C4DD0442B8"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:53:43"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:55:36"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="318"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4F956842-A2DA-4578-A540-372EE6751485}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={27F2CB6D-4843-44b3-AA95-8630F4EE71C6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2025-Q2" xmi.id="EAID_2AE9DFCC_4C9E_44ee_A99B_46533E7077A9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_37561268_97A0_4df6_9405_D636044DA4D6"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:51:09"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:56:28"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="319"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={86AC7C31-29F1-47e9-B89D-EEE7EBDEBA1C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={2AE9DFCC-4C9E-44ee-A99B-46533E7077A9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2026-Q4" xmi.id="EAID_2C21DDEC_E30C_4acb_AFAF_8DC9854C164C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_9A35D6DA_7364_48ed_BBD3_E1018F49C06C"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:57:13"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:58:34"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="320"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4061B464-C9F0-47bc-845F-253A2E4DDA3E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={2C21DDEC-E30C-4acb-AFAF-8DC9854C164C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2027-Q4" xmi.id="EAID_305104AE_92BA_44bb_A00B_E3843768B82C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_AF9C9B5C_E10D_4a3d_8E3B_3A76FDFA0355"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:56:57"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:58:53"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="321"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3715ECA9-0194-4ca2-BBC9-F6B1CCABCB32}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={305104AE-92BA-44bb-A00B-E3843768B82C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2023-Q3" xmi.id="EAID_321D1448_7DA0_4a6e_9F83_86EC2E11E13A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_E18E3FF6_497D_4016_9345_9BD823EFFE11"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:53:53"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:55:17"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="322"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E3A694C2-2ED3-48f5-9CB6-BCCFEEDF1AD1}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={321D1448-7DA0-4a6e-9F83-86EC2E11E13A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="January" xmi.id="EAID_3694A433_F58A_4e8c_8E99_620009795144" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 08:37:07"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:37:15"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="323"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2025" xmi.id="EAID_37561268_97A0_4df6_9405_D636044DA4D6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Calendar Year"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:50:19"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:51:38"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Calendar Year"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="324"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7F2F0E48-36A0-4bf1-A742-8D86A6335A2C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Calendar Year;FQName=MBSE for SAFe 5.0::Calendar Year;@ENDSTEREO;$DES;$CLT={37561268-97A0-4df6-9405-D636044DA4D6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2024" xmi.id="EAID_39EF2721_306F_47c0_BFCB_64C4DD0442B8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Calendar Year"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:50:17"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:51:36"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Calendar Year"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="325"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DE6F2145-2446-4a77-8F08-D9B1FD7CB74E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Calendar Year;FQName=MBSE for SAFe 5.0::Calendar Year;@ENDSTEREO;$DES;$CLT={39EF2721-306F-47c0-BFCB-64C4DD0442B8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2021-Q4" xmi.id="EAID_3C506A3B_2047_4221_BCB4_46E288B23E7B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:50:53"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:24:10"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="326"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7BC0476C-CE02-4db5-8D0F-0E5A5BC2903E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={3C506A3B-2047-4221-BCB4-46E288B23E7B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2030" xmi.id="EAID_41EA8BD0_A5C9_43d2_8BE0_EBCFC23A1023" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Calendar Year"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:51:58"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:52:23"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Calendar Year"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="327"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={22EAA9CB-F913-490e-8AB4-761C1F889E1B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Calendar Year;FQName=MBSE for SAFe 5.0::Calendar Year;@ENDSTEREO;$DES;$CLT={41EA8BD0-A5C9-43d2-8BE0-EBCFC23A1023}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2028-Q2" xmi.id="EAID_45CD62D7_F9A6_4d1e_A5C6_862BF9A54040" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_4EAFA828_1E76_49e7_B711_465A4B22EC57"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:56:59"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:59:07"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="328"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={170AEAE5-F1E2-4b86-A117-584ABFB491B8}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={45CD62D7-F9A6-4d1e-A5C6-862BF9A54040}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2021-Q3" xmi.id="EAID_466D3BAD_3C58_4b3a_A513_2C6AE1DC053E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:50:51"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:24:10"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="329"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C147C039-6888-4938-B82E-9BF705257090}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={466D3BAD-3C58-4b3a-A513-2C6AE1DC053E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2022-Q3" xmi.id="EAID_47B6A42B_8655_4023_B8AA_F0F740D46F04" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_06B34F8E_BE84_4826_960B_0D5F92B9CAE4"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:53:41"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:54:54"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="330"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={FD549277-1264-4757-861C-37B601C276DD}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={47B6A42B-8655-4023-B8AA-F0F740D46F04}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2025-Q1" xmi.id="EAID_4D671053_7DD2_4e66_B1C8_3638824781F8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_37561268_97A0_4df6_9405_D636044DA4D6"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:51:07"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:56:12"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="331"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={337A095D-B66B-4e91-BC2B-E6F5AD96851B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={4D671053-7DD2-4e66-B1C8-3638824781F8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2028" xmi.id="EAID_4EAFA828_1E76_49e7_B711_465A4B22EC57" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Calendar Year"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:51:52"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:52:05"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Calendar Year"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="332"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0CCE5D8F-ECA8-443b-A3D4-05B6734D0142}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Calendar Year;FQName=MBSE for SAFe 5.0::Calendar Year;@ENDSTEREO;$DES;$CLT={4EAFA828-1E76-49e7-B711-465A4B22EC57}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2030-Q2" xmi.id="EAID_595F5A96_4C71_4a26_BF2F_7E62B4D60CC6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_41EA8BD0_A5C9_43d2_8BE0_EBCFC23A1023"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 08:00:18"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:00:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="333"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={485825A7-350B-46e3-97E6-F4AC6CC10015}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={595F5A96-4C71-4a26-BF2F-7E62B4D60CC6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2027-Q1" xmi.id="EAID_5EFEA9AA_E516_4837_978C_66D22B27B896" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_AF9C9B5C_E10D_4a3d_8E3B_3A76FDFA0355"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:56:54"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:58:45"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="334"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={273A6763-320C-4a69-88CA-27C42239DEDB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={5EFEA9AA-E516-4837-978C-66D22B27B896}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2030-Q3" xmi.id="EAID_5FAC885A_C87C_4768_8AA3_3BAF3767BE31" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_41EA8BD0_A5C9_43d2_8BE0_EBCFC23A1023"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 08:00:20"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:00:49"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="335"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CE4A613E-2A18-4df1-B598-C2F8C2960CCC}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={5FAC885A-C87C-4768-8AA3-3BAF3767BE31}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2030-Q1" xmi.id="EAID_66491F1E_3103_438f_9B19_8FEA9B3BE933" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_41EA8BD0_A5C9_43d2_8BE0_EBCFC23A1023"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 08:00:16"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:00:44"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="336"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={00E3E851-2981-45cb-A247-C58CCCE6117F}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={66491F1E-3103-438f-9B19-8FEA9B3BE933}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2029-Q4" xmi.id="EAID_75415FAF_BC05_4ea1_94C4_8BADBC9150F0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_C0C41D79_1A4E_4e6b_A6A6_BFD98ECCF2D4"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:59:42"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:00:06"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="337"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7D0B7FA1-0F93-4f60-9AC0-A06FD20B906F}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={75415FAF-BC05-4ea1-94C4-8BADBC9150F0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2025-Q3" xmi.id="EAID_78B3DBB8_6ADF_44af_A542_C919B532DEC0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_37561268_97A0_4df6_9405_D636044DA4D6"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:51:10"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:56:24"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="338"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={27B8E62B-23E8-4250-AEAE-DA2CFF1D94EC}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={78B3DBB8-6ADF-44af-A542-C919B532DEC0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2023-Q1" xmi.id="EAID_799FB3F2_DD54_4c96_B17D_0D00BE8A39F0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_E18E3FF6_497D_4016_9345_9BD823EFFE11"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:53:49"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:55:11"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="339"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={35397C32-8EB3-4f7d-A474-D731B48DBD1B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={799FB3F2-DD54-4c96-B17D-0D00BE8A39F0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2023-Q4" xmi.id="EAID_8F51BA39_1EA0_47dd_867C_5C5234983E11" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_E18E3FF6_497D_4016_9345_9BD823EFFE11"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:51:05"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:55:21"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="340"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3FFD3F0D-77AE-40b5-9F29-094C9EF217CF}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={8F51BA39-1EA0-47dd-867C-5C5234983E11}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2028-Q1" xmi.id="EAID_90FBDA4B_25D8_45ed_A11C_FC9B47EECA9E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_4EAFA828_1E76_49e7_B711_465A4B22EC57"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:57:06"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:59:04"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="341"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7AE8475D-7D86-49b6-A43F-1033A40D9B3D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={90FBDA4B-25D8-45ed-A11C-FC9B47EECA9E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2028-Q3" xmi.id="EAID_9446B93D_9371_4ec4_BB74_D4479CE50818" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_4EAFA828_1E76_49e7_B711_465A4B22EC57"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:57:00"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:59:10"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="342"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D456466B-1FC7-4155-B66E-F8FDA54A3D90}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={9446B93D-9371-4ec4-BB74-D4479CE50818}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2021-Q2" xmi.id="EAID_94CA88E7_10DE_4a0d_9103_A6BA7A45E499" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:50:49"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:24:10"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="343"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={11B404D7-EEEF-472c-B49D-24A545D84D25}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={94CA88E7-10DE-4a0d-9103-A6BA7A45E499}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2022-Q1" xmi.id="EAID_94D99679_047D_410f_BF17_248A4A282D33" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_06B34F8E_BE84_4826_960B_0D5F92B9CAE4"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:53:39"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:54:49"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="344"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={414288DC-1288-4807-B7FA-C0351A24C0E7}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={94D99679-047D-410f-BF17-248A4A282D33}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2026" xmi.id="EAID_9A35D6DA_7364_48ed_BBD3_E1018F49C06C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Calendar Year"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:50:21"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:51:41"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Calendar Year"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="345"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={FD8AA13E-CE44-49b1-94D7-947492956118}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Calendar Year;FQName=MBSE for SAFe 5.0::Calendar Year;@ENDSTEREO;$DES;$CLT={9A35D6DA-7364-48ed-BBD3-E1018F49C06C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2024-Q1" xmi.id="EAID_A077EFAE_F58C_443e_A99A_4D02021C99AE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_39EF2721_306F_47c0_BFCB_64C4DD0442B8"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:53:42"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:55:30"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="346"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={84A1B0E4-BD17-433f-9B32-BDE4AF746FCA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={A077EFAE-F58C-443e-A99A-4D02021C99AE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2021-Q1" xmi.id="EAID_A9A33ACC_D6A2_4bba_8104_11098531FBF6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:50:47"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:24:10"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="347"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D75136DA-6F43-44c1-A7A4-A55D7147DE69}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={A9A33ACC-D6A2-4bba-8104-11098531FBF6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2027" xmi.id="EAID_AF9C9B5C_E10D_4a3d_8E3B_3A76FDFA0355" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Calendar Year"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:50:22"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:51:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Calendar Year"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="348"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F967BE4C-BD23-46eb-8D99-E9F80E49E0E6}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Calendar Year;FQName=MBSE for SAFe 5.0::Calendar Year;@ENDSTEREO;$DES;$CLT={AF9C9B5C-E10D-4a3d-8E3B-3A76FDFA0355}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2027-Q3" xmi.id="EAID_B2FD1371_F106_4a0c_B46B_E0BB466F11AA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_AF9C9B5C_E10D_4a3d_8E3B_3A76FDFA0355"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:56:56"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:58:50"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="349"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={39DCAA7E-3363-4faa-9AD2-107C000A5A28}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={B2FD1371-F106-4a0c-B46B-E0BB466F11AA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2026-Q3" xmi.id="EAID_B53B25D1_D9DA_4e2f_B00E_611974B117AA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_9A35D6DA_7364_48ed_BBD3_E1018F49C06C"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:57:11"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:58:32"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="350"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7896B4ED-958C-4187-B3D8-58E280F7D329}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={B53B25D1-D9DA-4e2f-B00E-611974B117AA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2029-Q3" xmi.id="EAID_B72D7A90_D132_475f_81D7_46DF80FB0A14" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_C0C41D79_1A4E_4e6b_A6A6_BFD98ECCF2D4"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:59:34"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:00:03"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="351"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={830C13A9-4708-4256-986D-89C23E90A110}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={B72D7A90-D132-475f-81D7-46DF80FB0A14}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2026-Q2" xmi.id="EAID_BB82D0A6_35AE_4351_859A_C5DE437B5FC5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_9A35D6DA_7364_48ed_BBD3_E1018F49C06C"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:57:09"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:58:29"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="352"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D3C06303-059A-4a12-9E30-7291FDBBA435}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={BB82D0A6-35AE-4351-859A-C5DE437B5FC5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2029" xmi.id="EAID_C0C41D79_1A4E_4e6b_A6A6_BFD98ECCF2D4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Calendar Year"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:51:54"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:52:13"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Calendar Year"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="353"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9ABED155-045B-4627-BA37-0A57065B9C95}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Calendar Year;FQName=MBSE for SAFe 5.0::Calendar Year;@ENDSTEREO;$DES;$CLT={C0C41D79-1A4E-4e6b-A6A6-BFD98ECCF2D4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2024-Q3" xmi.id="EAID_C7C15B8C_78C6_4d8c_A5A9_951F94FAB21C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_39EF2721_306F_47c0_BFCB_64C4DD0442B8"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:53:46"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:55:47"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="354"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7EE5E226-D8D7-413a-8AA0-5D5AD83F6BBA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={C7C15B8C-78C6-4d8c-A5A9-951F94FAB21C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2029-Q2" xmi.id="EAID_CA113401_36A8_43b3_9339_9817678814DE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_C0C41D79_1A4E_4e6b_A6A6_BFD98ECCF2D4"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:59:33"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 08:00:00"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="355"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0E7A6CD3-FED4-4545-87FE-5F2CE43A09D6}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={CA113401-36A8-43b3-9339-9817678814DE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2021" xmi.id="EAID_D0F84126_9BD5_4857_8BA5_15B384F3E0ED" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Calendar Year"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:50:12"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:51:28"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Calendar Year"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="356"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E192BA45-9ADF-4cc4-9B3A-A0DB8CDE872B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Calendar Year;FQName=MBSE for SAFe 5.0::Calendar Year;@ENDSTEREO;$DES;$CLT={D0F84126-9BD5-4857-8BA5-15B384F3E0ED}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2023-Q2" xmi.id="EAID_D26DEACE_B1B5_40a9_B048_7250B0EEADD0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_E18E3FF6_497D_4016_9345_9BD823EFFE11"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:53:51"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:55:14"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="357"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={AD5CC31E-4330-46bc-ADBE-A2ECBD04BEA2}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={D26DEACE-B1B5-40a9-B048-7250B0EEADD0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2028-Q4" xmi.id="EAID_DD62FDE4_AB1F_4f12_B905_A18503703FBF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_4EAFA828_1E76_49e7_B711_465A4B22EC57"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:57:01"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:59:14"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="358"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3A8AF286-C9FC-4288-9262-C42AF3BAE2A8}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={DD62FDE4-AB1F-4f12-B905-A18503703FBF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2023" xmi.id="EAID_E18E3FF6_497D_4016_9345_9BD823EFFE11" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Calendar Year"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:50:16"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:51:33"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Calendar Year"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="359"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={65A1B409-5F7A-4426-9A00-FA29A4EC8CC1}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Calendar Year;FQName=MBSE for SAFe 5.0::Calendar Year;@ENDSTEREO;$DES;$CLT={E18E3FF6-497D-4016-9345-9BD823EFFE11}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2029-Q1" xmi.id="EAID_E2681CAB_4580_413f_90D4_8E762C24CCE0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_C0C41D79_1A4E_4e6b_A6A6_BFD98ECCF2D4"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:57:03"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:59:30"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="360"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7106B74B-3045-4d20-ABEF-4192BD14F7B5}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={E2681CAB-4580-413f-90D4-8E762C24CCE0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2027-Q2" xmi.id="EAID_ECFDCD6D_CFF7_40d1_9AD0_2CA2A7FB310A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_AF9C9B5C_E10D_4a3d_8E3B_3A76FDFA0355"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:56:55"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:58:48"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="361"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C1BCA502-3C1C-48f6-9529-FD7A7BB5B133}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={ECFDCD6D-CFF7-40d1-9AD0-2CA2A7FB310A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="2024-Q5" xmi.id="EAID_FC9E5416_DE25_46ce_822A_A3E9967B28FB" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Quarter"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Object"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+												<UML:TaggedValue tag="owner" value="EAID_39EF2721_306F_47c0_BFCB_64C4DD0442B8"/>
+												<UML:TaggedValue tag="date_created" value="2020-12-22 07:53:45"/>
+												<UML:TaggedValue tag="date_modified" value="2020-12-22 07:55:40"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Calendar Elements"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Quarter"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="362"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2C1BF572-425F-4db3-8C54-21CA3DA8CB9D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Quarter;FQName=MBSE for SAFe 5.0::Quarter;@ENDSTEREO;$DES;$CLT={FC9E5416-DE25-46ce-822A-A3E9967B28FB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Package name="Template Diagrams" xmi.id="EAPK_200A2041_A0F6_4a83_90DF_CBAE61BFD624" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="These template diagrams are meant to be copied for use in the main model.  Using these templates allows trace ability and DSM analysis on roadmap quarters, years etc.   "/>
+										<UML:TaggedValue tag="parent" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+										<UML:TaggedValue tag="created" value="2020-12-22 08:20:12"/>
+										<UML:TaggedValue tag="modified" value="2020-12-22 08:21:12"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="lastloaddate" value="2021-12-07 20:38:49"/>
+										<UML:TaggedValue tag="lastsavedate" value="2021-12-07 20:38:49"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Portfolio Backlog" xmi.id="EAPK_4E398B3E_D1B6_4657_8623_5F8C7E7BB0AC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_37C13540_9EA5_4174_AE47_38A7CCCF09C5"/>
+								<UML:TaggedValue tag="created" value="2021-03-29 12:04:32"/>
+								<UML:TaggedValue tag="modified" value="2021-03-29 12:04:46"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2021-12-07 20:38:49"/>
+								<UML:TaggedValue tag="lastsavedate" value="2021-12-07 20:38:49"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="30778880"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_4E398B3E_D1B6_4657_8623_5F8C7E7BB0AC_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="Navigation Page" xmi.id="EAID_93AF8309_9473_4073_86C3_565D86FB7976" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_4E398B3E_D1B6_4657_8623_5F8C7E7BB0AC"/>
+												<UML:TaggedValue tag="date_created" value="2021-03-29 12:06:24"/>
+												<UML:TaggedValue tag="date_modified" value="2021-03-29 12:06:24"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_93AF8309_9473_4073_86C3_565D86FB7976"/>
+												<UML:TaggedValue tag="package_name" value="Portfolio Backlog"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="56"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Package name="Navigation Page" xmi.id="EAPK_93AF8309_9473_4073_86C3_565D86FB7976" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_4E398B3E_D1B6_4657_8623_5F8C7E7BB0AC"/>
+										<UML:TaggedValue tag="created" value="2021-03-29 12:06:24"/>
+										<UML:TaggedValue tag="modified" value="2021-03-29 12:06:24"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="lastloaddate" value="2021-12-07 20:38:49"/>
+										<UML:TaggedValue tag="lastsavedate" value="2021-12-07 20:38:49"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement/>
+								</UML:Package>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Program Backlog" xmi.id="EAPK_09C61384_167D_4423_96BB_AE2A9FA1D85C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_37C13540_9EA5_4174_AE47_38A7CCCF09C5"/>
+								<UML:TaggedValue tag="created" value="2021-03-29 12:06:14"/>
+								<UML:TaggedValue tag="modified" value="2021-03-29 12:06:14"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2021-12-07 20:38:49"/>
+								<UML:TaggedValue tag="lastsavedate" value="2021-12-07 20:38:49"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="30778880"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Solution Backlog" xmi.id="EAPK_3525E211_4658_4cd4_ACE3_63F4D53B56BF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_37C13540_9EA5_4174_AE47_38A7CCCF09C5"/>
+								<UML:TaggedValue tag="created" value="2021-03-29 12:04:52"/>
+								<UML:TaggedValue tag="modified" value="2021-03-29 12:04:52"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2021-12-07 20:38:49"/>
+								<UML:TaggedValue tag="lastsavedate" value="2021-12-07 20:38:49"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="30778880"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="Agile Project Management " xmi.id="EAID_BF9820F5_1CB6_4450_B7B4_D5AB4337AC88" diagramType="CustomDiagram" owner="EAPK_37C13540_9EA5_4174_AE47_38A7CCCF09C5" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="30778880"/>
+				<UML:TaggedValue tag="created_date" value="2021-03-29 12:06:50"/>
+				<UML:TaggedValue tag="modified_date" value="2021-05-19 20:38:46"/>
+				<UML:TaggedValue tag="package" value="EAPK_37C13540_9EA5_4174_AE47_38A7CCCF09C5"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="51"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=5E5305A4;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=Extended::Dashboard;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+		</UML:Diagram>
+		<UML:Diagram name="Calendar Elements" xmi.id="EAID_C09B2A45_E046_4709_BB13_167B28D2A81D" diagramType="ClassDiagram" owner="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="30778880"/>
+				<UML:TaggedValue tag="created_date" value="2020-12-22 07:43:10"/>
+				<UML:TaggedValue tag="modified_date" value="2021-05-19 20:38:46"/>
+				<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="52"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=EE4E53AE;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::Functional Decomposition (SAFe5.0);STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=1090;Top=660;Right=1190;Bottom=720;" subject="EAID_208E44D3_DE0B_46a4_94A9_127E648D1598" seqno="1" style="DUID=8155BFF1;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1050;Top=750;Right=1150;Bottom=810;" subject="EAID_5FAC885A_C87C_4768_8AA3_3BAF3767BE31" seqno="2" style="DUID=F99DBABC;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=980;Top=670;Right=1080;Bottom=730;" subject="EAID_595F5A96_4C71_4a26_BF2F_7E62B4D60CC6" seqno="3" style="DUID=2B3B82EC;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1060;Top=740;Right=1160;Bottom=800;" subject="EAID_66491F1E_3103_438f_9B19_8FEA9B3BE933" seqno="4" style="DUID=74445F1D;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=670;Top=670;Right=770;Bottom=730;" subject="EAID_75415FAF_BC05_4ea1_94C4_8BADBC9150F0" seqno="5" style="DUID=30EE616D;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=760;Top=700;Right=860;Bottom=760;" subject="EAID_B72D7A90_D132_475f_81D7_46DF80FB0A14" seqno="6" style="DUID=86E9111F;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1190;Top=690;Right=1290;Bottom=750;" subject="EAID_CA113401_36A8_43b3_9339_9817678814DE" seqno="7" style="DUID=DB6565A3;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=760;Top=500;Right=860;Bottom=560;" subject="EAID_2C21DDEC_E30C_4acb_AFAF_8DC9854C164C" seqno="8" style="DUID=2822472B;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=770;Top=540;Right=870;Bottom=600;" subject="EAID_B53B25D1_D9DA_4e2f_B00E_611974B117AA" seqno="9" style="DUID=5097E2F2;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=900;Top=500;Right=1000;Bottom=560;" subject="EAID_BB82D0A6_35AE_4351_859A_C5DE437B5FC5" seqno="10" style="DUID=DA37D9F5;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=880;Top=530;Right=980;Bottom=590;" subject="EAID_01287D79_425F_4b0f_BF23_3E2066366AE2" seqno="11" style="DUID=81571764;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=930;Top=550;Right=1030;Bottom=610;" subject="EAID_90FBDA4B_25D8_45ed_A11C_FC9B47EECA9E" seqno="12" style="DUID=FA685D47;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1030;Top=480;Right=1130;Bottom=540;" subject="EAID_E2681CAB_4580_413f_90D4_8E762C24CCE0" seqno="13" style="DUID=FAC40FC3;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1110;Top=510;Right=1210;Bottom=570;" subject="EAID_DD62FDE4_AB1F_4f12_B905_A18503703FBF" seqno="14" style="DUID=FC6681B3;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1120;Top=540;Right=1220;Bottom=600;" subject="EAID_9446B93D_9371_4ec4_BB74_D4479CE50818" seqno="15" style="DUID=DFFA65A2;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1140;Top=560;Right=1240;Bottom=620;" subject="EAID_45CD62D7_F9A6_4d1e_A5C6_862BF9A54040" seqno="16" style="DUID=FDD5E8B9;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1290;Top=480;Right=1390;Bottom=540;" subject="EAID_305104AE_92BA_44bb_A00B_E3843768B82C" seqno="17" style="DUID=FF19A0A4;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1280;Top=520;Right=1380;Bottom=580;" subject="EAID_B2FD1371_F106_4a0c_B46B_E0BB466F11AA" seqno="18" style="DUID=7F2F848C;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1230;Top=540;Right=1330;Bottom=600;" subject="EAID_ECFDCD6D_CFF7_40d1_9AD0_2CA2A7FB310A" seqno="19" style="DUID=D35D91C0;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1300;Top=570;Right=1400;Bottom=630;" subject="EAID_5EFEA9AA_E516_4837_978C_66D22B27B896" seqno="20" style="DUID=45A5B263;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1320;Top=90;Right=1420;Bottom=150;" subject="EAID_321D1448_7DA0_4a6e_9F83_86EC2E11E13A" seqno="21" style="DUID=2B6DEAC9;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1330;Top=120;Right=1430;Bottom=180;" subject="EAID_D26DEACE_B1B5_40a9_B048_7250B0EEADD0" seqno="22" style="DUID=256B2D09;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1370;Top=150;Right=1470;Bottom=210;" subject="EAID_799FB3F2_DD54_4c96_B17D_0D00BE8A39F0" seqno="23" style="DUID=6D25D279;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1410;Top=140;Right=1510;Bottom=200;" subject="EAID_C7C15B8C_78C6_4d8c_A5A9_951F94FAB21C" seqno="24" style="DUID=0CB49010;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1410;Top=200;Right=1510;Bottom=260;" subject="EAID_FC9E5416_DE25_46ce_822A_A3E9967B28FB" seqno="25" style="DUID=78658364;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1180;Top=220;Right=1280;Bottom=280;" subject="EAID_27F2CB6D_4843_44b3_AA95_8630F4EE71C6" seqno="26" style="DUID=8C8772FA;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1230;Top=330;Right=1330;Bottom=390;" subject="EAID_A077EFAE_F58C_443e_A99A_4D02021C99AE" seqno="27" style="DUID=83BE8D04;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1380;Top=270;Right=1480;Bottom=330;" subject="EAID_47B6A42B_8655_4023_B8AA_F0F740D46F04" seqno="28" style="DUID=8F5FE6F5;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1390;Top=340;Right=1490;Bottom=400;" subject="EAID_19978325_B106_4dbd_8B1F_E9C587E83801" seqno="29" style="DUID=465613E8;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1390;Top=410;Right=1490;Bottom=470;" subject="EAID_94D99679_047D_410f_BF17_248A4A282D33" seqno="30" style="DUID=5B955972;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=1080;Top=380;Right=1180;Bottom=440;" subject="EAID_1ED457EA_572C_4e80_9B7E_7B6238A7F3CA" seqno="31" style="DUID=32505C56;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=950;Top=380;Right=1050;Bottom=440;" subject="EAID_207E2EC1_543D_49a6_8515_CCFF6858AE58" seqno="32" style="DUID=49FDB0E9;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=960;Top=130;Right=1060;Bottom=190;" subject="EAID_41EA8BD0_A5C9_43d2_8BE0_EBCFC23A1023" seqno="33" style="DUID=B7F477C0;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=860;Top=130;Right=960;Bottom=190;" subject="EAID_C0C41D79_1A4E_4e6b_A6A6_BFD98ECCF2D4" seqno="34" style="DUID=93F46C34;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=760;Top=130;Right=860;Bottom=190;" subject="EAID_4EAFA828_1E76_49e7_B711_465A4B22EC57" seqno="35" style="DUID=0563323E;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=800;Top=310;Right=900;Bottom=370;" subject="EAID_78B3DBB8_6ADF_44af_A542_C919B532DEC0" seqno="36" style="DUID=84CDF529;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=700;Top=310;Right=800;Bottom=370;" subject="EAID_2AE9DFCC_4C9E_44ee_A99B_46533E7077A9" seqno="37" style="DUID=B4DF331E;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=600;Top=310;Right=700;Bottom=370;" subject="EAID_4D671053_7DD2_4e66_B1C8_3638824781F8" seqno="38" style="DUID=69B4626F;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=500;Top=310;Right=600;Bottom=370;" subject="EAID_8F51BA39_1EA0_47dd_867C_5C5234983E11" seqno="39" style="DUID=B05E6131;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=350;Top=310;Right=450;Bottom=370;" subject="EAID_3C506A3B_2047_4221_BCB4_46E288B23E7B" seqno="40" style="DUID=4E7E7DAB;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=250;Top=310;Right=350;Bottom=370;" subject="EAID_466D3BAD_3C58_4b3a_A513_2C6AE1DC053E" seqno="41" style="DUID=7C12B0FF;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=150;Top=310;Right=250;Bottom=370;" subject="EAID_94CA88E7_10DE_4a0d_9103_A6BA7A45E499" seqno="42" style="DUID=DC7F8513;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=50;Top=310;Right=150;Bottom=370;" subject="EAID_A9A33ACC_D6A2_4bba_8104_11098531FBF6" seqno="43" style="DUID=501524D9;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=660;Top=130;Right=760;Bottom=190;" subject="EAID_AF9C9B5C_E10D_4a3d_8E3B_3A76FDFA0355" seqno="44" style="DUID=650D02D3;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=560;Top=130;Right=660;Bottom=190;" subject="EAID_9A35D6DA_7364_48ed_BBD3_E1018F49C06C" seqno="45" style="DUID=9BA2AF74;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=460;Top=130;Right=560;Bottom=190;" subject="EAID_37561268_97A0_4df6_9405_D636044DA4D6" seqno="46" style="DUID=C6A59F8B;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=360;Top=130;Right=460;Bottom=190;" subject="EAID_39EF2721_306F_47c0_BFCB_64C4DD0442B8" seqno="47" style="DUID=A9942A8B;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=260;Top=130;Right=360;Bottom=190;" subject="EAID_E18E3FF6_497D_4016_9345_9BD823EFFE11" seqno="48" style="DUID=EB5EAD15;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=160;Top=130;Right=260;Bottom=190;" subject="EAID_06B34F8E_BE84_4826_960B_0D5F92B9CAE4" seqno="49" style="DUID=61126224;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=60;Top=130;Right=160;Bottom=190;" subject="EAID_D0F84126_9BD5_4857_8BA5_15B384F3E0ED" seqno="50" style="DUID=3E1BEA41;HideIcon=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Single Year Roadmap" xmi.id="EAID_F593FBE1_47B5_4a12_B735_526188A94872" diagramType="ClassDiagram" owner="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="30778880"/>
+				<UML:TaggedValue tag="created_date" value="2020-12-22 08:19:12"/>
+				<UML:TaggedValue tag="modified_date" value="2021-05-19 20:38:46"/>
+				<UML:TaggedValue tag="package" value="EAPK_C837580C_258B_4078_A5A5_D7B1B8C550E3"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="53"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1098;DocSize.cy=850;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=195E834B;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::Functional Decomposition (SAFe5.0);STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=130;Top=220;Right=330;Bottom=420;" subject="EAID_3694A433_F58A_4e8c_8E99_620009795144" seqno="1" style="DUID=1AFF4424;"/>
+				<UML:DiagramElement geometry="Left=30;Top=30;Right=1110;Bottom=108;" subject="EAID_D0F84126_9BD5_4857_8BA5_15B384F3E0ED" seqno="2" style="DUID=282BAF28;NSL=0;BFol=-1;LCol=-1;LWth=-1;black=0;italic=0;ul=0;charset=0;HideIcon=0;BCol=16436871;font=Calibri;bold=1;pitch=34;fontsz=220;"/>
+				<UML:DiagramElement geometry="Left=840;Top=110;Right=1110;Bottom=520;" subject="EAID_3C506A3B_2047_4221_BCB4_46E288B23E7B" seqno="3" style="DUID=38C3D75E;NSL=0;BFol=-1;LCol=-1;LWth=-1;black=0;italic=0;ul=0;charset=0;HideIcon=0;font=Calibri;bold=1;pitch=34;BCol=16771561;fontsz=160;"/>
+				<UML:DiagramElement geometry="Left=570;Top=110;Right=840;Bottom=520;" subject="EAID_94CA88E7_10DE_4a0d_9103_A6BA7A45E499" seqno="4" style="DUID=3BF1521A;NSL=0;BFol=-1;LCol=-1;LWth=-1;black=0;italic=0;ul=0;charset=0;HideIcon=0;font=Calibri;bold=1;pitch=34;BCol=16771561;fontsz=160;"/>
+				<UML:DiagramElement geometry="Left=30;Top=110;Right=300;Bottom=520;" subject="EAID_A9A33ACC_D6A2_4bba_8104_11098531FBF6" seqno="5" style="DUID=375AA1E0;NSL=0;BFol=-1;LCol=-1;LWth=-1;black=0;italic=0;ul=0;charset=0;HideIcon=0;font=Calibri;bold=1;pitch=34;BCol=16771561;fontsz=160;"/>
+				<UML:DiagramElement geometry="Left=300;Top=110;Right=570;Bottom=520;" subject="EAID_466D3BAD_3C58_4b3a_A513_2C6AE1DC053E" seqno="6" style="DUID=0955FB5D;NSL=0;BFol=-1;LCol=-1;LWth=-1;black=0;italic=0;ul=0;charset=0;HideIcon=0;font=Calibri;bold=1;pitch=34;BCol=16771561;fontsz=160;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>

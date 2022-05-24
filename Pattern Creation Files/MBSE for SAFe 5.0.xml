@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.20" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.21" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
+			<Stereotype name="Goal" metatype="Goal" notes="" cx="0" cy="0" bgcolor="16436871" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Scenario" metatype="Scenario" notes="" cx="0" cy="0" bgcolor="15453831" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Scenario Type" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
 			<Stereotype name="SubSystemUseCase" metatype="SubSystemUseCase" notes="" cx="0" cy="0" bgcolor="9109504" fontcolor="16775408" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="UseCase"/>
@@ -20,22 +37,10 @@
 					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="UserGoal" metatype="UserGoal" notes="" cx="0" cy="0" bgcolor="16436871" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+			<Stereotype name="TechnicalRisk" metatype="TechnicalRisk" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
-					<Apply type="UseCase"/>
+					<Apply type="Risk"/>
 				</AppliesTo>
-				<TaggedValues>
-					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
-				</TaggedValues>
-			</Stereotype>
-			<Stereotype name="UseScenario" metatype="UseScenario" notes="" cx="0" cy="0" bgcolor="15453831" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
-				<AppliesTo>
-					<Apply type="UseCase"/>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="Scenario Type" type="" description="" unit="" values="" default=""/>
-					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
-				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Blocker" metatype="Blocker" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAJFcVQ+RxTLJgUAAIggAAAHABEAc3RyLmRhdFVUDQAHEfQyYhH0MmIR9DJi
@@ -377,28 +382,6 @@ UEsFBgAAAAABAAEAPgAAAOAFAAAAAA==</Image>
 					<Tag name="Start Date" type="" description="" unit="" values="" default=""/>
 					<Tag name="StoryPoints" type="" description="" unit="" values="" default=""/>
 					<Tag name="TShirtSize" type="" description="" unit="" values="" default=""/>
-				</TaggedValues>
-			</Stereotype>
-			<Stereotype name="Goal" metatype="Goal" notes="" cx="0" cy="0" bgcolor="13826810" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALSkVVM188xN+AEAAC4HAAAHABEAc3RyLmRhdFVUDQAHhs9xYYbPcWGGz3Fh
-rVVNT8JAEJ2rJv4HIpeSYCIqijEePXvgBxiEUhrbQmirQeJ/970ZlrJ8FEwMYXfZeTPzdvbN
-kstEBjKTUBqSYhVLJhdyLmeyXM0JdhcylVIKfBaKfZZLecfeXEb4NcevpxU6w26uMUdYfQFZ
-wF4C5RA20m8MZCzfWAXSkWt82vKAsbXG5vAewL9A1gHGCZCVNUWGT3gXmC1C2/NO9DTO/njE
-7hjcnIDp1WAsjyEPYYxrPeZYnlO4+ucNYR3treQYnoneNBGs+hwxPuCxD827JaqEBuyuqYkA
-KiCaNvKI8LuNb4bvKb4Z1inW5jVUtoWYuip/p4tKtX5Osy9X8wze1BmjcDWCXwhkhLmANlk/
-F/nnYAbHzI89kTfss+YREOwIn7OLSw7kVugpm+toTe9cLrvPgl0y1D7jLcRYZeATYWZmnw9R
-8YpBhSYvaqLi0xcq5FXRkTKz6lvlr1CTLubunprX9WKo+olhy4X3adpzGt/V+mEtHlPf33h0
-9DQ29tbj//BgHV3n8JYSvYMAVaWlVMTceyc3Ua0a1rdaMxv5Im6/i6eohDspIvI9joWqNPRx
-vfTlZUMvMc4YaDfkquWpdgXrv1DlxNjfzWVd7N5+Kr21lX/7zDzl3cZ4v6UXH02rQzqN+R7+
-v4PVsush/PfS6uwjqq5s6OoXUEsBAhcLFAAAAAgAtKRVUzXzzE34AQAALgcAAAcACQAAAAAA
-AAAAAACAAAAAAHN0ci5kYXRVVAUAB4bPcWFQSwUGAAAAAAEAAQA+AAAALgIAAAAA</Image>
-				<AppliesTo>
-					<Apply type="Class">
-						<Property name="isActive" value=""/>
-					</Apply>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Input" metatype="Input" notes="" cx="0" cy="0" bgcolor="16771583" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">

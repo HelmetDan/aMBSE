@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2022-05-23 21:17:45">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="SAFe UI/UX Model Pattern" xmi.id="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_1F2EAD37_256E_4ede_94EC_EE298CBDD1FE"/>
+						<UML:TaggedValue tag="created" value="2022-01-28 07:56:51"/>
+						<UML:TaggedValue tag="modified" value="2022-04-23 13:59:24"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="16"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Dan Menoher"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="16"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Comment xmi.id="EAID_072E764F_9116_4f68_958E_431C34B981C0" visibility="public" namespace="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="NavigationCell"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="82"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+								<UML:TaggedValue tag="date_created" value="2022-05-12 20:13:22"/>
+								<UML:TaggedValue tag="date_modified" value="2022-05-12 20:13:22"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="SAFe UI/UX Model Pattern"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="alias" value="Screen Flows"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="NavigationCell"/>
+								<UML:TaggedValue tag="styleex" value="NID=2-83;"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="9034"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_ACF64D16_29E6_47e1_BDFB_6566568BC88C"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C951AB5C-9510-4946-A6A6-E6CA418791F8}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=NavigationCell;GUID={4C86EDD2-DB78-4905-9802-F379873C268E};@ENDSTEREO;$DES;$CLT={072E764F-9116-4f68-958E-431C34B981C0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={E3ADD290-F916-455a-A0EF-42CF273FB0DD}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=DiagLinkType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Structural@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={072E764F-9116-4f68-958E-431C34B981C0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_078B453D_94BF_4422_90A0_4536BD9CD5E9" visibility="public" namespace="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="NavigationCell"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="82"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+								<UML:TaggedValue tag="date_created" value="2022-05-23 21:13:31"/>
+								<UML:TaggedValue tag="date_modified" value="2022-05-23 21:13:31"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="SAFe UI/UX Model Pattern"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="alias" value="Use Cases"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="NavigationCell"/>
+								<UML:TaggedValue tag="styleex" value="NID=2-67;"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="9077"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_8DE455AB_CD07_4e4a_A8DD_9886D95CD655"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4DA5E082-93EC-4fa6-B95A-9A634D97E3FA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=NavigationCell;GUID={4C86EDD2-DB78-4905-9802-F379873C268E};@ENDSTEREO;$DES;$CLT={078B453D-94BF-4422-90A0-4536BD9CD5E9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={9B2194C7-3F69-4f9e-B9A9-968B695D68CF}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=DiagLinkType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Behavioral@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={078B453D-94BF-4422-90A0-4536BD9CD5E9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Collaboration xmi.id="EAID_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Screen Flows" xmi.id="EAID_3BEF66BD_CDDA_4cc2_829D_E269A880CD50" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+										<UML:TaggedValue tag="date_created" value="2022-04-23 14:00:28"/>
+										<UML:TaggedValue tag="date_modified" value="2022-04-23 14:00:28"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_3BEF66BD_CDDA_4cc2_829D_E269A880CD50"/>
+										<UML:TaggedValue tag="package_name" value="SAFe UI/UX Model Pattern"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="836"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Screens" xmi.id="EAID_5ED58735_4367_4f75_8ECE_D6549E7254EB" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+										<UML:TaggedValue tag="date_created" value="2022-01-28 08:05:22"/>
+										<UML:TaggedValue tag="date_modified" value="2022-01-28 08:05:22"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_5ED58735_4367_4f75_8ECE_D6549E7254EB"/>
+										<UML:TaggedValue tag="package_name" value="SAFe UI/UX Model Pattern"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="745"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Feature Catalogue" xmi.id="EAID_5FB3D548_E845_42c9_9CF7_D7FEA17F1BF1" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="The product features catalog contains a compiled list of all of the features that could be developed and implemented for a product.  &#xA;&#xA;This catalog has numerous diagrams that shows the relationship of the features to other features and decomposition to user stories.  The purpose of this catalog is to have one place to strategically determine the scope, behavior, dependency on other features for report generation.  &#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+										<UML:TaggedValue tag="date_created" value="2022-05-12 20:02:16"/>
+										<UML:TaggedValue tag="date_modified" value="2022-05-12 20:02:45"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_5FB3D548_E845_42c9_9CF7_D7FEA17F1BF1"/>
+										<UML:TaggedValue tag="package_name" value="SAFe UI/UX Model Pattern"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="900"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="State Diagram" xmi.id="EAID_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+										<UML:TaggedValue tag="date_created" value="2022-05-09 14:43:32"/>
+										<UML:TaggedValue tag="date_modified" value="2022-05-09 14:43:32"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27"/>
+										<UML:TaggedValue tag="package_name" value="SAFe UI/UX Model Pattern"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="899"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Template Elements for UI/UX" xmi.id="EAID_A769BF92_9097_4556_BAC5_A7251C9B9582" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+										<UML:TaggedValue tag="date_created" value="2022-01-28 08:05:52"/>
+										<UML:TaggedValue tag="date_modified" value="2022-01-28 08:05:52"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_A769BF92_9097_4556_BAC5_A7251C9B9582"/>
+										<UML:TaggedValue tag="package_name" value="SAFe UI/UX Model Pattern"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="747"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole xmi.id="EAID_DA810F77_CA5E_4cf2_B283_88BCD0D10804" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+										<UML:TaggedValue tag="date_created" value="2022-05-19 15:52:48"/>
+										<UML:TaggedValue tag="date_modified" value="2022-05-19 15:52:48"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="SAFe UI/UX Model Pattern"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="9072"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Use Cases" xmi.id="EAID_E9067AB9_1C67_436f_B4EA_35FD79804D5E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+										<UML:TaggedValue tag="date_created" value="2022-04-23 14:00:36"/>
+										<UML:TaggedValue tag="date_modified" value="2022-04-23 14:00:36"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_E9067AB9_1C67_436f_B4EA_35FD79804D5E"/>
+										<UML:TaggedValue tag="package_name" value="SAFe UI/UX Model Pattern"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="837"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Comment xmi.id="EAID_461A073E_6FF0_415e_96DD_4FF54962BC1E" visibility="public" namespace="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="NavigationCell"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="82"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+								<UML:TaggedValue tag="date_created" value="2022-05-12 20:07:48"/>
+								<UML:TaggedValue tag="date_modified" value="2022-05-12 20:07:48"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="SAFe UI/UX Model Pattern"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="alias" value="Feature Catalogue"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="NavigationCell"/>
+								<UML:TaggedValue tag="styleex" value="NID=2-20;"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="9027"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_91E3A9FF_E66A_4684_AC6C_7C0391BE4594"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4B4AAB7E-4328-4478-83CC-F17C6351B50B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=NavigationCell;GUID={4C86EDD2-DB78-4905-9802-F379873C268E};@ENDSTEREO;$DES;$CLT={461A073E-6FF0-415e-96DD-4FF54962BC1E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={D07ABF84-ADEA-4240-B10F-C07024701B5D}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=DiagLinkType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Structural@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={461A073E-6FF0-415e-96DD-4FF54962BC1E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_5C540344_9427_4e92_9A91_BA57EB4FEC58" visibility="public" namespace="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="NavigationCell"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="82"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+								<UML:TaggedValue tag="date_created" value="2022-05-12 20:12:17"/>
+								<UML:TaggedValue tag="date_modified" value="2022-05-12 20:12:17"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="SAFe UI/UX Model Pattern"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="alias" value="State Diagram"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="NavigationCell"/>
+								<UML:TaggedValue tag="styleex" value="NID=2-59;"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="9033"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_499CD51D_994D_4597_A7DE_9E1CDC64F0DA"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={54E3AA45-1268-46f6-BDDE-5A48AB87CF93}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=NavigationCell;GUID={4C86EDD2-DB78-4905-9802-F379873C268E};@ENDSTEREO;$DES;$CLT={5C540344-9427-4e92-9A91-BA57EB4FEC58}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={3266530E-1746-4605-89E7-699B2E79297A}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=DiagLinkType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Behavioral@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={5C540344-9427-4e92-9A91-BA57EB4FEC58}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_D6B90D02_7F90_4657_9D82_83C200978DC1" visibility="public" namespace="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="UI/UX Nav Page"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+								<UML:TaggedValue tag="date_created" value="2022-05-19 15:52:15"/>
+								<UML:TaggedValue tag="date_modified" value="2022-05-19 15:52:28"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="SAFe UI/UX Model Pattern"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="9071"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Package name="Feature Catalogue" xmi.id="EAPK_5FB3D548_E845_42c9_9CF7_D7FEA17F1BF1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="The product features catalog contains a compiled list of all of the features that could be developed and implemented for a product.  &#xA;&#xA;This catalog has numerous diagrams that shows the relationship of the features to other features and decomposition to user stories.  The purpose of this catalog is to have one place to strategically determine the scope, behavior, dependency on other features for report generation.  &#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+								<UML:TaggedValue tag="created" value="2022-05-12 20:02:16"/>
+								<UML:TaggedValue tag="modified" value="2022-05-12 20:02:45"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="State Diagram" xmi.id="EAPK_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+								<UML:TaggedValue tag="created" value="2022-05-09 14:43:32"/>
+								<UML:TaggedValue tag="modified" value="2022-05-09 14:43:32"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_1ABCFC07_DB28_4436_9703_FDE45382226F" visibility="public" namespace="EAPK_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="State Diagram"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27"/>
+										<UML:TaggedValue tag="date_created" value="2022-05-12 20:10:37"/>
+										<UML:TaggedValue tag="date_modified" value="2022-05-12 20:11:01"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="State Diagram"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="9032"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+								<UML:ActivityModel xmi.id="EAID_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27_ActivityModel" context="EAPK_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27" name="ActivityModel" visibility="public">
+									<UML:StateMachine.transitions>
+										<UML:Transition xmi.id="EAID_FF7F3802_1B0C_4124_95CF_51C4A042D6AA" visibility="public" source="EAID_3B523B6F_0C74_42d1_B2EE_6997064DBA8B" target="EAID_C5D2384B_B958_442c_9C35_0ADE1886C941">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="StateFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="3130"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Initial"/>
+												<UML:TaggedValue tag="ea_targetName" value="State1"/>
+												<UML:TaggedValue tag="ea_sourceType" value="StateNode"/>
+												<UML:TaggedValue tag="ea_targetType" value="State"/>
+												<UML:TaggedValue tag="ea_sourceID" value="9030"/>
+												<UML:TaggedValue tag="ea_targetID" value="9029"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+									</UML:StateMachine.transitions>
+									<UML:StateMachine.top>
+										<UML:CompositeState xmi.id="EAID_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27_Activity_Top" name="{top}">
+											<UML:CompositeState.substate>
+												<UML:PseudoState name="Initial" xmi.id="EAID_3B523B6F_0C74_42d1_B2EE_6997064DBA8B" visibility="public" namespace="EAPK_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27" kind="initial">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="StateNode"/>
+														<UML:TaggedValue tag="ea_ntype" value="3"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:10:10"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:10:10"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="State Diagram"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9030"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:PseudoState>
+												<UML:SimpleState name="State1" xmi.id="EAID_C5D2384B_B958_442c_9C35_0ADE1886C941" visibility="public" namespace="EAPK_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="State"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:10:08"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:10:08"/>
+														<UML:TaggedValue tag="gentype" value="Java"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="State Diagram"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9029"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:SimpleState>
+												<UML:SimpleState name="State2" xmi.id="EAID_D0A79279_C9C3_42ec_8CF2_133CBC7CB499" visibility="public" namespace="EAPK_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="State"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:10:13"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:10:13"/>
+														<UML:TaggedValue tag="gentype" value="Java"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="State Diagram"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9031"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:SimpleState>
+											</UML:CompositeState.substate>
+										</UML:CompositeState>
+									</UML:StateMachine.top>
+								</UML:ActivityModel>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Screen Flows" xmi.id="EAPK_3BEF66BD_CDDA_4cc2_829D_E269A880CD50" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+								<UML:TaggedValue tag="created" value="2022-04-23 14:00:28"/>
+								<UML:TaggedValue tag="modified" value="2022-04-23 14:00:28"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_B5462601_D28E_4274_9A43_8698D9C0C96F" visibility="public" namespace="EAPK_3BEF66BD_CDDA_4cc2_829D_E269A880CD50">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Screen Flow"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3BEF66BD_CDDA_4cc2_829D_E269A880CD50"/>
+										<UML:TaggedValue tag="date_created" value="2022-05-12 20:08:59"/>
+										<UML:TaggedValue tag="date_modified" value="2022-05-12 20:09:31"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Screen Flows"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="9028"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Screens" xmi.id="EAPK_5ED58735_4367_4f75_8ECE_D6549E7254EB" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+								<UML:TaggedValue tag="created" value="2022-01-28 08:05:22"/>
+								<UML:TaggedValue tag="modified" value="2022-01-28 08:05:22"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2022-05-12 20:23:30"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_5ED58735_4367_4f75_8ECE_D6549E7254EB_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="ScreenXX &lt;&lt;Screen&gt;&gt;" xmi.id="EAID_2DDB9955_439D_4cdb_BB61_805BFA03F88A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_5ED58735_4367_4f75_8ECE_D6549E7254EB"/>
+												<UML:TaggedValue tag="date_created" value="2022-01-28 08:05:35"/>
+												<UML:TaggedValue tag="date_modified" value="2022-05-19 15:04:31"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_2DDB9955_439D_4cdb_BB61_805BFA03F88A"/>
+												<UML:TaggedValue tag="package_name" value="Screens"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Dan Menoher"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="746"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Window with List and Combo boxes" xmi.id="EAID_78C604F7_852F_4be2_82C3_0A1DA6F6246F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_5ED58735_4367_4f75_8ECE_D6549E7254EB"/>
+												<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+												<UML:TaggedValue tag="date_modified" value="2018-01-15 16:32:45"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+												<UML:TaggedValue tag="package_name" value="Screens"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Dan Menoher"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="902"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Package name="ScreenXX &lt;&lt;Screen&gt;&gt;" xmi.id="EAPK_2DDB9955_439D_4cdb_BB61_805BFA03F88A" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_5ED58735_4367_4f75_8ECE_D6549E7254EB"/>
+										<UML:TaggedValue tag="created" value="2022-01-28 08:05:35"/>
+										<UML:TaggedValue tag="modified" value="2022-05-19 15:04:31"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:Comment xmi.id="EAID_3342D6BB_BADE_4f0c_BBD6_107F2DE652AA" visibility="public" namespace="EAPK_2DDB9955_439D_4cdb_BB61_805BFA03F88A">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&amp;lt;&amp;lt;Screen&amp;gt;&amp;gt; Wire Frame&#xA;"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Text"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_2DDB9955_439D_4cdb_BB61_805BFA03F88A"/>
+												<UML:TaggedValue tag="date_created" value="2022-05-19 15:00:56"/>
+												<UML:TaggedValue tag="date_modified" value="2022-05-19 15:01:12"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="ScreenXX &lt;&lt;Screen&gt;&gt;"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Dan Menoher"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="9066"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Comment>
+										<UML:Collaboration xmi.id="EAID_2DDB9955_439D_4cdb_BB61_805BFA03F88A_Collaboration" name="Collaborations">
+											<UML:Namespace.ownedElement>
+												<UML:ClassifierRole name="Button1" xmi.id="EAID_3DDC3330_29C4_4060_A3FC_2246122BE0D4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="button"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="&lt;b&gt;BUTTON NAME&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BUTTON DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BUTTON USE&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BUTTON TRANSITIONS&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_2DDB9955_439D_4cdb_BB61_805BFA03F88A"/>
+														<UML:TaggedValue tag="owner" value="EAID_DB5DE932_B4E9_4260_A476_484FF8D4DFEC"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-19 15:48:40"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-19 15:49:38"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="ScreenXX &lt;&lt;Screen&gt;&gt;"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="object_style" value="Locked=false;"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="button"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9069"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={607DC640-A8A1-4cda-9B1A-8CDB64815588}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={3DDC3330-29C4-4060-A3FC-2246122BE0D4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="GUIElement1" xmi.id="EAID_539AF5D3_AC3E_49bd_B7E1_CC73F98AE8D7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="panel"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="&lt;b&gt;PANEL NAME&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;PANEL DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;PANEL USE&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_2DDB9955_439D_4cdb_BB61_805BFA03F88A"/>
+														<UML:TaggedValue tag="owner" value="EAID_DB5DE932_B4E9_4260_A476_484FF8D4DFEC"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-19 15:48:19"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-19 15:48:19"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="ScreenXX &lt;&lt;Screen&gt;&gt;"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="object_style" value="Locked=false;"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="panel"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9068"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={507B3ED1-935D-4684-A80A-F0B5B648F2B5}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=panel;FQName=EAUI::panel;@ENDSTEREO;$DES;$CLT={539AF5D3-AC3E-49bd-B7E1-CC73F98AE8D7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Button2" xmi.id="EAID_5D8DBFB8_5922_4fcd_AE7D_3AE6FB3666A1" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="button"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="&lt;b&gt;BUTTON NAME&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BUTTON DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BUTTON USE&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BUTTON TRANSITIONS&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_2DDB9955_439D_4cdb_BB61_805BFA03F88A"/>
+														<UML:TaggedValue tag="owner" value="EAID_DB5DE932_B4E9_4260_A476_484FF8D4DFEC"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-19 15:48:48"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-19 15:49:42"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="ScreenXX &lt;&lt;Screen&gt;&gt;"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="object_style" value="Locked=false;"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="button"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9070"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={20EA6EAA-BC49-43db-A688-BC49D3974E8B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={5D8DBFB8-5922-4fcd-AE7D-3AE6FB3666A1}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="UI Control" xmi.id="EAID_A8F2C4A2_BA8C_4b9c_9855_451D0019B478" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="panel"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="&lt;b&gt;PANEL NAME&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;PANEL DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;PANEL USE&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_2DDB9955_439D_4cdb_BB61_805BFA03F88A"/>
+														<UML:TaggedValue tag="owner" value="EAID_DB5DE932_B4E9_4260_A476_484FF8D4DFEC"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-19 15:47:34"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-19 15:48:28"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="ScreenXX &lt;&lt;Screen&gt;&gt;"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="panel"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9067"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F3AD6AC1-0763-461f-9329-2DD969F05280}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=panel;FQName=EAUI::panel;@ENDSTEREO;$DES;$CLT={A8F2C4A2-BA8C-4b9c-9855-451D0019B478}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole xmi.id="EAID_CC951DF6_05DF_4b0e_8A4F_4FD092F591D6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_2DDB9955_439D_4cdb_BB61_805BFA03F88A"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-19 15:00:44"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-19 15:00:44"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="ScreenXX &lt;&lt;Screen&gt;&gt;"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9065"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Screenxx- &lt;&lt;Screen&gt;&gt;" xmi.id="EAID_DB5DE932_B4E9_4260_A476_484FF8D4DFEC" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="&lt;b&gt;SCREEN NAME&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;SCREEN DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;SCREEN PURPOSE&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;SCREEN FUNCTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;SCREEN TRANSITIONS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;SCREEN INPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;SCREEN OUTPUTS&lt;/b&gt;&#xA;"/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Screen"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_2DDB9955_439D_4cdb_BB61_805BFA03F88A"/>
+														<UML:TaggedValue tag="date_created" value="2022-01-28 08:05:07"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-19 15:02:37"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="ScreenXX &lt;&lt;Screen&gt;&gt;"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="7395"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+											</UML:Namespace.ownedElement>
+											<UML:Collaboration.interaction/>
+										</UML:Collaboration>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+								<UML:Package name="Window with List and Combo boxes" xmi.id="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_5ED58735_4367_4f75_8ECE_D6549E7254EB"/>
+										<UML:TaggedValue tag="created" value="2022-05-12 20:23:29"/>
+										<UML:TaggedValue tag="modified" value="2022-05-12 20:23:29"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="lastloaddate" value="2022-05-12 20:23:29"/>
+										<UML:TaggedValue tag="lastsavedate" value="2022-05-12 20:23:29"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:Collaboration xmi.id="EAID_78C604F7_852F_4be2_82C3_0A1DA6F6246F_Collaboration" name="Collaborations">
+											<UML:Namespace.ownedElement>
+												<UML:ClassifierRole name="Label B" xmi.id="EAID_041BA81D_9DE5_44d6_8064_82A9877B5CC7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="label"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="owner" value="EAID_8654585B_F929_4ce0_9C71_953129B94792"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="label"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9052"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={92E0EE33-2537-4d92-A46E-3A97D4FFC26A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=label;FQName=EAUI::label;@ENDSTEREO;$DES;$CLT={041BA81D-9DE5-44d6-8064-82A9877B5CC7}$CLT;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="ComboBox B" xmi.id="EAID_0D8C5584_65A9_4f2b_A121_5AE1DA7C9A39" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="combobox"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="owner" value="EAID_8654585B_F929_4ce0_9C71_953129B94792"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="combobox"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9049"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={75B20C7A-9F3A-470c-A641-BBA4C1157D85}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=combobox;FQName=EAUI::combobox;@ENDSTEREO;$DES;$CLT={0D8C5584-65A9-4f2b-A121-5AE1DA7C9A39}$CLT;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="List A" xmi.id="EAID_5543068A_366F_4677_AB33_094DCD6BB969" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="list"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="owner" value="EAID_8654585B_F929_4ce0_9C71_953129B94792"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="list"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9053"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1E6AEE2D-F90B-4b55-A804-43AAF6F33F08}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=list;FQName=EAUI::list;@ENDSTEREO;$DES;$CLT={5543068A-366F-4677-AB33-094DCD6BB969}$CLT;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Help" xmi.id="EAID_6330EAB5_737A_4cd3_B70F_22FA6F71CC35" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="button"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="owner" value="EAID_8654585B_F929_4ce0_9C71_953129B94792"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="button"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9047"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={ACA863C2-2CCE-46c2-AAFA-18D67B2732B4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={6330EAB5-737A-4cd3-B70F-22FA6F71CC35}$CLT;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Checkbox A" xmi.id="EAID_69B10F13_909A_4f6a_AEE8_F24BEBEEBE59" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="checkbox"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="owner" value="EAID_8654585B_F929_4ce0_9C71_953129B94792"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="checkbox"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9050"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={44711F85-AA2A-4d35-A5CD-237E815885F6}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=checkbox;FQName=EAUI::checkbox;@ENDSTEREO;$DES;$CLT={69B10F13-909A-4f6a-AEE8-F24BEBEEBE59}$CLT;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Button1" xmi.id="EAID_6EBDC247_D8E6_4c4f_A1A4_A47ECF2FC56B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="button"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="owner" value="EAID_8654585B_F929_4ce0_9C71_953129B94792"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:24:05"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="button"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9051"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4A0446FE-E861-4129-8A09-D373A94CE9B5}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={6EBDC247-D8E6-4c4f-A1A4-A47ECF2FC56B}$CLT;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Button3" xmi.id="EAID_76939FF9_5B65_4e1c_88B7_B8534AF954F8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="button"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="owner" value="EAID_8654585B_F929_4ce0_9C71_953129B94792"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:24:18"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="button"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9055"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1D80DD89-049B-47a5-878C-A94040701CEC}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={76939FF9-5B65-4e1c-88B7-B8534AF954F8}$CLT;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Screen One" xmi.id="EAID_8654585B_F929_4ce0_9C71_953129B94792" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Screen"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9044"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Radio B" xmi.id="EAID_970309E7_AC24_4b07_AD36_BEA72695BF80" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="radio"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="owner" value="EAID_8654585B_F929_4ce0_9C71_953129B94792"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="radio"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9048"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8C869A9D-876D-43ad-9AF8-E55C354F9B3E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=radio;FQName=EAUI::radio;@ENDSTEREO;$DES;$CLT={970309E7-AC24-4b07-AD36-BEA72695BF80}$CLT;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Radio A" xmi.id="EAID_9CAA5E79_A73A_4b69_BF0D_64B8B03F506D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="radio"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="owner" value="EAID_8654585B_F929_4ce0_9C71_953129B94792"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="radio"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9054"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={00F60841-8D5D-4d5d-840B-E6C5C1569B44}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=radio;FQName=EAUI::radio;@ENDSTEREO;$DES;$CLT={9CAA5E79-A73A-4b69-BF0D-64B8B03F506D}$CLT;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="ComboBox A" xmi.id="EAID_B2653171_18CE_437e_8863_F54CEEF14853" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="combobox"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="owner" value="EAID_8654585B_F929_4ce0_9C71_953129B94792"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="combobox"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9056"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={314DDC6E-6DD6-4a2d-8DAD-07965F87DC08}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=combobox;FQName=EAUI::combobox;@ENDSTEREO;$DES;$CLT={B2653171-18CE-437e-8863-F54CEEF14853}$CLT;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="UI Control" xmi.id="EAID_C221684B_79DB_43c4_A1EF_C72018F84375" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="hline"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="owner" value="EAID_8654585B_F929_4ce0_9C71_953129B94792"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="hline"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9046"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={02CDB1B4-D9D4-4bf4-8681-4CA584396167}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=hline;FQName=EAUI::hline;@ENDSTEREO;$DES;$CLT={C221684B-79DB-43c4-A1EF-C72018F84375}$CLT;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+												<UML:ClassifierRole name="Label A" xmi.id="EAID_D49A35C7_150C_4c62_8760_64F85A19D0B3" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="label"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+														<UML:TaggedValue tag="owner" value="EAID_8654585B_F929_4ce0_9C71_953129B94792"/>
+														<UML:TaggedValue tag="date_created" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="date_modified" value="2022-05-12 20:23:29"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Window with List and Combo boxes"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="label"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="9045"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={138F8F5B-6AFA-40f5-89A7-8A0699DFC966}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=label;FQName=EAUI::label;@ENDSTEREO;$DES;$CLT={D49A35C7-150C-4c62-8760-64F85A19D0B3}$CLT;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ClassifierRole>
+											</UML:Namespace.ownedElement>
+											<UML:Collaboration.interaction/>
+										</UML:Collaboration>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Use Cases" xmi.id="EAPK_E9067AB9_1C67_436f_B4EA_35FD79804D5E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+								<UML:TaggedValue tag="created" value="2022-04-23 14:00:36"/>
+								<UML:TaggedValue tag="modified" value="2022-04-23 14:00:36"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_E9067AB9_1C67_436f_B4EA_35FD79804D5E_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole xmi.id="EAID_EB328C44_FE4F_488e_BFA7_55B13644BE62" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_E9067AB9_1C67_436f_B4EA_35FD79804D5E"/>
+												<UML:TaggedValue tag="date_created" value="2022-05-23 21:12:20"/>
+												<UML:TaggedValue tag="date_modified" value="2022-05-23 21:12:20"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Use Cases"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Dan Menoher"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="9075"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Comment xmi.id="EAID_F2172BD8_3805_40cf_8A2D_9B11946295B6" visibility="public" namespace="EAPK_E9067AB9_1C67_436f_B4EA_35FD79804D5E">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="UI/UX Use Cases"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Text"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E9067AB9_1C67_436f_B4EA_35FD79804D5E"/>
+										<UML:TaggedValue tag="date_created" value="2022-05-23 21:12:41"/>
+										<UML:TaggedValue tag="date_modified" value="2022-05-23 21:12:55"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Use Cases"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="9076"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Template Elements for UI/UX" xmi.id="EAPK_A769BF92_9097_4556_BAC5_A7251C9B9582" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+								<UML:TaggedValue tag="created" value="2022-01-28 08:05:52"/>
+								<UML:TaggedValue tag="modified" value="2022-01-28 08:05:52"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="4"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_A769BF92_9097_4556_BAC5_A7251C9B9582_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="UI Control" xmi.id="EAID_1E84A739_E68F_4ca0_A5A7_06D0E8204C5B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="button"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;BUTTON NAME&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BUTTON DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BUTTON USE&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BUTTON TRANSITIONS&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_A769BF92_9097_4556_BAC5_A7251C9B9582"/>
+												<UML:TaggedValue tag="date_created" value="2022-05-12 20:22:23"/>
+												<UML:TaggedValue tag="date_modified" value="2022-05-12 20:22:23"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Template Elements for UI/UX"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="button"/>
+												<UML:TaggedValue tag="tpos" value="47"/>
+												<UML:TaggedValue tag="ea_localid" value="9042"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E83D3600-99EE-4c3b-A0DB-A5B5F8F03315}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={1E84A739-E68F-4ca0-A5A7-06D0E8204C5B}$CLT;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="UI Control" xmi.id="EAID_5D0524BC_4BB1_4200_B1C8_D81072C703C0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="panel"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;PANEL NAME&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;PANEL DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;PANEL USE&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_A769BF92_9097_4556_BAC5_A7251C9B9582"/>
+												<UML:TaggedValue tag="date_created" value="2022-05-12 20:22:23"/>
+												<UML:TaggedValue tag="date_modified" value="2022-05-12 20:22:23"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Template Elements for UI/UX"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="panel"/>
+												<UML:TaggedValue tag="tpos" value="46"/>
+												<UML:TaggedValue tag="ea_localid" value="9041"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D318E9AA-61AC-464e-9AD6-8931FE23FABE}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=panel;FQName=EAUI::panel;@ENDSTEREO;$DES;$CLT={5D0524BC-4BB1-4200-B1C8-D81072C703C0}$CLT;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="UI Control" xmi.id="EAID_713F0637_61F9_40d5_986C_EB8295B38FDD" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="text"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;TEXT NAME&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;TEXT DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;TEXT USE&lt;/b&gt;&#xA;&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_A769BF92_9097_4556_BAC5_A7251C9B9582"/>
+												<UML:TaggedValue tag="date_created" value="2022-05-12 20:22:23"/>
+												<UML:TaggedValue tag="date_modified" value="2022-05-12 20:22:23"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Template Elements for UI/UX"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="text"/>
+												<UML:TaggedValue tag="tpos" value="45"/>
+												<UML:TaggedValue tag="ea_localid" value="9040"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B19B442C-7925-4fce-BB00-8C3025DC2E36}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=text;FQName=EAUI::text;@ENDSTEREO;$DES;$CLT={713F0637-61F9-40d5-986C-EB8295B38FDD}$CLT;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Screen" xmi.id="EAID_7720E665_4F81_4751_80E4_3321CBE5DCED" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;SCREEN NAME&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;SCREEN DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;SCREEN PURPOSE&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;SCREEN FUNCTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;SCREEN TRANSITIONS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;SCREEN INPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;SCREEN OUTPUTS&lt;/b&gt;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Screen"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_A769BF92_9097_4556_BAC5_A7251C9B9582"/>
+												<UML:TaggedValue tag="date_created" value="2022-05-12 20:22:23"/>
+												<UML:TaggedValue tag="date_modified" value="2022-05-12 20:22:23"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Template Elements for UI/UX"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="43"/>
+												<UML:TaggedValue tag="ea_localid" value="9038"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="UI Control" xmi.id="EAID_F30F0AE0_28BA_4866_809A_9261DD3227EA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="label"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;LABEL NAME&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;LABEL DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;LABEL USE&lt;/b&gt;&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_A769BF92_9097_4556_BAC5_A7251C9B9582"/>
+												<UML:TaggedValue tag="date_created" value="2022-05-12 20:22:23"/>
+												<UML:TaggedValue tag="date_modified" value="2022-05-12 20:22:23"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Template Elements for UI/UX"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="label"/>
+												<UML:TaggedValue tag="tpos" value="44"/>
+												<UML:TaggedValue tag="ea_localid" value="9039"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={75C2FA65-7506-4d0c-B71B-D86A6E5DED8B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=label;FQName=EAUI::label;@ENDSTEREO;$DES;$CLT={F30F0AE0-28BA-4866-809A-9261DD3227EA}$CLT;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="SAFe UI/UX Model Pattern" xmi.id="EAID_5B965CC8_71DF_49ac_9289_D22878577BE7" diagramType="ClassDiagram" owner="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Dan Menoher"/>
+				<UML:TaggedValue tag="created_date" value="2022-05-12 20:03:46"/>
+				<UML:TaggedValue tag="modified_date" value="2022-05-23 21:17:30"/>
+				<UML:TaggedValue tag="package" value="EAPK_0FDFADCA_BCC4_4618_8ABE_4813A116E0C0"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="909"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=5C6E4F80;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::Functional Decomposition (SAFe5.0);STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=580;Top=113;Right=750;Bottom=228;" subject="EAID_078B453D_94BF_4422_90A0_4536BD9CD5E9" seqno="1" style="font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=099B6E2E;"/>
+				<UML:DiagramElement geometry="Left=238;Top=0;Right=478;Bottom=49;" subject="EAID_D6B90D02_7F90_4657_9D82_83C200978DC1" seqno="2" style="font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;DUID=70FF9D20;NSL=0;"/>
+				<UML:DiagramElement geometry="Left=396;Top=113;Right=566;Bottom=228;" subject="EAID_072E764F_9116_4f68_958E_431C34B981C0" seqno="3" style="font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=5118ED8A;"/>
+				<UML:DiagramElement geometry="Left=213;Top=113;Right=383;Bottom=228;" subject="EAID_5C540344_9427_4e92_9A91_BA57EB4FEC58" seqno="4" style="font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=836715F8;"/>
+				<UML:DiagramElement geometry="Left=28;Top=115;Right=198;Bottom=230;" subject="EAID_461A073E_6FF0_415e_96DD_4FF54962BC1E" seqno="5" style="font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=66245732;"/>
+				<UML:DiagramElement geometry="Left=77;Top=0;Right=613;Bottom=53;" subject="EAID_DA810F77_CA5E_4cf2_B283_88BCD0D10804" seqno="6" style="DUID=E59BFF73;NSL=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Feature Catalogue" xmi.id="EAID_91E3A9FF_E66A_4684_AC6C_7C0391BE4594" diagramType="ClassDiagram" owner="EAPK_5FB3D548_E845_42c9_9CF7_D7FEA17F1BF1" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Dan Menoher"/>
+				<UML:TaggedValue tag="created_date" value="2022-05-12 20:02:26"/>
+				<UML:TaggedValue tag="modified_date" value="2022-05-19 15:53:51"/>
+				<UML:TaggedValue tag="package" value="EAPK_5FB3D548_E845_42c9_9CF7_D7FEA17F1BF1"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="907"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=C510F4F2;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::Functional Decomposition (SAFe5.0);STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="$ea_hlinksclassified" value="{461A073E-6FF0-415e-96DD-4FF54962BC1E}"/>
+			</UML:ModelElement.taggedValue>
+		</UML:Diagram>
+		<UML:Diagram name="State Diagram" xmi.id="EAID_499CD51D_994D_4597_A7DE_9E1CDC64F0DA" diagramType="StateDiagram" owner="EAPK_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Dan Menoher"/>
+				<UML:TaggedValue tag="created_date" value="2022-05-12 20:08:16"/>
+				<UML:TaggedValue tag="modified_date" value="2022-05-12 20:24:46"/>
+				<UML:TaggedValue tag="package" value="EAPK_619BB4F3_D7ED_4d8f_9D54_F9DC29651A27"/>
+				<UML:TaggedValue tag="type" value="Statechart"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="910"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=8B6FE6AC;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;OPTIONS_8CF235A6=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="$ea_hlinksclassified" value="{5C540344-9427-4e92-9A91-BA57EB4FEC58}"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=810;Bottom=55;" subject="EAID_1ABCFC07_DB28_4436_9703_FDE45382226F" seqno="1" style="DUID=8CF235A6;font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;BCol=16436871;"/>
+				<UML:DiagramElement geometry="Left=131;Top=274;Right=334;Bottom=415;" subject="EAID_D0A79279_C9C3_42ec_8CF2_133CBC7CB499" seqno="2" style="DUID=1EE31CAF;"/>
+				<UML:DiagramElement geometry="Left=35;Top=172;Right=55;Bottom=192;" subject="EAID_3B523B6F_0C74_42d1_B2EE_6997064DBA8B" seqno="3" style="DUID=299D9CFB;LBL=CX=23:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=128;Top=118;Right=317;Bottom=245;" subject="EAID_C5D2384B_B958_442c_9C35_0ADE1886C941" seqno="4" style="DUID=441F7974;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_FF7F3802_1B0C_4124_95CF_51C4A042D6AA" style="Mode=3;EOID=441F7974;SOID=299D9CFB;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Screen Flows" xmi.id="EAID_ACF64D16_29E6_47e1_BDFB_6566568BC88C" diagramType="CustomDiagram" owner="EAPK_3BEF66BD_CDDA_4cc2_829D_E269A880CD50" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Dan Menoher"/>
+				<UML:TaggedValue tag="created_date" value="2022-05-12 20:08:39"/>
+				<UML:TaggedValue tag="modified_date" value="2022-05-19 15:53:51"/>
+				<UML:TaggedValue tag="package" value="EAPK_3BEF66BD_CDDA_4cc2_829D_E269A880CD50"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="911"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=03694DB9;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=Extended::User Interface;STBLDgm=;ShowNotes=0;OPTIONS_D83DBFB4=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="$ea_hlinksclassified" value="{072E764F-9116-4f68-958E-431C34B981C0}"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=819;Bottom=55;" subject="EAID_B5462601_D28E_4274_9A43_8698D9C0C96F" seqno="1" style="DUID=D83DBFB4;font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;BCol=16449525;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="&lt;&lt;Screen&gt;&gt; Wireframe" xmi.id="EAID_BB3B479D_B955_4774_B353_D2536E761A1C" diagramType="CustomDiagram" owner="EAPK_2DDB9955_439D_4cdb_BB61_805BFA03F88A" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Dan Menoher"/>
+				<UML:TaggedValue tag="created_date" value="2022-01-28 08:06:50"/>
+				<UML:TaggedValue tag="modified_date" value="2022-05-23 21:17:30"/>
+				<UML:TaggedValue tag="package" value="EAPK_2DDB9955_439D_4cdb_BB61_805BFA03F88A"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="754"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=5AAC7237;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=Extended::User Interface;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=374;Top=329;Right=464;Bottom=349;" subject="EAID_5D8DBFB8_5922_4fcd_AE7D_3AE6FB3666A1" seqno="1" style="HideIcon=0;DUID=80518E99;"/>
+				<UML:DiagramElement geometry="Left=235;Top=330;Right=325;Bottom=350;" subject="EAID_3DDC3330_29C4_4060_A3FC_2246122BE0D4" seqno="2" style="HideIcon=0;DUID=0DC9BA0D;"/>
+				<UML:DiagramElement geometry="Left=235;Top=164;Right=355;Bottom=284;" subject="EAID_539AF5D3_AC3E_49bd_B7E1_CC73F98AE8D7" seqno="3" style="HideIcon=0;DUID=9EBA0C42;"/>
+				<UML:DiagramElement geometry="Left=468;Top=169;Right=588;Bottom=289;" subject="EAID_A8F2C4A2_BA8C_4b9c_9855_451D0019B478" seqno="4" style="DUID=C288D4F6;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=228;Top=7;Right=596;Bottom=50;" subject="EAID_3342D6BB_BADE_4f0c_BBD6_107F2DE652AA" seqno="5" style="DUID=BD06F8D7;font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=177;Top=121;Right=636;Bottom=390;" subject="EAID_DB5DE932_B4E9_4260_A476_484FF8D4DFEC" seqno="6" style="DUID=9CD07FD0;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=35;Top=0;Right=719;Bottom=58;" subject="EAID_CC951DF6_05DF_4b0e_8A4F_4FD092F591D6" seqno="7" style="DUID=7BE38DF3;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="User Interface" xmi.id="EAID_F76A31DE_B76E_49c9_998B_669603264CA4" diagramType="CustomDiagram" owner="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Dan Menoher"/>
+				<UML:TaggedValue tag="created_date" value="2022-05-12 20:23:29"/>
+				<UML:TaggedValue tag="modified_date" value="2022-05-19 15:53:51"/>
+				<UML:TaggedValue tag="package" value="EAPK_78C604F7_852F_4be2_82C3_0A1DA6F6246F"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="912"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=826;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=12FEACBC;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=Extended::User Interface;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=396;Top=232;Right=486;Bottom=252;" subject="EAID_69B10F13_909A_4f6a_AEE8_F24BEBEEBE59" seqno="1" style="HideIcon=0;DUID=62EA02F2;"/>
+				<UML:DiagramElement geometry="Left=262;Top=261;Right=352;Bottom=281;" subject="EAID_970309E7_AC24_4b07_AD36_BEA72695BF80" seqno="2" style="HideIcon=0;ImageID=0;DUID=B9EEFA98;"/>
+				<UML:DiagramElement geometry="Left=262;Top=232;Right=352;Bottom=252;" subject="EAID_9CAA5E79_A73A_4b69_BF0D_64B8B03F506D" seqno="3" style="HideIcon=0;DUID=34937B0A;"/>
+				<UML:DiagramElement geometry="Left=262;Top=213;Right=486;Bottom=219;" subject="EAID_C221684B_79DB_43c4_A1EF_C72018F84375" seqno="4" style="HideIcon=0;DUID=4C5FFA15;"/>
+				<UML:DiagramElement geometry="Left=276;Top=166;Right=327;Bottom=186;" subject="EAID_041BA81D_9DE5_44d6_8064_82A9877B5CC7" seqno="5" style="HideIcon=0;ImageID=0;DUID=6138EA39;"/>
+				<UML:DiagramElement geometry="Left=325;Top=166;Right=487;Bottom=186;" subject="EAID_0D8C5584_65A9_4f2b_A121_5AE1DA7C9A39" seqno="6" style="HideIcon=0;ImageID=0;DUID=F2FFE433;"/>
+				<UML:DiagramElement geometry="Left=105;Top=127;Right=236;Bottom=326;" subject="EAID_5543068A_366F_4677_AB33_094DCD6BB969" seqno="7" style="HideIcon=0;DUID=467370F4;"/>
+				<UML:DiagramElement geometry="Left=276;Top=127;Right=327;Bottom=147;" subject="EAID_D49A35C7_150C_4c62_8760_64F85A19D0B3" seqno="8" style="HideIcon=0;DUID=72BF767E;"/>
+				<UML:DiagramElement geometry="Left=325;Top=127;Right=415;Bottom=147;" subject="EAID_B2653171_18CE_437e_8863_F54CEEF14853" seqno="9" style="HideIcon=0;DUID=DDBBDB4F;"/>
+				<UML:DiagramElement geometry="Left=423;Top=306;Right=489;Bottom=326;" subject="EAID_6330EAB5_737A_4cd3_B70F_22FA6F71CC35" seqno="10" style="HideIcon=0;DUID=906729A1;"/>
+				<UML:DiagramElement geometry="Left=341;Top=306;Right=407;Bottom=326;" subject="EAID_6EBDC247_D8E6_4c4f_A1A4_A47ECF2FC56B" seqno="11" style="HideIcon=0;DUID=F0CA210A;"/>
+				<UML:DiagramElement geometry="Left=259;Top=306;Right=325;Bottom=326;" subject="EAID_76939FF9_5B65_4e1c_88B7_B8534AF954F8" seqno="12" style="HideIcon=0;DUID=07B36451;"/>
+				<UML:DiagramElement geometry="Left=88;Top=88;Right=504;Bottom=342;" subject="EAID_8654585B_F929_4ce0_9C71_953129B94792" seqno="13" style="DUID=3723FA00;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Use Cases" xmi.id="EAID_8DE455AB_CD07_4e4a_A8DD_9886D95CD655" diagramType="UseCaseDiagram" owner="EAPK_E9067AB9_1C67_436f_B4EA_35FD79804D5E" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Dan Menoher"/>
+				<UML:TaggedValue tag="created_date" value="2022-05-23 21:11:53"/>
+				<UML:TaggedValue tag="modified_date" value="2022-05-23 21:17:30"/>
+				<UML:TaggedValue tag="package" value="EAPK_E9067AB9_1C67_436f_B4EA_35FD79804D5E"/>
+				<UML:TaggedValue tag="type" value="Use Case"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="915"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=9D3296C7;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE Behaviors;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="$ea_hlinksclassified" value="{078B453D-94BF-4422-90A0-4536BD9CD5E9}"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=221;Top=18;Right=461;Bottom=67;" subject="EAID_F2172BD8_3805_40cf_8A2D_9B11946295B6" seqno="1" style="DUID=C0683459;font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=9;Top=9;Right=693;Bottom=76;" subject="EAID_EB328C44_FE4F_488e_BFA7_55B13644BE62" seqno="2" style="DUID=996A408A;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>

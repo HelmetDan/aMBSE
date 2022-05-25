@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.21" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.21a" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
+			<Stereotype name="Agile PM Artifacts" notes="This is the Agile PM Artifacts for problem definition" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="" type="" description="" unit="" values="" default="Realization"/>
+					<Tag name="MBSE for SAFe 5.0::Action Item(UML::Task)" type="" description="" unit="" values="" default="Action Item"/>
+					<Tag name="MBSE for SAFe 5.0::Blocker(UML::Task)" type="" description="" unit="" values="" default="Blocker"/>
+					<Tag name="MBSE for SAFe 5.0::Challenge(UML::Class)" type="" description="" unit="" values="" default="Challenge"/>
+					<Tag name="MBSE for SAFe 5.0::Decision(UML::Decision)" type="" description="" unit="" values="" default="Decision"/>
+					<Tag name="MBSE for SAFe 5.0::Fixed-Date Milestone(UML::Event)" type="" description="" unit="" values="" default="Milestone"/>
+					<Tag name="MBSE for SAFe 5.0::Project Risk(UML::Risk)" type="" description="" unit="" values="" default="Project Risk"/>
+					<Tag name="MBSE for SAFe 5.0::Question(UML::Class)" type="" description="" unit="" values="" default="Question"/>
+					<Tag name="MBSE for SAFe 5.0::TechnicalRisk(UML::Risk)" type="" description="" unit="" values="" default="Technical Risk"/>
+					<Tag name="UML::Realization" type="" description="" unit="" values="" default="Realization"/>
+					<Tag name="UML::TraceLink" type="" description="" unit="" values="" default="Trace"/>
+				</TaggedValues>
+			</Stereotype>
 			<Stereotype name="Context Diagraming" notes="This has context diagram elements" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="ToolboxPage"/>
@@ -176,6 +194,27 @@ KufwKtL0KtL0Kufw////////////Kufw////////////////////////////KufwKufwKtL0
 KtL0Kufw////////////KufwKufwKufwKufw////////////////KufwKufwKtL0KtL0Kufw
 ////////////////////////////////////////////KufwKufwKufwKufwKufwKufwKufw
 KufwKufwKufwKufwKufwKufwKufwKufwKufwKufw////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////</Icon>
+				<AppliesTo>
+					<Apply type="ToolboxItemImage"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="MBSE for SAFe 5.0::Feature(UML::Class)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL
+1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJ21hJ21hJL////////////////////////
+////////////////////1hJL1hJL1hJ21hJ21hJL////1hJL////////////////////////
+////////////1hJL1hJL1hJ21hJ21hJL////1hJL////////////////////////////////
+////1hJL1hJL1hJ21hJ21hJL////1hJL1hJL////////////////////////////////1hJL
+1hJL1hJ21hJ21hJL////1hJL////////////////////////////////////1hJL1hJL1hJ2
+1hJ21hJL////1hJL1hJL1hJL////////////////////////////1hJL1hJL1hJ21hJ21hJL
+////////////////////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL
+1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
 ////////////////</Icon>
@@ -566,7 +605,7 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="" type="" description="" unit="" values="" default="Realize"/>
+					<Tag name="" type="" description="" unit="" values="" default="Extend"/>
 					<Tag name="MBSE for SAFe 5.0::Goal(UML::UseCase)" type="" description="" unit="" values="" default="Goal"/>
 					<Tag name="MBSE for SAFe 5.0::Job(UML::UseCase)" type="" description="" unit="" values="" default="Job"/>
 					<Tag name="MBSE for SAFe 5.0::Operational Objective(UML::UseCase)" type="" description="" unit="" values="" default="Operational Objective"/>
@@ -609,7 +648,8 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="MBSE for SAFe 5.0::Blocker(UML::Task)" type="" description="" unit="" values="" default="Blocker"/>
-					<Tag name="MBSE for SAFe 5.0::Feature(UML::Feature)" type="" description="" unit="" values="" default="Feature"/>
+					<Tag name="MBSE for SAFe 5.0::Feature(UML::Class)" type="" description="" unit="" values="" default="Feature"/>
+					<Tag name="MBSE for SAFe 5.0::TechnicalDebt(UML::Class)" type="" description="" unit="" values="" default="Technical Debt"/>
 					<Tag name="MBSE for SAFe 5.0::510 Submittal(UML::Object)" type="" description="" unit="" values="" default="510 Submittal"/>
 					<Tag name="MBSE for SAFe 5.0::Action Item(UML::Task)" type="" description="" unit="" values="" default="Action Item"/>
 					<Tag name="MBSE for SAFe 5.0::Backlog(UML::Package)" type="" description="" unit="" values="" default="Backlog"/>
@@ -626,7 +666,6 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Tag name="MBSE for SAFe 5.0::Solution(UML::Class)" type="" description="" unit="" values="" default="Solution"/>
 					<Tag name="MBSE for SAFe 5.0::Spike(UML::Task)" type="" description="" unit="" values="" default="Spike"/>
 					<Tag name="MBSE for SAFe 5.0::Task(UML::Task)" type="" description="" unit="" values="" default="Task"/>
-					<Tag name="MBSE for SAFe 5.0::TechnicalDebt(UML::Feature)" type="" description="" unit="" values="" default="Technical Debt"/>
 					<Tag name="MBSE for SAFe 5.0::UserStory(UML::Change)" type="" description="" unit="" values="" default="UserStory"/>
 				</TaggedValues>
 			</Stereotype>

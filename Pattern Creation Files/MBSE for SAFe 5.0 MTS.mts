@@ -1,13 +1,12 @@
 <MDG.Selections model="C:\Projects\EA Projects\SAFe and MBSE model with content.eapx">
-	<Technology id="SAFe5.0" name="MBSE for SAFe 5.0" version="0.0.21" notes="This is the Functional Decomposition MDG for SAFe 5.0.  " filename="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\MBSE for SAFe 5.0 MDG.xml"/>
+	<Technology id="SAFe5.0" name="MBSE for SAFe 5.0" version="0.0.21a" notes="This is the Functional Decomposition MDG for SAFe 5.0.  " filename="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\MBSE for SAFe 5.0 MDG.xml"/>
 	<Profiles directory="C:\Projects\Github version control\aMBSE\Pattern Creation Files" files="MBSE for SAFe 5.0.xml"/>
-	<TagVals tags="Actor Type,Attainable,Baseline Comparitive Action,Capability Type,ConfidenceFactor,ContributionState,Customer Priority,EffectDirection,End Date,Epic Type,InvestigationState,measurable,ObservationContribution,PITag,Primary Organization Responsible,Priority,Rationale,Realistic,ReqToolID,Requirement Category,Scenario Type,SE Problem Type ,SMART Analysis,Specific,Stakeholder Affected,Stakeholer Type,Start Date,StoryPoints,subType,Test Type,Testable &amp; Traceable,TShirtSize,values,Verification Method,Visibility"/>
+	<TagVals tags="Actor Type,Attainable,Baseline Comparitive Action,Capability Type,ConfidenceFactor,ContributionState,Customer Priority,EffectDirection,End Date,Epic Type,HypotethisState,InvestigationState,measurable,ObservationContribution,PITag,Primary Organization Responsible,Priority,Rationale,Realistic,ReqToolID,Requirement Category,Scenario Type,SMART Analysis,Specific,Stakeholder Affected,Stakeholer Type,Start Date,Status,StoryPoints,subType,Test Type,Testable &amp; Traceable,TShirtSize,values,Verification Method,Visibility"/>
 	<Images images=""/>
 	<DiagramProfile directory="C:\Projects\Github version control\aMBSE\Pattern Creation Files" files="MBSE for SAFe 5.0 Diagram.xml"/>
 	<UIToolboxes directory="C:\Projects\Github version control\aMBSE\Pattern Creation Files" files="MBSE for SAFe 5.0 Toolbox.xml"/>
 	<ModelViews2/>
 	<ModelSearches2>
-		<ModelSearch guid="{1A3C3BF6-8E70-41c4-AE8A-06B7AB0C5706}" name="Recursive elements in package"/>
 		<ModelSearch guid="{C698F697-316F-4735-8172-A006B3CA885E}" name="All Feature Level"/>
 		<ModelSearch guid="{4456B9CE-387C-4e6c-BAE9-C511A7395A05}" name="Features-Not Sized"/>
 		<ModelSearch guid="{018D6A62-B549-4948-8CE5-592F87962AA2}" name="Recursive elements in package"/>

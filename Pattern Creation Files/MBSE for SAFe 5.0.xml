@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.21a" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.21d" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Challenge" metatype="Challenge" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -11,6 +11,21 @@
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="EndUser" metatype="EndUser" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Actor"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Email Address" type="" description="" unit="" values="" default=""/>
+					<Tag name="First Name" type="" description="" unit="" values="" default=""/>
+					<Tag name="Hand Size" type="" description="" unit="" values="" default=""/>
+					<Tag name="Height" type="" description="" unit="" values="" default=""/>
+					<Tag name="Last Name" type="" description="" unit="" values="" default=""/>
+					<Tag name="Phone Number" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Feature" metatype="Feature" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -74,6 +89,17 @@ UEsFBgAAAAABAAEAPgAAAOAFAAAAAA==</Image>
 					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
+			<Stereotype name="Observation" metatype="Observation" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="End User Affected" type="" description="" unit="" values="" default=""/>
+					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
 			<Stereotype name="Question" metatype="Question" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
@@ -114,6 +140,14 @@ UEsFBgAAAAABAAEAPgAAAOAFAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Risk"/>
 				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Use Case" metatype="UseCase" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="UseCaseLevel" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Blocker" metatype="Blocker" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAJFcVQ+RxTLJgUAAIggAAAHABEAc3RyLmRhdFVUDQAHEfQyYhH0MmIR9DJi

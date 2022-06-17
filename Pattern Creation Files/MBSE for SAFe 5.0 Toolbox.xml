@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.21a" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.21d" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Agile PM Artifacts" notes="This is the Agile PM Artifacts for problem definition" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -37,11 +37,18 @@
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="MBSE for SAFe 5.0::Challenge(UML::Class)" type="" description="" unit="" values="" default="Challenge"/>
+					<Tag name="MBSE for SAFe 5.0::EndUser(UML::Actor)" type="" description="" unit="" values="" default="End User"/>
 					<Tag name="MBSE for SAFe 5.0::FigureOfMerit(UML::Class)" type="" description="" unit="" values="" default="Figure of Merit"/>
 					<Tag name="MBSE for SAFe 5.0::HF Study(UML::UseCase)" type="" description="" unit="" values="" default="Human Factor Study"/>
+					<Tag name="MBSE for SAFe 5.0::Observation(UML::Class)" type="" description="" unit="" values="" default="Observation"/>
 					<Tag name="MBSE for SAFe 5.0::Question(UML::Class)" type="" description="" unit="" values="" default="Question"/>
 					<Tag name="MBSE for SAFe 5.0::VoC(UML::Class)" type="" description="" unit="" values="" default="Voice of Customer"/>
 					<Tag name="UML::Activity" type="" description="" unit="" values="" default="Activity"/>
+					<Tag name="UML::ActivityFinal" type="" description="" unit="" values="" default="Stop"/>
+					<Tag name="UML::ActivityInitial" type="" description="" unit="" values="" default="Start"/>
+					<Tag name="UML::ControlFlow" type="" description="" unit="" values="" default="Flow"/>
+					<Tag name="UML::Decision" type="" description="" unit="" values="" default="Decision"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Action Item(UML::Task)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -613,7 +620,9 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Tag name="MBSE for SAFe 5.0::Stakeholer Goal(UML::UseCase)" type="" description="" unit="" values="" default="Stakeholder Goal"/>
 					<Tag name="MBSE for SAFe 5.0::SubSystemUseCase(UML::UseCase)" type="" description="" unit="" values="" default="Subsystem Use Case"/>
 					<Tag name="MBSE for SAFe 5.0::SystemUseCase(UML::UseCase)" type="" description="" unit="" values="" default="System Use Case"/>
+					<Tag name="MBSE for SAFe 5.0::Use Case(UML::UseCase)" type="" description="" unit="" values="" default="Use Case"/>
 					<Tag name="UML::Association" type="" description="" unit="" values="" default="Associate"/>
+					<Tag name="UML::Generalization" type="" description="" unit="" values="" default="Generalize"/>
 					<Tag name="UML::Realization" type="" description="" unit="" values="" default="Realize"/>
 					<Tag name="UML::UCExtend" type="" description="" unit="" values="" default="Extend"/>
 					<Tag name="UML::UCInclude" type="" description="" unit="" values="" default="Include"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.22" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.23a" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Challenge" metatype="Challenge" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -12,6 +12,13 @@
 				<TaggedValues>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Delta" metatype="Delta" notes="" cx="0" cy="0" bgcolor="14013946" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="EndUser" metatype="EndUser" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
@@ -29,53 +36,7 @@
 					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Feature" metatype="Feature" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL
-1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJ21hJ21hJL////////////////////////
-////////////////////1hJL1hJL1hJ21hJ21hJL////1hJL////////////////////////
-////////////1hJL1hJL1hJ21hJ21hJL////1hJL////////////////////////////////
-////1hJL1hJL1hJ21hJ21hJL////1hJL1hJL////////////////////////////////1hJL
-1hJL1hJ21hJ21hJL////1hJL////////////////////////////////////1hJL1hJL1hJ2
-1hJ21hJL////1hJL1hJL1hJL////////////////////////////1hJL1hJL1hJ21hJ21hJL
-////////////////////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL
-1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
-UEsFBgAAAAABAAEAPgAAAOAFAAAAAA==</Image>
+			<Stereotype name="Gap" metatype="Gap" notes="" cx="0" cy="0" bgcolor="42495" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -90,6 +51,13 @@ UEsFBgAAAAABAAEAPgAAAOAFAAAAAA==</Image>
 					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
+			<Stereotype name="Initive" metatype="Initive" notes="" cx="0" cy="0" bgcolor="14053594" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
 			<Stereotype name="Observation" metatype="Observation" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
@@ -100,6 +68,37 @@ UEsFBgAAAAABAAEAPgAAAOAFAAAAAA==</Image>
 					<Tag name="End User Affected" type="" description="" unit="" values="" default=""/>
 					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="OpenQuestion" metatype="OpenQuestion" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Status" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Pain" metatype="Pain" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Plus" metatype="Plus" notes="" cx="0" cy="0" bgcolor="13237993" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Problem" metatype="Problem" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Question" metatype="Question" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
@@ -158,6 +157,18 @@ UEsFBgAAAAABAAEAPgAAAOAFAAAAAA==</Image>
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="End User Affected" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Viewpoint" metatype="Viewpoint" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Arch Decisions" type="" description="" unit="" values="" default=""/>
+					<Tag name="Key Stakeholders" type="" description="" unit="" values="" default=""/>
+					<Tag name="View Concerns" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Blocker" metatype="Blocker" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -287,8 +298,8 @@ XRTI6M/IBZ6UDmLQE1BTpO2s2Ir1sG87/9tPxtn+n9SneqJHXfP/3WGV57g+OM98D9uztOnF
 RXFUs6Y5xW0BAADeAwAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHj/QyYlBLBQYA
 AAAAAQABAD4AAACjAQAAAAA=</Image>
 				<AppliesTo>
-					<Apply type="Package">
-						<Property name="URI" value=""/>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
@@ -390,10 +401,10 @@ nQ+zdh/IE/s20Nf3LJzZuxbaHTmMPwufKG4w+wPjHJqo03apzgofttl5VHRORTtFGHmukrgr
 y5hXkJoJ9ycfrxF/HOyQa8bo7F9QSwECFwsUAAAACADGTEVTr07bxSQFAAA8IAAABwAJAAAA
 AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHKx1cYVBLBQYAAAAAAQABAD4AAABaBQAAAAA=</Image>
 				<AppliesTo>
-					<Apply type="Package">
-						<Property name="_tagGroupings" value="WSJF_TimeCriticality=WSJF;WSJF=WSJF;WSJF_BusinessValue=WSJF;WSJF_CoD=WSJF;WSJF_JobSize=WSJF;WSJF_RROE=WSJF;"/>
-						<Property name="_tagGroups" value="WSJF"/>
-						<Property name="URI" value=""/>
+					<Apply type="Feature">
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;WSJF_TimeCriticality=WSJF ;WSJF=WSJF ;WSJF_BusinessValue=WSJF ;WSJF_CoD=WSJF ;WSJF_JobSize=WSJF ;WSJF_RROE=WSJF ;"/>
+						<Property name="_tagGroups" value="Jira,WSJF "/>
+						<Property name="isStatic" value="false"/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
@@ -437,7 +448,6 @@ AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHKx1cYVBLBQYAAAAAAQABAD4AAABaBQAAAAA=</Image>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="Negative Test" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0"/>
 			<Stereotype name="Output" metatype="Output" notes="" cx="0" cy="0" bgcolor="13696720" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
@@ -568,29 +578,6 @@ hWFQSwUGAAAAAAEAAQA+AAAATAIAAAAA</Image>
 					<Tag name="Actor Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="test1" metatype="test1" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAL5jZVMh71a6FgIAADQGAAAHABEAc3RyLmRhdFVUDQAHmyOFYZsjhWGbI4Vh
-jVTJTsMwEJ0zEv9glUsrUbEfWCUQHDgABw4cUbrQFtIEmhSEEP/OezNx4pCgIsv2eDzzZrMn
-k6lE8ipjcTIHNZNE1mVNvnR1soXh5BrcmeSYkcRYM+w8peA7OQedywLngSxBjXHvpI+ZA50n
-Q1+CykENcCa6YfP0BKSFSo2wR/KhfkxwHuJmrp4luMsKrxJwM/V8BOoDnFPMjnqxBE5HjgvJ
-qTwWPk/UV5MbQiZRTxelbBXvKh+cdOUGuowuVU6v0GYMQ/ApOYHVMSS3ZVPnDtZq75UeMju5
-ZoAe0Vas2egCgTfMGv0cKHekdCjVC7BetQrEibF2EdsJxoa8QOsTERlCBs4ZRifQZNx/e+Jj
-CP1u2tqQW7yFG7kCFWKzSrS6RAxWNb43aoQxDdTaEL52YMmV+fKUx/NZq95tO4rDG3aFdHtl
-+opskZFu1uZbd1s57XXwvTJy+xH2B1LwGKkDdqRvOlaN0M/6jf0w+wOW+TvN6ESxmZ17edBc
-1DNvGs3s3wH7uYjyCBLt1ahi+W88l4rJDFd/nrrU+823PL/JRVCRKlbLqfl/qXr8ubRh3aOq
-jSs6gu8g7AtNa4bHnhKBnyMnvJvqnwjfdVvtfd0PW6pOnTksvGtV0lK6LsGekpQSxFkt0Wap
-LtXsECbJfjX6M0L/c2dAi2s/d0cOZA+Yu0Dc1/0Ao9L2Or63sRKp9oumLc5v6PwAUEsBAhcL
-FAAAAAgAvmNlUyHvVroWAgAANAYAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB5sj
-hWFQSwUGAAAAAAEAAQA+AAAATAIAAAAA</Image>
-				<AppliesTo>
-					<Apply type="Test"/>
-				</AppliesTo>
-			</Stereotype>
-			<Stereotype name="Test2" metatype="Test2" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<AppliesTo>
-					<Apply type="Test"/>
-				</AppliesTo>
-			</Stereotype>
 			<Stereotype name="User Need" metatype="User Need" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Requirement">
@@ -646,50 +633,6 @@ AAAAc3RyLmRhdFVUBQAHFD1rX1BLBQYAAAAAAQABAD4AAABRBQAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Object"/>
 				</AppliesTo>
-			</Stereotype>
-			<Stereotype name="Capability (Depreciated)" metatype="Capability" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="AgileObject" baseStereotypes="AgileObject">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMZIPVGvTtvFJAUAADwgAAAHABEAc3RyLmRhdFVUDQAHC/lyXwv5cl8L+XJf
-7Vnbbhs3EJ1XFcg/CM2LAwho7FiWgyIPiRMHRYEgtRzksZCluFajiyvJDdKi/95zODsiueSu
-VkZl10AgiKJ2h3M5Z2b2wqVcyUCu5ZO0ZYrZWGbySL6Tv93YlgmOfZW53MgKn6+F5At8v5cL
-HF/ICEcW+PdjseJKfsWaCTT9Bl0mO4HUJTR4uT+zckPIzSAX63ztVvch+xdme7IvXXkqHXmG
-3ydrqZfwZSRL+HqB0eLaK3n6CjbnsPMZxzv4fsTXdKiePuRWcgprE3xOIM0VC2h6686oNwPY
-mVTIPQm8Um3vXVy319WKYuy7GPtRjDPMp5hz7RRHB1i9ckeIp8Z6Im/knZxjPCuiNr0cPWbt
-CsR8ZrSkLjOM7YVj9yrgvQW5hTtLzZyNwMAY4wpyL8Do07XkJh76+A7wvYHnKWKhjir0P2Cl
-RuijTTUpRi3n7dDZnCEqxrjnspDffYz+19uv5uvEccIM7hTZzLUdOQhyuiU/4HOOdcT20mXJ
-BDPWzbXTduHiaAOjpRtZSURS/4eMLuE7+bh28lzHKL/Aoq6gDPXNUZkqT83U8sXpG2KkBFFg
-9dLCGPLEQX0Nrb0sjlm2tJIaPnDRHkZoUQetUscMFj0ThnMsHbLrs4j9IZQihpaR7GifwJ5m
-PM9Oi4hX+KVXHXkux9F69qjZWkK5OkgsaK7TvtnIr6f21AY1XLlYic/c1SxZznt57Hw4KnkR
-21F8Y5l/Mky9SpjaFQf061p4hQjjrI7yKIN0Ocby+Zhr6mIXZPaGdlItOT5YC+xt7Kdlr2N2
-Yn3q92aNWoMT9E6TYXWxw6hXzJND6RW6fI/x+m1+iN+yLUO73sozrGUXoj7VFGr18xTlqeN6
-5NCuRyetsLK/OfxiGctcfsLsPSmO7z57tfcNK6J6XuRiL1oX88nzxpuNRJ6rbN6LLOfq9XUS
-8f121m9VvanGYuarq3hTp37zwJnXWO+P+d11rF6Be9qFeWfZLNtSm+UYNt9H5LLmtDj2LWse
-Qtb461zI4duEw12xcx9XudvxpZp4N16NcDcjk6uRn+4M36rYYpxzzxjlyOzqkUYWx/bz/yy2
-tFqb1eEIUgM8VVm34FPrHOMNImEsC8z9+4Zq291a67luU2ddn6GbWddn/fCdVZX9PK8hq+8S
-Vpvx1Jz7MPqlsNORW30z5K9oVrX5iHNcpmxv5qNeR8pZDrH3O0fM0ErvBlNU+GxVHVHX9cqy
-TNxn+dxGTceI357V/Dqb12GbYn+bPpxynEP/lwT97XBtxhX9H+IscfLvpQy5/NXJeq3Nyrm2
-eW2sJ/VngciWwrdlfG/ImlH88tnRRUy8Qh7WMJerihzqZwnqzXBszk0Yqe9/5Tdg5buI1Pty
-hIpmuQL+mzrK1+hDrq5+wnNzBptnheIWdv+6e0Ui2MvWUsxeXFH6DvzYXSnzOUAvqIHPEHX2
-9X1W/DY99kAZpGXeJZoveq9aZT+H/vmdob/d00dddqbXzG3u4XK9rlx5aS/NYffhzrDbXHnb
-IcjzR4iwbKeuQtL8N5RsNK32P2ch7LNVsWxiW7nQMeSjfheR0sZUs33eluT3ebWCvRT3AcfC
-jNYdpUv8Y4cerVeYZ35NyD39tUzZZm9PNek9Lldxv8v2wduQvJDfRXf9uP82Ft1/83mp63Wt
-nQ+zdh/IE/s20Nf3LJzZuxbaHTmMPwufKG4w+wPjHJqo03apzgofttl5VHRORTtFGHmukrgr
-y5hXkJoJ9ycfrxF/HOyQa8bo7F9QSwECFwsUAAAACADGSD1Rr07bxSQFAAA8IAAABwAJAAAA
-AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHC/lyX1BLBQYAAAAAAQABAD4AAABaBQAAAAA=</Image>
-				<AppliesTo>
-					<Apply type="Class">
-						<Property name="isActive" value="True"/>
-						<Property name="_HideUmlLinks" value=""/>
-					</Apply>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="End Date" type="" description="" unit="" values="" default=""/>
-					<Tag name="ExecutiveSummary" type="" description="" unit="" values="" default=""/>
-					<Tag name="Priority" type="enumeration" description="" unit="" values="Highest,High,Medium,Low,Lowest,Will Not Do,Not Prioritized" default=""/>
-					<Tag name="Start Date" type="" description="" unit="" values="" default=""/>
-					<Tag name="SummedStoryPoints_C" type="" description="" unit="" values="" default=""/>
-					<Tag name="SummedTShirtSize_C" type="" description="" unit="" values="" default=""/>
-					<Tag name="TShirtSize" type="enumeration" description="" unit="" values="Too Big to Size,XXL,XL,L,M,S,XS,Not Sized,Should be Story" default=""/>
-				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Decision" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Deliverables" baseStereotypes="Deliverables">
 				<AppliesTo>
@@ -805,10 +748,10 @@ xp6rJe7rMuoVpGbCHcpHa8wfFbvNPmd09BVQSwECFwsUAAAACABUXlNRp3iF9ioFAAB+IAAA
 BwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHon2NX1BLBQYAAAAAAQABAD4AAABgBQAA
 AAA=</Image>
 				<AppliesTo>
-					<Apply type="Package">
-						<Property name="_tagGroupings" value="WSJF_TimeCriticality=WSJF;WSJF=WSJF;WSJF_BusinessValue=WSJF;WSJF_CoD=WSJF;WSJF_JobSize=WSJF;WSJF_RROE=WSJF;"/>
-						<Property name="_tagGroups" value="WSJF"/>
-						<Property name="URI" value=""/>
+					<Apply type="Feature">
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;WSJF_TimeCriticality=WSJF ;WSJF=WSJF ;WSJF_BusinessValue=WSJF ;WSJF_CoD=WSJF ;WSJF_JobSize=WSJF ;WSJF_RROE=WSJF ;"/>
+						<Property name="_tagGroups" value="Jira,WSJF "/>
+						<Property name="isStatic" value="false"/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
@@ -928,24 +871,6 @@ AAAAAACAAAAAAHN0ci5kYXRVVAUAB+74cl9QSwUGAAAAAAEAAQA+AAAAWAUAAAAA</Image>
 					<Tag name="Start Date" type="" description="" unit="" values="" default=""/>
 					<Tag name="SummedStoryPoints_TD" type="" description="" unit="" values="" default=""/>
 					<Tag name="TShirtSize" type="enumeration" description="" unit="" values="Too Big to Size,XXL,XL,L,M,S,XS,Not Sized,Should be Story" default="Not Sized"/>
-				</TaggedValues>
-			</Stereotype>
-			<Stereotype name="test2" metatype="test2" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABhWDFEZ3Pe27wAAAEYCAAAHABEAc3RyLmRhdFVUDQAH/MgzX/zIM1/8yDNf
-jZHLisJAEEXvNsL8Q9CNgmAUhQHJzk9wL8H4QqND0uPADP77nOqY2AsFCX1TnTq3qjodK9aH
-OhrxxFpoqRW60VoHVayLzhqSmWgKMVaCTtBEn95nq9Jemb5wxSqIDnjs+5/XiN3lzuREP0rl
-VOobfn4ncuKt7/dL1KdXQlfTQctUuDJ8jk4Zuod7ZAsqX/E63n3NvD90n/xUTd7OYYRxr5i6
-Rk2+Yt6rEeY3ZPOnJ9jiPPFknrDTltQ44nhGhxr+/zNRQVRnmhuIIFZkbLodTKouN2yzOLRk
-19SNqFP6Mzj6ddVrK/bYPfrfgglu+gdQSwECFwsUAAAACAAYVgxRGdz3tu8AAABGAgAABwAJ
-AAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH/MgzX1BLBQYAAAAAAQABAD4AAAAlAQAA
-AAA=</Image>
-				<AppliesTo>
-					<Apply type="Class">
-						<Property name="isActive" value=""/>
-					</Apply>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="SummedStoryPoints" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Hardening Iteration" metatype="Iteration" notes="" cx="100" cy="100" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="AgileEvent" baseStereotypes="AgileEvent">
@@ -1150,26 +1075,6 @@ AAAAc3RyLmRhdFVUBQAH2cNjX1BLBQYAAAAAAQABAD4AAADJAgAAAAA=</Image>
 					<Tag name="SummedStoryPoints" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Test1" metatype="test1" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAH5sDVHzIA4yogEAAEAHAAAHABEAc3RyLmRhdFVUDQAHo0E1X6NBNV+jQTVf
-rVXBSsNAEH3XCv5DqJcWIiriQaUHD4IHq0IL9iZJE9NCW0sTFRX/3Tc73e4mVq00lJ2dycyb
-eTML0xwjRJgjRYAptTFm2MUOPoxs4AUP/Drh94yeDpoYMnaGgnJB63wZN9owLqH9iJxx79Ra
-OMUhQpxQtlcxC3qGREbEZ8wpcRIl54jS3Q4zJ0q4F3ilJh1JTwmRTezhBhfo4pJa08OojBiV
-kNEzYko7DcHFeGK+gnJKK+Tp4X5NBocKShj12kk2cMBfzijxCtvMMJZKmjfEsTkuv/YlE5Mp
-ipawVmqwI+bpmPm56O+vVe7BRfr5dW52Urfoc1K9yqwcQvsIPGROqzC85N438xjTW9C2L63o
-MTtp4Yocc1aJyFKq9lnNInrLeJ33gLawaFdm6WpPKIMfs3ToszlsJ5/LOyVWXiP4N6vtOdXN
-qLs1I81QH6PrrRlphvoYDWrgZHPUyaoeXuuZVXU5zvL31oRabPoQj+Xw+7bSnexqyl74aw+v
-3y5lpPSrdbT2G/ndUbPbRjou76byFtsUV9198o+T4czD+2ifsZvhF1BLAQIXCxQAAAAIAH5s
-DVHzIA4yogEAAEAHAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAejQTVfUEsFBgAA
-AAABAAEAPgAAANgBAAAAAA==</Image>
-				<AppliesTo>
-					<Apply type="UseCase"/>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="StoryPoints" type="enumeration" description="" unit="" values="0,0.5,1,2,3,5,8,13,20,40,Not Pointed,Should be Feature" default=""/>
-					<Tag name="TShirtSize" type="enumeration" description="" unit="" values="Too Big to Size,XXL,XL,L,M,S,XS,Not Sized,Should be Story" default=""/>
-				</TaggedValues>
-			</Stereotype>
 			<Stereotype name="SprintRetrospectivePlusDelta" metatype="SprintRetrospective" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Artifact">
@@ -1297,10 +1202,10 @@ PqrBpLxM27GtXO+jv2i30QylZb6PuXT97BcXsz5TqGdnhfVt9hwVl1PRHhHGnKsh7scy2hWk
 ZsKdySdrrJ8Ee+OaKzr7F1BLAQIXCxQAAAAIAOpIPVEtjwA8IAUAADYgAAAHAAkAAAAAAAAA
 AAAAgAAAAABzdHIuZGF0VVQFAAc5+XJfUEsFBgAAAAABAAEAPgAAAFYFAAAAAA==</Image>
 				<AppliesTo>
-					<Apply type="Package">
-						<Property name="_tagGroupings" value="WSJF_TimeCriticality=WSJF;WSJF=WSJF;WSJF_BusinessValue=WSJF;WSJF_CoD=WSJF;WSJF_JobSize=WSJF;WSJF_RROE=WSJF;"/>
-						<Property name="_tagGroups" value="WSJF"/>
-						<Property name="URI" value=""/>
+					<Apply type="Feature">
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;WSJF_TimeCriticality=WSJF ;WSJF=WSJF ;WSJF_BusinessValue=WSJF ;WSJF_CoD=WSJF ;WSJF_JobSize=WSJF ;WSJF_RROE=WSJF ;"/>
+						<Property name="_tagGroups" value="Jira,WSJF "/>
+						<Property name="isStatic" value="false"/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
@@ -1356,10 +1261,10 @@ yfntYlMNJuVl2o5tvneQA/2iv+82ekDbPweM/uri1vcK9e6s8GCbdUvF5lS0T4Rx5+qIa7qM
 eAWpmXB18tEa70fFSrPPFx19AVBLAQIXCxQAAAAIAPJIPVHS1Q/+IwUAAHogAAAHAAkAAAAA
 AAAAAAAAgAAAAABzdHIuZGF0VVQFAAdN+XJfUEsFBgAAAAABAAEAPgAAAFkFAAAAAA==</Image>
 				<AppliesTo>
-					<Apply type="Package">
-						<Property name="_tagGroupings" value="WSJF_TimeCriticality=WSJF;WSJF=WSJF;WSJF_BusinessValue=WSJF;WSJF_CoD=WSJF;WSJF_JobSize=WSJF;WSJF_RROE=WSJF;"/>
-						<Property name="_tagGroups" value="WSJF"/>
-						<Property name="URI" value=""/>
+					<Apply type="Feature">
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;WSJF_TimeCriticality=WSJF ;WSJF=WSJF ;WSJF_BusinessValue=WSJF ;WSJF_CoD=WSJF ;WSJF_JobSize=WSJF ;WSJF_RROE=WSJF ;"/>
+						<Property name="_tagGroups" value="Jira,WSJF "/>
+						<Property name="isStatic" value="false"/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
@@ -1373,6 +1278,78 @@ AAAAAAAAgAAAAABzdHIuZGF0VVQFAAdN+XJfUEsFBgAAAAABAAEAPgAAAFkFAAAAAA==</Image>
 					<Tag name="Start Date" type="" description="" unit="" values="" default=""/>
 					<Tag name="SummedStoryPoints_E" type="" description="" unit="" values="" default=""/>
 					<Tag name="SummedTShirtSize_E" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Feature" metatype="Feature" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="AgileObject" baseStereotypes="AgileObject">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL
+1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJ21hJ21hJL////////////////////////
+////////////////////1hJL1hJL1hJ21hJ21hJL////1hJL////////////////////////
+////////////1hJL1hJL1hJ21hJ21hJL////1hJL////////////////////////////////
+////1hJL1hJL1hJ21hJ21hJL////1hJL1hJL////////////////////////////////1hJL
+1hJL1hJ21hJ21hJL////1hJL////////////////////////////////////1hJL1hJL1hJ2
+1hJ21hJL////1hJL1hJL1hJL////////////////////////////1hJL1hJL1hJ21hJ21hJL
+////////////////////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL
+1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
+UEsFBgAAAAABAAEAPgAAAOAFAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Feature">
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;WSJF_TimeCriticality=WSJF ;WSJF=WSJF ;WSJF_BusinessValue=WSJF ;WSJF_CoD=WSJF ;WSJF_JobSize=WSJF ;WSJF_RROE=WSJF ;"/>
+						<Property name="_tagGroups" value="Jira,WSJF "/>
+						<Property name="isStatic" value="false"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="End Date" type="" description="" unit="" values="" default=""/>
+					<Tag name="ExecutiveSummary" type="" description="" unit="" values="" default=""/>
+					<Tag name="JiraIssueID" type="" description="" unit="" values="" default=""/>
+					<Tag name="JiraIssueKey" type="" description="" unit="" values="" default=""/>
+					<Tag name="PI" type="" description="" unit="" values="" default=""/>
+					<Tag name="Start Date" type="" description="" unit="" values="" default=""/>
+					<Tag name="StoryPoints" type="enumeration" description="" unit="" values="0,0.5,1,2,3,5,8,13,20,40,Not Pointed,Should be Feature" default="Not Pointed"/>
+					<Tag name="SummedStoryPoints_F" type="" description="" unit="" values="" default=""/>
+					<Tag name="TShirtSize" type="enumeration" description="" unit="" values="Too Big to Size,XXL,XL,L,M,S,XS,Not Sized,Should be Story" default="Not Sized"/>
+					<Tag name="WSJF" type="" description="" unit="" values="" default=""/>
+					<Tag name="WSJF_BusinessValue" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
+					<Tag name="WSJF_CoD" type="" description="" unit="" values="" default=""/>
+					<Tag name="WSJF_JobSize" type="" description="" unit="" values="" default=""/>
+					<Tag name="WSJF_RROE" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
+					<Tag name="WSJF_TimeCriticality" type="enumeration" description="" unit="" values="0,1,2,3,5,8,13,20,40,100,Not Pointed" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="EnablerFeature" metatype="EnablerFeature" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="AgileObject" baseStereotypes="AgileObject">

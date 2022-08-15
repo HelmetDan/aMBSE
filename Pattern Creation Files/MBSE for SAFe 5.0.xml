@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.23a" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.23b" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Challenge" metatype="Challenge" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -42,6 +42,9 @@
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Goal" metatype="Goal" notes="" cx="0" cy="0" bgcolor="16436871" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
@@ -57,6 +60,9 @@
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Observation" metatype="Observation" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
@@ -85,6 +91,11 @@
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Frequency of Occurance" type="enumeration" description="" unit="" values="Improbable,Remote,Sometimes,Probable,Highly Probable,Medium,Low" default=""/>
+					<Tag name="Impact Severity" type="enumeration" description="" unit="" values="Negligible,Marginal,Serious,Critical,Catastrophic,High,Medium,Low" default=""/>
+					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Plus" metatype="Plus" notes="" cx="0" cy="0" bgcolor="13237993" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
@@ -94,11 +105,29 @@
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Problem" metatype="Problem" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADRKDFVM2cMwPQIAAIgJAAAHABEAc3RyLmRhdFVUDQAHphr2YqYa9mKmGvZi
+tVbLTsNADPS1SPxD1V6K1AOUlxDiyBfwAaj0RURbqjQFAeLfmbHrbrLpEjhUKM5uMh5PbK/L
+Wp5lKCuZSFsWWGWylGM5ki+1LZnj2Ye8ykYK/H0o8k468oRnuYyxy7G73aKXeLpWxjFW70AW
+eL8ByhFmM5lKT3FrMObAkjfXCD3w5diNsBuCcQYNE2XmvoDvK3Yd6eM6xXWCP2N1zS3VNQV3
+Jp9Y9eQGyL5cyCWwrqSF92Rk1JUyPwNZfr9ApDf4F7j3ZADvvpyB6bSCmmvOHHWdQDEOv4iY
+S1XDy3DhXvb23W/RTFM6ksexiM7rXr6qq2W+x4msTKFgrn1BDHPI+r3AZx/+e3ufwGMN21Qp
+aqGm60hRU62oYaOKvHfC18dZHuzsYb/Z7KF7nWeNmjY4k3b2yE/mDLz0f1SVRLF3Zls+8tY1
+p+qUjuL6/xMlzbbEeoG1eY80G4Xmq8xjNni2kyri72AF2HFk5GoMjgmwM9wLzCt2Ray2HCeV
+0//GYS/GcerRPBsx+xviD3UWzIDhPOZ5X0mYxC2wxJhqNgOSWvkVPDMd6e6idvfUziwvnlzm
+IpfQqW3tnRz6mCfT7aqJzLYKggd1cZ4FPWYPe2qaun3f5Oc0Tk9im9Uxpj71yxPXJ3zdEpWO
+ZRwxJp77hrKogbVqq3r/VmE+WaAa/KXPtJuIba7yg9yXqtxU3wzP65Gspv4/xb7KWk2Zr5VW
+1nJxUbJXtblfxfO9Y71OsU+1P84Vw0yna8bfsxhTzvcPUEsBAhcLFAAAAAgANEoMVUzZwzA9
+AgAAiAkAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB6Ya9mJQSwUGAAAAAAEAAQA+
+AAAAcwIAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+					<Tag name="SE Problem Type " type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Question" metatype="Question" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>

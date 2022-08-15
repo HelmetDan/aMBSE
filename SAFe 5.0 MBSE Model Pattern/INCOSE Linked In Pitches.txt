@@ -1,0 +1,30 @@
+
+PCS + WebEA is just showing what is there
+
+Prolaborate is for sharing and collaborating.  
+
+      Value add is -Prolaborate links are persistantly managed
+
+WebEA is still for the architects.  
+
+
+EA stores all data in its own database and that is separate from the Prolaborate database
+
+	that means that there are 2 databases - at the DB level 2 are needed
+	
+	
+	to use prolaborate we have to have a PCS token for each user!  if no Prolaborate then we only need PCS tokens for the modelers
+	JOB
+The Stakeholder Job is the task that is being performed by the Stakeholder.  The job in this filed should be described at the high-level and do not get into the details of how the task will be completed.   Provide the Why/Who. 
+
+SCENARIO NAME
+The Scenario Name is how we refer to the set detailed actions that will accomplish the job.  There could be many detailed actions resulting in different outcomes.  The name should reference which scenario this Use Case is Referring to such as happy path, or error.   
+
+STAGE
+The stage is the process or state in which the use case is taking place.  This could be PreOP, IntraOp, PostOP.
+
+STIMULUS
+The stimulus that has triggered the Use Case to start. 
+
+ENVIRONMENT
+Environment is where the Use Case is occurring and what are the specific conditions such as temperate, location, etc. 

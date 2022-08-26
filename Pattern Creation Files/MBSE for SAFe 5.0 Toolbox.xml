@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.23b" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.23c" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Agile PM Artifacts" notes="This is the Agile PM Artifacts for problem definition" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -12,11 +12,10 @@
 					<Tag name="MBSE for SAFe 5.0::Action Item(UML::Task)" type="" description="" unit="" values="" default="Action Item"/>
 					<Tag name="MBSE for SAFe 5.0::Blocker(UML::Task)" type="" description="" unit="" values="" default="Blocker"/>
 					<Tag name="MBSE for SAFe 5.0::Challenge(UML::Class)" type="" description="" unit="" values="" default="Challenge"/>
-					<Tag name="MBSE for SAFe 5.0::Decision(UML::Decision)" type="" description="" unit="" values="" default="Decision"/>
 					<Tag name="MBSE for SAFe 5.0::Fixed-Date Milestone(UML::Event)" type="" description="" unit="" values="" default="Milestone"/>
 					<Tag name="MBSE for SAFe 5.0::OpenQuestion(UML::Class)" type="" description="" unit="" values="" default="Open Question"/>
+					<Tag name="MBSE for SAFe 5.0::ProductDecision(UML::Decision)" type="" description="" unit="" values="" default="ProductDecision"/>
 					<Tag name="MBSE for SAFe 5.0::Project Risk(UML::Risk)" type="" description="" unit="" values="" default="Project Risk"/>
-					<Tag name="MBSE for SAFe 5.0::Question(UML::Class)" type="" description="" unit="" values="" default="Question"/>
 					<Tag name="MBSE for SAFe 5.0::TechnicalRisk(UML::Risk)" type="" description="" unit="" values="" default="Technical Risk"/>
 					<Tag name="UML::Realization" type="" description="" unit="" values="" default="Realization"/>
 					<Tag name="UML::TraceLink" type="" description="" unit="" values="" default="Trace"/>
@@ -627,7 +626,7 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="" type="" description="" unit="" values="" default="Extend"/>
+					<Tag name="" type="" description="" unit="" values="" default="Realize"/>
 					<Tag name="MBSE for SAFe 5.0::Goal(UML::UseCase)" type="" description="" unit="" values="" default="Goal"/>
 					<Tag name="MBSE for SAFe 5.0::Job(UML::UseCase)" type="" description="" unit="" values="" default="Job"/>
 					<Tag name="MBSE for SAFe 5.0::Operational Objective(UML::UseCase)" type="" description="" unit="" values="" default="Operational Objective"/>
@@ -649,6 +648,18 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Tag name="MBSE for SAFe 5.0::Responsibility (UML::Class)" type="" description="" unit="" values="" default="Responsibility"/>
 					<Tag name="MBSE for SAFe 5.0::Stakeholder(UML::Actor)" type="" description="" unit="" values="" default="Stakeholder"/>
 					<Tag name="UML::Actor" type="" description="" unit="" values="" default="Actor"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Model Structure Toolbox" notes="This is for model pattern creation" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="MBSE for SAFe 5.0::Backlog(UML::Package)" type="" description="" unit="" values="" default="Backlog"/>
+					<Tag name="MBSE for SAFe 5.0::EpicBacklog(UML::Package)" type="" description="" unit="" values="" default="Epic Backlog"/>
+					<Tag name="MBSE for SAFe 5.0::OpenQuestionsRegister(UML::Package)" type="" description="" unit="" values="" default="Open Questions Register"/>
+					<Tag name="MBSE for SAFe 5.0::ProjectRiskRegister(UML::Package)" type="" description="" unit="" values="" default="Project Risks Register"/>
+					<Tag name="MBSE for SAFe 5.0::TechnicalRiskRegister(UML::Package)" type="" description="" unit="" values="" default="Technical Risks Register"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Stakeholder Analysis" notes="elements for stakeholder analysis" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -673,6 +684,7 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="MBSE for SAFe 5.0::Blocker(UML::Task)" type="" description="" unit="" values="" default="Blocker"/>
+					<Tag name="MBSE for SAFe 5.0::Epic(UML::Feature)" type="" description="" unit="" values="" default="Epic"/>
 					<Tag name="MBSE for SAFe 5.0::Feature(UML::Feature)" type="" description="" unit="" values="" default="Feature"/>
 					<Tag name="MBSE for SAFe 5.0::TechnicalDebt(UML::Class)" type="" description="" unit="" values="" default="Technical Debt"/>
 					<Tag name="MBSE for SAFe 5.0::510 Submittal(UML::Object)" type="" description="" unit="" values="" default="510 Submittal"/>
@@ -684,7 +696,7 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Tag name="MBSE for SAFe 5.0::EnablerFeature(UML::Feature)" type="" description="" unit="" values="" default="EnablerFeature"/>
 					<Tag name="MBSE for SAFe 5.0::EnablerStory(UML::Change)" type="" description="" unit="" values="" default="EnablerStory"/>
 					<Tag name="MBSE for SAFe 5.0::Epic Enabler(UML::Package)" type="" description="" unit="" values="" default="EpicEnabler"/>
-					<Tag name="MBSE for SAFe 5.0::Epic(UML::Package)" type="" description="" unit="" values="" default="Epic"/>
+					<Tag name="MBSE for SAFe 5.0::Epic(UML::Package)" type="" description="" unit="" values="" default="Epic (Depreciated)"/>
 					<Tag name="MBSE for SAFe 5.0::Program Epic(UML::Package)" type="" description="" unit="" values="" default="ProgramEpic"/>
 					<Tag name="MBSE for SAFe 5.0::Project(UML::Class)" type="" description="" unit="" values="" default="Project"/>
 					<Tag name="MBSE for SAFe 5.0::Solution(UML::Class)" type="" description="" unit="" values="" default="Solution"/>

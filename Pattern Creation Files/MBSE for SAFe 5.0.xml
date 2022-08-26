@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.23b" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.23c" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="Challenge" metatype="Challenge" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Assumption" metatype="Assumption" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Challenge" metatype="Challenge" notes="" cx="125" cy="50" bgcolor="14481663" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Delta" metatype="Delta" notes="" cx="0" cy="0" bgcolor="14013946" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+			<Stereotype name="ChallengesBacklog" metatype="ChallengesBacklog" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Delta" metatype="Delta" notes="" cx="125" cy="50" bgcolor="14013946" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -36,7 +51,14 @@
 					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Gap" metatype="Gap" notes="" cx="0" cy="0" bgcolor="42495" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+			<Stereotype name="EpicBacklog" metatype="EpicBacklog" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Gap" metatype="Gap" notes="" cx="125" cy="50" bgcolor="42495" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -54,7 +76,7 @@
 					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Initive" metatype="Initive" notes="" cx="0" cy="0" bgcolor="14053594" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+			<Stereotype name="Initive" metatype="Initive" notes="" cx="125" cy="50" bgcolor="14053594" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -64,7 +86,7 @@
 					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Observation" metatype="Observation" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Observation" metatype="Observation" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -75,17 +97,25 @@
 					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="OpenQuestion" metatype="OpenQuestion" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="OpenQuestion" metatype="OpenQuestion" notes="" cx="125" cy="50" bgcolor="16775408" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Pain" metatype="Pain" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="OpenQuestionsRegister" metatype="OpenQuestionsRegister" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Pain" metatype="Pain" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -97,14 +127,14 @@
 					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Plus" metatype="Plus" notes="" cx="0" cy="0" bgcolor="13237993" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+			<Stereotype name="Plus" metatype="Plus" notes="" cx="125" cy="50" bgcolor="13237993" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="Problem" metatype="Problem" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Problem" metatype="Problem" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADRKDFVM2cMwPQIAAIgJAAAHABEAc3RyLmRhdFVUDQAHphr2YqYa9mKmGvZi
 tVbLTsNADPS1SPxD1V6K1AOUlxDiyBfwAaj0RURbqjQFAeLfmbHrbrLpEjhUKM5uMh5PbK/L
 Wp5lKCuZSFsWWGWylGM5ki+1LZnj2Ye8ykYK/H0o8k468oRnuYyxy7G73aKXeLpWxjFW70AW
@@ -129,15 +159,12 @@ AAAAcwIAAAAA</Image>
 					<Tag name="SE Problem Type " type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Question" metatype="Question" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="ProjectRiskRegister" metatype="ProjectRiskRegister" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
-					<Apply type="Class">
-						<Property name="isActive" value=""/>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
 					</Apply>
 				</AppliesTo>
-				<TaggedValues>
-					<Tag name="Status" type="" description="" unit="" values="" default=""/>
-				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Scenario" metatype="Scenario" notes="" cx="0" cy="0" bgcolor="15453831" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
@@ -165,9 +192,26 @@ AAAAcwIAAAAA</Image>
 					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="TechnicalRisk" metatype="TechnicalRisk" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="TeamBacklog" metatype="TeamBacklog" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="TechnicalRisk" metatype="TechnicalRisk" notes="" cx="125" cy="50" bgcolor="65535" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Risk"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Status" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="TechnicalRiskRegister" metatype="TechnicalRiskRegister" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Use Case" metatype="UseCase" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -267,7 +311,7 @@ AA==</Image>
 					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="FigureOfMerit" metatype="FigureOfMerit" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="FigureOfMerit" metatype="FigureOfMerit" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -313,6 +357,18 @@ AA==</Image>
 					<Tag name="Scenario Type" type="" description="" unit="" values="" default=""/>
 					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
 					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="SurveyQuestion" metatype="SurveyQuestion" notes="" cx="125" cy="50" bgcolor="10592733" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Question Label-1" type="" description="" unit="" values="" default=""/>
+					<Tag name="Question Label-5" type="" description="" unit="" values="" default=""/>
+					<Tag name="Question Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Sprint" metatype="Sprint" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -364,7 +420,7 @@ AAAAAQABAD4AAACjAQAAAAA=</Image>
 					<Tag name="Test Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="VoC" metatype="VoC" notes="" cx="0" cy="0" bgcolor="9145088" fontcolor="16119285" bordercolor="-1" borderwidth="1" hideicon="0">
+			<Stereotype name="VoC" metatype="VoC" notes="" cx="125" cy="50" bgcolor="9145088" fontcolor="16119285" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -446,7 +502,7 @@ AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHKx1cYVBLBQYAAAAAAQABAD4AAABaBQAAAAA=</Image>
 					<Tag name="TShirtSize" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Concern" metatype="Concern" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Concern" metatype="Concern" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -588,7 +644,7 @@ hWFQSwUGAAAAAAEAAQA+AAAATAIAAAAA</Image>
 					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Responsibility " metatype="Responsibility " notes="" cx="0" cy="0" bgcolor="16645342" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+			<Stereotype name="Responsibility " metatype="Responsibility " notes="" cx="150" cy="50" bgcolor="16645342" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -663,13 +719,16 @@ AAAAc3RyLmRhdFVUBQAHFD1rX1BLBQYAAAAAAQABAD4AAABRBQAAAAA=</Image>
 					<Apply type="Object"/>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="Decision" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Deliverables" baseStereotypes="Deliverables">
+			<Stereotype name="ProductDecision" metatype="ProductDecision" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Deliverables" baseStereotypes="Deliverables">
 				<AppliesTo>
 					<Apply type="Decision">
 						<Property name="isAssured" value="false"/>
 						<Property name="isDeterminate" value="false"/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Status" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Deliverables" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0"/>
 			<Stereotype name="EnablerCapability" metatype="EnablerCapability" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="AgileObject" baseStereotypes="AgileObject">
@@ -830,10 +889,13 @@ ZGF0VVQFAAd/ZltfUEsFBgAAAAABAAEAPgAAAEoFAAAAAA==</Image>
 					<Tag name="SummedTShirtSize_Proj" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Project Risk" metatype="Project Risk" notes="" cx="50" cy="100" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Project Risk" metatype="Project Risk" notes="" cx="125" cy="50" bgcolor="6333684" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Risk"/>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Status" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Quarter" metatype="Quarter" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2022-09-07 08:18:28">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2022-09-11 19:04:37">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -21083,7 +21083,7 @@
 										</UML:Collaboration>
 										<UML:Package name="Feature1" xmi.id="EAPK_BA2757A0_A48C_4d4f_8EC7_33B5CF94A975" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_1AF1B113_7E63_411c_A23D_53CBBA14FB20"/>
+												<UML:Stereotype xmi.idref="EAID_C61E6EA4_B90F_4acb_8070_A62DE33C2DF9"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="&lt;b&gt;FEATURE DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;INCLUDES&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BENEFIT HYPOTHESIS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ACCEPTANCE CRITERIA&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ARCHITECTURAL RUNWAY NEEDS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;REFERENCES&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;OPEN QUESTIONS&lt;/b&gt;&#xA;&#xA;"/>
@@ -21111,7 +21111,7 @@
 										</UML:Package>
 										<UML:Package name="Feature2" xmi.id="EAPK_E255C1B0_F1B7_4bc7_8EB5_2E32FAEBDE6B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_1AF1B113_7E63_411c_A23D_53CBBA14FB20"/>
+												<UML:Stereotype xmi.idref="EAID_C61E6EA4_B90F_4acb_8070_A62DE33C2DF9"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="&lt;b&gt;FEATURE DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;INCLUDES&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BENEFIT HYPOTHESIS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ACCEPTANCE CRITERIA&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ARCHITECTURAL RUNWAY NEEDS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;REFERENCES&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;OPEN QUESTIONS&lt;/b&gt;&#xA;&#xA;&#xA;"/>
@@ -21139,7 +21139,7 @@
 										</UML:Package>
 										<UML:Package name="Feature3" xmi.id="EAPK_8788AD2A_4493_4887_94AC_46CF81CCC1F2" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_1AF1B113_7E63_411c_A23D_53CBBA14FB20"/>
+												<UML:Stereotype xmi.idref="EAID_C61E6EA4_B90F_4acb_8070_A62DE33C2DF9"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="&lt;b&gt;FEATURE DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;INCLUDES&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BENEFIT HYPOTHESIS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ACCEPTANCE CRITERIA&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ARCHITECTURAL RUNWAY NEEDS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;REFERENCES&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;OPEN QUESTIONS&lt;/b&gt;&#xA;&#xA;&#xA;"/>
@@ -21167,7 +21167,7 @@
 										</UML:Package>
 										<UML:Package name="Feature4" xmi.id="EAPK_50F1655E_BB87_4ccf_8ADB_710CE48BDCBC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_1AF1B113_7E63_411c_A23D_53CBBA14FB20"/>
+												<UML:Stereotype xmi.idref="EAID_C61E6EA4_B90F_4acb_8070_A62DE33C2DF9"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="&lt;b&gt;FEATURE DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;INCLUDES&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BENEFIT HYPOTHESIS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ACCEPTANCE CRITERIA&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ARCHITECTURAL RUNWAY NEEDS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;REFERENCES&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;OPEN QUESTIONS&lt;/b&gt;&#xA;&#xA;&#xA;"/>
@@ -21195,7 +21195,7 @@
 										</UML:Package>
 										<UML:Package name="Feature5" xmi.id="EAPK_C3CEC165_B95E_4259_A4F9_0C16DE8AB192" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_1AF1B113_7E63_411c_A23D_53CBBA14FB20"/>
+												<UML:Stereotype xmi.idref="EAID_C61E6EA4_B90F_4acb_8070_A62DE33C2DF9"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="&lt;b&gt;FEATURE DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;INCLUDES&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BENEFIT HYPOTHESIS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ACCEPTANCE CRITERIA&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ARCHITECTURAL RUNWAY NEEDS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;REFERENCES&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;OPEN QUESTIONS&lt;/b&gt;&#xA;&#xA;&#xA;"/>
@@ -27326,7 +27326,7 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_1AF1B113_7E63_411c_A23D_53CBBA14FB20" name="Feature" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_C61E6EA4_B90F_4acb_8070_A62DE33C2DF9" name="Feature" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
@@ -27337,15 +27337,15 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="Dan Menoher"/>
 				<UML:TaggedValue tag="created_date" value="2022-04-12 12:54:03"/>
-				<UML:TaggedValue tag="modified_date" value="2022-08-26 11:23:29"/>
+				<UML:TaggedValue tag="modified_date" value="2022-09-11 07:48:06"/>
 				<UML:TaggedValue tag="package" value="EAPK_B5FE1FD2_03D3_463f_A2EB_C916214371C7"/>
 				<UML:TaggedValue tag="type" value="Package"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<UML:TaggedValue tag="tpos" value="2"/>
 				<UML:TaggedValue tag="ea_localid" value="841"/>
-				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1075;ShowDetails=1;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=1A106293;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=5F509588;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
 				<UML:DiagramElement geometry="Left=47;Top=93;Right=712;Bottom=169;" subject="EAID_30CA0C4B_76A0_43ee_8609_704C5B910682" seqno="1" style="DUID=D63A2319;font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>

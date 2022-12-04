@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="windows-1252"?>
+<?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.23d" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.24" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Agile PM Artifacts" notes="This is the Agile PM Artifacts for problem definition" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -41,16 +41,20 @@
 					<Tag name="MBSE for SAFe 5.0::Challenge(UML::Class)" type="" description="" unit="" values="" default="Challenge"/>
 					<Tag name="MBSE for SAFe 5.0::EndUser(UML::Actor)" type="" description="" unit="" values="" default="End User"/>
 					<Tag name="MBSE for SAFe 5.0::FigureOfMerit(UML::Class)" type="" description="" unit="" values="" default="Figure of Merit"/>
+					<Tag name="MBSE for SAFe 5.0::Hazard(UML::Risk)" type="" description="" unit="" values="" default="Hazard"/>
 					<Tag name="MBSE for SAFe 5.0::HF Study(UML::UseCase)" type="" description="" unit="" values="" default="Human Factor Study"/>
 					<Tag name="MBSE for SAFe 5.0::Observation(UML::Class)" type="" description="" unit="" values="" default="Observation"/>
+					<Tag name="MBSE for SAFe 5.0::Outcome(UML::Class)" type="" description="" unit="" values="" default="Outcome (beta)"/>
 					<Tag name="MBSE for SAFe 5.0::Question(UML::Class)" type="" description="" unit="" values="" default="Question"/>
 					<Tag name="MBSE for SAFe 5.0::UserComment(UML::Class)" type="" description="" unit="" values="" default="User Comment"/>
 					<Tag name="MBSE for SAFe 5.0::VoC(UML::Class)" type="" description="" unit="" values="" default="Voice of Customer"/>
+					<Tag name="UML::Action" type="" description="" unit="" values="" default="Action "/>
 					<Tag name="UML::Activity" type="" description="" unit="" values="" default="Activity"/>
 					<Tag name="UML::ActivityFinal" type="" description="" unit="" values="" default="Stop"/>
 					<Tag name="UML::ActivityInitial" type="" description="" unit="" values="" default="Start"/>
 					<Tag name="UML::ControlFlow" type="" description="" unit="" values="" default="Flow"/>
 					<Tag name="UML::Decision" type="" description="" unit="" values="" default="Decision"/>
+					<Tag name="UML::Risk" type="" description="" unit="" values="" default="Risk"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Lean Toolbox" notes="This is a Lean toolbox page" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -67,106 +71,126 @@
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Action Item(UML::Task)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////dl32dl32dl32dl32dl32dl32dl32dl32
-dl32dl32dl32dl32dl32dl32dl32dl32dl32TF32TF32dl32////////////////////////
-////////////////////dl32dl32TF32TF32dl32////////dl32////dl32////////dl32
-dl32dl32////dl32dl32TF32TF32dl32////////dl32////dl32////////////dl32////
-////dl32dl32TF32TF32dl32////////dl32dl32dl32////////////dl32////////dl32
-dl32TF32TF32dl32////////dl32////dl32////////////dl32////////dl32dl32TF32
-TF32dl32////////dl32dl32dl32////////dl32dl32dl32////dl32dl32TF32TF32dl32
-////////////////////////////////////////////dl32dl32dl32dl32dl32dl32dl32
-dl32dl32dl32dl32dl32dl32dl32dl32dl32dl32////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////dl32dl32dl32dl32dl32dl32dl32dl32
+dl32dl32dl32dl32dl32dl32dl32dl32dl32TF32TF32dl32////////////
+////////////////////////////////dl32dl32TF32TF32dl32////////
+dl32////dl32////////dl32dl32dl32////dl32dl32TF32TF32dl32////
+////dl32////dl32////////////dl32////////dl32dl32TF32TF32dl32
+////////dl32dl32dl32////////////dl32////////dl32dl32TF32TF32
+dl32////////dl32////dl32////////////dl32////////dl32dl32TF32
+TF32dl32////////dl32dl32dl32////////dl32dl32dl32////dl32dl32
+TF32TF32dl32////////////////////////////////////////////dl32
+dl32dl32dl32dl32dl32dl32dl32dl32dl32dl32dl32dl32dl32dl32dl32
+dl32////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Capability(UML::Package)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////3O8O3O8O3O8O3O8O
-3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O9vsO9vsO3O8O////////
-////////////////////////////////////3O8O3O8O9vsO9vsO3O8O////////3O8O3O8O
-3O8O////////3O8O3O8O3O8O////3O8O3O8O9vsO9vsO3O8O////////3O8O////////////
-3O8O////////////////3O8O3O8O9vsO9vsO3O8O////////3O8O////////////3O8O////
-////////////3O8O3O8O9vsO9vsO3O8O////////3O8O3O8O////////3O8O////////////
-////3O8O3O8O9vsO9vsO3O8O////////3O8O////////////3O8O////////////////3O8O
-3O8O9vsO9vsO3O8O////////3O8O////////////3O8O////////////////3O8O3O8O9vsO
-9vsO3O8O////////3O8O3O8O3O8O////////3O8O3O8O3O8O////3O8O3O8O9vsO9vsO3O8O
-////////////////////////////////////////////3O8O3O8O3O8O3O8O3O8O3O8O3O8O
-3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O
+3O8O3O8O3O8O3O8O3O8O3O8O3O8O9vsO9vsO3O8O////////////////////
+////////////////////////3O8O3O8O9vsO9vsO3O8O////////3O8O3O8O
+3O8O////////3O8O3O8O3O8O////3O8O3O8O9vsO9vsO3O8O////////3O8O
+////////////3O8O////////////////3O8O3O8O9vsO9vsO3O8O////////
+3O8O////////////3O8O////////////////3O8O3O8O9vsO9vsO3O8O////
+////3O8O3O8O////////3O8O////////////////3O8O3O8O9vsO9vsO3O8O
+////////3O8O////////////3O8O////////////////3O8O3O8O9vsO9vsO
+3O8O////////3O8O////////////3O8O////////////////3O8O3O8O9vsO
+9vsO3O8O////////3O8O3O8O3O8O////////3O8O3O8O3O8O////3O8O3O8O
+9vsO9vsO3O8O////////////////////////////////////////////3O8O
+3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O3O8O
+3O8O////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::EnablerCapability(UML::Package)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////9vvH9vvH9vvH9vvH
-9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vsO9vsO9vvH////////
-////////////////////////////////////9vvH9vvH9vsO9vsO9vvH////////9vvH9vvH
-9vvH////////9vvH9vvH9vvH////9vvH9vvH9vsO9vsO9vvH////////9vvH////////////
-9vvH////////////////9vvH9vvH9vsO9vsO9vvH////////9vvH////////////9vvH////
-////////////9vvH9vvH9vsO9vsO9vvH////////9vvH9vvH////////9vvH////////////
-////9vvH9vvH9vsO9vsO9vvH////////9vvH////////////9vvH////////////////9vvH
-9vvH9vsO9vsO9vvH////////9vvH////////////9vvH////////////////9vvH9vvH9vsO
-9vsO9vvH////////9vvH9vvH9vvH////////9vvH9vvH9vvH////9vvH9vvH9vsO9vsO9vvH
-////////////////////////////////////////////9vvH9vvH9vvH9vvH9vvH9vvH9vvH
-9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH
+9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vsO9vsO9vvH////////////////////
+////////////////////////9vvH9vvH9vsO9vsO9vvH////////9vvH9vvH
+9vvH////////9vvH9vvH9vvH////9vvH9vvH9vsO9vsO9vvH////////9vvH
+////////////9vvH////////////////9vvH9vvH9vsO9vsO9vvH////////
+9vvH////////////9vvH////////////////9vvH9vvH9vsO9vsO9vvH////
+////9vvH9vvH////////9vvH////////////////9vvH9vvH9vsO9vsO9vvH
+////////9vvH////////////9vvH////////////////9vvH9vvH9vsO9vsO
+9vvH////////9vvH////////////9vvH////////////////9vvH9vvH9vsO
+9vsO9vvH////////9vvH9vvH9vvH////////9vvH9vvH9vvH////9vvH9vvH
+9vsO9vsO9vvH////////////////////////////////////////////9vvH
+9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH9vvH
+9vvH////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::EnablerFeature(UML::Feature)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////77rk77rk77rk77rk77rk77rk77rk77rk
-77rk77rk77rk77rk77rk77rk77rk77rk77rk1hJ21hJ277rk////////////////////////
-////////////////////77rk77rk1hJ21hJ277rk////77rk77rk77rk////77rk////////
-////////////77rk77rk1hJ21hJ277rk////77rk////////////77rk////////////////
-////77rk77rk1hJ21hJ277rk////77rk77rk////////77rk77rk////////////////77rk
-77rk1hJ21hJ277rk////77rk////////////77rk////////////////////77rk77rk1hJ2
-1hJ277rk////77rk77rk77rk////77rk77rk77rk////////////77rk77rk1hJ21hJ277rk
-////////////////////////////////////////////77rk77rk77rk77rk77rk77rk77rk
-77rk77rk77rk77rk77rk77rk77rk77rk77rk77rk////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////77rk77rk77rk77rk77rk77rk77rk77rk
+77rk77rk77rk77rk77rk77rk77rk77rk77rk1hJ21hJ277rk////////////
+////////////////////////////////77rk77rk1hJ21hJ277rk////77rk
+77rk77rk////77rk////////////////////77rk77rk1hJ21hJ277rk////
+77rk////////////77rk////////////////////77rk77rk1hJ21hJ277rk
+////77rk77rk////////77rk77rk////////////////77rk77rk1hJ21hJ2
+77rk////77rk////////////77rk////////////////////77rk77rk1hJ2
+1hJ277rk////77rk77rk77rk////77rk77rk77rk////////////77rk77rk
+1hJ21hJ277rk////////////////////////////////////////////77rk
+77rk77rk77rk77rk77rk77rk77rk77rk77rk77rk77rk77rk77rk77rk77rk
+77rk////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::EnablerStory(UML::Change)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////keKmkeKmkeKmkeKm
-keKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmRuKiRuKikeKm////////
-////////////////////////////////////keKmkeKmRuKiRuKikeKm////////keKmkeKm
-keKm////keKmkeKmkeKm////////keKmkeKmRuKiRuKikeKm////////keKm////////////
-////////////keKm////keKmkeKmRuKiRuKikeKm////////keKm////////////////////
-////keKm////keKmkeKmRuKiRuKikeKm////////keKmkeKm////////////keKmkeKm////
-////keKmkeKmRuKiRuKikeKm////////keKm////////////keKm////////////////keKm
-keKmRuKiRuKikeKm////////keKm////////////keKm////////////////keKmkeKmRuKi
-RuKikeKm////////keKmkeKmkeKm////////keKmkeKmkeKm////keKmkeKmRuKiRuKikeKm
-////////////////////////////////////////////keKmkeKmkeKmkeKmkeKmkeKmkeKm
-keKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKm////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////keKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKm
+keKmkeKmkeKmkeKmkeKmkeKmkeKmRuKiRuKikeKm////////////////////
+////////////////////////keKmkeKmRuKiRuKikeKm////////keKmkeKm
+keKm////keKmkeKmkeKm////////keKmkeKmRuKiRuKikeKm////////keKm
+////////////////////////keKm////keKmkeKmRuKiRuKikeKm////////
+keKm////////////////////////keKm////keKmkeKmRuKiRuKikeKm////
+////keKmkeKm////////////keKmkeKm////////keKmkeKmRuKiRuKikeKm
+////////keKm////////////keKm////////////////keKmkeKmRuKiRuKi
+keKm////////keKm////////////keKm////////////////keKmkeKmRuKi
+RuKikeKm////////keKmkeKmkeKm////////keKmkeKmkeKm////keKmkeKm
+RuKiRuKikeKm////////////////////////////////////////////keKm
+keKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKm
+keKm////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
@@ -177,22 +201,26 @@ keKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKmkeKm////////////////////////////////
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Epic Enabler(UML::Package)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////KufwKufwKufwKufw
-KufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKtL0KtL0Kufw////////
-////////////////////////////////////KufwKufwKtL0KtL0Kufw////KtL0KtL0KtL0
-KtL0////KtL0KtL0KtL0KtL0////KufwKufwKtL0KtL0Kufw////KtL0////////////////
-KtL0////////////////KufwKufwKtL0KtL0Kufw////KtL0////////////////KtL0////
-////////////KufwKufwKtL0KtL0Kufw////KtL0KtL0KtL0////////KtL0KtL0KtL0////
-////KufwKufwKtL0KtL0Kufw////KtL0////////////////KtL0////////////////Kufw
-KufwKtL0KtL0Kufw////KtL0////////////////KtL0////////////////KufwKufwKtL0
-KtL0Kufw////KtL0KtL0KtL0KtL0////KtL0KtL0KtL0KtL0////KufwKufwKtL0KtL0Kufw
-////////////////////////////////////////////KufwKufwKufwKufwKufwKufwKufw
-KufwKufwKufwKufwKufwKufwKufwKufwKufwKufw////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////KufwKufwKufwKufwKufwKufwKufwKufwKufwKufw
+KufwKufwKufwKufwKufwKufwKufwKtL0KtL0Kufw////////////////////
+////////////////////////KufwKufwKtL0KtL0Kufw////KtL0KtL0KtL0
+KtL0////KtL0KtL0KtL0KtL0////KufwKufwKtL0KtL0Kufw////KtL0////
+////////////KtL0////////////////KufwKufwKtL0KtL0Kufw////KtL0
+////////////////KtL0////////////////KufwKufwKtL0KtL0Kufw////
+KtL0KtL0KtL0////////KtL0KtL0KtL0////////KufwKufwKtL0KtL0Kufw
+////KtL0////////////////KtL0////////////////KufwKufwKtL0KtL0
+Kufw////KtL0////////////////KtL0////////////////KufwKufwKtL0
+KtL0Kufw////KtL0KtL0KtL0KtL0////KtL0KtL0KtL0KtL0////KufwKufw
+KtL0KtL0Kufw////////////////////////////////////////////Kufw
+KufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufw
+Kufw////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
@@ -203,211 +231,251 @@ KufwKufwKufwKufwKufwKufwKufwKufwKufwKufw////////////////////////////////
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Epic(UML::Package)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////KufwKufwKufwKufw
-KufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKtL0KtL0Kufw////////
-////////////////////////////////////KufwKufwKtL0KtL0Kufw////////////Kufw
-KufwKufwKufw////////////////KufwKufwKtL0KtL0Kufw////////////Kufw////////
-////////////////////KufwKufwKtL0KtL0Kufw////////////Kufw////////////////
-////////////KufwKufwKtL0KtL0Kufw////////////KufwKufwKufw////////////////
-////KufwKufwKtL0KtL0Kufw////////////Kufw////////////////////////////Kufw
-KufwKtL0KtL0Kufw////////////Kufw////////////////////////////KufwKufwKtL0
-KtL0Kufw////////////KufwKufwKufwKufw////////////////KufwKufwKtL0KtL0Kufw
-////////////////////////////////////////////KufwKufwKufwKufwKufwKufwKufw
-KufwKufwKufwKufwKufwKufwKufwKufwKufwKufw////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////KufwKufwKufwKufwKufwKufwKufwKufwKufwKufw
+KufwKufwKufwKufwKufwKufwKufwKtL0KtL0Kufw////////////////////
+////////////////////////KufwKufwKtL0KtL0Kufw////////////Kufw
+KufwKufwKufw////////////////KufwKufwKtL0KtL0Kufw////////////
+Kufw////////////////////////////KufwKufwKtL0KtL0Kufw////////
+////Kufw////////////////////////////KufwKufwKtL0KtL0Kufw////
+////////KufwKufwKufw////////////////////KufwKufwKtL0KtL0Kufw
+////////////Kufw////////////////////////////KufwKufwKtL0KtL0
+Kufw////////////Kufw////////////////////////////KufwKufwKtL0
+KtL0Kufw////////////KufwKufwKufwKufw////////////////KufwKufw
+KtL0KtL0Kufw////////////////////////////////////////////Kufw
+KufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufwKufw
+Kufw////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Feature(UML::Class)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL
-1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJ21hJ21hJL////////////////////////
-////////////////////1hJL1hJL1hJ21hJ21hJL////1hJL////////////////////////
-////////////1hJL1hJL1hJ21hJ21hJL////1hJL////////////////////////////////
-////1hJL1hJL1hJ21hJ21hJL////1hJL1hJL////////////////////////////////1hJL
-1hJL1hJ21hJ21hJL////1hJL////////////////////////////////////1hJL1hJL1hJ2
-1hJ21hJL////1hJL1hJL1hJL////////////////////////////1hJL1hJL1hJ21hJ21hJL
-////////////////////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL
-1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL
+1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJ21hJ21hJL////////////
+////////////////////////////////1hJL1hJL1hJ21hJ21hJL////1hJL
+////////////////////////////////////1hJL1hJL1hJ21hJ21hJL////
+1hJL////////////////////////////////////1hJL1hJL1hJ21hJ21hJL
+////1hJL1hJL////////////////////////////////1hJL1hJL1hJ21hJ2
+1hJL////1hJL////////////////////////////////////1hJL1hJL1hJ2
+1hJ21hJL////1hJL1hJL1hJL////////////////////////////1hJL1hJL
+1hJ21hJ21hJL////////////////////////////////////////////1hJL
+1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL
+1hJL////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Feature(UML::Feature)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL
-1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJ21hJ21hJL////////////////////////
-////////////////////1hJL1hJL1hJ21hJ21hJL////1hJL////////////////////////
-////////////1hJL1hJL1hJ21hJ21hJL////1hJL////////////////////////////////
-////1hJL1hJL1hJ21hJ21hJL////1hJL1hJL////////////////////////////////1hJL
-1hJL1hJ21hJ21hJL////1hJL////////////////////////////////////1hJL1hJL1hJ2
-1hJ21hJL////1hJL1hJL1hJL////////////////////////////1hJL1hJL1hJ21hJ21hJL
-////////////////////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL
-1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL
+1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJ21hJ21hJL////////////
+////////////////////////////////1hJL1hJL1hJ21hJ21hJL////1hJL
+////////////////////////////////////1hJL1hJL1hJ21hJ21hJL////
+1hJL////////////////////////////////////1hJL1hJL1hJ21hJ21hJL
+////1hJL1hJL////////////////////////////////1hJL1hJL1hJ21hJ2
+1hJL////1hJL////////////////////////////////////1hJL1hJL1hJ2
+1hJ21hJL////1hJL1hJL1hJL////////////////////////////1hJL1hJL
+1hJ21hJ21hJL////////////////////////////////////////////1hJL
+1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL
+1hJL////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Feature(UML::Package)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL
-1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJ21hJ21hJL////////////////////////
-////////////////////1hJL1hJL1hJ21hJ21hJL////1hJL////////////////////////
-////////////1hJL1hJL1hJ21hJ21hJL////1hJL////////////////////////////////
-////1hJL1hJL1hJ21hJ21hJL////1hJL1hJL////////////////////////////////1hJL
-1hJL1hJ21hJ21hJL////1hJL////////////////////////////////////1hJL1hJL1hJ2
-1hJ21hJL////1hJL1hJL1hJL////////////////////////////1hJL1hJL1hJ21hJ21hJL
-////////////////////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL
-1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL
+1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJ21hJ21hJL////////////
+////////////////////////////////1hJL1hJL1hJ21hJ21hJL////1hJL
+////////////////////////////////////1hJL1hJL1hJ21hJ21hJL////
+1hJL////////////////////////////////////1hJL1hJL1hJ21hJ21hJL
+////1hJL1hJL////////////////////////////////1hJL1hJL1hJ21hJ2
+1hJL////1hJL////////////////////////////////////1hJL1hJL1hJ2
+1hJ21hJL////1hJL1hJL1hJL////////////////////////////1hJL1hJL
+1hJ21hJ21hJL////////////////////////////////////////////1hJL
+1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL1hJL
+1hJL////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Hardening Iteration(UML::Class)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA////
-////////////////////////////////////////////////////wMDAwMDA////////////
-////////////////////////////////////////////wMDAwMDA////////////////////
-////////////////////////////////////wMDAwMDAx8fHwMDAwMDAx8fH9fX109PTwMDA
-wMDAwcHB1dXVwcHBwMDAwMDA09PTwMDAwMDA////zMzM09PT////////////3Nzcx8fH9fX1
-////7u7uxcXF5OTk////wMDAwMDA////zMzM09PT////////////3Nzcx8fH9fX1////7u7u
-xcXF5OTk////wMDAwMDA////zMzM09PT////////////3Nzcx8fH9fX1////7u7uxcXF5OTk
-////wMDAwMDA////zMzMwMDAwMDAwMDAwMDAwMDAx8fH9fX1////7u7uxcXF5OTk////wMDA
-wMDA////zMzM09PT////////////3Nzcx8fH9fX1////7u7uxcXF5OTk////wMDAwMDA////
-zMzM09PT////////////3Nzcx8fH9fX1////7u7uxcXF5OTk////wMDAwMDA////zMzM09PT
-////////////3Nzcx8fH9fX1////7u7uxcXF5OTk////wMDAwMDAx8fHwMDAwMDAx8fH9fX1
-09PTwMDAwMDAwcHB1dXVwcHBwMDAwMDA09PTwMDAwMDA////////////////////////////
-////////////////////////////wMDAwMDA////////////////////////////////////
-////////////////////wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
-wMDAwMDAwMDAwMDA</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDA////////////////////////////////////////
+////////////////wMDAwMDA////////////////////////////////////
+////////////////////wMDAwMDA////////////////////////////////
+////////////////////////wMDAwMDAx8fHwMDAwMDAx8fH9fX109PTwMDA
+wMDAwcHB1dXVwcHBwMDAwMDA09PTwMDAwMDA////zMzM09PT////////////
+3Nzcx8fH9fX1////7u7uxcXF5OTk////wMDAwMDA////zMzM09PT////////
+////3Nzcx8fH9fX1////7u7uxcXF5OTk////wMDAwMDA////zMzM09PT////
+////////3Nzcx8fH9fX1////7u7uxcXF5OTk////wMDAwMDA////zMzMwMDA
+wMDAwMDAwMDAwMDAx8fH9fX1////7u7uxcXF5OTk////wMDAwMDA////zMzM
+09PT////////////3Nzcx8fH9fX1////7u7uxcXF5OTk////wMDAwMDA////
+zMzM09PT////////////3Nzcx8fH9fX1////7u7uxcXF5OTk////wMDAwMDA
+////zMzM09PT////////////3Nzcx8fH9fX1////7u7uxcXF5OTk////wMDA
+wMDAx8fHwMDAwMDAx8fH9fX109PTwMDAwMDAwcHB1dXVwcHBwMDAwMDA09PT
+wMDAwMDA////////////////////////////////////////////////////
+////wMDAwMDA////////////////////////////////////////////////
+////////wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Iteration(UML::Class)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-lsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiW
-lsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiW////////
-////////////////////////////////////////lsiWlsiWlsiWlsiW////////////////
-////////////////////////////////lsiWlsiWlsiWlsiW////////////////qtKqlsiW
-lsiWnMuc4vDi////////////lsiWlsiWlsiWlsiW////////////////////ttm2qtKq////
-////////////////lsiWlsiWlsiWlsiW////////////////////ttm2qtKq////////////
-////////lsiWlsiWlsiWlsiW////////////////////ttm2qtKq////////////////////
-lsiWlsiWlsiWlsiW////////////////////ttm2qtKq////////////////////lsiWlsiW
-lsiWlsiW////////////////////ttm2qtKq////////////////////lsiWlsiWlsiWlsiW
-////////////////////ttm2qtKq////////////////////lsiWlsiWlsiWlsiW////////
-////////////ttm2qtKq////////////////////lsiWlsiWlsiWlsiW////////////////
-qtKqlsiWlsiWnMuc4vDi////////////lsiWlsiWlsiWlsiW////////////////////////
-////////////////////////lsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiW
-lsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiW
-lsiWlsiWlsiWlsiW</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiW
+lsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiW
+lsiWlsiWlsiWlsiWlsiWlsiWlsiW////////////////////////////////
+////////////////lsiWlsiWlsiWlsiW////////////////////////////
+////////////////////lsiWlsiWlsiWlsiW////////////////qtKqlsiW
+lsiWnMuc4vDi////////////lsiWlsiWlsiWlsiW////////////////////
+ttm2qtKq////////////////////lsiWlsiWlsiWlsiW////////////////
+////ttm2qtKq////////////////////lsiWlsiWlsiWlsiW////////////
+////////ttm2qtKq////////////////////lsiWlsiWlsiWlsiW////////
+////////////ttm2qtKq////////////////////lsiWlsiWlsiWlsiW////
+////////////////ttm2qtKq////////////////////lsiWlsiWlsiWlsiW
+////////////////////ttm2qtKq////////////////////lsiWlsiWlsiW
+lsiW////////////////////ttm2qtKq////////////////////lsiWlsiW
+lsiWlsiW////////////////qtKqlsiWlsiWnMuc4vDi////////////lsiW
+lsiWlsiWlsiW////////////////////////////////////////////////
+lsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiW
+lsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiWlsiW
+lsiWlsiWlsiWlsiW
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::PI Milestone(UML::Event)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////i9b/i9b/////////////////////////////////////
-////////////////Zsn/2vL/wun/a8r/////////////////////////////////////////
-////bsz/u+f/////////lNr/gdL/////////////////////////////////////edD/n93/
-////////////////dc7/qOH/////////////////////////////i9b/itX/////////////
-////////////Zsj/3/T/////////////////////oN7/ec//////////////////////////
-////3/T/Zsj/////////////////ven/bcz//v7+19fX0dHR7u7ut7e3+Pj4qampzs7O/f39
-qOH/dc7/////////3PT/Zsj/////////5ubm5ubmw8PDoqKi5eXlu7u73d3d////////gdL/
-lNr/////i9b/////////////5ubm3Nzcmpqa6enp09PTu7u73d3d////////////a8r/wun/
-i9b/1vD/////////5ubmsLCwvLy8////1dXVpqam3d3d////////////u+f/bs3/////Zsj/
-suT/////4ODghISE6enp////8/Pzk5OT3Nzc////////itX/bsz/////////////cMv/ldn/
-9fX19fX1////////////9fX18vLy/v7+bcz/i9b/////////////////////gNL/gNL/////
-////////////////u+f/ZMj/ven/////////////////////////////ldn/cMv/////////
-////itX/bsz/////////////////////////////////////////suT/Zsj/////bcz/i9b/
-////////////////////////////////////////////////1vD/bs3/ven/////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////i9b/i9b/////////////
+////////////////////////////////////////Zsn/2vL/wun/a8r/////
+////////////////////////////////////////bsz/u+f/////////lNr/
+gdL/////////////////////////////////////edD/n93/////////////
+////dc7/qOH/////////////////////////////i9b/itX/////////////
+////////////Zsj/3/T/////////////////////oN7/ec//////////////
+////////////////3/T/Zsj/////////////////ven/bcz//v7+19fX0dHR
+7u7ut7e3+Pj4qampzs7O/f39qOH/dc7/////////3PT/Zsj/////////5ubm
+5ubmw8PDoqKi5eXlu7u73d3d////////gdL/lNr/////i9b/////////////
+5ubm3Nzcmpqa6enp09PTu7u73d3d////////////a8r/wun/i9b/1vD/////
+////5ubmsLCwvLy8////1dXVpqam3d3d////////////u+f/bs3/////Zsj/
+suT/////4ODghISE6enp////8/Pzk5OT3Nzc////////itX/bsz/////////
+////cMv/ldn/9fX19fX1////////////9fX18vLy/v7+bcz/i9b/////////
+////////////gNL/gNL/////////////////////u+f/ZMj/ven/////////
+////////////////////ldn/cMv/////////////itX/bsz/////////////
+////////////////////////////suT/Zsj/////bcz/i9b/////////////
+////////////////////////////////////1vD/bs3/ven/////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Planning &amp; Innovation Iteration(UML::Class)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////AAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////
-////////////////////////////////////////////AAAAAAAA////////////////////
-////////////////////////////////////AAAAAAAAZ2dnAAAALy8v2NjY////9vb2Z2dn
-AAAAAAAAtra2R0dHAAAALy8v2NjYAAAAAAAA9vb2dXV12NjY////////////////goKCxMTE
-////9vb2dXV12NjY////AAAAAAAA9vb2dXV12NjY////////////////goKCxMTE////9vb2
-dXV12NjY////AAAAAAAA9vb2Z2dnAAAAAAAAZ2dn9vb2////goKCxMTE////9vb2dXV12NjY
-////AAAAAAAA9vb2dXV12NjY////goKCpKSk////goKCxMTE////9vb2dXV12NjY////AAAA
-AAAA9vb2dXV12NjY////xMTEgoKC////goKCxMTE////9vb2dXV12NjY////AAAAAAAA9vb2
-dXV12NjY////goKCpKSk////goKCxMTE////9vb2dXV12NjY////AAAAAAAAZ2dnAAAAAAAA
-AAAAZ2dn7u7uZ2dnAAAAAAAAtra2R0dHAAAALy8v2NjYAAAAAAAA////////////////////
-////////////////////////////////////AAAAAAAA////////////////////////////
-////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////
+////////////////////AAAAAAAA////////////////////////////////
+////////////////////////AAAAAAAAZ2dnAAAALy8v2NjY////9vb2Z2dn
+AAAAAAAAtra2R0dHAAAALy8v2NjYAAAAAAAA9vb2dXV12NjY////////////
+////goKCxMTE////9vb2dXV12NjY////AAAAAAAA9vb2dXV12NjY////////
+////////goKCxMTE////9vb2dXV12NjY////AAAAAAAA9vb2Z2dnAAAAAAAA
+Z2dn9vb2////goKCxMTE////9vb2dXV12NjY////AAAAAAAA9vb2dXV12NjY
+////goKCpKSk////goKCxMTE////9vb2dXV12NjY////AAAAAAAA9vb2dXV1
+2NjY////xMTEgoKC////goKCxMTE////9vb2dXV12NjY////AAAAAAAA9vb2
+dXV12NjY////goKCpKSk////goKCxMTE////9vb2dXV12NjY////AAAAAAAA
+Z2dnAAAAAAAAAAAAZ2dn7u7uZ2dnAAAAAAAAtra2R0dHAAAALy8v2NjYAAAA
+AAAA////////////////////////////////////////////////////////
+AAAAAAAA////////////////////////////////////////////////////
+////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Planning Increment(UML::Class)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/////
-////////////////////////////////////////////////////Gcj/Gcj/////////////
-////////////////////////////////////////////Gcj/Gcj/////////////////////
-////////////////////////////////////Gcj/Gcj/2Pb/NM7/Gcj/Gcj/NM7/2Pb/////
-////gOH/Gcj/Gcj/Gcj/gOH/////Gcj/Gcj/////////RdL/X9n/////////////////////
-muf/Lc3/v/D/////////Gcj/Gcj/////////RdL/X9n/////////////////////muf/Lc3/
-v/D/////////Gcj/Gcj/////////RdL/X9n/////////////////////muf/Lc3/v/D/////
-////Gcj/Gcj/////////RdL/Gcj/Gcj/Gcj/NM7/2Pb/////muf/Lc3/v/D/////////Gcj/
-Gcj/////////RdL/X9n/////v/D/Jsv/RdL/////muf/Lc3/v/D/////////Gcj/Gcj/////
-////RdL/X9n/////////RdL/NM7/2Pb/muf/Lc3/v/D/////////Gcj/Gcj/////////RdL/
-X9n/////muf/H8n/RdL/////muf/Lc3/v/D/////////Gcj/Gcj/2Pb/NM7/Gcj/Gcj/Gcj/
-Gcj/RdL/////gOH/Gcj/Gcj/Gcj/gOH/////Gcj/Gcj/////////////////////////////
-////////////////////////////Gcj/Gcj/////////////////////////////////////
-////////////////////Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/
-Gcj/Gcj/Gcj/Gcj/</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAGcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/
+Gcj/Gcj/Gcj/Gcj/Gcj/////////////////////////////////////////
+////////////////Gcj/Gcj/////////////////////////////////////
+////////////////////Gcj/Gcj/////////////////////////////////
+////////////////////////Gcj/Gcj/2Pb/NM7/Gcj/Gcj/NM7/2Pb/////
+////gOH/Gcj/Gcj/Gcj/gOH/////Gcj/Gcj/////////RdL/X9n/////////
+////////////muf/Lc3/v/D/////////Gcj/Gcj/////////RdL/X9n/////
+////////////////muf/Lc3/v/D/////////Gcj/Gcj/////////RdL/X9n/
+////////////////////muf/Lc3/v/D/////////Gcj/Gcj/////////RdL/
+Gcj/Gcj/Gcj/NM7/2Pb/////muf/Lc3/v/D/////////Gcj/Gcj/////////
+RdL/X9n/////v/D/Jsv/RdL/////muf/Lc3/v/D/////////Gcj/Gcj/////
+////RdL/X9n/////////RdL/NM7/2Pb/muf/Lc3/v/D/////////Gcj/Gcj/
+////////RdL/X9n/////muf/H8n/RdL/////muf/Lc3/v/D/////////Gcj/
+Gcj/2Pb/NM7/Gcj/Gcj/Gcj/Gcj/RdL/////gOH/Gcj/Gcj/Gcj/gOH/////
+Gcj/Gcj/////////////////////////////////////////////////////
+////Gcj/Gcj/////////////////////////////////////////////////
+////////Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/
+Gcj/Gcj/Gcj/Gcj/
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Product Release(UML::Class)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-WsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWtKA
-WtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWsgqWsgqWtKA////////
-////////////////////////////////////////WtKAWsgqWsgqWtKA////3/XWZsw5seWa
-////////////7vrpctBJZsw53/XW////WtKAWsgqWsgqWtKA////3/XWZsw5seWa////////
-////seWaX8kxxey0////////WtKAWsgqWsgqWtKA////3/XWZsw5seWa////////3/XWZsw5
-ltx3////////////WtKAWsgqWsgqWtKA////3/XWZsw5seWa////7vrpctBJgNRb////////
-////////WtKAWsgqWsgqWtKA////3/XWZsw5WsgqWsgqWsgqWsgqX8kxxey0////////////
-WtKAWsgqWsgqWtKA////3/XWZsw5seWa////////////ltx3Zsw53/XW////////WtKAWsgq
-WsgqWtKA////3/XWZsw5seWa////////////3/XWZsw5seWa////////WtKAWsgqWsgqWtKA
-////3/XWZsw5seWa////////////3/XWZsw5seWa////////WtKAWsgqWsgqWtKA////3/XW
-Zsw5seWa////////////ltx3Zsw53/XW////////WtKAWsgqWsgqWtKA////3/XWZsw5Wsgq
-WsgqWsgqWsgqWsgqseWa////////////WtKAWsgqWsgqWtKA////////////////////////
-////////////////////////WtKAWsgqWsgqWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKA
-WtKAWtKAWtKAWtKAWtKAWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgq
-WsgqWsgqWsgqWsgq</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgq
+WsgqWsgqWsgqWsgqWsgqWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKA
+WtKAWtKAWtKAWtKAWsgqWsgqWtKA////////////////////////////////
+////////////////WtKAWsgqWsgqWtKA////3/XWZsw5seWa////////////
+7vrpctBJZsw53/XW////WtKAWsgqWsgqWtKA////3/XWZsw5seWa////////
+////seWaX8kxxey0////////WtKAWsgqWsgqWtKA////3/XWZsw5seWa////
+////3/XWZsw5ltx3////////////WtKAWsgqWsgqWtKA////3/XWZsw5seWa
+////7vrpctBJgNRb////////////////WtKAWsgqWsgqWtKA////3/XWZsw5
+WsgqWsgqWsgqWsgqX8kxxey0////////////WtKAWsgqWsgqWtKA////3/XW
+Zsw5seWa////////////ltx3Zsw53/XW////////WtKAWsgqWsgqWtKA////
+3/XWZsw5seWa////////////3/XWZsw5seWa////////WtKAWsgqWsgqWtKA
+////3/XWZsw5seWa////////////3/XWZsw5seWa////////WtKAWsgqWsgq
+WtKA////3/XWZsw5seWa////////////ltx3Zsw53/XW////////WtKAWsgq
+WsgqWtKA////3/XWZsw5WsgqWsgqWsgqWsgqWsgqseWa////////////WtKA
+WsgqWsgqWtKA////////////////////////////////////////////////
+WtKAWsgqWsgqWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKAWtKA
+WtKAWtKAWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgqWsgq
+WsgqWsgqWsgqWsgq
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
@@ -418,190 +486,226 @@ WsgqWsgqWsgqWsgq</Icon>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Program Increment(UML::Class)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/////
-////////////////////////////////////////////////////Gcj/Gcj/////////////
-////////////////////////////////////////////Gcj/Gcj/////////////////////
-////////////////////////////////////Gcj/Gcj/2Pb/NM7/Gcj/Gcj/NM7/2Pb/////
-////gOH/Gcj/Gcj/Gcj/gOH/////Gcj/Gcj/////////RdL/X9n/////////////////////
-muf/Lc3/v/D/////////Gcj/Gcj/////////RdL/X9n/////////////////////muf/Lc3/
-v/D/////////Gcj/Gcj/////////RdL/X9n/////////////////////muf/Lc3/v/D/////
-////Gcj/Gcj/////////RdL/Gcj/Gcj/Gcj/NM7/2Pb/////muf/Lc3/v/D/////////Gcj/
-Gcj/////////RdL/X9n/////v/D/Jsv/RdL/////muf/Lc3/v/D/////////Gcj/Gcj/////
-////RdL/X9n/////////RdL/NM7/2Pb/muf/Lc3/v/D/////////Gcj/Gcj/////////RdL/
-X9n/////muf/H8n/RdL/////muf/Lc3/v/D/////////Gcj/Gcj/2Pb/NM7/Gcj/Gcj/Gcj/
-Gcj/RdL/////gOH/Gcj/Gcj/Gcj/gOH/////Gcj/Gcj/////////////////////////////
-////////////////////////////Gcj/Gcj/////////////////////////////////////
-////////////////////Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/
-Gcj/Gcj/Gcj/Gcj/</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAAGcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/
+Gcj/Gcj/Gcj/Gcj/Gcj/////////////////////////////////////////
+////////////////Gcj/Gcj/////////////////////////////////////
+////////////////////Gcj/Gcj/////////////////////////////////
+////////////////////////Gcj/Gcj/2Pb/NM7/Gcj/Gcj/NM7/2Pb/////
+////gOH/Gcj/Gcj/Gcj/gOH/////Gcj/Gcj/////////RdL/X9n/////////
+////////////muf/Lc3/v/D/////////Gcj/Gcj/////////RdL/X9n/////
+////////////////muf/Lc3/v/D/////////Gcj/Gcj/////////RdL/X9n/
+////////////////////muf/Lc3/v/D/////////Gcj/Gcj/////////RdL/
+Gcj/Gcj/Gcj/NM7/2Pb/////muf/Lc3/v/D/////////Gcj/Gcj/////////
+RdL/X9n/////v/D/Jsv/RdL/////muf/Lc3/v/D/////////Gcj/Gcj/////
+////RdL/X9n/////////RdL/NM7/2Pb/muf/Lc3/v/D/////////Gcj/Gcj/
+////////RdL/X9n/////muf/H8n/RdL/////muf/Lc3/v/D/////////Gcj/
+Gcj/2Pb/NM7/Gcj/Gcj/Gcj/Gcj/RdL/////gOH/Gcj/Gcj/Gcj/gOH/////
+Gcj/Gcj/////////////////////////////////////////////////////
+////Gcj/Gcj/////////////////////////////////////////////////
+////////Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/Gcj/
+Gcj/Gcj/Gcj/Gcj/
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Release Candidate Build(UML::Object)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////wf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+I////////////////////////wf+Iwf+J
-wf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+Jwf+I////////////wf+Iwf+I////////////
-////////////////////////////wf+Iwf+I////wf+Iwf+I////////////////////////
-////////////////////////wf+Iwf+Iwf+J////////////////////////+/v79PT0////
-////////////////////wf+Jwf+Ifn5+9vb2wcHBoKCg9vb2ra2tpaWl5eXlyMjI9fX1urq6
-hYWF2NjYh4eHwf+Iwf+Ijo6O39/fjY2N+/v71NTUhoaG/Pz8/////v7+/f39xMTEpKSk////
-19fXwf+Iwf+IZGRkc3Nz0NDQ////xMTEpKSk////////////////xMTEh4eHysrKgYGBwf+I
-wf+Ijo6O+/v7goKC2NjY1NTUmJiY////////+/v79vb2xMTEpKSk////t7e3wf+Iwf+Ijo6O
-9PT0enp639/f+/v7oqKi4+Pj////ysrK3d3dxMTEpKSk/f39paWlwf+Iwf+J7Ozs7Ozs9vb2
-/////////f392tra0tLS7Ozs+Pj48PDw7Ozs7Ozs8/Pzwf+Jwf+Iwf+I////////////////
-////////////////////////////////wf+Iwf+I////wf+Iwf+I////////////////////
-////////////////////wf+Iwf+I////////////wf+Iwf+Jwf+Iwf+Iwf+Iwf+Iwf+Iwf+I
-wf+Iwf+Iwf+Jwf+I////////////////////////wf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+I
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////wf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+I
+wf+I////////////////////////wf+Iwf+Jwf+Iwf+Iwf+Iwf+Iwf+Iwf+I
+wf+Iwf+Iwf+Jwf+I////////////wf+Iwf+I////////////////////////
+////////////////wf+Iwf+I////wf+Iwf+I////////////////////////
+////////////////////////wf+Iwf+Iwf+J////////////////////////
++/v79PT0////////////////////////wf+Jwf+Ifn5+9vb2wcHBoKCg9vb2
+ra2tpaWl5eXlyMjI9fX1urq6hYWF2NjYh4eHwf+Iwf+Ijo6O39/fjY2N+/v7
+1NTUhoaG/Pz8/////v7+/f39xMTEpKSk////19fXwf+Iwf+IZGRkc3Nz0NDQ
+////xMTEpKSk////////////////xMTEh4eHysrKgYGBwf+Iwf+Ijo6O+/v7
+goKC2NjY1NTUmJiY////////+/v79vb2xMTEpKSk////t7e3wf+Iwf+Ijo6O
+9PT0enp639/f+/v7oqKi4+Pj////ysrK3d3dxMTEpKSk/f39paWlwf+Iwf+J
+7Ozs7Ozs9vb2/////////f392tra0tLS7Ozs+Pj48PDw7Ozs7Ozs8/Pzwf+J
+wf+Iwf+I////////////////////////////////////////////////wf+I
+wf+I////wf+Iwf+I////////////////////////////////////////wf+I
+wf+I////////////wf+Iwf+Jwf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+J
+wf+I////////////////////////wf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+Iwf+I
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Solution(UML::Class)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////1XcR1XcR1XcR1XcR
-1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR9vsO9vsO1XcR////////
-////////////////////////////////////1XcR1XcR9vsO9vsO1XcR////////////1XcR
-1XcR1XcR////////////////////1XcR1XcR9vsO9vsO1XcR////////////////////////
-1XcR////////////////1XcR1XcR9vsO9vsO1XcR////////////////////////1XcR////
-////////////1XcR1XcR9vsO9vsO1XcR////////////////1XcR1XcR////////////////
-////1XcR1XcR9vsO9vsO1XcR////////////1XcR////////////////////////////1XcR
-1XcR9vsO9vsO1XcR////////////1XcR////////////////////////////1XcR1XcR9vsO
-9vsO1XcR////////////////1XcR1XcR1XcR////////////////1XcR1XcR9vsO9vsO1XcR
-////////////////////////////////////////////1XcR1XcR1XcR1XcR1XcR1XcR1XcR
-1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR
+1XcR1XcR1XcR1XcR1XcR1XcR1XcR9vsO9vsO1XcR////////////////////
+////////////////////////1XcR1XcR9vsO9vsO1XcR////////////1XcR
+1XcR1XcR////////////////////1XcR1XcR9vsO9vsO1XcR////////////
+////////////1XcR////////////////1XcR1XcR9vsO9vsO1XcR////////
+////////////////1XcR////////////////1XcR1XcR9vsO9vsO1XcR////
+////////////1XcR1XcR////////////////////1XcR1XcR9vsO9vsO1XcR
+////////////1XcR////////////////////////////1XcR1XcR9vsO9vsO
+1XcR////////////1XcR////////////////////////////1XcR1XcR9vsO
+9vsO1XcR////////////////1XcR1XcR1XcR////////////////1XcR1XcR
+9vsO9vsO1XcR////////////////////////////////////////////1XcR
+1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR1XcR
+1XcR////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Spike(UML::Task)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////AP8AAP8AAP8AAP8AAP8AAP8A
-AP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AEbULEbULAP8L////////////////
-////////////////////////////AP8AAP8AEbULEbULAP8L////////////AP8AAP8A////
-////AP8A////////////AP8AAP8AEbULEbULAP8L////////////////////AP8A////AP8A
-////////////AP8AAP8AEbULEbULAP8L////////////////////AP8A////Qf9B////////
-////AP8AAP8AEbULEbULAP8L////////////AP8AAP8A////////AP8A////////////AP8A
-AP8AEbULEbULAP8L////////AP8A////////////////Qf9BAP8AQf9B////AP8AAP8AEbUL
-EbULAP8L////////AP8A////////////////Qf9B////Qf9B////AP8AAP8AEbULEbULAP8L
-////////////AP8AAP8A////////Qf9BQP9AQP9A////AP8AAP8AEbULEbULAP8L////////
-////////////////////////////////////AP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8A
-AP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8A////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////AP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8A
+AP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AEbULEbULAP8L////////////////
+////////////////////////////AP8AAP8AEbULEbULAP8L////////////
+AP8AAP8A////////AP8A////////////AP8AAP8AEbULEbULAP8L////////
+////////////AP8A////AP8A////////////AP8AAP8AEbULEbULAP8L////
+////////////////AP8A////Qf9B////////////AP8AAP8AEbULEbULAP8L
+////////////AP8AAP8A////////AP8A////////////AP8AAP8AEbULEbUL
+AP8L////////AP8A////////////////Qf9BAP8AQf9B////AP8AAP8AEbUL
+EbULAP8L////////AP8A////////////////Qf9B////Qf9B////AP8AAP8A
+EbULEbULAP8L////////////AP8AAP8A////////Qf9BQP9AQP9A////AP8A
+AP8AEbULEbULAP8L////////////////////////////////////////////
+AP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8A
+AP8AAP8A////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::Technical Dbet(UML::Feature)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
-AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/////////////////////////////////////
-////////////////////AAD/AAD/////////6+v/d3f/9fX/////wMD/YGD/e3v/UlL/q6v/
-/v7/////////AAD/AAD/////////6+v/d3f/9fX/////wMD/wMD/////+/v/goL/3t7/////
-////AAD/AAD/////////6+v/d3f/9fX/////wMD/wMD/////////nZ3/wMD/////////AAD/
-AAD/////////6+v/d3f/9fX/////wMD/wMD/////////n5//w8P/////////AAD/AAD/////
-////6+v/d3f/9fX/////wMD/wMD/////8fH/cnL/5eX/////////AAD/AAD/9/f/cXH/Njb/
-Njb/Njb/iYn/yMj/Njb/Njb/cXH/3d3/////////////AAD/AAD/////////////////////
-////////////////////////////////////AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
-AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/////////////////////////
+////////////////////////////////AAD/AAD/////////6+v/d3f/9fX/
+////wMD/YGD/e3v/UlL/q6v//v7/////////AAD/AAD/////////6+v/d3f/
+9fX/////wMD/wMD/////+/v/goL/3t7/////////AAD/AAD/////////6+v/
+d3f/9fX/////wMD/wMD/////////nZ3/wMD/////////AAD/AAD/////////
+6+v/d3f/9fX/////wMD/wMD/////////n5//w8P/////////AAD/AAD/////
+////6+v/d3f/9fX/////wMD/wMD/////8fH/cnL/5eX/////////AAD/AAD/
+9/f/cXH/Njb/Njb/Njb/iYn/yMj/Njb/Njb/cXH/3d3/////////////AAD/
+AAD/////////////////////////////////////////////////////////
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::TechnicalDebt(UML::Class)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
-AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/////////////////////////////////////
-////////////////////AAD/AAD/////////6+v/d3f/9fX/////wMD/YGD/e3v/UlL/q6v/
-/v7/////////AAD/AAD/////////6+v/d3f/9fX/////wMD/wMD/////+/v/goL/3t7/////
-////AAD/AAD/////////6+v/d3f/9fX/////wMD/wMD/////////nZ3/wMD/////////AAD/
-AAD/////////6+v/d3f/9fX/////wMD/wMD/////////n5//w8P/////////AAD/AAD/////
-////6+v/d3f/9fX/////wMD/wMD/////8fH/cnL/5eX/////////AAD/AAD/9/f/cXH/Njb/
-Njb/Njb/iYn/yMj/Njb/Njb/cXH/3d3/////////////AAD/AAD/////////////////////
-////////////////////////////////////AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
-AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/////////////////////////
+////////////////////////////////AAD/AAD/////////6+v/d3f/9fX/
+////wMD/YGD/e3v/UlL/q6v//v7/////////AAD/AAD/////////6+v/d3f/
+9fX/////wMD/wMD/////+/v/goL/3t7/////////AAD/AAD/////////6+v/
+d3f/9fX/////wMD/wMD/////////nZ3/wMD/////////AAD/AAD/////////
+6+v/d3f/9fX/////wMD/wMD/////////n5//w8P/////////AAD/AAD/////
+////6+v/d3f/9fX/////wMD/wMD/////8fH/cnL/5eX/////////AAD/AAD/
+9/f/cXH/Njb/Njb/Njb/iYn/yMj/Njb/Njb/cXH/3d3/////////////AAD/
+AAD/////////////////////////////////////////////////////////
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::TechnicalDebt(UML::Feature)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
-AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/////////////////////////////////////
-////////////////////AAD/AAD/////////6+v/d3f/9fX/////wMD/YGD/e3v/UlL/q6v/
-/v7/////////AAD/AAD/////////6+v/d3f/9fX/////wMD/wMD/////+/v/goL/3t7/////
-////AAD/AAD/////////6+v/d3f/9fX/////wMD/wMD/////////nZ3/wMD/////////AAD/
-AAD/////////6+v/d3f/9fX/////wMD/wMD/////////n5//w8P/////////AAD/AAD/////
-////6+v/d3f/9fX/////wMD/wMD/////8fH/cnL/5eX/////////AAD/AAD/9/f/cXH/Njb/
-Njb/Njb/iYn/yMj/Njb/Njb/cXH/3d3/////////////AAD/AAD/////////////////////
-////////////////////////////////////AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
-AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/////////////////////////
+////////////////////////////////AAD/AAD/////////6+v/d3f/9fX/
+////wMD/YGD/e3v/UlL/q6v//v7/////////AAD/AAD/////////6+v/d3f/
+9fX/////wMD/wMD/////+/v/goL/3t7/////////AAD/AAD/////////6+v/
+d3f/9fX/////wMD/wMD/////////nZ3/wMD/////////AAD/AAD/////////
+6+v/d3f/9fX/////wMD/wMD/////////n5//w8P/////////AAD/AAD/////
+////6+v/d3f/9fX/////wMD/wMD/////8fH/cnL/5eX/////////AAD/AAD/
+9/f/cXH/Njb/Njb/Njb/iYn/yMj/Njb/Njb/cXH/3d3/////////////AAD/
+AAD/////////////////////////////////////////////////////////
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::UserStory(UML::Change)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////ZO4HZO4HZO4HZO4H
-ZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4Hj+68j+68ZO4H////////
-////////////////////////////////////ZO4HZO4Hj+68j+68ZO4H////////ZO4HZO4H
-////////////ZO4HZO4H////////ZO4HZO4Hj+68j+68ZO4H////ZO4H////////ZO4H////
-////////////ZO4H////ZO4HZO4Hj+68j+68ZO4H////ZO4H////////ZO4H////////////
-////ZO4H////ZO4HZO4Hj+68j+68ZO4H////ZO4H////////ZO4H////////ZO4HZO4H////
-////ZO4HZO4Hj+68j+68ZO4H////ZO4H////////ZO4H////ZO4H////////////////ZO4H
-ZO4Hj+68j+68ZO4H////ZO4H////////ZO4H////ZO4H////////////////ZO4HZO4Hj+68
-j+68ZO4H////ZO4H////////ZO4H////////ZO4HZO4H////////ZO4HZO4Hj+68j+68ZO4H
-////////////////////////////////////////////ZO4HZO4HZO4HZO4HZO4HZO4HZO4H
-ZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4H////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////ZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4H
+ZO4HZO4HZO4HZO4HZO4HZO4HZO4Hj+68j+68ZO4H////////////////////
+////////////////////////ZO4HZO4Hj+68j+68ZO4H////////ZO4HZO4H
+////////////ZO4HZO4H////////ZO4HZO4Hj+68j+68ZO4H////ZO4H////
+////ZO4H////////////////ZO4H////ZO4HZO4Hj+68j+68ZO4H////ZO4H
+////////ZO4H////////////////ZO4H////ZO4HZO4Hj+68j+68ZO4H////
+ZO4H////////ZO4H////////ZO4HZO4H////////ZO4HZO4Hj+68j+68ZO4H
+////ZO4H////////ZO4H////ZO4H////////////////ZO4HZO4Hj+68j+68
+ZO4H////ZO4H////////ZO4H////ZO4H////////////////ZO4HZO4Hj+68
+j+68ZO4H////ZO4H////////ZO4H////////ZO4HZO4H////////ZO4HZO4H
+j+68j+68ZO4H////////////////////////////////////////////ZO4H
+ZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4HZO4H
+ZO4H////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="MBSE for SAFe 5.0::V&amp;V Testing Activity(UML::Test)" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////tmxrtmxrtmxrtmxr
-tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
-////////////////////////////////////////////+PDwxYuL7tzb////+/b2zZubzpyb
-y5aWzJiX7NnZ////8ePjxImI9erq////////58/P2bOy2bOy//7+6NHR2rW0//7+2rW0y5aW
-/fv7////3ry82rW04cLB/////vz81qys9evr1aqp9erq9+7tzp2c3Lm40qWk4sTE+PDw+/b2
-1aqp9u3t06am+/b28ePj16+v//7+58/P5MnJ////7tzbwIB/3Li4/fv7////6dLS37+/////
-3ry87tzb37+/6dLS////+PDw06em/Pn52LGw797e2rSz8OHh//7+16+v8ePj////8ePj16+v
-1aqp+PHx////////27a18OHh8OHhyZKR06em/Pn59+7u1aur/Pn5/////fr61q2s////////
-////////////////////////////////////////////////////////tmxrtmxrtmxrtmxr
-tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Icon>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr
+tmxrtmxrtmxrtmxrtmxrtmxr////////////////////////////////////
+////////////////////////////////+PDwxYuL7tzb////+/b2zZubzpyb
+y5aWzJiX7NnZ////8ePjxImI9erq////////58/P2bOy2bOy//7+6NHR2rW0
+//7+2rW0y5aW/fv7////3ry82rW04cLB/////vz81qys9evr1aqp9erq9+7t
+zp2c3Lm40qWk4sTE+PDw+/b21aqp9u3t06am+/b28ePj16+v//7+58/P5MnJ
+////7tzbwIB/3Li4/fv7////6dLS37+/////3ry87tzb37+/6dLS////+PDw
+06em/Pn52LGw797e2rSz8OHh//7+16+v8ePj////8ePj16+v1aqp+PHx////
+////27a18OHh8OHhyZKR06em/Pn59+7u1aur/Pn5/////fr61q2s////////
+////////////////////////////////////////////////////////tmxr
+tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Icon>
 				<AppliesTo>
 					<Apply type="ToolboxItemImage"/>
 				</AppliesTo>
@@ -628,27 +732,27 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="" type="" description="" unit="" values="" default="Realize"/>
+					<Tag name="MBSE for SAFe 5.0::Concern(UML::Class)" type="" description="" unit="" values="" default="Concern"/>
 					<Tag name="MBSE for SAFe 5.0::Goal(UML::UseCase)" type="" description="" unit="" values="" default="Goal"/>
 					<Tag name="MBSE for SAFe 5.0::Job(UML::UseCase)" type="" description="" unit="" values="" default="Job"/>
 					<Tag name="MBSE for SAFe 5.0::Operational Objective(UML::UseCase)" type="" description="" unit="" values="" default="Operational Objective"/>
+					<Tag name="MBSE for SAFe 5.0::Owns(UML::Association)" type="" description="" unit="" values="" default="Owns"/>
+					<Tag name="MBSE for SAFe 5.0::Persona(UML::Actor)" type="" description="" unit="" values="" default="Persona"/>
+					<Tag name="MBSE for SAFe 5.0::Responsibility (UML::Class)" type="" description="" unit="" values="" default="Responsibility"/>
 					<Tag name="MBSE for SAFe 5.0::Scenario(UML::UseCase)" type="" description="" unit="" values="" default="Scenario"/>
+					<Tag name="MBSE for SAFe 5.0::Stakeholder(UML::Actor)" type="" description="" unit="" values="" default="Stakeholder"/>
 					<Tag name="MBSE for SAFe 5.0::Stakeholer Goal(UML::UseCase)" type="" description="" unit="" values="" default="Stakeholder Goal"/>
 					<Tag name="MBSE for SAFe 5.0::SubSystemUseCase(UML::UseCase)" type="" description="" unit="" values="" default="Subsystem Use Case"/>
 					<Tag name="MBSE for SAFe 5.0::SystemUseCase(UML::UseCase)" type="" description="" unit="" values="" default="System Use Case"/>
 					<Tag name="MBSE for SAFe 5.0::Use Case(UML::UseCase)" type="" description="" unit="" values="" default="Use Case"/>
 					<Tag name="MBSE for SAFe 5.0::Viewpoint(UML::Class)" type="" description="" unit="" values="" default="View Point"/>
+					<Tag name="UML::Actor" type="" description="" unit="" values="" default="Actor"/>
 					<Tag name="UML::Association" type="" description="" unit="" values="" default="Associate"/>
 					<Tag name="UML::Generalization" type="" description="" unit="" values="" default="Generalize"/>
 					<Tag name="UML::Realization" type="" description="" unit="" values="" default="Realize"/>
 					<Tag name="UML::UCExtend" type="" description="" unit="" values="" default="Extend"/>
 					<Tag name="UML::UCInclude" type="" description="" unit="" values="" default="Include"/>
 					<Tag name="UML::UseCaseLink" type="" description="" unit="" values="" default="Use"/>
-					<Tag name="MBSE for SAFe 5.0::Concern(UML::Class)" type="" description="" unit="" values="" default="Concern"/>
-					<Tag name="MBSE for SAFe 5.0::Owns(UML::Association)" type="" description="" unit="" values="" default="Owns"/>
-					<Tag name="MBSE for SAFe 5.0::Persona(UML::Actor)" type="" description="" unit="" values="" default="Persona"/>
-					<Tag name="MBSE for SAFe 5.0::Responsibility (UML::Class)" type="" description="" unit="" values="" default="Responsibility"/>
-					<Tag name="MBSE for SAFe 5.0::Stakeholder(UML::Actor)" type="" description="" unit="" values="" default="Stakeholder"/>
-					<Tag name="UML::Actor" type="" description="" unit="" values="" default="Actor"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Model Structure Toolbox" notes="This is for model pattern creation" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -684,25 +788,25 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="MBSE for SAFe 5.0::Blocker(UML::Task)" type="" description="" unit="" values="" default="Blocker"/>
-					<Tag name="MBSE for SAFe 5.0::Epic(UML::Feature)" type="" description="" unit="" values="" default="Epic"/>
-					<Tag name="MBSE for SAFe 5.0::Feature(UML::Feature)" type="" description="" unit="" values="" default="Feature"/>
-					<Tag name="MBSE for SAFe 5.0::TechnicalDebt(UML::Class)" type="" description="" unit="" values="" default="Technical Debt"/>
 					<Tag name="MBSE for SAFe 5.0::510 Submittal(UML::Object)" type="" description="" unit="" values="" default="510 Submittal"/>
 					<Tag name="MBSE for SAFe 5.0::Action Item(UML::Task)" type="" description="" unit="" values="" default="Action Item"/>
 					<Tag name="MBSE for SAFe 5.0::Backlog(UML::Package)" type="" description="" unit="" values="" default="Backlog"/>
+					<Tag name="MBSE for SAFe 5.0::Blocker(UML::Task)" type="" description="" unit="" values="" default="Blocker"/>
 					<Tag name="MBSE for SAFe 5.0::Capability(UML::Class)" type="" description="" unit="" values="" default="Capability Depreciated"/>
-					<Tag name="MBSE for SAFe 5.0::Capability(UML::Package)" type="" description="" unit="" values="" default="Capability"/>
+					<Tag name="MBSE for SAFe 5.0::Capability(UML::Feature)" type="" description="" unit="" values="" default="Capability"/>
 					<Tag name="MBSE for SAFe 5.0::EnablerCapability(UML::Class)" type="" description="" unit="" values="" default="EnablerCapability"/>
 					<Tag name="MBSE for SAFe 5.0::EnablerFeature(UML::Feature)" type="" description="" unit="" values="" default="EnablerFeature"/>
 					<Tag name="MBSE for SAFe 5.0::EnablerStory(UML::Change)" type="" description="" unit="" values="" default="EnablerStory"/>
 					<Tag name="MBSE for SAFe 5.0::Epic Enabler(UML::Package)" type="" description="" unit="" values="" default="EpicEnabler"/>
+					<Tag name="MBSE for SAFe 5.0::Epic(UML::Feature)" type="" description="" unit="" values="" default="Epic"/>
 					<Tag name="MBSE for SAFe 5.0::Epic(UML::Package)" type="" description="" unit="" values="" default="Epic (Depreciated)"/>
+					<Tag name="MBSE for SAFe 5.0::Feature(UML::Feature)" type="" description="" unit="" values="" default="Feature"/>
 					<Tag name="MBSE for SAFe 5.0::Program Epic(UML::Package)" type="" description="" unit="" values="" default="ProgramEpic"/>
 					<Tag name="MBSE for SAFe 5.0::Project(UML::Class)" type="" description="" unit="" values="" default="Project"/>
 					<Tag name="MBSE for SAFe 5.0::Solution(UML::Class)" type="" description="" unit="" values="" default="Solution"/>
 					<Tag name="MBSE for SAFe 5.0::Spike(UML::Task)" type="" description="" unit="" values="" default="Spike"/>
 					<Tag name="MBSE for SAFe 5.0::Task(UML::Task)" type="" description="" unit="" values="" default="Task"/>
+					<Tag name="MBSE for SAFe 5.0::TechnicalDebt(UML::Class)" type="" description="" unit="" values="" default="Technical Debt"/>
 					<Tag name="MBSE for SAFe 5.0::UserStory(UML::Change)" type="" description="" unit="" values="" default="UserStory"/>
 				</TaggedValues>
 			</Stereotype>
@@ -711,18 +815,18 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr////////////////////////
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="MBSE for SAFe 5.0::Sprint(UML::Class)" type="" description="" unit="" values="" default="Sprint"/>
-					<Tag name="MBSE for SAFe 5.0::TechnicalRisk(UML::Risk)" type="" description="" unit="" values="" default="TechnicalRisk"/>
 					<Tag name="MBSE for SAFe 5.0::Calendar Year(UML::Object)" type="" description="" unit="" values="" default="Calendar Year"/>
-					<Tag name="MBSE for SAFe 5.0::Iteration(UML::Class)" type="" description="" unit="" values="" default="Iteration"/>
-					<Tag name="MBSE for SAFe 5.0::Quarter(UML::Object)" type="" description="" unit="" values="" default="Quarter"/>
-					<Tag name="MBSE for SAFe 5.0::Release Candidate Build(UML::Object)" type="" description="" unit="" values="" default="Release Candidate Build"/>
 					<Tag name="MBSE for SAFe 5.0::Hardening Iteration(UML::Class)" type="" description="" unit="" values="" default="Hardening Iteration"/>
-					<Tag name="MBSE for SAFe 5.0::Program Increment(UML::Class)" type="" description="" unit="" values="" default="Program Increment"/>
-					<Tag name="MBSE for SAFe 5.0::V&amp;V Testing Activity(UML::Test)" type="" description="" unit="" values="" default="V&amp;V Testing"/>
+					<Tag name="MBSE for SAFe 5.0::Iteration(UML::Class)" type="" description="" unit="" values="" default="Iteration"/>
+					<Tag name="MBSE for SAFe 5.0::PI Milestone(UML::Event)" type="" description="" unit="" values="" default="PI Milestone"/>
 					<Tag name="MBSE for SAFe 5.0::Planning &amp; Innovation Iteration(UML::Class)" type="" description="" unit="" values="" default="Planning and Innovation Iteration"/>
 					<Tag name="MBSE for SAFe 5.0::Product Release(UML::Class)" type="" description="" unit="" values="" default="Product Release"/>
-					<Tag name="MBSE for SAFe 5.0::PI Milestone(UML::Event)" type="" description="" unit="" values="" default="PI Milestone"/>
+					<Tag name="MBSE for SAFe 5.0::Program Increment(UML::Class)" type="" description="" unit="" values="" default="Program Increment"/>
+					<Tag name="MBSE for SAFe 5.0::Quarter(UML::Object)" type="" description="" unit="" values="" default="Quarter"/>
+					<Tag name="MBSE for SAFe 5.0::Release Candidate Build(UML::Object)" type="" description="" unit="" values="" default="Release Candidate Build"/>
+					<Tag name="MBSE for SAFe 5.0::Sprint(UML::Class)" type="" description="" unit="" values="" default="Sprint"/>
+					<Tag name="MBSE for SAFe 5.0::TechnicalRisk(UML::Risk)" type="" description="" unit="" values="" default="TechnicalRisk"/>
+					<Tag name="MBSE for SAFe 5.0::V&amp;V Testing Activity(UML::Test)" type="" description="" unit="" values="" default="V&amp;V Testing"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="SAFe Relationships" notes="Relationships for SAFe" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">

@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no" ?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2022-12-04 08:59:13">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+			<XMI.exporterID>1605</XMI.exporterID>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_3DE803F5_666C_4221_9759_218A36C456E5">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Study Activity Cavas Template" xmi.id="EAPK_3DE803F5_666C_4221_9759_218A36C456E5" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_52F183DE_E44A_47b5_AC49_5AA97C0136C8"/>
+						<UML:TaggedValue tag="created" value="2022-12-01 14:09:21"/>
+						<UML:TaggedValue tag="modified" value="2022-12-01 14:09:21"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Danie"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_3DE803F5_666C_4221_9759_218A36C456E5_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Hazard2" xmi.id="EAID_05CB8C77_E8DD_4e4a_ABB8_8F6EC13BE084" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Hazard"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Risk"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-03 08:00:05"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-03 08:00:06"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Hazard"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10728"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={55B4D590-98BB-49b0-B626-F5086DE3F526}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Hazard;FQName=MBSE for SAFe 5.0::Hazard;@ENDSTEREO;$DES;$CLT={05CB8C77-E8DD-4e4a-ABB8-8F6EC13BE084}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Open Questions" xmi.id="EAID_96B77FC7_6729_4c7d_ACEE_49A76B5149F8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-01 14:09:55"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-01 14:11:22"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10703"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Activity Objectives" xmi.id="EAID_A5635DCF_A6FC_43ef_9A2B_2DEF03820A29" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-01 14:09:51"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-01 14:10:48"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10701"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Hazard3" xmi.id="EAID_A5DAC70D_EE91_45c6_A3AB_98BB2E2D3F37" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Hazard"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Risk"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-03 08:00:09"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-03 08:00:09"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Hazard"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10729"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={5EFDE89A-ADC0-4b58-9AAB-02AD0C44CBB5}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Hazard;FQName=MBSE for SAFe 5.0::Hazard;@ENDSTEREO;$DES;$CLT={A5DAC70D-EE91-45c6-A3AB-98BB2E2D3F37}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Study Activity Protocol" xmi.id="EAID_B22115AD_A4D0_4ca4_BD73_FA89BF93C5D8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-01 14:09:57"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-01 14:11:41"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10704"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Risk2" xmi.id="EAID_C1C334B5_9DC2_44f8_B2F8_094BA4E2B66A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Risk"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-03 08:14:22"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-03 08:14:22"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10735"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Hazard5" xmi.id="EAID_CD98DBFD_BBBC_4c77_AD3C_0335C0D96BEE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Hazard"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Risk"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-03 08:01:56"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-03 08:01:56"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Hazard"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10731"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DE4C836E-AE75-4271-9718-A67F5507F107}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Hazard;FQName=MBSE for SAFe 5.0::Hazard;@ENDSTEREO;$DES;$CLT={CD98DBFD-BBBC-4c77-AD3C-0335C0D96BEE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="System Elements Under Review" xmi.id="EAID_CE214B1A_F2F6_4f4e_A486_46A62A22B07D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-01 14:09:53"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-01 14:11:03"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10702"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Hazard4" xmi.id="EAID_DBEDEBE1_907B_42ea_AFCA_8DB34942A36F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Hazard"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Risk"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-03 08:00:11"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-03 08:00:12"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Hazard"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10730"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={EC240549-134C-4381-ACE9-AADD3C803085}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Hazard;FQName=MBSE for SAFe 5.0::Hazard;@ENDSTEREO;$DES;$CLT={DBEDEBE1-907B-42ea-AFCA-8DB34942A36F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Hazards" xmi.id="EAID_DC186CB1_87DB_4e3c_9957_5461E32378D7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-01 14:13:10"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-01 14:13:15"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10705"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="AX.0- &lt;&lt;Activity&gt;&gt; Study Canvas" xmi.id="EAID_EF829118_FA72_4c71_96EA_7969DF72CF14" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-01 14:09:47"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-04 08:40:02"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="object_style" value="Locked=false;"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10700"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Risk1" xmi.id="EAID_F479F270_35C0_4b26_9C7D_1EB5521BDAFE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Risk"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-03 08:14:04"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-03 08:14:04"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10734"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Hazard1" xmi.id="EAID_FE56DCC5_44A9_4c25_BD0D_A6BC859AD6C9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Hazard"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Risk"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+										<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+										<UML:TaggedValue tag="date_created" value="2022-12-03 08:00:02"/>
+										<UML:TaggedValue tag="date_modified" value="2022-12-03 08:00:03"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Hazard"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10727"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2EF0BFCF-7C76-4aae-8D50-9E95BC707D8D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Hazard;FQName=MBSE for SAFe 5.0::Hazard;@ENDSTEREO;$DES;$CLT={FE56DCC5-44A9-4c25-BD0D-A6BC859AD6C9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Class name="Outcome2" xmi.id="EAID_167A4F3F_A910_4635_9F5C_665CCB2EE930" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="Outcome"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+								<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+								<UML:TaggedValue tag="date_created" value="2022-12-03 08:19:35"/>
+								<UML:TaggedValue tag="date_modified" value="2022-12-03 08:19:36"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="Outcome"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="10737"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6C18134D-B5D6-4815-8712-8FE093E26022}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Outcome;FQName=MBSE for SAFe 5.0::Outcome;@ENDSTEREO;$DES;$CLT={167A4F3F-A910-4635-9F5C-665CCB2EE930}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OpenQuestion6" xmi.id="EAID_3CA6C681_001D_4d1e_8182_0AE29892F3F4" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="OpenQuestion"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+								<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+								<UML:TaggedValue tag="date_created" value="2022-12-03 07:57:25"/>
+								<UML:TaggedValue tag="date_modified" value="2022-12-03 07:57:26"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="OpenQuestion"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="10725"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={47C71C02-C0C7-489b-8A56-0E07EDBAC216}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OpenQuestion;FQName=MBSE for SAFe 5.0::OpenQuestion;@ENDSTEREO;$DES;$CLT={3CA6C681-001D-4d1e-8182-0AE29892F3F4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:ActivityModel xmi.id="EAID_3DE803F5_666C_4221_9759_218A36C456E5_ActivityModel" context="EAPK_3DE803F5_666C_4221_9759_218A36C456E5" name="ActivityModel" visibility="public">
+							<UML:StateMachine.transitions/>
+							<UML:StateMachine.top>
+								<UML:CompositeState xmi.id="EAID_3DE803F5_666C_4221_9759_218A36C456E5_Activity_Top" name="{top}">
+									<UML:CompositeState.substate>
+										<UML:ActionState name="AX.1- " xmi.id="EAID_43865F23_3C05_4a63_9282_65BB1D7B5B83" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;INPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;OUTPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ACTIONS&lt;/b&gt;&#xA;&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Action"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+												<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+												<UML:TaggedValue tag="date_created" value="2022-12-03 07:52:32"/>
+												<UML:TaggedValue tag="date_modified" value="2022-12-04 08:25:14"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Danie"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="object_style" value="Locked=false;"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="10713"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ActionState>
+										<UML:ActionState name="AX.2- " xmi.id="EAID_8F89274E_99A4_4b85_AEAA_8FE121F59E0C" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;INPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;OUTPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ACTIONS&lt;/b&gt;&#xA;&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Action"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+												<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+												<UML:TaggedValue tag="date_created" value="2022-12-03 07:52:54"/>
+												<UML:TaggedValue tag="date_modified" value="2022-12-04 08:25:17"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Danie"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="object_style" value="Locked=false;"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="10714"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ActionState>
+										<UML:ActionState name="AX.0- " xmi.id="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;ACTIVITY DESCRIPTION&lt;/b&gt;&#xA;&#xA;&lt;b&gt;PRECONDITIONS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;EXECUTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;POST CONDITIONS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ASSUMPTIONS&lt;/b&gt;&#xA;&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Activity"/>
+												<UML:TaggedValue tag="ea_ntype" value="8"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+												<UML:TaggedValue tag="date_created" value="2022-12-03 07:25:48"/>
+												<UML:TaggedValue tag="date_modified" value="2022-12-04 08:25:06"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Danie"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="object_style" value="Locked=false;"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="styleex" value="ConstructID=0;"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="10706"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="diagram" value="EAID_7016F533_D567_430d_A36F_A9157D91C16D"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ActionState>
+										<UML:ActionState name="AX.4- " xmi.id="EAID_914CE676_3389_4aca_AF8E_5F6D007DF29B" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;INPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;OUTPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ACTIONS&lt;/b&gt;&#xA;&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Action"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+												<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+												<UML:TaggedValue tag="date_created" value="2022-12-03 07:53:05"/>
+												<UML:TaggedValue tag="date_modified" value="2022-12-04 08:25:21"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Danie"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="object_style" value="Locked=false;"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="10716"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ActionState>
+										<UML:ActionState name="AX.5- " xmi.id="EAID_D02C0703_7D0B_475f_8CA9_2F730C801EE7" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;INPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;OUTPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ACTIONS&lt;/b&gt;&#xA;&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Action"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+												<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+												<UML:TaggedValue tag="date_created" value="2022-12-03 07:53:10"/>
+												<UML:TaggedValue tag="date_modified" value="2022-12-04 08:25:23"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Danie"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="object_style" value="Locked=false;"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="10717"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ActionState>
+										<UML:ActionState name="AX.6- " xmi.id="EAID_D22C36F3_6E23_4cd8_8463_A27129C4A1A9" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;INPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;OUTPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ACTIONS&lt;/b&gt;&#xA;&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Action"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+												<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+												<UML:TaggedValue tag="date_created" value="2022-12-03 07:53:16"/>
+												<UML:TaggedValue tag="date_modified" value="2022-12-04 08:25:29"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Danie"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="object_style" value="Locked=false;"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="10718"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ActionState>
+										<UML:ActionState name="AX.3- " xmi.id="EAID_E4603A59_274F_4470_8E56_DE8E59B8B3B3" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;INPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;OUTPUTS&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;ACTIONS&lt;/b&gt;&#xA;&#xA;"/>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Action"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+												<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+												<UML:TaggedValue tag="date_created" value="2022-12-03 07:53:00"/>
+												<UML:TaggedValue tag="date_modified" value="2022-12-04 08:25:19"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Danie"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="object_style" value="Locked=false;"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="10715"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ActionState>
+									</UML:CompositeState.substate>
+								</UML:CompositeState>
+							</UML:StateMachine.top>
+						</UML:ActivityModel>
+						<UML:Class name="Open Question 1" xmi.id="EAID_80338966_140F_48f4_A0E1_D85AFC19776D" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="OpenQuestion"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+								<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+								<UML:TaggedValue tag="date_created" value="2022-12-03 07:56:00"/>
+								<UML:TaggedValue tag="date_modified" value="2022-12-03 07:59:46"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="product_name" value="Java"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="OpenQuestion"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="10719"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={082A3DB8-5750-42cd-81EE-8C0BD2D94422}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OpenQuestion;FQName=MBSE for SAFe 5.0::OpenQuestion;@ENDSTEREO;$DES;$CLT={80338966-140F-48f4-A0E1-D85AFC19776D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OpenQuestion7" xmi.id="EAID_8C652246_D22F_4ddb_82A4_E17A3B52EBBE" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="OpenQuestion"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+								<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+								<UML:TaggedValue tag="date_created" value="2022-12-03 07:57:31"/>
+								<UML:TaggedValue tag="date_modified" value="2022-12-03 07:57:31"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="OpenQuestion"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="10726"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={EB3411B4-D70D-443d-B6EF-8F9B3013A3F9}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OpenQuestion;FQName=MBSE for SAFe 5.0::OpenQuestion;@ENDSTEREO;$DES;$CLT={8C652246-D22F-4ddb-82A4-E17A3B52EBBE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="Outcome1" xmi.id="EAID_BD628FBA_B2D6_4cb5_A0C9_EA6A94489E98" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="Outcome"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+								<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+								<UML:TaggedValue tag="date_created" value="2022-12-03 08:19:27"/>
+								<UML:TaggedValue tag="date_modified" value="2022-12-03 08:19:27"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="Outcome"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="10736"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B0F58D1E-C526-40f2-9B95-DEC77BCA7C0E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Outcome;FQName=MBSE for SAFe 5.0::Outcome;@ENDSTEREO;$DES;$CLT={BD628FBA-B2D6-4cb5-A0C9-EA6A94489E98}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OpenQuestion5" xmi.id="EAID_C62DBAB3_5902_4bf4_8DC9_AFD0558D87B5" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="OpenQuestion"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+								<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+								<UML:TaggedValue tag="date_created" value="2022-12-03 07:57:14"/>
+								<UML:TaggedValue tag="date_modified" value="2022-12-03 07:57:14"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="OpenQuestion"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="10724"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={5D85643F-BCBB-4bd2-979A-A78D40340314}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OpenQuestion;FQName=MBSE for SAFe 5.0::OpenQuestion;@ENDSTEREO;$DES;$CLT={C62DBAB3-5902-4bf4-8DC9-AFD0558D87B5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OpenQuestion2" xmi.id="EAID_D4CD92CE_3903_4dfc_822D_5C9D2F3E03F5" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="OpenQuestion"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+								<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+								<UML:TaggedValue tag="date_created" value="2022-12-03 07:56:02"/>
+								<UML:TaggedValue tag="date_modified" value="2022-12-03 07:56:02"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="OpenQuestion"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="10720"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8E84DA00-B373-4bf3-9CF0-02F5294BCB5F}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OpenQuestion;FQName=MBSE for SAFe 5.0::OpenQuestion;@ENDSTEREO;$DES;$CLT={D4CD92CE-3903-4dfc-822D-5C9D2F3E03F5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OpenQuestion4" xmi.id="EAID_EF745F61_3ABF_41df_9B4A_40DD1D724D5F" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="OpenQuestion"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+								<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+								<UML:TaggedValue tag="date_created" value="2022-12-03 07:57:12"/>
+								<UML:TaggedValue tag="date_modified" value="2022-12-03 07:57:13"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="OpenQuestion"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="10723"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={52F0C07C-A938-4ad0-980F-EB6F310727C2}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OpenQuestion;FQName=MBSE for SAFe 5.0::OpenQuestion;@ENDSTEREO;$DES;$CLT={EF745F61-3ABF-41df-9B4A-40DD1D724D5F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Class name="OpenQuestion3" xmi.id="EAID_FE3FB9AE_0850_4742_BD04_FB6D2877FE1F" visibility="public" namespace="EAPK_3DE803F5_666C_4221_9759_218A36C456E5" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="OpenQuestion"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+								<UML:TaggedValue tag="owner" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+								<UML:TaggedValue tag="date_created" value="2022-12-03 07:57:11"/>
+								<UML:TaggedValue tag="date_modified" value="2022-12-03 07:57:11"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Study Activity Cavas Template"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="OpenQuestion"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="10722"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={44B09B5D-1197-4029-9619-6D17A3601E17}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OpenQuestion;FQName=MBSE for SAFe 5.0::OpenQuestion;@ENDSTEREO;$DES;$CLT={FE3FB9AE-0850-4742-BD04-FB6D2877FE1F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="Occurance" xmi.id="EAID_BD615DF3_FBB5_65fb_A2D6_256B11631B01" value="#NOTES#Values: Improbable,Remote,Sometimes,Probable,Highly Probable,Medium,Low&#xA;" modelElement="EAID_05CB8C77_E8DD_4e4a_ABB8_8F6EC13BE084"/>
+		<UML:TaggedValue tag="Severity" xmi.id="EAID_9AF14F9B_3D1D_183d_84AF_F3C83C567CFB" value="#NOTES#Values: Negligible,Marginal,Serious,Critical,Catastrophic,High,Medium,Low&#xA;" modelElement="EAID_05CB8C77_E8DD_4e4a_ABB8_8F6EC13BE084"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_4C14_d94c_B12B_86FACF213BE8" modelElement="EAID_3CA6C681_001D_4d1e_8182_0AE29892F3F4"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_4476_6344_8C50_117CB641A98C" modelElement="EAID_3CA6C681_001D_4d1e_8182_0AE29892F3F4"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_4C14_d94c_9A0B_F41835B22B55" modelElement="EAID_80338966_140F_48f4_A0E1_D85AFC19776D"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_4476_6344_B091_6A40EC844C41" modelElement="EAID_80338966_140F_48f4_A0E1_D85AFC19776D"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_4C14_d94c_A4F1_EB8BBEB434EB" modelElement="EAID_8C652246_D22F_4ddb_82A4_E17A3B52EBBE"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_4476_6344_94CC_D1884B678F0F" modelElement="EAID_8C652246_D22F_4ddb_82A4_E17A3B52EBBE"/>
+		<UML:TaggedValue tag="Occurance" xmi.id="EAID_BD615DF3_FBB5_65fb_B2FE_9E8A9877B8BC" value="#NOTES#Values: Improbable,Remote,Sometimes,Probable,Highly Probable,Medium,Low&#xA;" modelElement="EAID_A5DAC70D_EE91_45c6_A3AB_98BB2E2D3F37"/>
+		<UML:TaggedValue tag="Severity" xmi.id="EAID_9AF14F9B_3D1D_183d_AEE2_E0EBBD9AE3B5" value="#NOTES#Values: Negligible,Marginal,Serious,Critical,Catastrophic,High,Medium,Low&#xA;" modelElement="EAID_A5DAC70D_EE91_45c6_A3AB_98BB2E2D3F37"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_4C14_d94c_B760_5282C9D994C5" modelElement="EAID_C62DBAB3_5902_4bf4_8DC9_AFD0558D87B5"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_4476_6344_B3D9_726317838421" modelElement="EAID_C62DBAB3_5902_4bf4_8DC9_AFD0558D87B5"/>
+		<UML:TaggedValue tag="Occurance" xmi.id="EAID_BD615DF3_FBB5_65fb_941B_02C1D11E6BB2" value="#NOTES#Values: Improbable,Remote,Sometimes,Probable,Highly Probable,Medium,Low&#xA;" modelElement="EAID_CD98DBFD_BBBC_4c77_AD3C_0335C0D96BEE"/>
+		<UML:TaggedValue tag="Severity" xmi.id="EAID_9AF14F9B_3D1D_183d_B27F_28C839A200A2" value="#NOTES#Values: Negligible,Marginal,Serious,Critical,Catastrophic,High,Medium,Low&#xA;" modelElement="EAID_CD98DBFD_BBBC_4c77_AD3C_0335C0D96BEE"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_4C14_d94c_B13E_FDA650869B84" modelElement="EAID_D4CD92CE_3903_4dfc_822D_5C9D2F3E03F5"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_4476_6344_8A9D_B7675C740A00" modelElement="EAID_D4CD92CE_3903_4dfc_822D_5C9D2F3E03F5"/>
+		<UML:TaggedValue tag="Occurance" xmi.id="EAID_BD615DF3_FBB5_65fb_83D9_47BBE6F4D3CC" value="#NOTES#Values: Improbable,Remote,Sometimes,Probable,Highly Probable,Medium,Low&#xA;" modelElement="EAID_DBEDEBE1_907B_42ea_AFCA_8DB34942A36F"/>
+		<UML:TaggedValue tag="Severity" xmi.id="EAID_9AF14F9B_3D1D_183d_BD2B_71E77753E526" value="#NOTES#Values: Negligible,Marginal,Serious,Critical,Catastrophic,High,Medium,Low&#xA;" modelElement="EAID_DBEDEBE1_907B_42ea_AFCA_8DB34942A36F"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_4C14_d94c_9A7C_B636C27ECF6E" modelElement="EAID_EF745F61_3ABF_41df_9B4A_40DD1D724D5F"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_4476_6344_B54D_C7456D58AF99" modelElement="EAID_EF745F61_3ABF_41df_9B4A_40DD1D724D5F"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_4C14_d94c_82B3_057B62E59A10" modelElement="EAID_FE3FB9AE_0850_4742_BD04_FB6D2877FE1F"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_4476_6344_99CE_68E8DF20C1F4" modelElement="EAID_FE3FB9AE_0850_4742_BD04_FB6D2877FE1F"/>
+		<UML:TaggedValue tag="Occurance" xmi.id="EAID_BD615DF3_FBB5_65fb_97EE_0FC06AE69228" value="#NOTES#Values: Improbable,Remote,Sometimes,Probable,Highly Probable,Medium,Low&#xA;" modelElement="EAID_FE56DCC5_44A9_4c25_BD0D_A6BC859AD6C9"/>
+		<UML:TaggedValue tag="Severity" xmi.id="EAID_9AF14F9B_3D1D_183d_ABB4_6D987A9BBDF9" value="#NOTES#Values: Negligible,Marginal,Serious,Critical,Catastrophic,High,Medium,Low&#xA;" modelElement="EAID_FE56DCC5_44A9_4c25_BD0D_A6BC859AD6C9"/>
+		<UML:Diagram name="Ax.0-  Activity Cavas" xmi.id="EAID_7016F533_D567_430d_A36F_A9157D91C16D" diagramType="ActivityDiagram" owner="EAPK_3DE803F5_666C_4221_9759_218A36C456E5" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Danie"/>
+				<UML:TaggedValue tag="created_date" value="2022-12-01 14:09:27"/>
+				<UML:TaggedValue tag="modified_date" value="2022-12-04 08:58:40"/>
+				<UML:TaggedValue tag="package" value="EAPK_3DE803F5_666C_4221_9759_218A36C456E5"/>
+				<UML:TaggedValue tag="type" value="Activity"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="1070"/>
+				<UML:TaggedValue tag="parent" value="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=1098;DocSize.cy=850;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=0;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=54BA0588;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=0;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::Human Factors Modeling;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=266;Top=120;Right=421;Bottom=170;" subject="EAID_167A4F3F_A910_4635_9F5C_665CCB2EE930" seqno="1" style="DUID=A20975BE;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=56;Top=122;Right=211;Bottom=172;" subject="EAID_BD628FBA_B2D6_4cb5_A0C9_EA6A94489E98" seqno="2" style="DUID=2FBE285B;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=721;Top=492;Right=831;Bottom=536;" subject="EAID_C1C334B5_9DC2_44f8_B2F8_094BA4E2B66A" seqno="3" style="DUID=70000E02;"/>
+				<UML:DiagramElement geometry="Left=717;Top=435;Right=827;Bottom=479;" subject="EAID_F479F270_35C0_4b26_9C7D_1EB5521BDAFE" seqno="4" style="DUID=FB055E39;"/>
+				<UML:DiagramElement geometry="Left=701;Top=374;Right=843;Bottom=423;" subject="EAID_CD98DBFD_BBBC_4c77_AD3C_0335C0D96BEE" seqno="5" style="DUID=4B7773FF;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=701;Top=308;Right=843;Bottom=357;" subject="EAID_DBEDEBE1_907B_42ea_AFCA_8DB34942A36F" seqno="6" style="DUID=E66C5592;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=701;Top=242;Right=843;Bottom=291;" subject="EAID_A5DAC70D_EE91_45c6_A3AB_98BB2E2D3F37" seqno="7" style="DUID=C61FB6A5;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=701;Top=176;Right=843;Bottom=225;" subject="EAID_05CB8C77_E8DD_4e4a_ABB8_8F6EC13BE084" seqno="8" style="DUID=DA2FC8AE;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=701;Top=110;Right=843;Bottom=159;" subject="EAID_FE56DCC5_44A9_4c25_BD0D_A6BC859AD6C9" seqno="9" style="DUID=DF48247A;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=503;Top=507;Right=653;Bottom=561;" subject="EAID_8C652246_D22F_4ddb_82A4_E17A3B52EBBE" seqno="10" style="DUID=208C7482;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=503;Top=440;Right=653;Bottom=494;" subject="EAID_3CA6C681_001D_4d1e_8182_0AE29892F3F4" seqno="11" style="DUID=972CF49B;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=503;Top=373;Right=653;Bottom=427;" subject="EAID_C62DBAB3_5902_4bf4_8DC9_AFD0558D87B5" seqno="12" style="DUID=780DF3FB;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=503;Top=306;Right=653;Bottom=360;" subject="EAID_EF745F61_3ABF_41df_9B4A_40DD1D724D5F" seqno="13" style="DUID=70D95B6B;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=503;Top=239;Right=653;Bottom=293;" subject="EAID_FE3FB9AE_0850_4742_BD04_FB6D2877FE1F" seqno="14" style="DUID=82FB1903;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=503;Top=172;Right=653;Bottom=226;" subject="EAID_D4CD92CE_3903_4dfc_822D_5C9D2F3E03F5" seqno="15" style="DUID=4DEFDC97;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=503;Top=105;Right=653;Bottom=159;" subject="EAID_80338966_140F_48f4_A0E1_D85AFC19776D" seqno="16" style="DUID=3BE65AE6;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=908;Top=463;Right=1060;Bottom=517;" subject="EAID_D22C36F3_6E23_4cd8_8463_A27129C4A1A9" seqno="17" style="DUID=54DA6165;"/>
+				<UML:DiagramElement geometry="Left=908;Top=397;Right=1060;Bottom=451;" subject="EAID_D02C0703_7D0B_475f_8CA9_2F730C801EE7" seqno="18" style="DUID=88E06BC8;"/>
+				<UML:DiagramElement geometry="Left=908;Top=332;Right=1060;Bottom=386;" subject="EAID_914CE676_3389_4aca_AF8E_5F6D007DF29B" seqno="19" style="DUID=A0A3DFDE;"/>
+				<UML:DiagramElement geometry="Left=908;Top=273;Right=1060;Bottom=327;" subject="EAID_E4603A59_274F_4470_8E56_DE8E59B8B3B3" seqno="20" style="DUID=05FE9FDF;"/>
+				<UML:DiagramElement geometry="Left=908;Top=214;Right=1060;Bottom=268;" subject="EAID_8F89274E_99A4_4b85_AEAA_8FE121F59E0C" seqno="21" style="DUID=97A40900;"/>
+				<UML:DiagramElement geometry="Left=908;Top=155;Right=1060;Bottom=209;" subject="EAID_43865F23_3C05_4a63_9282_65BB1D7B5B83" seqno="22" style="DUID=FD3507CA;"/>
+				<UML:DiagramElement geometry="Left=892;Top=108;Right=1076;Bottom=542;" subject="EAID_90E1B916_29CD_4fd5_9C58_021FC7CF60E8" seqno="23" style="DUID=03661DFC;"/>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=1099;Bottom=57;" subject="EAID_EF829118_FA72_4c71_96EA_7969DF72CF14" seqno="24" style="DUID=0C732971;font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=9;Top=64;Right=486;Bottom=254;" subject="EAID_A5635DCF_A6FC_43ef_9A2B_2DEF03820A29" seqno="25" style="DUID=FAEE5B3E;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=11;Top=261;Right=484;Bottom=571;" subject="EAID_CE214B1A_F2F6_4f4e_A486_46A62A22B07D" seqno="26" style="DUID=87AFCFB8;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=495;Top=60;Right=685;Bottom=567;" subject="EAID_96B77FC7_6729_4c7d_ACEE_49A76B5149F8" seqno="27" style="DUID=F553CB53;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=882;Top=62;Right=1087;Bottom=562;" subject="EAID_B22115AD_A4D0_4ca4_BD73_FA89BF93C5D8" seqno="28" style="DUID=C30484E7;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=689;Top=60;Right=879;Bottom=563;" subject="EAID_DC186CB1_87DB_4e3c_9957_5461E32378D7" seqno="29" style="DUID=E2051294;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>

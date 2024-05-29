@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2022-09-11 19:02:44">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_E57FD380_BA29_498a_8ACC_1EB03F1B786C">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Epic" xmi.id="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_1F2EAD37_256E_4ede_94EC_EE298CBDD1FE"/>
+						<UML:TaggedValue tag="created" value="2022-08-19 16:18:12"/>
+						<UML:TaggedValue tag="modified" value="2022-08-19 16:18:12"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="9"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Dan Menoher"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="9"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Comment xmi.id="EAID_07F216D2_83C6_4f7a_A95E_BFFC2A53574D" visibility="public" namespace="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="NavigationCell"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="82"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+								<UML:TaggedValue tag="date_created" value="2021-03-29 11:57:48"/>
+								<UML:TaggedValue tag="date_modified" value="2021-03-29 11:57:48"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Epic"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="alias" value="In Scope - Out of Scope Analysis"/>
+								<UML:TaggedValue tag="author" value="30778880"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="NavigationCell"/>
+								<UML:TaggedValue tag="styleex" value="NID=2-36;"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="4545"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_36FF3391_6BD2_4c83_B620_D55C51943CFA"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={206B73D2-AABA-49bf-BA0F-15BEA51DED95}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=NavigationCell;GUID={4C86EDD2-DB78-4905-9802-F379873C268E};@ENDSTEREO;$DES;$CLT={07F216D2-83C6-4f7a-A95E-BFFC2A53574D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={61B5CBDC-7C27-4298-8962-AC385FB7693E}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=DiagLinkType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Structural@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={07F216D2-83C6-4f7a-A95E-BFFC2A53574D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Collaboration xmi.id="EAID_E57FD380_BA29_498a_8ACC_1EB03F1B786C_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Questions" xmi.id="EAID_1B9F9104_8FC9_4730_B812_7740B3CA9AF2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 08:43:33"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-19 08:44:59"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10431"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="&lt;Epic Name&gt; Main Navigation Page" xmi.id="EAID_35A1460F_B010_4dfb_8F4D_76620FE9CCF5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 08:41:45"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-19 08:42:06"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10428"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Epic Definition" xmi.id="EAID_64E159ED_0B37_4b67_98D3_C82F9C99013D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+										<UML:TaggedValue tag="date_created" value="2021-03-29 10:22:05"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:31"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="package_name" value="Epic"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="464"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Risks" xmi.id="EAID_6FF74B01_53E8_494a_887F_DFDB5CD82160" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 08:43:37"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-19 08:45:11"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10434"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Epic Use Cases" xmi.id="EAID_76083E1E_E6EB_4e37_A058_E891C6ADBD11" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+										<UML:TaggedValue tag="date_created" value="2021-06-21 10:28:24"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-19 16:26:09"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_76083E1E_E6EB_4e37_A058_E891C6ADBD11"/>
+										<UML:TaggedValue tag="package_name" value="Epic"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="465"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Decisions" xmi.id="EAID_777E569E_5D6E_407f_B47E_7DB2AF2C8B76" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 08:43:36"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-19 08:45:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10433"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="&lt;Epic&gt; Definition Canvas" xmi.id="EAID_7E664E72_586A_4ec3_AF58_42C1F2BB015B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 08:43:32"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-19 08:43:58"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10430"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Assumptions" xmi.id="EAID_7EC51E48_7E98_405a_BDBF_D1E3405D1031" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 08:43:40"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-19 08:44:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10435"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Epic Story Map" xmi.id="EAID_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+										<UML:TaggedValue tag="date_created" value="2021-06-21 10:25:12"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-19 16:26:09"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+										<UML:TaggedValue tag="package_name" value="Epic"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="466"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="&lt;&lt;Epic&gt;&gt;" xmi.id="EAID_E67AB0B1_BC0A_41f0_99BF_E4382480A695" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Epic"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;EPIC DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;        &lt;font color=&quot;#0000ff&quot;&gt; FOR&lt;/font&gt;:  &#xA;&#xA;         &lt;font color=&quot;#0000ff&quot;&gt;WHO&lt;/font&gt;:  &#xA;&#xA;        &lt;font color=&quot;#0000ff&quot;&gt; THE&lt;/font&gt;:  &#xA;&#xA;         &lt;font color=&quot;#0000ff&quot;&gt;IS A&lt;/font&gt;:  &#xA;&#xA;         &lt;font color=&quot;#0000ff&quot;&gt;THAT&lt;/font&gt;:  &#xA;&#xA;        &lt;font color=&quot;#0000ff&quot;&gt; UNLIKE&lt;/font&gt;:  &#xA;&#xA;         &lt;font color=&quot;#0000ff&quot;&gt;OUR SOLUTION&lt;/font&gt;:  &#xA;&#xA;&#xA;&lt;b&gt;BUSINESS OUTCOME&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BUSINESS VALUE&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;DELIVERABLES&lt;/b&gt;&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Feature"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 16:16:43"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-19 16:33:20"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Epic"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="10464"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8B9FE281-2109-46bd-8A6C-8FB7DB3E6CB4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Epic;FQName=MBSE for SAFe 5.0::Epic;@ENDSTEREO;$DES;$CLT={E67AB0B1-BC0A-41f0-99BF-E4382480A695}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={83359C7B-1A54-4269-8F57-A35F21F4309A}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_tagGroupings@ENDNAME;@TYPE=string@ENDTYPE;@VALU=JiraIssueID=Jira;JiraIssueKey=Jira;WSJF_TimeCriticality=WSJF ;WSJF=WSJF ;WSJF_BusinessValue=WSJF ;WSJF_CoD=WSJF ;WSJF_JobSize=WSJF ;WSJF_RROE=WSJF ;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroups@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Jira,WSJF @ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={E67AB0B1-BC0A-41f0-99BF-E4382480A695}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Challenges" xmi.id="EAID_F091587E_2D42_4b65_B3F3_8CA62F6D4848" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 08:43:35"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-19 08:45:21"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10432"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Comment xmi.id="EAID_5D55723E_1ABC_49f1_8A58_F0BED994B0E9" visibility="public" namespace="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="NavigationCell"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="82"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+								<UML:TaggedValue tag="date_created" value="2021-06-21 10:30:00"/>
+								<UML:TaggedValue tag="date_modified" value="2021-06-21 10:30:00"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Epic"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="alias" value="Epic Use Cases"/>
+								<UML:TaggedValue tag="author" value="30778880"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="NavigationCell"/>
+								<UML:TaggedValue tag="styleex" value="NID=2-61;"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="4546"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_9A520D8E_5C47_4fe7_9731_68B8408CCBA5"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={40AB8BAA-A114-43ce-88F1-76F3CEDC7F73}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=NavigationCell;GUID={4C86EDD2-DB78-4905-9802-F379873C268E};@ENDSTEREO;$DES;$CLT={5D55723E-1ABC-49f1-8A58-F0BED994B0E9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={9CFD1C20-85DB-4497-BABA-E120AE827E3E}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=DiagLinkType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Behavioral@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={5D55723E-1ABC-49f1-8A58-F0BED994B0E9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_777F6696_7F64_4bd3_95B5_BA82A8DB59DA" visibility="public" namespace="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;b&gt;EPIC DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;        &lt;font color=&quot;#0000ff&quot;&gt; FOR&lt;/font&gt;:  &#xA;&#xA;         &lt;font color=&quot;#0000ff&quot;&gt;WHO&lt;/font&gt;:  &#xA;&#xA;        &lt;font color=&quot;#0000ff&quot;&gt; THE&lt;/font&gt;:  &#xA;&#xA;         &lt;font color=&quot;#0000ff&quot;&gt;IS A&lt;/font&gt;:  &#xA;&#xA;         &lt;font color=&quot;#0000ff&quot;&gt;THAT&lt;/font&gt;:  &#xA;&#xA;        &lt;font color=&quot;#0000ff&quot;&gt; UNLIKE&lt;/font&gt;:  &#xA;&#xA;         &lt;font color=&quot;#0000ff&quot;&gt;OUR SOLUTION&lt;/font&gt;:  &#xA;&#xA;&#xA;&lt;b&gt;BUSINESS OUTCOME&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;BUSINESS VALUE&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;DELIVERABLES&lt;/b&gt;&#xA;"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+								<UML:TaggedValue tag="date_created" value="2022-08-22 09:50:43"/>
+								<UML:TaggedValue tag="date_modified" value="2022-08-22 09:51:33"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Epic"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="10489"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="linkedFeature" value="&lt;P1&gt;=Element Note;&lt;P2&gt;=EAID_E67AB0B1_BC0A_41f0_99BF_E4382480A695;&lt;P3&gt;=;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_802EBDD6_7EA5_48a9_AE36_444B313A3967" visibility="public" namespace="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="NavigationCell"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="82"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+								<UML:TaggedValue tag="date_created" value="2021-06-21 10:27:55"/>
+								<UML:TaggedValue tag="date_modified" value="2021-06-21 10:27:55"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Epic"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="alias" value="Epic Story Map"/>
+								<UML:TaggedValue tag="author" value="30778880"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="NavigationCell"/>
+								<UML:TaggedValue tag="styleex" value="NID=2-23;"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="4548"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_58403150_71E3_4cca_A4BF_B7A195C01C95"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={86D4C7AC-576A-4c3d-88CE-24357C31C5DB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=NavigationCell;GUID={4C86EDD2-DB78-4905-9802-F379873C268E};@ENDSTEREO;$DES;$CLT={802EBDD6-7EA5-48a9-AE36-444B313A3967}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={063266FA-4141-4987-94B3-BE1B4804C0DE}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=DiagLinkType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Structural@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={802EBDD6-7EA5-48a9-AE36-444B313A3967}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_D54383EB_293D_4705_94BA_7474EEC25E66" visibility="public" namespace="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="NavigationCell"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="82"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+								<UML:TaggedValue tag="date_created" value="2022-08-19 08:42:57"/>
+								<UML:TaggedValue tag="date_modified" value="2022-08-19 08:42:57"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Epic"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="alias" value="&lt;Epic&gt; Definition Canvas"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="NavigationCell"/>
+								<UML:TaggedValue tag="styleex" value="NID=2-64;"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="10429"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="diagram" value="EAID_C7FA29DB_6468_45d9_9E9C_407F5EA7AEB8"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CE5B7593-FC09-45ff-9D0A-080CCCFC93D7}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=NavigationCell;GUID={4C86EDD2-DB78-4905-9802-F379873C268E};@ENDSTEREO;$DES;$CLT={D54383EB-293D-4705-94BA-7474EEC25E66}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={8CA37A4F-F396-4d6f-8E33-F28FFFDCBD26}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=DiagLinkType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Structural@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={D54383EB-293D-4705-94BA-7474EEC25E66}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Package name="Epic Definition" xmi.id="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+								<UML:TaggedValue tag="created" value="2021-03-29 10:22:05"/>
+								<UML:TaggedValue tag="modified" value="2022-08-26 11:34:31"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2021-12-07 20:38:49"/>
+								<UML:TaggedValue tag="lastsavedate" value="2021-12-07 20:38:49"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="30778880"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:ActivityModel xmi.id="EAID_64E159ED_0B37_4b67_98D3_C82F9C99013D_ActivityModel" context="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" name="ActivityModel" visibility="public">
+									<UML:StateMachine.transitions/>
+									<UML:StateMachine.top>
+										<UML:CompositeState xmi.id="EAID_64E159ED_0B37_4b67_98D3_C82F9C99013D_Activity_Top" name="{top}">
+											<UML:CompositeState.substate>
+												<UML:PseudoState xmi.id="EAID_08031D3C_BEA0_42e4_9328_00409F951352" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" kind="branch">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="ProductDecision"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Decision"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+														<UML:TaggedValue tag="date_created" value="2022-08-19 16:24:23"/>
+														<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="ProductDecision"/>
+														<UML:TaggedValue tag="tpos" value="3"/>
+														<UML:TaggedValue tag="ea_localid" value="10476"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={93CF650B-460E-4420-89F4-3EB7648027BB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=ProductDecision;FQName=MBSE for SAFe 5.0::ProductDecision;@ENDSTEREO;$DES;$CLT={08031D3C-BEA0-42e4-9328-00409F951352}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:PseudoState>
+												<UML:PseudoState xmi.id="EAID_630DC48D_5EDF_4fe5_81BD_D34A39F6B8B7" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" kind="branch">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="ProductDecision"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Decision"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+														<UML:TaggedValue tag="date_created" value="2022-08-19 16:24:38"/>
+														<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="ProductDecision"/>
+														<UML:TaggedValue tag="tpos" value="4"/>
+														<UML:TaggedValue tag="ea_localid" value="10477"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={908269B9-50FB-42b5-9F00-88A51C41A825}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=ProductDecision;FQName=MBSE for SAFe 5.0::ProductDecision;@ENDSTEREO;$DES;$CLT={630DC48D-5EDF-4fe5-81BD-D34A39F6B8B7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:PseudoState>
+												<UML:PseudoState xmi.id="EAID_AA17D76F_269B_4535_B23F_3B82E980F6F8" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" kind="branch">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="ProductDecision"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Decision"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+														<UML:TaggedValue tag="date_created" value="2022-08-19 16:24:20"/>
+														<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="ProductDecision"/>
+														<UML:TaggedValue tag="tpos" value="2"/>
+														<UML:TaggedValue tag="ea_localid" value="10475"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B4F17E10-D897-4dc0-BDB8-63D8CECC739D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=ProductDecision;FQName=MBSE for SAFe 5.0::ProductDecision;@ENDSTEREO;$DES;$CLT={AA17D76F-269B-4535-B23F-3B82E980F6F8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:PseudoState>
+												<UML:PseudoState xmi.id="EAID_C3EB59F9_1DD9_4967_B47B_5E80A87EEC56" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" kind="branch">
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype name="ProductDecision"/>
+													</UML:ModelElement.stereotype>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Decision"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="isActive" value="false"/>
+														<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+														<UML:TaggedValue tag="date_created" value="2022-08-19 16:24:41"/>
+														<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Dan Menoher"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="status" value="Proposed"/>
+														<UML:TaggedValue tag="stereotype" value="ProductDecision"/>
+														<UML:TaggedValue tag="tpos" value="5"/>
+														<UML:TaggedValue tag="ea_localid" value="10478"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+														<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B416D486-165A-43ba-9D7F-EE13344692A4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=ProductDecision;FQName=MBSE for SAFe 5.0::ProductDecision;@ENDSTEREO;$DES;$CLT={C3EB59F9-1DD9-4967-B47B-5E80A87EEC56}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:PseudoState>
+											</UML:CompositeState.substate>
+										</UML:CompositeState>
+									</UML:StateMachine.top>
+								</UML:ActivityModel>
+								<UML:Class name="OpenQuestion3" xmi.id="EAID_203DA70F_3506_4440_9968_523FC1CBE0D0" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="OpenQuestion"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 16:25:02"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="OpenQuestion"/>
+										<UML:TaggedValue tag="tpos" value="12"/>
+										<UML:TaggedValue tag="ea_localid" value="10481"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0B913BB7-ACB2-4996-8900-C543A0D6E7A5}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OpenQuestion;FQName=MBSE for SAFe 5.0::OpenQuestion;@ENDSTEREO;$DES;$CLT={203DA70F-3506-4440-9968-523FC1CBE0D0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="OpenQuestion2" xmi.id="EAID_2E457FFC_B504_4720_9414_02CFB4E89F6C" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="OpenQuestion"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 16:24:54"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="OpenQuestion"/>
+										<UML:TaggedValue tag="tpos" value="11"/>
+										<UML:TaggedValue tag="ea_localid" value="10480"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3E81586E-6E56-456f-90E5-AAEE9CC70C9E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OpenQuestion;FQName=MBSE for SAFe 5.0::OpenQuestion;@ENDSTEREO;$DES;$CLT={2E457FFC-B504-4720-9414-02CFB4E89F6C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Assumption3" xmi.id="EAID_33509949_F104_4c69_B9D6_E8DB66028A73" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Assumption"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-09-11 18:51:26"/>
+										<UML:TaggedValue tag="date_modified" value="2022-09-11 18:52:19"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Assumption"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10619"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A3D33C04-EDD0-43f8-8639-0D03334A9E9C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Assumption;FQName=MBSE for SAFe 5.0::Assumption;@ENDSTEREO;$DES;$CLT={33509949-F104-4c69-B9D6-E8DB66028A73}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Collaboration xmi.id="EAID_64E159ED_0B37_4b67_98D3_C82F9C99013D_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="TechnicalRisk3" xmi.id="EAID_4F7858D6_D6C9_4c7c_9817_8192560B204A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="TechnicalRisk"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Risk"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+												<UML:TaggedValue tag="date_created" value="2022-08-19 16:22:32"/>
+												<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Dan Menoher"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="TechnicalRisk"/>
+												<UML:TaggedValue tag="tpos" value="18"/>
+												<UML:TaggedValue tag="ea_localid" value="10469"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="difficulty" value="Medium"/>
+												<UML:TaggedValue tag="priority" value="Medium"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={81ADF831-9A6A-40bb-B140-17CF748AD0B5}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=TechnicalRisk;FQName=MBSE for SAFe 5.0::TechnicalRisk;@ENDSTEREO;$DES;$CLT={4F7858D6-D6C9-4c7c-9817-8192560B204A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="TechnicalRisk1" xmi.id="EAID_62BADA94_7930_4351_9E7F_38F99B6B9A79" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="TechnicalRisk"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Risk"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+												<UML:TaggedValue tag="date_created" value="2022-08-19 16:22:03"/>
+												<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Dan Menoher"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="TechnicalRisk"/>
+												<UML:TaggedValue tag="tpos" value="16"/>
+												<UML:TaggedValue tag="ea_localid" value="10467"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="difficulty" value="Medium"/>
+												<UML:TaggedValue tag="priority" value="Medium"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DC8D5BF6-DD22-4b2f-856A-F89D3AFACD65}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=TechnicalRisk;FQName=MBSE for SAFe 5.0::TechnicalRisk;@ENDSTEREO;$DES;$CLT={62BADA94-7930-4351-9E7F-38F99B6B9A79}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Project Risk1" xmi.id="EAID_B15402F8_5F0E_442f_9209_BF86442D1CA2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Project Risk"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Risk"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+												<UML:TaggedValue tag="date_created" value="2022-08-19 16:22:46"/>
+												<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Dan Menoher"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Project Risk"/>
+												<UML:TaggedValue tag="tpos" value="14"/>
+												<UML:TaggedValue tag="ea_localid" value="10471"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="difficulty" value="Medium"/>
+												<UML:TaggedValue tag="priority" value="Medium"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B3767CD2-A350-48a5-9C46-72A510D01F7A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Project Risk;FQName=MBSE for SAFe 5.0::Project Risk;@ENDSTEREO;$DES;$CLT={B15402F8-5F0E-442f-9209-BF86442D1CA2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Project Risk2" xmi.id="EAID_B43FEEB0_483D_42cf_A2FA_6B9F94E5D39C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="Project Risk"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Risk"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+												<UML:TaggedValue tag="date_created" value="2022-08-19 16:22:57"/>
+												<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Dan Menoher"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="Project Risk"/>
+												<UML:TaggedValue tag="tpos" value="15"/>
+												<UML:TaggedValue tag="ea_localid" value="10472"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="difficulty" value="Medium"/>
+												<UML:TaggedValue tag="priority" value="Medium"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B0C8EE32-7994-43d8-BCE1-5208A805D94D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Project Risk;FQName=MBSE for SAFe 5.0::Project Risk;@ENDSTEREO;$DES;$CLT={B43FEEB0-483D-42cf-A2FA-6B9F94E5D39C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="TechnicalRisk2" xmi.id="EAID_D811CCA0_C9B6_4c5f_A342_F815D44295E7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="TechnicalRisk"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Risk"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+												<UML:TaggedValue tag="date_created" value="2022-08-19 16:22:06"/>
+												<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Dan Menoher"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="TechnicalRisk"/>
+												<UML:TaggedValue tag="tpos" value="17"/>
+												<UML:TaggedValue tag="ea_localid" value="10468"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="difficulty" value="Medium"/>
+												<UML:TaggedValue tag="priority" value="Medium"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={60C74DF6-2C18-4f49-8BCD-B95548F7CADB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=TechnicalRisk;FQName=MBSE for SAFe 5.0::TechnicalRisk;@ENDSTEREO;$DES;$CLT={D811CCA0-C9B6-4c5f-A342-F815D44295E7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="TechnicalRisk4" xmi.id="EAID_E4F28F08_8088_415c_A2B9_B840F29BB95A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="TechnicalRisk"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Risk"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+												<UML:TaggedValue tag="date_created" value="2022-08-19 16:22:39"/>
+												<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Dan Menoher"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="TechnicalRisk"/>
+												<UML:TaggedValue tag="tpos" value="19"/>
+												<UML:TaggedValue tag="ea_localid" value="10470"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="difficulty" value="Medium"/>
+												<UML:TaggedValue tag="priority" value="Medium"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7737F665-CC61-4fcb-912C-501A4A8658CC}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=TechnicalRisk;FQName=MBSE for SAFe 5.0::TechnicalRisk;@ENDSTEREO;$DES;$CLT={E4F28F08-8088-415c-A2B9-B840F29BB95A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Class name="Assumption5" xmi.id="EAID_51A0D58E_13BE_477f_93DE_A60140EA2271" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Assumption"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-09-11 18:51:43"/>
+										<UML:TaggedValue tag="date_modified" value="2022-09-11 18:52:22"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Assumption"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10621"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4528AE5B-3E5B-4708-ADD0-A01192BA0D0C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Assumption;FQName=MBSE for SAFe 5.0::Assumption;@ENDSTEREO;$DES;$CLT={51A0D58E-13BE-477f-93DE-A60140EA2271}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="OpenQuestion1" xmi.id="EAID_6A85A02F_455D_4270_9F1F_62F2EF5E32EA" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="OpenQuestion"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 16:24:52"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="OpenQuestion"/>
+										<UML:TaggedValue tag="tpos" value="10"/>
+										<UML:TaggedValue tag="ea_localid" value="10479"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9E09E415-E59E-47a4-B795-0DBB912AF78B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OpenQuestion;FQName=MBSE for SAFe 5.0::OpenQuestion;@ENDSTEREO;$DES;$CLT={6A85A02F-455D-4270-9F1F-62F2EF5E32EA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Challenge1" xmi.id="EAID_75C04C9C_EF1C_48d9_BE03_EC92AFCD62FC" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Challenge"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 08:45:46"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Challenge"/>
+										<UML:TaggedValue tag="tpos" value="6"/>
+										<UML:TaggedValue tag="ea_localid" value="10437"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={03983271-67C9-4486-A44B-D0AD5946DD42}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Challenge;FQName=MBSE for SAFe 5.0::Challenge;@ENDSTEREO;$DES;$CLT={75C04C9C-EF1C-48d9-BE03-EC92AFCD62FC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Assumption4" xmi.id="EAID_A139C0D7_EE37_4b02_9FAE_432F4A4486B1" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Assumption"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-09-11 18:51:31"/>
+										<UML:TaggedValue tag="date_modified" value="2022-09-11 18:52:21"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Assumption"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10620"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F1B8A992-D0A2-49f3-81B5-970E1E51F133}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Assumption;FQName=MBSE for SAFe 5.0::Assumption;@ENDSTEREO;$DES;$CLT={A139C0D7-EE37-4b02-9FAE-432F4A4486B1}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Assumption6" xmi.id="EAID_A9A939AA_0EF7_4baa_89EE_295815D8BB61" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Assumption"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-09-11 18:51:47"/>
+										<UML:TaggedValue tag="date_modified" value="2022-09-11 18:52:24"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Assumption"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10622"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={ED4F1451-DE51-448a-B868-B4B89CE15B50}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Assumption;FQName=MBSE for SAFe 5.0::Assumption;@ENDSTEREO;$DES;$CLT={A9A939AA-0EF7-4baa-89EE-295815D8BB61}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Assumption1" xmi.id="EAID_B15895D6_BF69_4ba8_9C55_F0722B110DCA" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Assumption"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-09-11 18:51:13"/>
+										<UML:TaggedValue tag="date_modified" value="2022-09-11 18:52:16"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Assumption"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10617"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={38BE2185-E666-4269-A7F9-A874D9B944AE}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Assumption;FQName=MBSE for SAFe 5.0::Assumption;@ENDSTEREO;$DES;$CLT={B15895D6-BF69-4ba8-9C55-F0722B110DCA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Assumption2" xmi.id="EAID_BC26A40B_8D94_46cf_8998_1589C6CF23A2" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Assumption"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-09-11 18:51:17"/>
+										<UML:TaggedValue tag="date_modified" value="2022-09-11 18:52:18"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Assumption"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="10618"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4869D99A-8222-4321-ACAC-D28EC8B8D230}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Assumption;FQName=MBSE for SAFe 5.0::Assumption;@ENDSTEREO;$DES;$CLT={BC26A40B-8D94-46cf-8998-1589C6CF23A2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="OpenQuestion4" xmi.id="EAID_C8BDEA26_38BE_4198_8503_DB56F929E5AB" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="OpenQuestion"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 16:25:05"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="OpenQuestion"/>
+										<UML:TaggedValue tag="tpos" value="13"/>
+										<UML:TaggedValue tag="ea_localid" value="10482"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={30F47BEF-C117-49ee-84A5-DBFBE87E741C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OpenQuestion;FQName=MBSE for SAFe 5.0::OpenQuestion;@ENDSTEREO;$DES;$CLT={C8BDEA26-38BE-4198-8503-DB56F929E5AB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Challenge3" xmi.id="EAID_CC4BFB06_5D7E_45a6_87F4_E5D379B8F4EB" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Challenge"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 16:24:05"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Challenge"/>
+										<UML:TaggedValue tag="tpos" value="8"/>
+										<UML:TaggedValue tag="ea_localid" value="10473"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={858C33D8-FE9A-4aa4-9655-7422B340DC92}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Challenge;FQName=MBSE for SAFe 5.0::Challenge;@ENDSTEREO;$DES;$CLT={CC4BFB06-5D7E-45a6-87F4-E5D379B8F4EB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Challenge2" xmi.id="EAID_CDB96F37_AC87_429d_B549_27F78691F43E" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Challenge"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 08:45:48"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Challenge"/>
+										<UML:TaggedValue tag="tpos" value="7"/>
+										<UML:TaggedValue tag="ea_localid" value="10438"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={BC569723-FFED-4887-B2CC-8F2B00CCA2C4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Challenge;FQName=MBSE for SAFe 5.0::Challenge;@ENDSTEREO;$DES;$CLT={CDB96F37-AC87-429d-B549-27F78691F43E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Challenge4" xmi.id="EAID_E49285C4_3DFE_4acd_B19F_5CD37E16E13F" visibility="public" namespace="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Challenge"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_64E159ED_0B37_4b67_98D3_C82F9C99013D"/>
+										<UML:TaggedValue tag="date_created" value="2022-08-19 16:24:10"/>
+										<UML:TaggedValue tag="date_modified" value="2022-08-26 11:34:40"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Definition"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Challenge"/>
+										<UML:TaggedValue tag="tpos" value="9"/>
+										<UML:TaggedValue tag="ea_localid" value="10474"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={FF67E98D-2CCC-4511-88CB-7774E27DBA7D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Challenge;FQName=MBSE for SAFe 5.0::Challenge;@ENDSTEREO;$DES;$CLT={E49285C4-3DFE-4acd-B19F-5CD37E16E13F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Epic Use Cases" xmi.id="EAPK_76083E1E_E6EB_4e37_A058_E891C6ADBD11" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+								<UML:TaggedValue tag="created" value="2021-06-21 10:28:24"/>
+								<UML:TaggedValue tag="modified" value="2021-06-21 10:28:24"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2021-12-07 20:38:49"/>
+								<UML:TaggedValue tag="lastsavedate" value="2021-12-07 20:38:49"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="30778880"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_2FA2AB8F_4554_4a62_8149_8D05242C307E" visibility="public" namespace="EAPK_76083E1E_E6EB_4e37_A058_E891C6ADBD11">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&amp;lt;EPIC&amp;gt; Use Cases"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_76083E1E_E6EB_4e37_A058_E891C6ADBD11"/>
+										<UML:TaggedValue tag="date_created" value="2021-06-21 10:29:12"/>
+										<UML:TaggedValue tag="date_modified" value="2021-06-21 10:29:46"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Use Cases"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="4562"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Epic Story Map" xmi.id="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+								<UML:TaggedValue tag="created" value="2021-06-21 10:25:12"/>
+								<UML:TaggedValue tag="modified" value="2021-06-21 10:25:12"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2021-12-07 20:38:49"/>
+								<UML:TaggedValue tag="lastsavedate" value="2021-12-07 20:38:49"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="30778880"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_1862C064_A8B1_4b41_980C_8A0C03FACA1D" visibility="public" namespace="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+										<UML:TaggedValue tag="date_created" value="2021-03-29 10:34:50"/>
+										<UML:TaggedValue tag="date_modified" value="2021-03-29 10:37:02"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Story Map"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="4553"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+								<UML:Collaboration xmi.id="EAID_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="In Scope" xmi.id="EAID_1FF8C02E_CAF5_4877_AF4D_7847B2106300" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+												<UML:TaggedValue tag="date_created" value="2021-03-29 10:32:27"/>
+												<UML:TaggedValue tag="date_modified" value="2021-03-29 10:34:05"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Epic Story Map"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="4556"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Want to Have" xmi.id="EAID_36A1FFC5_1C4B_4313_83EB_99571A16094D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+												<UML:TaggedValue tag="date_created" value="2021-03-29 10:39:46"/>
+												<UML:TaggedValue tag="date_modified" value="2021-03-29 10:39:58"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Epic Story Map"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="4557"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Out of Scope" xmi.id="EAID_5249DE8E_FED4_46f1_9523_6E180B9F8636" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+												<UML:TaggedValue tag="date_created" value="2021-03-29 10:32:28"/>
+												<UML:TaggedValue tag="date_modified" value="2021-03-29 10:34:13"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Epic Story Map"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="4558"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Should Have" xmi.id="EAID_64A03243_51BA_4e56_9D9C_17712A7754E8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+												<UML:TaggedValue tag="date_created" value="2021-03-29 10:38:04"/>
+												<UML:TaggedValue tag="date_modified" value="2021-03-29 10:38:28"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Epic Story Map"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="4559"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Must Have" xmi.id="EAID_7D271B19_0201_4e01_8323_7BBEE35CDC5E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+												<UML:TaggedValue tag="date_created" value="2021-03-29 10:38:06"/>
+												<UML:TaggedValue tag="date_modified" value="2021-03-29 10:38:22"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Epic Story Map"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="4560"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Could Have" xmi.id="EAID_9A6DF658_D667_4875_AC76_C3685C803212" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+												<UML:TaggedValue tag="date_created" value="2021-03-29 10:38:02"/>
+												<UML:TaggedValue tag="date_modified" value="2021-03-29 10:38:35"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Epic Story Map"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="30778880"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="4561"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Comment xmi.id="EAID_B4CCF2B0_BE27_4c0b_BB7B_801E2C1127ED" visibility="public" namespace="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+										<UML:TaggedValue tag="date_created" value="2021-03-29 10:32:37"/>
+										<UML:TaggedValue tag="date_modified" value="2021-03-29 10:32:37"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Story Map"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="4554"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+								<UML:Comment xmi.id="EAID_C9B865C8_98F6_4506_80CB_9B32AFEC4746" visibility="public" namespace="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&amp;lt;EPIC&amp;gt; Story Map"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+										<UML:TaggedValue tag="date_created" value="2021-06-21 10:25:30"/>
+										<UML:TaggedValue tag="date_modified" value="2021-06-21 10:26:16"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Story Map"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="4564"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+								<UML:Comment xmi.id="EAID_EE2B04D2_C1EF_4f9c_82EC_F3B92BEC3F89" visibility="public" namespace="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&amp;lt;Epic Name&amp;gt; Epic Scope Diagram"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Text"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+										<UML:TaggedValue tag="date_created" value="2021-03-29 10:32:59"/>
+										<UML:TaggedValue tag="date_modified" value="2021-03-29 10:33:35"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Epic Story Map"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="30778880"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="4555"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="End Date" xmi.id="EAID_353E8895_EA1E_cbea_9017_83CB8C21DDB2" modelElement="EAID_E67AB0B1_BC0A_41f0_99BF_E4382480A695"/>
+		<UML:TaggedValue tag="Epic Type" xmi.id="EAID_CDFC16E3_2D8C_672d_85E5_7D4AB3A4C532" modelElement="EAID_E67AB0B1_BC0A_41f0_99BF_E4382480A695"/>
+		<UML:TaggedValue tag="Start Date" xmi.id="EAID_7695186C_8835_9488_826C_1E54D6D1A058" modelElement="EAID_E67AB0B1_BC0A_41f0_99BF_E4382480A695"/>
+		<UML:TaggedValue tag="SummedStoryPoints_E" xmi.id="EAID_CAD8272D_CCD6_b5cc_922C_E3B8E40CCA17" modelElement="EAID_E67AB0B1_BC0A_41f0_99BF_E4382480A695"/>
+		<UML:TaggedValue tag="SummedTShirtSize_E" xmi.id="EAID_D7EE3A88_A6F1_65a6_B0FE_807E606E8A63" modelElement="EAID_E67AB0B1_BC0A_41f0_99BF_E4382480A695"/>
+		<UML:Diagram name="&lt;Epic Name&gt; Epic Navigation Page " xmi.id="EAID_82579467_147C_4717_B6B9_BF0FC0DCF514" diagramType="CustomDiagram" owner="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="30778880"/>
+				<UML:TaggedValue tag="created_date" value="2021-03-29 10:25:27"/>
+				<UML:TaggedValue tag="modified_date" value="2022-09-11 19:00:54"/>
+				<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="533"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=BD9BCC46;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=Extended::Dashboard;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=12;Top=206;Right=182;Bottom=321;" subject="EAID_D54383EB_293D_4705_94BA_7474EEC25E66" seqno="1" style="font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=AC3F668D;"/>
+				<UML:DiagramElement geometry="Left=585;Top=203;Right=765;Bottom=323;" subject="EAID_5D55723E_1ABC_49f1_8A58_F0BED994B0E9" seqno="2" style="font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=9C6E7752;"/>
+				<UML:DiagramElement geometry="Left=391;Top=203;Right=571;Bottom=323;" subject="EAID_802EBDD6_7EA5_48a9_AE36_444B313A3967" seqno="3" style="font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=6EC22A0F;"/>
+				<UML:DiagramElement geometry="Left=195;Top=203;Right=375;Bottom=323;" subject="EAID_07F216D2_83C6_4f7a_A95E_BFFC2A53574D" seqno="4" style="font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=CDFA1B5D;"/>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=844;Bottom=56;" subject="EAID_35A1460F_B010_4dfb_8F4D_76620FE9CCF5" seqno="5" style="DUID=789B71E9;font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="&lt;Epic&gt; Definition Canvas" xmi.id="EAID_C7FA29DB_6468_45d9_9E9C_407F5EA7AEB8" diagramType="ClassDiagram" owner="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Dan Menoher"/>
+				<UML:TaggedValue tag="created_date" value="2022-08-19 08:40:47"/>
+				<UML:TaggedValue tag="modified_date" value="2022-09-11 19:00:54"/>
+				<UML:TaggedValue tag="package" value="EAPK_E57FD380_BA29_498a_8ACC_1EB03F1B786C"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="1034"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=FBCA0ED9;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE for SAFe 5.0;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="$ea_hlinksclassified" value="{D54383EB-293D-4705-94BA-7474EEC25E66}"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=133;Top=629;Right=258;Bottom=679;" subject="EAID_A9A939AA_0EF7_4baa_89EE_295815D8BB61" seqno="1" style="DUID=0D289F29;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=0;Top=629;Right=125;Bottom=679;" subject="EAID_51A0D58E_13BE_477f_93DE_A60140EA2271" seqno="2" style="DUID=8F8D2256;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=133;Top=573;Right=258;Bottom=623;" subject="EAID_A139C0D7_EE37_4b02_9FAE_432F4A4486B1" seqno="3" style="DUID=B725080E;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=0;Top=573;Right=125;Bottom=623;" subject="EAID_33509949_F104_4c69_B9D6_E8DB66028A73" seqno="4" style="DUID=AF0521CF;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=133;Top=514;Right=258;Bottom=564;" subject="EAID_BC26A40B_8D94_46cf_8998_1589C6CF23A2" seqno="5" style="DUID=90E8AD12;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=0;Top=514;Right=125;Bottom=564;" subject="EAID_B15895D6_BF69_4ba8_9C55_F0722B110DCA" seqno="6" style="DUID=664B8D6A;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=274;Top=131;Right=546;Bottom=665;" subject="EAID_777F6696_7F64_4bd3_95B5_BA82A8DB59DA" seqno="7" style="DUID=D8FE0F37;"/>
+				<UML:DiagramElement geometry="Left=133;Top=178;Right=258;Bottom=228;" subject="EAID_C8BDEA26_38BE_4198_8503_DB56F929E5AB" seqno="8" style="DUID=FD7E5750;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=3;Top=178;Right=128;Bottom=228;" subject="EAID_203DA70F_3506_4440_9968_523FC1CBE0D0" seqno="9" style="DUID=36EE5B62;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=133;Top=116;Right=258;Bottom=166;" subject="EAID_2E457FFC_B504_4720_9414_02CFB4E89F6C" seqno="10" style="DUID=50E023AF;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=3;Top=116;Right=128;Bottom=166;" subject="EAID_6A85A02F_455D_4270_9F1F_62F2EF5E32EA" seqno="11" style="DUID=8BAC0E9A;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=133;Top=412;Right=185;Bottom=453;" subject="EAID_C3EB59F9_1DD9_4967_B47B_5E80A87EEC56" seqno="12" style="DUID=6C394AA1;HideIcon=0;LBL=CX=74:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=23;Top=408;Right=75;Bottom=449;" subject="EAID_630DC48D_5EDF_4fe5_81BD_D34A39F6B8B7" seqno="13" style="DUID=963CD831;HideIcon=0;LBL=CX=74:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=128;Top=338;Right=179;Bottom=377;" subject="EAID_08031D3C_BEA0_42e4_9328_00409F951352" seqno="14" style="DUID=0E2A14BD;HideIcon=0;LBL=CX=74:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=20;Top=337;Right=72;Bottom=378;" subject="EAID_AA17D76F_269B_4535_B23F_3B82E980F6F8" seqno="15" style="DUID=E46F436B;HideIcon=0;LBL=CX=74:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=691;Top=157;Right=816;Bottom=207;" subject="EAID_E49285C4_3DFE_4acd_B19F_5CD37E16E13F" seqno="16" style="DUID=0CDBB94A;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=559;Top=157;Right=684;Bottom=207;" subject="EAID_CC4BFB06_5D7E_45a6_87F4_E5D379B8F4EB" seqno="17" style="DUID=78E03769;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=690;Top=408;Right=815;Bottom=458;" subject="EAID_B43FEEB0_483D_42cf_A2FA_6B9F94E5D39C" seqno="18" style="DUID=25DCF44B;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=562;Top=408;Right=687;Bottom=458;" subject="EAID_B15402F8_5F0E_442f_9209_BF86442D1CA2" seqno="19" style="DUID=BC46B49F;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=690;Top=350;Right=815;Bottom=400;" subject="EAID_E4F28F08_8088_415c_A2B9_B840F29BB95A" seqno="20" style="DUID=A9E34467;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=562;Top=348;Right=687;Bottom=398;" subject="EAID_4F7858D6_D6C9_4c7c_9817_8192560B204A" seqno="21" style="DUID=6EFD8018;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=690;Top=293;Right=815;Bottom=343;" subject="EAID_D811CCA0_C9B6_4c5f_A342_F815D44295E7" seqno="22" style="DUID=ECE5766B;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=562;Top=291;Right=687;Bottom=341;" subject="EAID_62BADA94_7930_4351_9E7F_38F99B6B9A79" seqno="23" style="DUID=DA0F35AE;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=321;Top=71;Right=471;Bottom=106;" subject="EAID_E67AB0B1_BC0A_41f0_99BF_E4382480A695" seqno="24" style="DUID=E0BCAD8A;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=691;Top=99;Right=815;Bottom=149;" subject="EAID_CDB96F37_AC87_429d_B549_27F78691F43E" seqno="25" style="DUID=E2E8CF90;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=560;Top=97;Right=684;Bottom=147;" subject="EAID_75C04C9C_EF1C_48d9_BE03_EC92AFCD62FC" seqno="26" style="DUID=40B9FF23;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=820;Bottom=53;" subject="EAID_7E664E72_586A_4ec3_AF58_42C1F2BB015B" seqno="27" style="DUID=B2807E57;font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=0;Top=64;Right=263;Bottom=254;" subject="EAID_1B9F9104_8FC9_4730_B812_7740B3CA9AF2" seqno="28" style="DUID=72BD21BB;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=557;Top=64;Right=820;Bottom=254;" subject="EAID_F091587E_2D42_4b65_B3F3_8CA62F6D4848" seqno="29" style="DUID=0E912597;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=0;Top=273;Right=258;Bottom=463;" subject="EAID_777E569E_5D6E_407f_B47E_7DB2AF2C8B76" seqno="30" style="DUID=6B8DDB56;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=554;Top=265;Right=820;Bottom=461;" subject="EAID_6FF74B01_53E8_494a_887F_DFDB5CD82160" seqno="31" style="DUID=F609DBC2;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=0;Top=480;Right=263;Bottom=691;" subject="EAID_7EC51E48_7E98_405a_BDBF_D1E3405D1031" seqno="32" style="DUID=BA606CEE;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8A9A61C6_882C_4184_B23E_A684839F1985" style="Mode=3;EOID=D8FE0F37;SOID=E0BCAD8A;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_46BB_cd46_9475_EFAA4C1C681E" modelElement="EAID_08031D3C_BEA0_42e4_9328_00409F951352"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_4C14_d94c_9523_0F40BB91F65E" modelElement="EAID_203DA70F_3506_4440_9968_523FC1CBE0D0"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_4476_6344_82F2_D38DA51E28B5" modelElement="EAID_203DA70F_3506_4440_9968_523FC1CBE0D0"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_4C14_d94c_923D_227DD5A55FC8" modelElement="EAID_2E457FFC_B504_4720_9414_02CFB4E89F6C"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_4476_6344_ADE9_F232127F4BE7" modelElement="EAID_2E457FFC_B504_4720_9414_02CFB4E89F6C"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_C9D0_29c9_BA2E_FE537BA60CBE" modelElement="EAID_4F7858D6_D6C9_4c7c_9817_8192560B204A"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_C9D0_29c9_881A_D6C2BD0F44B3" modelElement="EAID_62BADA94_7930_4351_9E7F_38F99B6B9A79"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_46BB_cd46_9D3D_6019840347E2" modelElement="EAID_630DC48D_5EDF_4fe5_81BD_D34A39F6B8B7"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_4C14_d94c_A21D_9E9A955B2CBA" modelElement="EAID_6A85A02F_455D_4270_9F1F_62F2EF5E32EA"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_4476_6344_93E1_7155191F7976" modelElement="EAID_6A85A02F_455D_4270_9F1F_62F2EF5E32EA"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_9FEF_b29f_BBA2_462B70F14FFE" modelElement="EAID_75C04C9C_EF1C_48d9_BE03_EC92AFCD62FC"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_46BB_cd46_8D96_5A191D523144" modelElement="EAID_AA17D76F_269B_4535_B23F_3B82E980F6F8"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_20DC_2c20_A652_66C9263D3A54" modelElement="EAID_B15402F8_5F0E_442f_9209_BF86442D1CA2"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_20DC_2c20_99EB_9B1C887F4720" modelElement="EAID_B43FEEB0_483D_42cf_A2FA_6B9F94E5D39C"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_46BB_cd46_B3EB_3AF75A46C8AA" modelElement="EAID_C3EB59F9_1DD9_4967_B47B_5E80A87EEC56"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_4C14_d94c_8B3A_473AA12160A9" modelElement="EAID_C8BDEA26_38BE_4198_8503_DB56F929E5AB"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_4476_6344_A54E_EA7CA4AFC3E6" modelElement="EAID_C8BDEA26_38BE_4198_8503_DB56F929E5AB"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_69CD_6d69_95EC_90DCAFD6D0EF" modelElement="EAID_CC4BFB06_5D7E_45a6_87F4_E5D379B8F4EB"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_9FEF_b29f_8ED6_B48EFDA731C1" modelElement="EAID_CC4BFB06_5D7E_45a6_87F4_E5D379B8F4EB"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_9FEF_b29f_B8F7_471699BD591C" modelElement="EAID_CDB96F37_AC87_429d_B549_27F78691F43E"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_C9D0_29c9_9FD0_3A11B50BA5DD" modelElement="EAID_D811CCA0_C9B6_4c5f_A342_F815D44295E7"/>
+		<UML:TaggedValue tag="Priority" xmi.id="EAID_A142CBA2_69CD_6d69_9529_DF4D9933FBE3" modelElement="EAID_E49285C4_3DFE_4acd_B19F_5CD37E16E13F"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_9FEF_b29f_9209_0BF8DBBEEF0D" modelElement="EAID_E49285C4_3DFE_4acd_B19F_5CD37E16E13F"/>
+		<UML:TaggedValue tag="Status" xmi.id="EAID_14AB8884_C9D0_29c9_A76C_DED2B33EAC4C" modelElement="EAID_E4F28F08_8088_415c_A2B9_B840F29BB95A"/>
+		<UML:Diagram name="Epic Use Cases" xmi.id="EAID_9A520D8E_5C47_4fe7_9731_68B8408CCBA5" diagramType="UseCaseDiagram" owner="EAPK_76083E1E_E6EB_4e37_A058_E891C6ADBD11" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="30778880"/>
+				<UML:TaggedValue tag="created_date" value="2021-06-21 10:28:32"/>
+				<UML:TaggedValue tag="modified_date" value="2022-09-09 09:46:48"/>
+				<UML:TaggedValue tag="package" value="EAPK_76083E1E_E6EB_4e37_A058_E891C6ADBD11"/>
+				<UML:TaggedValue tag="type" value="Use Case"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="535"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=206AFE07;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE Meta Model::MBSE Meta Model;STBLDgm=;ShowNotes=0;OPTIONS_FDAA35B7=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="$ea_hlinksclassified" value="{5D55723E-1ABC-49f1-8A58-F0BED994B0E9}"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=830;Bottom=70;" subject="EAID_2FA2AB8F_4554_4a62_8149_8D05242C307E" seqno="1" style="DUID=FDAA35B7;BCol=16449525;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="In Scope - Out of Scope Analysis" xmi.id="EAID_36FF3391_6BD2_4c83_B620_D55C51943CFA" diagramType="ClassDiagram" owner="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="documentation" value="The Epic Scope diagram shows the In Scope and out of Scope for the features.  It also show the priority of the In Scope items that is based upon the MoSCoW prioritization.   "/>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="30778880"/>
+				<UML:TaggedValue tag="created_date" value="2021-03-29 10:31:39"/>
+				<UML:TaggedValue tag="modified_date" value="2022-09-09 09:46:48"/>
+				<UML:TaggedValue tag="package" value="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="1"/>
+				<UML:TaggedValue tag="ea_localid" value="534"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=1B4F55E4;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::Functional Decomposition (SAFe5.0);STBLDgm=;ShowNotes=0;OPTIONS_31049E09=SSA=100:;OPTIONS_A450D1CB=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="$ea_hlinksclassified" value="{07F216D2-83C6-4f7a-A95E-BFFC2A53574D}"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=10;Top=90;Right=820;Bottom=190;" subject="EAID_1862C064_A8B1_4b41_980C_8A0C03FACA1D" seqno="1" style="DUID=0CAB4526;"/>
+				<UML:DiagramElement geometry="Left=130;Top=10;Right=600;Bottom=59;" subject="EAID_EE2B04D2_C1EF_4f9c_82EC_F3B92BEC3F89" seqno="2" style="DUID=521AF15A;font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=830;Bottom=80;" subject="EAID_B4CCF2B0_BE27_4c0b_BB7B_801E2C1127ED" seqno="3" style="DUID=A450D1CB;BCol=16449525;font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=10;Top=200;Right=410;Bottom=1019;" subject="EAID_1FF8C02E_CAF5_4877_AF4D_7847B2106300" seqno="4" style="DUID=0A2DC95C;font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=420;Top=450;Right=820;Bottom=1020;" subject="EAID_5249DE8E_FED4_46f1_9523_6E180B9F8636" seqno="5" style="DUID=AF2B497E;font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=20;Top=810;Right=400;Bottom=1000;" subject="EAID_9A6DF658_D667_4875_AC76_C3685C803212" seqno="6" style="DUID=04A9A405;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=20;Top=540;Right=400;Bottom=800;" subject="EAID_64A03243_51BA_4e56_9D9C_17712A7754E8" seqno="7" style="DUID=769B24D4;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=20;Top=270;Right=400;Bottom=530;" subject="EAID_7D271B19_0201_4e01_8323_7BBEE35CDC5E" seqno="8" style="DUID=31049E09;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;BCol=15335401;"/>
+				<UML:DiagramElement geometry="Left=420;Top=200;Right=820;Bottom=430;" subject="EAID_36A1FFC5_1C4B_4313_83EB_99571A16094D" seqno="9" style="DUID=869BB30A;font=Calibri;fontsz=140;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Epic Story Map" xmi.id="EAID_58403150_71E3_4cca_A4BF_B7A195C01C95" diagramType="ClassDiagram" owner="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="30778880"/>
+				<UML:TaggedValue tag="created_date" value="2021-06-21 10:25:18"/>
+				<UML:TaggedValue tag="modified_date" value="2022-09-09 09:46:49"/>
+				<UML:TaggedValue tag="package" value="EAPK_9D9763C1_3679_4276_8A48_3C2C3DAD9BD9"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="2"/>
+				<UML:TaggedValue tag="ea_localid" value="536"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=722C0A74;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::Functional Decomposition (SAFe5.0);STBLDgm=;ShowNotes=0;OPTIONS_BE1F8CE0=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="$ea_hlinksclassified" value="{802EBDD6-7EA5-48a9-AE36-444B313A3967}"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=830;Bottom=60;" subject="EAID_C9B865C8_98F6_4506_80CB_9B32AFEC4746" seqno="1" style="DUID=BE1F8CE0;font=Calibri;fontsz=240;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;BCol=16449525;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EANoteLink xmi.id="EAID_8A9A61C6_882C_4184_B23E_A684839F1985" source="EAID_E67AB0B1_BC0A_41f0_99BF_E4382480A695" target="EAID_777F6696_7F64_4bd3_95B5_BA82A8DB59DA">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="linecolor" value="-1"/>
+				<UML:TaggedValue tag="linewidth" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</EANoteLink>
+	</XMI.extensions>
+</XMI>

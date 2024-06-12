@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.25" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.25c" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Assumption" metatype="Assumption" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -17,7 +17,11 @@
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="End User Affected" type="" description="" unit="" values="" default=""/>
 					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefHFStudy" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
@@ -34,6 +38,13 @@
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="End User Affected" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefHFStudy" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefPart" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="EndUser" metatype="EndUser" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
@@ -76,7 +87,12 @@
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="End User Affected" type="" description="" unit="" values="" default=""/>
 					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefHFStudy" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefPart" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Goal" metatype="Goal" notes="" cx="0" cy="0" bgcolor="16436871" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
@@ -93,6 +109,8 @@
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="Occurance" type="enumeration" description="" unit="" values="Improbable,Remote,Sometimes,Probable,Highly Probable,Medium,Low" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
 					<Tag name="Severity" type="enumeration" description="" unit="" values="Negligible,Marginal,Serious,Critical,Catastrophic,High,Medium,Low" default=""/>
 				</TaggedValues>
 			</Stereotype>
@@ -125,6 +143,8 @@
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
@@ -154,9 +174,14 @@ AAAAAIAAAAAAc3RyLmRhdFVUBQAHFFuMY1BLBQYAAAAAAQABAD4AAACzAAAAAAA=</Image>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="End User Affected" type="" description="" unit="" values="" default=""/>
 					<Tag name="Frequency of Occurance" type="enumeration" description="" unit="" values="Improbable,Remote,Sometimes,Probable,Highly Probable,Medium,Low" default=""/>
 					<Tag name="Impact Severity" type="enumeration" description="" unit="" values="Negligible,Marginal,Serious,Critical,Catastrophic,High,Medium,Low" default=""/>
 					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefHFStudy" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefPart" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Part Spec" metatype="Part Spec" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -166,6 +191,10 @@ AAAAAIAAAAAAc3RyLmRhdFVUBQAHFFuMY1BLBQYAAAAAAQABAD4AAACzAAAAAAA=</Image>
 						<Property name="_tagGroups" value="SMART Analysis"/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="RefDesignSpec" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefPart" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Plus" metatype="Plus" notes="" cx="125" cy="50" bgcolor="13237993" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
@@ -173,6 +202,13 @@ AAAAAIAAAAAAc3RyLmRhdFVUBQAHFFuMY1BLBQYAAAAAAQABAD4AAACzAAAAAAA=</Image>
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="End User Affected" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefHFStudy" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefPart" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Problem" metatype="Problem" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADRKDFVM2cMwPQIAAIgJAAAHABEAc3RyLmRhdFVUDQAHphr2YqYa9mKmGvZi
@@ -253,6 +289,8 @@ AAAAcwIAAAAA</Image>
 					<Apply type="Risk"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
@@ -268,7 +306,9 @@ AAAAcwIAAAAA</Image>
 					<Apply type="UseCase"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="UseCaseLevel" type="" description="" unit="" values="" default=""/>
+					<Tag name="UseCaseType" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="UserComment" metatype="UserComment" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -368,6 +408,7 @@ AA==</Image>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
 					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
 					<Tag name="subType" type="" description="" unit="" values="" default=""/>

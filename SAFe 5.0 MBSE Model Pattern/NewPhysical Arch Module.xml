@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2024-06-12 13:08:55">
+<?xml version="1.0" encoding="windows-1252" standalone="no" ?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2024-06-23 16:02:50">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -577,6 +577,31 @@
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Function" xmi.id="EAID_EF5FC35D_8003_4feb_A8B0_F8088DA6B291" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_800FDDDC_3D04_40d0_B416_F83CF746A039"/>
+										<UML:TaggedValue tag="date_created" value="2024-06-23 09:37:32"/>
+										<UML:TaggedValue tag="date_modified" value="2024-06-23 09:37:32"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_EF5FC35D_8003_4feb_A8B0_F8088DA6B291"/>
+										<UML:TaggedValue tag="package_name" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="1259"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
 							</UML:Namespace.ownedElement>
 							<UML:Collaboration.interaction/>
 						</UML:Collaboration>
@@ -595,7 +620,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4523"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TR003- "/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -604,8 +629,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="13542"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3497EDE0-B5CF-4add-A972-F3E6A0D26D94}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={DD2FF77D-4930-4ed7-AD5D-55160C534CA5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_09872799_78AA_4a64_8BF0_D9B033088C84">
@@ -663,7 +689,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4521"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TR001- "/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -672,8 +698,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="13540"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7D81B873-78DC-4622-AEEB-78AFEB0719A0}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={99D9DBE9-C73E-456f-B338-15031C369D10}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_11F7716E_14D1_4410_9BE8_87CF31A0E41A">
@@ -870,7 +897,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4513"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Q001-"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -879,8 +906,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="13537"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7AFCD42C-7633-4a74-A503-22C163DAADCA}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={2E60A7A7-1DE8-46ff-96C8-A28BF8689512}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_4B53B9F2_7C69_471d_9A7D_DA06110E7FEB">
@@ -1039,6 +1067,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -1057,7 +1086,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4519"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Q005-"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1066,8 +1095,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="13531"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={202CB89A-FDE2-4eb3-8BF6-66BDF6F106AA}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={56E17FAC-783D-4b4e-88A9-97B7D6A86777}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_53EA4444_6E70_431d_82CC_B47BA67B9D15">
@@ -1101,7 +1131,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4620"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Hazard2"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1126,8 +1156,9 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0D398AB2-CC21-4cfc-B0BA-E2ABA717F3EF}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={35E6858C-08D1-436c-A61E-BACB4CF663F9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
 						<UML:Association xmi.id="EAID_9995E9CB_DCEE_4f8f_A1FA_50CD202F6D06" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
@@ -1145,7 +1176,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4524"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TR004- "/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1154,8 +1185,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="13543"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={ADDFF7DC-0CFB-43a7-9805-D04FF929BF9E}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={9995E9CB-DCEE-4f8f-A1FA-50CD202F6D06}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_5EE01759_30D7_4b79_9436_1402294E6959">
@@ -1220,7 +1252,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4621"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Hazard3"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1245,8 +1277,9 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C02ADD20-67A4-4820-89F4-0E150B1B1720}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={35BBA3E3-ED1B-43ae-84BC-32036A9F6248}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
 						<UML:Comment xmi.id="EAID_79BCC196_CD6F_466b_8783_7C68612C8612" visibility="public" namespace="EAPK_800FDDDC_3D04_40d0_B416_F83CF746A039">
@@ -1319,7 +1352,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4619"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Hazard001-"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1344,8 +1377,9 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3B434BCD-700C-4907-90BE-67A72B4143B8}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={FF2297C4-6103-41ed-9D70-AB77A5865AEF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
 						<UML:Dependency xmi.id="EAID_A2930BCF_BCF2_428a_AA18_5982D9F0D7FC" visibility="public" client="EAID_982BC6F7_63FD_46bb_B3F3_7760850EBD8D" supplier="EAID_EDE9E20B_8252_443e_A00D_57A1E2752BB3">
@@ -1363,7 +1397,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4622"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Hazard4"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1388,8 +1422,9 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9B76D554-12DF-456a-BB83-1708A2D1C6DE}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={A2930BCF-BCF2-428a-AA18-5982D9F0D7FC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
 						<UML:Class name="Q006- " xmi.id="EAID_9A0B4F59_604C_48fb_9D34_F4378D6C651F" visibility="public" namespace="EAPK_800FDDDC_3D04_40d0_B416_F83CF746A039" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
@@ -1434,7 +1469,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4520"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Q006- "/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1443,8 +1478,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="13532"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8D98F6E9-E38C-4fb4-A15D-1A338E9F3405}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={5E4A90D5-C04C-4770-883A-8A8A1E70AB04}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_9A0B4F59_604C_48fb_9D34_F4378D6C651F">
@@ -1505,7 +1541,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4516"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Q004- "/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1514,8 +1550,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="13530"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={774B4383-99C9-4429-9752-9016D5B0236F}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={72E403E1-BA69-4088-B075-4A6E3139D6EC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_9E9786F0_066C_4a69_84D3_515724E0B04B">
@@ -1549,7 +1586,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4522"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TR002- "/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1558,8 +1595,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="13541"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={86B9CFF1-FD8B-401f-9AE6-737E161EA2D1}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={511E3089-4729-4509-A838-9669E063AC73}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_AABC60AF_C487_4438_82F9_3830296BEF54">
@@ -1620,7 +1658,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4518"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Q003- "/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1629,8 +1667,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="13539"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9F142938-170F-4298-87FB-BDA9885D53B7}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={79A8FC9C-E852-4461-ABDB-6B90B3C1DB09}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_AB732768_CDB0_4577_851B_53129AF28AF5">
@@ -1664,7 +1703,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4515"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Q003- "/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1673,8 +1712,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="13539"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E09FC067-CBFF-48de-9627-061B7E88156F}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={9B44C044-2ED0-44f3-86EF-1EC52066234C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_AB732768_CDB0_4577_851B_53129AF28AF5">
@@ -1730,13 +1770,14 @@
 								<UML:Stereotype name="ModelView"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="The &amp;lt;&amp;lt;NewPhysicalArchModule&amp;gt;&amp;gt; Ports Table list the ports for interfacing with the &amp;lt;&amp;lt;NewPhysicalArchModule&amp;gt;&amp;gt; and a description of their needed function.  "/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_800FDDDC_3D04_40d0_B416_F83CF746A039"/>
 								<UML:TaggedValue tag="date_created" value="2024-06-12 09:37:02"/>
-								<UML:TaggedValue tag="date_modified" value="2024-06-12 09:39:12"/>
+								<UML:TaggedValue tag="date_modified" value="2024-06-20 11:55:32"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1794,7 +1835,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4514"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Q002-"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1803,8 +1844,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="13538"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F31AC2CF-5155-42c8-A528-F52A6A24D337}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={3034B70B-61FC-4d22-AD49-9CF6E467B70C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_EABE1BEB_F91C_49bf_B745_BB4765AEB0D0">
@@ -1868,7 +1910,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4321"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TestSet6"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1877,8 +1919,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12772"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4005DA3D-7E66-4736-9DD8-26A41AE66283}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={23ADF86E-3AF8-41ec-AC47-3D342671CB36}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_FD7DB59D_E017_4a2c_8A90_8443EED8CD50">
@@ -1912,7 +1955,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4320"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TestSet5"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1921,8 +1964,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12771"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={218CA99B-1409-406f-9C63-45487EEAA259}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={3EB61452-7CA1-4bc5-A110-6573B5524262}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_56D01B94_EC62_41de_8D20_29BAA697B4DF">
@@ -1952,7 +1996,7 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="Â«useÂ»"/>
+								<UML:TaggedValue tag="conditional" value="«use»"/>
 								<UML:TaggedValue tag="ea_localid" value="4314"/>
 								<UML:TaggedValue tag="ea_sourceName" value="UseCase5"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -1960,8 +2004,9 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="12774"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="Â«useÂ»"/>
+								<UML:TaggedValue tag="mb" value="«use»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_E6F3565D_8E22_49cb_9AEA_34E88B7AEA41">
@@ -1995,7 +2040,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4511"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Design Spec14"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2005,7 +2050,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DFB4FF24-9E4C-4eff-B012-21645BC3C914}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={524DFA15-54BE-4ec5-8757-2FED56B373FD}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_2085D6B2_6378_4633_A9D5_8C2BDA3DF2AC">
@@ -2024,6 +2069,96 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency xmi.id="EAID_56441FFA_536C_486f_89D8_BB7D79908E81" visibility="public" client="EAID_691B1C95_DEA6_48fb_BC4F_BA75C672036D" supplier="EAID_EDE9E20B_8252_443e_A00D_57A1E2752BB3">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="trace"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="trace"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
+								<UML:TaggedValue tag="ea_localid" value="4671"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Design Spec08"/>
+								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13521"/>
+								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CC58D3DC-89D9-4e60-9FB4-EB7FA1C2CD0B}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={56441FFA-536C-486f-89D8-BB7D79908E81}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_5A1DABA1_9114_469c_B70F_FAF87D37667E" visibility="public" client="EAID_AB29E2D7_8993_4ba2_8767_EF03B2CDDAC1" supplier="EAID_EDE9E20B_8252_443e_A00D_57A1E2752BB3">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="trace"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="trace"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
+								<UML:TaggedValue tag="ea_localid" value="4669"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Design Spec06"/>
+								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13519"/>
+								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={10A6B1CD-406B-4693-8BD6-7DA4C0C7DA8B}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={5A1DABA1-9114-469c-B70F-FAF87D37667E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Association xmi.id="EAID_6418980C_D591_4402_A959_0E04336D9BC8" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -2035,7 +2170,7 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="Â«useÂ»"/>
+								<UML:TaggedValue tag="conditional" value="«use»"/>
 								<UML:TaggedValue tag="ea_localid" value="4315"/>
 								<UML:TaggedValue tag="ea_sourceName" value="UseCase6"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2043,8 +2178,9 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="12775"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="Â«useÂ»"/>
+								<UML:TaggedValue tag="mb" value="«use»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_A1D3C212_0783_4d7b_9F1F_0C8C8FEBCD9F">
@@ -2063,6 +2199,51 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency xmi.id="EAID_667388A5_ED25_4d8b_9418_BB84561525D7" visibility="public" client="EAID_B2A46A1F_4137_4683_A118_3497A80B389C" supplier="EAID_EDE9E20B_8252_443e_A00D_57A1E2752BB3">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="trace"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="trace"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
+								<UML:TaggedValue tag="ea_localid" value="4665"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Design Spec02"/>
+								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13515"/>
+								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E41635C3-61D6-4598-8C80-ACBBD2413E06}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={667388A5-ED25-4d8b-9418-BB84561525D7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Association xmi.id="EAID_6B2AAA45_1533_4959_81EF_DA9BCBA71E30" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.stereotype>
 								<UML:Stereotype name="trace"/>
@@ -2078,7 +2259,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4510"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Design Spec09"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2088,7 +2269,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={14991B1E-7C57-43b7-BD14-F41D69F6954C}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={6B2AAA45-1533-4959-81EF-DA9BCBA71E30}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_97B5F8CB_9CE8_40b2_952D_674524AF656A">
@@ -2122,7 +2303,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4512"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Design Spec10"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2132,7 +2313,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DD75C340-1686-435a-8AD5-F50938EE0023}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={6EA4A3A1-7801-48d9-86B2-DFEFDD73365C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_031886BC_F369_4871_B7A7_E08226F8D87B">
@@ -2151,6 +2332,51 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency xmi.id="EAID_7104388C_8F7A_4d3b_8062_5239EA515EF3" visibility="public" client="EAID_D7EB199A_0C37_4e95_BE00_8E308372963C" supplier="EAID_EDE9E20B_8252_443e_A00D_57A1E2752BB3">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="trace"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="trace"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
+								<UML:TaggedValue tag="ea_localid" value="4664"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Design Spec01"/>
+								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13514"/>
+								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={465A322F-2684-42bf-A614-6461F0B590D9}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={7104388C-8F7A-4d3b-8062-5239EA515EF3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Association xmi.id="EAID_7CD9F9FB_A673_4999_A806_1E7F749B0B84" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.stereotype>
 								<UML:Stereotype name="trace"/>
@@ -2166,7 +2392,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4319"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TestSet4"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2175,8 +2401,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12770"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4558F163-DD1A-4ffc-B3B6-110283EF43DE}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={7CD9F9FB-A673-4999-A806-1E7F749B0B84}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_D0CDE4E6_D3AC_4722_BC5B_4712EF441298">
@@ -2195,6 +2422,96 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency xmi.id="EAID_83FDBEB7_FB86_4af3_9A32_B612D84BE244" visibility="public" client="EAID_1D942D6B_166D_4541_83F9_71AD6F1AFC7D" supplier="EAID_EDE9E20B_8252_443e_A00D_57A1E2752BB3">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="trace"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="trace"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
+								<UML:TaggedValue tag="ea_localid" value="4667"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Design Spec04"/>
+								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13517"/>
+								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CFC068EC-D315-49b2-8951-07D85969DD0D}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={83FDBEB7-FB86-4af3-9A32-B612D84BE244}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_880330F8_204C_4956_856A_1DF3B934A771" visibility="public" client="EAID_8EA24854_4ED1_4370_8032_C1A1F5D11604" supplier="EAID_EDE9E20B_8252_443e_A00D_57A1E2752BB3">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="trace"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="trace"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
+								<UML:TaggedValue tag="ea_localid" value="4670"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Design Spec07"/>
+								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13520"/>
+								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B730F5A9-209F-4373-9158-E2AB6889F6A7}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={880330F8-204C-4956-856A-1DF3B934A771}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Association xmi.id="EAID_9F87F528_3C22_4612_93B8_0B24F1F37B86" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -2206,7 +2523,7 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="Â«useÂ»"/>
+								<UML:TaggedValue tag="conditional" value="«use»"/>
 								<UML:TaggedValue tag="ea_localid" value="4122"/>
 								<UML:TaggedValue tag="ea_sourceName" value="UseCase4"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2214,8 +2531,9 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="12191"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="Â«useÂ»"/>
+								<UML:TaggedValue tag="mb" value="«use»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_C8E692CD_9906_4dc5_A5F1_D6A94D803A78">
@@ -2249,7 +2567,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4318"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TestSet3"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2258,8 +2576,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12769"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7DDA51AC-9773-4357-A512-FE510935B472}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={A9547B50-C1FD-48c5-8961-26C176B60346}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_29AF2359_1D8C_4a30_B322_6F3CCEE97EA4">
@@ -2289,7 +2608,7 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="Â«useÂ»"/>
+								<UML:TaggedValue tag="conditional" value="«use»"/>
 								<UML:TaggedValue tag="ea_localid" value="4119"/>
 								<UML:TaggedValue tag="ea_sourceName" value="UseCase2"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2297,8 +2616,9 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="12189"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="Â«useÂ»"/>
+								<UML:TaggedValue tag="mb" value="«use»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_846E30FC_55B0_4130_973C_40398ACA2372">
@@ -2332,7 +2652,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4507"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Design Spec13"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2342,7 +2662,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={505A0659-03F1-4f85-ADEE-265386741896}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={BCDFA1F5-39A7-4211-B703-AC702D306BBA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_0690778E_EF56_45a0_B97F_53354FABB783">
@@ -2376,7 +2696,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4316"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TestSet1"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2385,8 +2705,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12767"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B7A9E8E0-67B3-4d55-9E5D-F9D81265DE02}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={C2DF00E7-E49E-4f78-98B9-BE4E4EAB970D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_0BF96BC4_CA2B_4ccb_9B25_0EAAAC837B63">
@@ -2416,7 +2737,7 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="Â«useÂ»"/>
+								<UML:TaggedValue tag="conditional" value="«use»"/>
 								<UML:TaggedValue tag="ea_localid" value="4121"/>
 								<UML:TaggedValue tag="ea_sourceName" value="UseCase3"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2424,8 +2745,9 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="12190"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="Â«useÂ»"/>
+								<UML:TaggedValue tag="mb" value="«use»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_C84E8376_4CF9_47f4_B336_BC270AD09589">
@@ -2459,7 +2781,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4508"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Design Spec11"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2469,7 +2791,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3779426D-20B8-4c8e-8B5D-128D074A44BF}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={CD7F243C-79C6-4a85-8A32-8D1B470C22DF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_DEDDB35B_F730_4806_ADFF_AFF03E4654C2">
@@ -2488,6 +2810,96 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency xmi.id="EAID_D064BA88_F9D3_46e2_9D7F_797948CB962E" visibility="public" client="EAID_CFF353D8_680F_4865_9A6C_E78625A68724" supplier="EAID_EDE9E20B_8252_443e_A00D_57A1E2752BB3">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="trace"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="trace"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
+								<UML:TaggedValue tag="ea_localid" value="4668"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Design Spec05"/>
+								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13518"/>
+								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={94024353-C9A5-4cbe-A50D-F107FDE23EBA}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={D064BA88-F9D3-46e2-9D7F-797948CB962E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_D2AB0770_CFB1_4725_9F72_4140CD9ED846" visibility="public" client="EAID_155070F2_6A95_4788_AD8D_51767CDF6FD1" supplier="EAID_EDE9E20B_8252_443e_A00D_57A1E2752BB3">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="trace"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="trace"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
+								<UML:TaggedValue tag="ea_localid" value="4666"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Design Spec03"/>
+								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13516"/>
+								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B56D674C-1DAB-47b2-8DE9-8772EE9FA536}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={D2AB0770-CFB1-4725-9F72-4140CD9ED846}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Association xmi.id="EAID_D83F6D0E_9C5C_4aef_A5EA_E3401B9261AB" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.stereotype>
 								<UML:Stereotype name="trace"/>
@@ -2503,7 +2915,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4509"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Design Spec12"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2513,7 +2925,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2256DDEE-96F9-446c-B825-4561F9BE7C9C}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={D83F6D0E-9C5C-4aef-A5EA-E3401B9261AB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_909AB066_9FAA_4621_B1B7_CA0A9FD3C57C">
@@ -2543,7 +2955,7 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="Â«useÂ»"/>
+								<UML:TaggedValue tag="conditional" value="«use»"/>
 								<UML:TaggedValue tag="ea_localid" value="4120"/>
 								<UML:TaggedValue tag="ea_sourceName" value="UseCase1"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2551,8 +2963,9 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="12188"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="Â«useÂ»"/>
+								<UML:TaggedValue tag="mb" value="«use»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_79D16E5D_849B_4f89_AAC8_B67C250DA893">
@@ -2586,7 +2999,7 @@
 								<UML:TaggedValue tag="stereotype" value="trace"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
 								<UML:TaggedValue tag="ea_localid" value="4317"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TestSet2"/>
 								<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewPhysicalArchModule&gt;&gt;"/>
@@ -2595,8 +3008,9 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12768"/>
 								<UML:TaggedValue tag="ea_targetID" value="12154"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={AF220DD5-D583-4334-ACE7-F8987AF4B0DD}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={F91683FB-1D8B-4ac5-8AF2-96B99DA3731A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;Â«traceÂ»"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
 								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_552DE727_FE22_487b_A69A_97348C31DB4F">
@@ -2639,6 +3053,24 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Class>
+						<UML:Package name="Function" xmi.id="EAPK_EF5FC35D_8003_4feb_A8B0_F8088DA6B291" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_800FDDDC_3D04_40d0_B416_F83CF746A039"/>
+								<UML:TaggedValue tag="created" value="2024-06-23 09:37:32"/>
+								<UML:TaggedValue tag="modified" value="2024-06-23 09:37:32"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
 						<UML:Package name="&lt;&lt;NewPhysicalArchModule&gt;&gt; Use Cases" xmi.id="EAPK_DE6EDF2B_1C4C_43d3_900C_025F52301E82" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="Use cases care created to describe the various uses of the module from the actors perspective. The Use Cases herein  are specifically written to capture the behaviors of the &amp;lt;&amp;lt;NewPhysicalArchModule&amp;gt;&amp;gt; by capturing actor's goals.   The use case process for &amp;lt;&amp;lt;NewPhysicalArchModule&amp;gt;&amp;gt; is recursively iterative decomposing use cases to break &amp;lt;&amp;lt;NewPhysicalArchModule&amp;gt;&amp;gt; into parts. &#xA;"/>
@@ -2754,6 +3186,7 @@
 										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 										<UML:TaggedValue tag="ea_sourceID" value="12759"/>
 										<UML:TaggedValue tag="ea_targetID" value="12188"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 									</UML:ModelElement.taggedValue>
 									<UML:Association.connection>
@@ -2816,6 +3249,7 @@
 										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 										<UML:TaggedValue tag="ea_sourceID" value="12759"/>
 										<UML:TaggedValue tag="ea_targetID" value="12189"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 									</UML:ModelElement.taggedValue>
 									<UML:Association.connection>
@@ -2878,6 +3312,7 @@
 										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 										<UML:TaggedValue tag="ea_sourceID" value="12759"/>
 										<UML:TaggedValue tag="ea_targetID" value="12775"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 									</UML:ModelElement.taggedValue>
 									<UML:Association.connection>
@@ -2940,6 +3375,7 @@
 										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 										<UML:TaggedValue tag="ea_sourceID" value="12759"/>
 										<UML:TaggedValue tag="ea_targetID" value="12190"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 									</UML:ModelElement.taggedValue>
 									<UML:Association.connection>
@@ -3002,6 +3438,7 @@
 										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 										<UML:TaggedValue tag="ea_sourceID" value="12759"/>
 										<UML:TaggedValue tag="ea_targetID" value="12191"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 									</UML:ModelElement.taggedValue>
 									<UML:Association.connection>
@@ -3064,6 +3501,7 @@
 										<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 										<UML:TaggedValue tag="ea_sourceID" value="12759"/>
 										<UML:TaggedValue tag="ea_targetID" value="12774"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 									</UML:ModelElement.taggedValue>
 									<UML:Association.connection>
@@ -3136,6 +3574,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3144,7 +3583,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:59:19"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:02:21"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:35:56"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3167,6 +3606,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3175,7 +3615,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:59:24"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:02:21"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:36:03"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3198,6 +3638,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3206,7 +3647,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:58:28"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:04:01"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:35:41"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3229,6 +3670,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3237,7 +3679,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:58:30"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:04:01"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:35:43"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3260,6 +3702,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3268,7 +3711,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:59:26"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:02:21"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:36:06"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3315,6 +3758,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3323,7 +3767,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:59:04"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:04:01"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:35:53"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3346,6 +3790,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3354,7 +3799,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:58:37"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:04:01"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:35:51"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3377,6 +3822,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3385,7 +3831,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:59:22"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:02:21"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:36:01"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3408,6 +3854,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3416,7 +3863,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:59:17"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:02:21"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:35:54"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3439,6 +3886,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3447,7 +3895,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:58:34"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:04:01"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:35:49"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3470,6 +3918,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3478,7 +3927,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:58:26"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:04:01"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:35:39"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3501,6 +3950,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3509,7 +3959,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:58:32"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:04:01"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:35:45"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3532,7 +3982,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3541,7 +3991,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:56:21"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:04:01"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:35:37"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3588,6 +4038,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3596,7 +4047,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:59:21"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:02:21"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:35:59"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3619,6 +4070,7 @@
 												<UML:Stereotype name="Design Spec"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;RATIONALE &lt;/b&gt;&#xA;&#xA;"/>
 												<UML:TaggedValue tag="isAbstract" value="false"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -3627,7 +4079,7 @@
 												<UML:TaggedValue tag="isActive" value="false"/>
 												<UML:TaggedValue tag="package" value="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0"/>
 												<UML:TaggedValue tag="date_created" value="2024-06-05 10:59:27"/>
-												<UML:TaggedValue tag="date_modified" value="2024-06-05 11:02:21"/>
+												<UML:TaggedValue tag="date_modified" value="2024-06-23 09:36:10"/>
 												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="&lt;&lt;New Physical Arch Module&gt;&gt; Design Spec and Reqs Analysis"/>
@@ -3770,6 +4222,51 @@
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Comment>
+								<UML:Dependency xmi.id="EAID_6DE2EB6C_0527_4e1f_98E2_4AB525A362CE" visibility="public" client="EAID_E799D4CA_A5BB_456e_B491_17268F3C6F4D" supplier="EAPK_F9108663_05E9_4225_A91D_42513F0DF2D2">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="trace"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Dependency"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="trace"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="conditional" value=" &#xA;«trace»"/>
+										<UML:TaggedValue tag="ea_localid" value="4681"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Design Spec15"/>
+										<UML:TaggedValue tag="ea_targetName" value="&lt;&lt;NewCataloguePart&gt;&gt; SDK/Driver"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+										<UML:TaggedValue tag="ea_targetType" value="Package"/>
+										<UML:TaggedValue tag="ea_sourceID" value="13528"/>
+										<UML:TaggedValue tag="ea_targetID" value="13862"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C571D30E-4494-4bf7-AE8B-6E8F5C682130}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=trace;FQName=EAUML::trace;@ENDSTEREO;$DES;$CLT={6DE2EB6C-0527-4e1f-98E2-4AB525A362CE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="mb" value=" &#xA;«trace»"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Dependency>
 								<UML:Comment xmi.id="EAID_F7CB21FE_E94F_4ab6_8BF3_7B3CD7B2D0B3" visibility="public" namespace="EAPK_CD44E4DC_4604_44c3_93F3_CF5319BF28E0">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The Requirements Verification Method Canvas reveals the verification method that will be applied to each requirement as well as define the appropriate Design Specs that map to the requirements..  The legend shows the color corresponding to the verification method.  This diagram is an analysis diagram used to look for gaps in verification methods etc. "/>
@@ -4123,7 +4620,7 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="Dan Menoher"/>
 				<UML:TaggedValue tag="created_date" value="2024-04-30 07:28:15"/>
-				<UML:TaggedValue tag="modified_date" value="2024-06-12 11:05:28"/>
+				<UML:TaggedValue tag="modified_date" value="2024-06-23 09:34:28"/>
 				<UML:TaggedValue tag="package" value="EAPK_800FDDDC_3D04_40d0_B416_F83CF746A039"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
@@ -4131,7 +4628,7 @@
 				<UML:TaggedValue tag="tpos" value="1"/>
 				<UML:TaggedValue tag="ea_localid" value="1212"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=1;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=2;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=0463237A;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE for SAFe 5.0;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;DLKO=1;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=7B3857FD;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE for SAFe 5.0;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;DLKO=1;"/>
 				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
@@ -4141,7 +4638,7 @@
 				<UML:DiagramElement geometry="Left=11;Top=786;Right=229;Bottom=833;" subject="EAID_74C3F9AA_376B_4172_9D12_CC7FACE80C0A" seqno="4" style="DUID=CC10681D;HideIcon=0;"/>
 				<UML:DiagramElement geometry="Left=11;Top=728;Right=229;Bottom=775;" subject="EAID_599E116E_FDF1_4563_AE47_B0D8C2B61FD4" seqno="5" style="DUID=26D77C9D;HideIcon=0;"/>
 				<UML:DiagramElement geometry="Left=11;Top=670;Right=229;Bottom=717;" subject="EAID_8FE24E9E_028A_43a5_BB6C_D33FD63C070F" seqno="6" style="DUID=4EFFCAAC;HideIcon=0;"/>
-				<UML:DiagramElement geometry="Left=0;Top=1183;Right=849;Bottom=1772;" subject="EAID_D4BF1BF5_60E6_42e7_A219_FA8F9A073BA3" seqno="7" style="DUID=C657DDA9;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;HideIcon=0;AttCustom=0;OpCustom=0;RzO=1;"/>
+				<UML:DiagramElement geometry="Left=11;Top=1183;Right=860;Bottom=1772;" subject="EAID_D4BF1BF5_60E6_42e7_A219_FA8F9A073BA3" seqno="7" style="DUID=C657DDA9;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;HideIcon=0;AttCustom=0;OpCustom=0;RzO=1;"/>
 				<UML:DiagramElement geometry="Left=40;Top=160;Right=210;Bottom=230;" subject="EAID_515B6A23_5EF0_49ff_8D08_9CCCF3CFEAE0" seqno="8" style="DUID=68F69CB6;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
 				<UML:DiagramElement geometry="Left=550;Top=560;Right=810;Bottom=600;" subject="EAID_5EE01759_30D7_4b79_9436_1402294E6959" seqno="9" style="DUID=CBE79381;HideIcon=0;"/>
 				<UML:DiagramElement geometry="Left=550;Top=510;Right=810;Bottom=550;" subject="EAID_09872799_78AA_4a64_8BF0_D9B033088C84" seqno="10" style="DUID=DE804496;HideIcon=0;"/>
@@ -4170,13 +4667,13 @@
 				<UML:DiagramElement geometry="Left=700;Top=671;Right=799;Bottom=737;" subject="EAID_552DE727_FE22_487b_A69A_97348C31DB4F" seqno="33" style="DUID=2E9FEAFA;HideIcon=0;"/>
 				<UML:DiagramElement geometry="Left=580;Top=671;Right=679;Bottom=737;" subject="EAID_0BF96BC4_CA2B_4ccb_9B25_0EAAAC837B63" seqno="34" style="DUID=CF050DD9;HideIcon=0;"/>
 				<UML:DiagramElement geometry="Left=280;Top=280;Right=510;Bottom=610;" subject="EAID_7DBA4232_5365_4b17_8099_0DD6542BEE75" seqno="35" style="DUID=48DFBEDB;NSL=0;"/>
-				<UML:DiagramElement geometry="Left=473;Top=232;Right=488;Bottom=247;" subject="EAID_F2FF20A4_7F52_49b3_9E66_3F4E8FC4E3AF" seqno="36" style="DUID=B66772F8;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=473;Top=195;Right=488;Bottom=210;" subject="EAID_0C5149D0_19A5_4f73_A441_113349060279" seqno="37" style="DUID=2507F267;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=473;Top=163;Right=488;Bottom=178;" subject="EAID_2F75F2EF_F1F1_4e24_85C4_E672A84F8D6A" seqno="38" style="DUID=DBF67EEF;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=303;Top=194;Right=318;Bottom=209;" subject="EAID_4CDF1EB7_BE26_41b1_9F9F_BC3A6122A1E7" seqno="39" style="DUID=1EA1AA90;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=303;Top=160;Right=318;Bottom=175;" subject="EAID_85FB310F_180E_4b36_A49C_DBE69B6B03B8" seqno="40" style="DUID=95C00753;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=303;Top=228;Right=318;Bottom=243;" subject="EAID_35F7C034_D67B_4131_A6AF_77453C4DC29F" seqno="41" style="DUID=DEE937E2;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=48:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=310;Top=130;Right=480;Bottom=250;" subject="EAID_EDE9E20B_8252_443e_A00D_57A1E2752BB3" seqno="42" style="HideIcon=0;AttPro=0;AttPkg=0;AttPub=0;Constraint=1;AttPri=0;DUID=A884485B;NSL=0;"/>
+				<UML:DiagramElement geometry="Left=474;Top=232;Right=489;Bottom=247;" subject="EAID_F2FF20A4_7F52_49b3_9E66_3F4E8FC4E3AF" seqno="36" style="DUID=B66772F8;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=474;Top=195;Right=489;Bottom=210;" subject="EAID_0C5149D0_19A5_4f73_A441_113349060279" seqno="37" style="DUID=2507F267;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=474;Top=163;Right=489;Bottom=178;" subject="EAID_2F75F2EF_F1F1_4e24_85C4_E672A84F8D6A" seqno="38" style="DUID=DBF67EEF;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=304;Top=194;Right=319;Bottom=209;" subject="EAID_4CDF1EB7_BE26_41b1_9F9F_BC3A6122A1E7" seqno="39" style="DUID=1EA1AA90;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=304;Top=160;Right=319;Bottom=175;" subject="EAID_85FB310F_180E_4b36_A49C_DBE69B6B03B8" seqno="40" style="DUID=95C00753;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=304;Top=228;Right=319;Bottom=243;" subject="EAID_35F7C034_D67B_4131_A6AF_77453C4DC29F" seqno="41" style="DUID=DEE937E2;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=48:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=311;Top=130;Right=481;Bottom=250;" subject="EAID_EDE9E20B_8252_443e_A00D_57A1E2752BB3" seqno="42" style="HideIcon=0;AttPro=0;AttPkg=0;AttPub=0;Constraint=1;AttPri=0;DUID=A884485B;NSL=0;"/>
 				<UML:DiagramElement geometry="Left=163;Top=942;Right=315;Bottom=1043;" subject="EAID_C79B9AAD_47AD_46a3_B2EE_EAF640F752C1" seqno="43" style="font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=9D21F16E;"/>
 				<UML:DiagramElement geometry="Left=489;Top=942;Right=641;Bottom=1043;" subject="EAID_2919C9AB_6C6C_46a8_AA32_387B6D1A0B33" seqno="44" style="font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=66467752;"/>
 				<UML:DiagramElement geometry="Left=326;Top=942;Right=478;Bottom=1043;" subject="EAID_3CB7B2B0_3ABD_4c3c_B060_286138721427" seqno="45" style="font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;DUID=D90CBD0C;"/>
@@ -4193,35 +4690,43 @@
 				<UML:DiagramElement geometry="Left=0;Top=120;Right=260;Bottom=270;" subject="EAID_C15357C8_2F98_4297_86A1_F5FAAB5A6F5E" seqno="56" style="DUID=CC969B02;font=Calibri;fontsz=120;black=0;italic=0;ul=0;charset=0;pitch=34;shape=rounded;bold=1;"/>
 				<UML:DiagramElement geometry="Left=530;Top=120;Right=820;Bottom=360;" subject="EAID_A37F8DAE_D5D3_466a_9D99_02BEEC79C5FD" seqno="57" style="DUID=B8C8B6FF;font=Calibri;fontsz=120;black=0;italic=0;ul=0;charset=0;pitch=34;bold=1;shape=rounded;"/>
 				<UML:DiagramElement geometry="Left=530;Top=379;Right=820;Bottom=610;" subject="EAID_B6670BCA_D475_4bd4_B4D1_AC360A0E774A" seqno="58" style="DUID=D1F20D31;font=Calibri;fontsz=120;black=0;italic=0;ul=0;charset=0;pitch=34;bold=1;shape=rounded;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_A2930BCF_BCF2_428a_AA18_5982D9F0D7FC" style="Mode=3;EOID=A884485B;SOID=AFF0489A;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4F49CABE_74E6_41f3_98D5_DABC485D0BDC" style="Mode=3;EOID=A884485B;SOID=ED699935;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_FF2297C4_6103_41ed_9D70_AB77A5865AEF" style="Mode=3;EOID=A884485B;SOID=4EFFCAAC;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_C2DF00E7_E49E_4f78_98B9_BE4E4EAB970D" style="Mode=3;EOID=A884485B;SOID=CF050DD9;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F91683FB_1D8B_4ac5_8AF2_96B99DA3731A" style="Mode=3;EOID=A884485B;SOID=2E9FEAFA;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_A9547B50_C1FD_48c5_8961_26C176B60346" style="Mode=3;EOID=A884485B;SOID=C6D53852;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7CD9F9FB_A673_4999_A806_1E7F749B0B84" style="Mode=3;EOID=A884485B;SOID=B2A39DB2;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3EB61452_7CA1_4bc5_A110_6573B5524262" style="Mode=3;EOID=A884485B;SOID=6AB3EEC2;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_23ADF86E_3AF8_41ec_AC47_3D342671CB36" style="Mode=3;EOID=A884485B;SOID=09DA09F6;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_6418980C_D591_4402_A959_0E04336D9BC8" style="Mode=3;EOID=A884485B;SOID=176B2058;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4F49CABE_74E6_41f3_98D5_DABC485D0BDC" style="Mode=3;EOID=A884485B;SOID=ED699935;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F2F713C7_988E_4673_9FF6_CFF4A99D3E95" style="Mode=3;EOID=A884485B;SOID=6CFEF5A5;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3034B70B_61FC_4d22_AD49_9CF6E467B70C" style="Mode=3;EOID=A884485B;SOID=1F469192;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_A2930BCF_BCF2_428a_AA18_5982D9F0D7FC" style="Mode=3;EOID=A884485B;SOID=AFF0489A;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F9BE8271_F42C_4dd0_8FCB_741CE10FBAEE" style="Mode=3;EOID=A884485B;SOID=48DFBEDB;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B5C971F8_00B6_49c7_AF58_A5A2941E2E28" style="Mode=3;EOID=A884485B;SOID=2F0A98DF;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_CC231C0B_2091_4b1e_95C5_B03C9B6D7641" style="Mode=3;EOID=A884485B;SOID=3DA7DD62;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1B4E0473_5F1A_4378_9DC5_E5B482292908" style="Mode=3;EOID=A884485B;SOID=4FA0EB68;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_72E403E1_BA69_4088_B075_4A6E3139D6EC" style="Mode=3;EOID=A884485B;SOID=251F4DFA;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_9F87F528_3C22_4612_93B8_0B24F1F37B86" style="Mode=3;EOID=A884485B;SOID=0CFE2DE5;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_72E403E1_BA69_4088_B075_4A6E3139D6EC" style="Mode=3;EOID=A884485B;SOID=251F4DFA;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1B4E0473_5F1A_4378_9DC5_E5B482292908" style="Mode=3;EOID=A884485B;SOID=4FA0EB68;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_56E17FAC_783D_4b4e_88A9_97B7D6A86777" style="Mode=3;EOID=A884485B;SOID=4FA0EB68;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_23ADF86E_3AF8_41ec_AC47_3D342671CB36" style="Mode=3;EOID=A884485B;SOID=09DA09F6;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5E4A90D5_C04C_4770_883A_8A8A1E70AB04" style="Mode=3;EOID=A884485B;SOID=A2FDB09A;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2E60A7A7_1DE8_46ff_96C8_A28BF8689512" style="Mode=3;EOID=A884485B;SOID=9D033F06;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3034B70B_61FC_4d22_AD49_9CF6E467B70C" style="Mode=3;EOID=A884485B;SOID=1F469192;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7104388C_8F7A_4d3b_8062_5239EA515EF3" style="Mode=3;EOID=A884485B;SOID=094C42F0;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_9B44C044_2ED0_44f3_86EF_1EC52066234C" style="Mode=3;EOID=A884485B;SOID=FE2EF724;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_79A8FC9C_E852_4461_ABDB_6B90B3C1DB09" style="Mode=3;EOID=A884485B;SOID=FE2EF724;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_99D9DBE9_C73E_456f_B338_15031C369D10" style="Mode=3;EOID=A884485B;SOID=15779962;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_511E3089_4729_4509_A838_9669E063AC73" style="Mode=3;EOID=A884485B;SOID=EC255507;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_DD2FF77D_4930_4ed7_AD5D_55160C534CA5" style="Mode=3;EOID=A884485B;SOID=DE804496;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_9995E9CB_DCEE_4f8f_A1FA_50CD202F6D06" style="Mode=3;EOID=A884485B;SOID=CBE79381;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F2F713C7_988E_4673_9FF6_CFF4A99D3E95" style="Mode=3;EOID=A884485B;SOID=6CFEF5A5;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D2AB0770_CFB1_4725_9F72_4140CD9ED846" style="Mode=3;EOID=A884485B;SOID=B3E15F38;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_667388A5_ED25_4d8b_9418_BB84561525D7" style="Mode=3;EOID=A884485B;SOID=D4184802;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D064BA88_F9D3_46e2_9D7F_797948CB962E" style="Mode=3;EOID=A884485B;SOID=98B0F037;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5A1DABA1_9114_469c_B70F_FAF87D37667E" style="Mode=3;EOID=A884485B;SOID=9C7790D8;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_880330F8_204C_4956_856A_1DF3B934A771" style="Mode=3;EOID=A884485B;SOID=716F1C07;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_56441FFA_536C_486f_89D8_BB7D79908E81" style="Mode=3;EOID=A884485B;SOID=A7AAB8C6;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_35E6858C_08D1_436c_A61E_BACB4CF663F9" style="Mode=3;EOID=A884485B;SOID=26D77C9D;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_35BBA3E3_ED1B_43ae_84BC_32036A9F6248" style="Mode=3;EOID=A884485B;SOID=CC10681D;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F9BE8271_F42C_4dd0_8FCB_741CE10FBAEE" style="Mode=3;EOID=A884485B;SOID=48DFBEDB;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_83FDBEB7_FB86_4af3_9A32_B612D84BE244" style="Mode=3;EOID=A884485B;SOID=5502FA96;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2E60A7A7_1DE8_46ff_96C8_A28BF8689512" style="Mode=3;EOID=A884485B;SOID=9D033F06;Color=-1;LWidth=0;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 		<UML:Diagram name="&lt;&lt;NewPhysicalArchModule&gt;&gt; Use Cases" xmi.id="EAID_96500D75_695A_4551_87E5_792D5F839859" diagramType="UseCaseDiagram" owner="EAPK_DE6EDF2B_1C4C_43d3_900C_025F52301E82" toolName="Enterprise Architect 2.5">
@@ -4460,6 +4965,18 @@
 				<UML:DiagramElement geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=31:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_23ADF86E_3AF8_41ec_AC47_3D342671CB36" style="Mode=3;EOID=49E49215;SOID=660CE7FE;Color=-1;LWidth=0;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
+		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=31:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_6DE2EB6C_0527_4e1f_98E2_4AB525A362CE" style="Mode=3;EOID=64A53C06;SOID=7E19131C;Color=-1;LWidth=0;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_3C3FFB0D_AF11_42d4_B616_1FECB5D8D75B"/>
+				<UML:TaggedValue tag="hidden" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=31:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_6DE2EB6C_0527_4e1f_98E2_4AB525A362CE" style="Mode=3;EOID=64A53C06;SOID=7E19131C;Color=-1;LWidth=0;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_3C3FFB0D_AF11_42d4_B616_1FECB5D8D75B"/>
+				<UML:TaggedValue tag="hidden" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
 	</XMI.content>
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
@@ -4470,5 +4987,6 @@
 			</UML:ModelElement.taggedValue>
 		</EANoteLink>
 		<EAModel.paramSub/>
+		<EAStub xmi.id="EAPK_F9108663_05E9_4225_A91D_42513F0DF2D2" name="&lt;&lt;NewCataloguePart&gt;&gt; SDK/Driver" UMLType="Package"/>
 	</XMI.extensions>
 </XMI>

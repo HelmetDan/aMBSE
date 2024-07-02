@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="F9B597A7-9" name="MBSE for SAFe 5.0" version="0.0.25d" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="F9B597A7-9" name="MBSE for SAFe 5.0" version="0.0.25e" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Functional Decomposition (SAFe5.0)" notes="This diagram type is for functional decomposition using the SAFe 5.0 Agile Objects.  " cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">

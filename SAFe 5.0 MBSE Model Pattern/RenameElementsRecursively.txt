@@ -1,0 +1,115 @@
+!INC Local Scripts.EAConstants-JScript
+
+/*
+ * Script Name: 
+ * Author: 
+ * Purpose: 
+ * Date: 
+ */
+ 
+  
+ function renameElements(parentElement, oldName, newName)
+ {
+	 
+	// Get the currently selected element in the tree to work on
+	 if(parentElement != null)
+	 {
+		var theElement as EA.Element;
+		theElement = parentElement;
+		if(theElement.Elements.Count == 0)
+		{
+			Session.Output("Renameing " + theElement.Name + " to " + theElement.Name.replace(oldName, newName));
+			theElement.Name = theElement.Name.replace(oldName, newName);
+			if(!theElement.Name.length)
+			{
+				theElement.Alias = theElement.Alias.replace(oldName, newName);
+			}
+			theElement.Update();
+			
+			// Recursively process child packages
+			//Session.Output( "Working on leaf element '" + theElement.Name + "' (Type=" + theElement.Type +
+			//", ID=" + theElement.ElementID + ")" );	
+			
+		}
+		else
+		{
+			theElement.Name = theElement.Name.replace(oldName, newName);
+			theElement.Update();			
+			//Session.Output( "Working on NON leaf element '" + theElement.Name + "' (Type=" + theElement.Type +
+			//", ID=" + theElement.ElementID + ")" );				
+		// Iterate through all child packages
+			for (var p=0; p < theElement.Elements.Count; p++)
+			{
+				var currentElement as EA.Element;
+				currentElement = theElement.Elements.GetAt(p);		
+				renameElements(currentElement, oldName, newName);
+			} 	
+
+			for (var p=0; p < theElement.Diagrams.Count; p++)
+			{
+				var currentDiagram as EA.Diagram;
+				currentDiagram = theElement.Diagrams.GetAt(p);		
+				currentDiagram.Name = currentDiagram.Name.replace(oldName, newName);
+				currentDiagram.Update();	
+				//Session.Output( "Working on NON leaf element '" + currentDiagram.Name + "' (Type=" + currentDiagram.Type +
+				//", ID=" + currentDiagram.ElementID + ")" );	
+				
+
+			} 
+
+		
+			
+		}
+	 }	
+ }
+ 
+ 
+ 
+function main()
+{
+	// Show the script output window
+	Repository.EnsureOutputVisible( "Script" );
+	// Get the currently selected element in the tree to work on
+	var theElement as EA.Element;
+	theElement = Repository.GetTreeSelectedObject();
+	
+	if ( theElement != null &&  (theElement.ObjectType == EA.ObjectType.otPackage
+		|| theElement.ObjectType == EA.ObjectType.otElement))
+	{
+		// Show the script output window
+		Session.Output( "Getting old name.");
+		var oldName = Session.Input("Enter Old Name");
+		Session.Output( "Getting new name.");
+		var newName = Session.Input("Enter New Name");
+		Session.Output( "Will replace items with name '" + oldName + "' to  '" + newName + "'.");
+		var userPromptSelection = Session.Prompt("Replacing items with name '" + oldName + "' to  '" + newName + "'. Continue ?", System.PromptType.promptOKCANCEL);
+		if( userPromptSelection == System.PromptResult.resultOK)
+		{
+			Session.Output( "Will replace items with name '" + oldName + "' to  '" + newName + "'.");
+			renameElements(theElement, oldName, newName);
+			// No item selected in the tree, or the item selected was not an element
+			Session.Prompt( "Replaced items with name '" + oldName + "' to  '" + newName + "'.", System.PromptType.promptOK );
+			theElement.Update();
+			var parentPackage = Repository.GetPackageByID(theElement.PackageID);
+			parentPackage.Elements.Refresh();
+			Repository.RefreshModelView(0);			
+		}
+		else
+		{
+			// No item selected in the tree, or the item selected was not an element
+			Session.Prompt( "Used decided to cancel.", System.PromptType.promptOK );			
+		}
+		
+
+
+	}
+	else
+	{
+		// No item selected in the tree, or the item selected was not an element
+		Session.Prompt( "This script requires an element be selected in the Project Browser.\n" +
+			"Please select an element in the Project Browser and try again.", System.PromptType.promptOK );
+	}	
+
+}
+
+main();

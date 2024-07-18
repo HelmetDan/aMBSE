@@ -1,0 +1,75 @@
+!INC Local Scripts.EAConstants-JScript
+
+/*
+ * This code has been included from the default Project Browser template.
+ * If you wish to modify this template, it is located in the Config\Script Templates
+ * directory of your EA install path.   
+ * 
+ * Script Name:
+ * Author:
+ * Purpose:
+ * Date:
+ */
+
+/*
+ * Project Browser Script main function
+ */
+function OnProjectBrowserScript()
+{
+	// Get the type of element selected in the Project Browser
+	var treeSelectedType = Repository.GetTreeSelectedItemType();
+	
+	// Handling Code: Uncomment any types you wish this script to support
+	// NOTE: You can toggle comments on multiple lines that are currently
+	// selected with [CTRL]+[SHIFT]+[C].
+	switch ( treeSelectedType )
+	{
+//		case otElement :
+//		{
+//			// Code for when an element is selected
+//			var theElement as EA.Element;
+//			theElement = Repository.GetTreeSelectedObject();
+//						
+//			break;
+//		}
+//		case otPackage :
+//		{
+//			// Code for when a package is selected
+//			var thePackage as EA.Package;
+//			thePackage = Repository.GetTreeSelectedObject();
+//			
+//			break;
+//		}
+//		case otDiagram :
+//		{
+//			// Code for when a diagram is selected
+//			var theDiagram as EA.Diagram;
+//			theDiagram = Repository.GetTreeSelectedObject();
+//			
+//			break;
+//		}
+//		case otAttribute :
+//		{
+//			// Code for when an attribute is selected
+//			var theAttribute as EA.Attribute;
+//			theAttribute = Repository.GetTreeSelectedObject();
+//			
+//			break;
+//		}
+//		case otMethod :
+//		{
+//			// Code for when a method is selected
+//			var theMethod as EA.Method;
+//			theMethod = Repository.GetTreeSelectedObject();
+//			
+//			break;
+//		}
+		default:
+		{
+			// Error message
+			Session.Prompt( "This script does not support items of this type.", promptOK );
+		}
+	}
+}
+
+OnProjectBrowserScript();

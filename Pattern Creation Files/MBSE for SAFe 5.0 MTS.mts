@@ -1,5 +1,5 @@
 <MDG.Selections model="DBType=8;Connect=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Projects\EA Projects\SAFe and MBSE model with content.eapx;Persist Security Info=False;LazyLoad=1;">
-	<Technology id="SAFe5.0" name="MBSE for SAFe 5.0" version="0.0.25e" notes="This is an agile Model Based Systems Engineering (aMBSE) MDG that is intended for complex safety critical systems." filename="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\MBSE for SAFe 5.0 MDG.xml"/>
+	<Technology id="SAFe5.0" name="MBSE for SAFe 5.0" version="0.0.25f" notes="This is an agile Model Based Systems Engineering (aMBSE) MDG that is intended for complex safety critical systems." filename="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\MBSE for SAFe 5.0 MDG.xml"/>
 	<Profiles directory="C:\Projects\Github version control\aMBSE\Pattern Creation Files" files="MBSE for SAFe 5.0.xml"/>
 	<TagVals tags="Actor Type,Arch Decisions,Attainable,Baseline Comparitive Action,BlockType,Capability Type,ConfidenceFactor,ContributionState,Customer Priority,EffectDirection,Email Address,End Date,End User Affected,Epic Type,ExecutionSprint,Feature Review Cycle,First Name,Gender,Hand Size,HypotethisState,InvestigationState,Key Stakeholders,Last Name,measurable,ObservationContribution,PartCategory,PartCost,PartCostQuantity,PartManufacturingProcess,PartToolingCost,PartType,Phone Number,PITag,Primary Organization Responsible,Priority,Question Label-1,Question Label-5,Question Type,Rationale,Realistic,RefDesignSpec,RefHFStudy,RefHFStudyStation,RefModule,RefPart,RefPartSpec,RefUseCase,ReqToolID,Requirement Category,Scenario Type,SMART Analysis,Specific,SpecMet,SpecValue,SpecValueRule,Stakeholder Affected,Stakeholer Type,Start Date,Status,StoryPoints,subType,Test Type,Testable &amp; Traceable,TShirtSize,UseCaseLevel,UseCaseType,values,Verification Method,View Concerns,Visibility"/>
 	<Images images=""/>
@@ -7,6 +7,8 @@
 	<UIToolboxes directory="C:\Projects\Github version control\aMBSE\Pattern Creation Files" files="MBSE for SAFe 5.0 Toolbox.xml"/>
 	<ModelViews2/>
 	<ModelSearches2>
+		<ModelSearch guid="{EB2CE149-0E7C-415e-97A3-37C6D370B593}" name="Ports of NewPhysicalArchModule"/>
+		<ModelSearch guid="{1A3C3BF6-8E70-41c4-AE8A-06B7AB0C5706}" name="Recursive elements in package"/>
 		<ModelSearch guid="{C698F697-316F-4735-8172-A006B3CA885E}" name="All Feature Level"/>
 		<ModelSearch guid="{A85D95DF-21CA-4aee-929F-C39005799C06}" name="Features and Story Point Summs"/>
 		<ModelSearch guid="{4456B9CE-387C-4e6c-BAE9-C511A7395A05}" name="Features-Not Sized"/>
@@ -44,5 +46,7 @@
 		<Template name="Sprint Review"/>
 		<Template name="Use Case "/>
 	</LinkedDocumentTemplates>
-	<Scripts/>
+	<Scripts>
+		<Script id="{B0D39430-B789-4190-AFA7-DA101BD92E89}" name="RenameElementRecursively" type="normal" language="JavaScript"/>
+	</Scripts>
 </MDG.Selections>

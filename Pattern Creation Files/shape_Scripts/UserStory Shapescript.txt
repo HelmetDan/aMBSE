@@ -1,0 +1,250 @@
+shape main
+{
+ layouttype = "border";
+ h_align = "left";
+ v_align = "center";
+ DefSize(150,35);
+ Addsubshape("borderBlock","W");
+
+ SetFillColor(GetDefaultFillColor());
+ SetPenColor(GetDefaultFillColor());	
+ AddSubShape("nameCompartment","CENTER");	
+ 
+shape borderBlock
+{
+	layouttype = "leftright";
+	preferredWidth=30;
+	SetFillColor(GetStatusColor());
+	SetPenColor(GetUserBorderColor());	
+	rectangle(0,0,100,100);
+	AddSubShape("U",35,50,10,25);
+	AddSubShape("S",35,50,20,25);
+	//The full alphabet is in this shape script below, the above sets which are visible
+	shape A
+	{
+		DefSize(20,40);
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		//left leg 
+		moveto(2,98);
+		lineto(50,2);
+		//rigth leg
+		lineto(98,98);
+		//horizontal
+		moveto(80,62);
+		lineto(20,62);
+	}
+	shape B
+	{
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		//top horizonal
+		moveto(60,2);
+		lineto(2,2);
+		//left vertical
+		lineto(2,98);
+		//bottom horizontal
+		lineto(60,98);
+		//bottom belly
+		arcto(28,47,98,100,60,98,60,46);
+		//top belly
+		arcto(34,3,90,48,60,48,60,2);
+		//middle horizontal
+		moveto(2,46);
+		lineto(60,46);
+	}
+			shape C
+	{
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		// arc
+		moveto(92,27);
+		arcto(2,2,98,98,93,27,93,71);
+	}
+	shape D
+	{
+		DefSize(20,40);
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		//top horizonal
+		moveto(60,2);
+		lineto(2,2);
+		//left vertical
+		lineto(2,98);
+		//bottom horizontal
+		lineto(60,98);
+		// belly
+		arcto(2,2,98,100,60,98,60,2);
+	}
+	shape E
+	{
+		DefSize(20,40);
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		//top horizonal
+		moveto(98,2);
+		lineto(2,2);
+		//left vertical
+		lineto(2,98);
+		//middle horizontal
+		moveto(2,46);
+		lineto(70,46);
+		//Bottom horizontal
+		moveto(2,98);
+		lineto(98,98);
+	}
+	shape F
+	{
+		DefSize(20,40);
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		//top horizonal
+		moveto(98,2);
+		lineto(2,2);
+		//left vertical
+		lineto(2,98);
+		//middle horizontal
+		moveto(2,46);
+		lineto(70,46);
+	}
+		shape G
+	{
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		// arc
+		moveto(92,27);
+		arcto(2,2,98,98,93,27,93,71);
+		//left vertical
+		lineto(93,50);
+		lineto(53,50);
+	}
+	shape I
+	{
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		//vertical
+		moveto(50,2);
+		lineto(50,98);
+	}
+		shape K
+	{
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		//vertical
+		moveto(2,2);
+		lineto(2,98);
+		//diagonal to upper right
+		moveto(2,52);
+		lineto(98,2);
+		//diagonal to lower right
+		moveto(35,35);
+		lineto(98,98);
+	}
+	shape N
+	{
+		SetPenWidth(1);
+		setpencolor(0,0,0);
+
+		//start bottom left
+		moveto(2,98);
+		lineto(2,2);
+		lineto(98,98);
+		lineto(98,2);
+	}
+	shape P
+	{
+		SetPenWidth(1);
+		setpencolor(0,0,0);
+		//belly
+		moveto(2,48);
+		lineto(57,48);
+		arcto(24,2,89,48,57,48,57,2);
+		lineto(2,2);
+		//left vertical
+		lineto(2,98);
+	}
+	shape Q
+	{
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		//circle
+		arc(2,2,98,98,50,2,50,98);
+		arc(2,2,98,98,50,98,50,2);
+		//crossing line
+		moveto(51,74);
+		lineto(98,98);
+	}
+	shape R
+	{
+		SetPenWidth(1);
+		setpencolor(0,0,0);
+
+		//right leg
+		moveto(98,98);
+		lineto(50,48);
+		moveto(2,48);
+		lineto(57,48);
+		//belly
+		arcto(24,2,89,48,57,48,57,2);
+		lineto(2,2);
+		//left vertical
+		lineto(2,98);
+	}
+	shape S
+	{
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		//bottom arc
+		moveto(4,78);
+		arcto(2,48,98,98,10,85,50,48);
+		//top arc
+		moveto(90,25);
+		arcto(7,2,93,48,93,25,50,48);
+	}
+	shape T
+	{
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		//horizontal
+		moveto(2,2);
+		lineto(98,2);
+		//vertical
+		moveto(50,2);
+		lineto(50,98);
+	}
+	shape U
+	{
+		setpencolor(0,0,0);
+		SetPenWidth(1);
+		//left vertical
+		moveto(2,2);
+		lineto(2,69);
+		//bottom arc
+		arcto(2,40,98,98,2,69,98,69);
+		//right vertical
+		lineto(98,2);
+	}
+}
+shape nameCompartment
+{
+	h_align = "left";
+	v_align = "top";
+	editablefield = "name";
+	SetPenColor(GetUserBorderColor());
+	//sets main object fill color
+	setfillcolor(55,237,172);// bright green
+	Rectangle(0,0,100,100);
+	SetFontColor(0,0,0);
+	println("#name#");
+}
+
+}
+
+shape label
+{
+	setorigin("SW",0,0);
+	//printwrapped("#NOTES#");
+	//println("Story Points= ");
+		print("Story Points= ");
+	print("#tag:StoryPoints#");
+}

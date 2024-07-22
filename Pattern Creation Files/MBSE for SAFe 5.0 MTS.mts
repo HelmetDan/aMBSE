@@ -1,5 +1,5 @@
 <MDG.Selections model="DBType=8;Connect=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Projects\EA Projects\SAFe and MBSE model with content.eapx;Persist Security Info=False;LazyLoad=1;">
-	<Technology id="SAFe5.0" name="MBSE for SAFe 5.0" version="0.0.25g" notes="This is an agile Model Based Systems Engineering (aMBSE) MDG that is intended for complex safety critical systems." filename="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\MBSE for SAFe 5.0 MDG.xml"/>
+	<Technology id="SAFe5.0" name="MBSE for SAFe 5.0" version="0.0.25h" notes="This is an agile Model Based Systems Engineering (aMBSE) MDG that is intended for complex safety critical systems." filename="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\MBSE for SAFe 5.0 MDG.xml"/>
 	<Profiles directory="C:\Projects\Github version control\aMBSE\Pattern Creation Files" files="MBSE for SAFe 5.0.xml"/>
 	<TagVals tags="Actor Type,Arch Decisions,Attainable,Baseline Comparitive Action,BlockType,Capability Type,ConfidenceFactor,ContributionState,Customer Priority,EffectDirection,Email Address,End Date,End User Affected,Epic Type,ExecutionSprint,Feature Review Cycle,First Name,Gender,Hand Size,HypotethisState,InvestigationState,Key Stakeholders,Last Name,measurable,ObservationContribution,PartCategory,PartCost,PartCostQuantity,PartManufacturingProcess,PartToolingCost,PartType,Phone Number,PITag,Primary Organization Responsible,Priority,Question Label-1,Question Label-5,Question Type,Rationale,Realistic,RefDesignSpec,RefHFStudy,RefHFStudyStation,RefModule,RefPart,RefPartSpec,RefUseCase,ReqToolID,Requirement Category,Scenario Type,SMART Analysis,Specific,SpecMet,SpecValue,SpecValueRule,Stakeholder Affected,Stakeholer Type,Start Date,Status,StoryPoints,subType,Test Type,Testable &amp; Traceable,TShirtSize,UseCaseLevel,UseCaseType,values,Verification Method,View Concerns,Visibility"/>
 	<Images images=""/>
@@ -47,6 +47,6 @@
 	</LinkedDocumentTemplates>
 	<Scripts>
 		<Script id="{B801A054-5503-433c-838C-BEEB5E4A4851}" name="RenameElementsRecursivleyV2" type="normal" language="JavaScript"/>
-		<Script id="{B0D39430-B789-4190-AFA7-DA101BD92E89}" name="RenameElementRecursively" type="normal" language="JavaScript"/>
+		<Script id="{2446FFB1-B598-42ae-89D4-E4D3FB5F9149}" name="ModelPatternPackageRename" type="normal" language="JScript"/>
 	</Scripts>
 </MDG.Selections>

@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.25g" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.25j" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Assumption" metatype="Assumption" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -295,6 +295,25 @@ ci5kYXRVVAUAB6Ya9mJQSwUGAAAAAAEAAQA+AAAAcwIAAAAA
 					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
+			<Stereotype name="Shapescript test" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHhI91jJOgTiRQIAAFoKAAAHABEAc3RyLmRhdFVUDQAH8HGf
+ZvBxn2bwcZ9m7VZNT9tAEH3XIPEfVnBxJKTSUhSJqoeWQnsKNAZxRAmhCciJ
+ITaggPrf+2Z2N+tYdj4EEpdqlfV6dubNx75ZJ8MQXdzhGgYjrm4wxiY28KKz
+QULZFCkekHNMneZX/rbQo3yCPiUTvn1xFkNc0iYh0oBYXjeh1h8iBL3HSr0r
+6o2pN4/5Q61j6j5zFeEj9rGLHT53OZpOz+rG1MhxTN2E45AxJhpnhJ+6Y7G6
+zCip0WvOED3aqUb1WqxvrFWfiA+sXDyre8Q8x1yPuBbLEaVd2uYqkVpsMVOp
+TRsn6OAMv7heDTXVSmZLcA9xROwzzp0Vke8pE9ycGafEOiWu9ZAv8RUzh/NS
+DvLLCjxcXI3AzkYN16o41FiDbw2+9amXU7/nmHvDOaHU2/kYg81ippwzQ/Hx
+XaW2Z6p50sAHDtHOOYeuNNTs4ZbyK+4YjUnYZvjucay9tfX7YTdi1+zzHD5h
+Dy3tnhbX4teoT0P8idZnqB4GfLvWfCxux/nuUjLQukTahaETd4gc+tHX5Fg5
+YpnhI/F2Re079S6aCWfh2fasztsFvvytYc1iti/nTfmOWo8zb3f+73l+n92J
+eES5A27Z7dLr0hWGz9SxT3zk9CXVz7TeUpm3O3l/nsvPfv376D8bVmGD7+b3
+Z4PEOcABfpdO2syddTVTqjkj/2x6kFu9yAVbbYlNKidRiP82LiBfsHKkUpUQ
+7RNXgi74fRe3fLPlyxrPxVa29HnGzvdU80rdbuaYVmf9OstQ24BRRJiPu2zb
+Rt39/A9QSwECFwsUAAAACAB4SPdYyToE4kUCAABaCgAABwAJAAAAAAAAAAAA
+AIAAAAAAc3RyLmRhdFVUBQAH8HGfZlBLBQYAAAAAAQABAD4AAAB7AgAAAAA=
+</Image>
+			</Stereotype>
 			<Stereotype name="SubSystemUseCase" metatype="SubSystemUseCase" notes="" cx="0" cy="0" bgcolor="9109504" fontcolor="16775408" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="UseCase"/>
@@ -520,22 +539,23 @@ AAABAAEAPgAAAFwFAAAAAA==
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="SurveyQuestion" metatype="SurveyQuestion" notes="" cx="125" cy="50" bgcolor="10592733" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABRB91il5wCCQQIAAHAKAAAHABEAc3RyLmRhdFVUDQAHCmWf
-Zgpln2YKZZ9m7VbJTuNAEH3XIPEPLbgYCYltENIgDqwzpwFi0BxHCYEE5MQQ
-G0YB8e+8qu5OO5azARIXZKXdrq56tb2yk6GDBu5xDYMud7foYRELeNHVIKFs
-gBSPyHkNnOYef0toUt5Hi5I+n3adRQf/aJMQqU0sr5tQ64YIQe+pUu+Kej3q
-jWIeqXVM3WfuImxgG+tY5X2d14rTs7oxNXKcUDfhdcgYE40zwi89sVgNZpSM
-0VsZInq0M43qo1j7rFWLiI+sXDyse8Q8e9x3uRfLLqUN2uYqkVosMVOpzR+c
-oo4L/OZ+NtRUK5lNwT3EMbEvuNZnRH6gTHBzZpwS64y41kM+xVfMHC5LOcgv
-K/BwcjUCO2tjuFbFodocfKvxqUW9nPpNx9xbrgml3s7HGGwmM+WSGYqPA5Xa
-manmSQ1rvEQ75xqm0lCziTvKr3hiNCZhm+Gzx7H21tafh9OIU7PNPmxiCzs6
-PTvci1+jPg3x+1qfjnpo8+la87G4dee7QUlb6xLpFIZJXCVymEdfkxPliGWG
-j8TbFbXv1btoJlyFZ8vDOi8X+PI6hjWT2T6dN+V31Hyc+bz+f2X/friOeER5
-B9xx2mXWZSoM76ljn/jI6Uuqn2m9pTKf13nfz+m9n/999M2GWdjgp/nr2SBx
-tvET56VOm5FeVzOlmjPyz6YJeasXuWCrLbFJ5SQK8R/jL+QLVo5UqhKi/c+d
-oAt+y8Ut32z5ssYjsZUtfZ6x8z3QvFJ3mjmmVVXo/VahpsG+aD0a7zjbefvx
-BlBLAQIXCxQAAAAIABRB91il5wCCQQIAAHAKAAAHAAkAAAAAAAAAAAAAgAAA
-AABzdHIuZGF0VVQFAAcKZZ9mUEsFBgAAAAABAAEAPgAAAHcCAAAAAA==
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKZx91hLia6CTwIAAOIJAAAHABEAc3RyLmRhdFVUDQAHn7qf
+Zp+6n2afup9mzVbBbtNAFJxrkPgHi15SKRJQKIhWPSDgBggoEkeUxk66kNjB
+3hQK4t+Zee5mbbcpbiREZXm9Xs+bfftm1naFU4yxRIYEC/YcctzFHfyydoA5
+x85RYAXP49yQR7iHE46VSHlX8u7wAp1ztDLGlL3vRHo+XxEVEIqYEuPwk70h
+nuEBRnjKdneNKflkwsgx+WbMQDihdD5kG68xRjOm5F0xszoDZTpkbp53GZnG
+XF/G+xHPtzz7xH6z3CtyOK4nxzvmVpBnyZGa6QVeke0j2w89OVUjb6w1w3Ej
+ro6N+KSTff08aDMgRrWaQiqolxrasWqnjDzCHmsUMrqplgNyfGbE3PhyQ04s
+F2XfRp71RlYc8czYET0nqmCr2Yd4ZLrGVjVJcJ9HgpdkL/GVvRP2JuzNTIkV
+50g73FpV/lfmELON1+Iq5AnfmmsP+zxGnWtzLZ9YV2eVkboZfrBt6qkd6MmX
+m1t21trvtPz1e4NfrnPs/3aPqjuFds51zvHkW/b0TFuhplKh2m9sXY5ZL7Z0
+z+Y5/pWHQuymPdDHNcpmhgO87/ghaTmin6fiG+umDtJuk4fCGp4T8YUZKR+h
+tZaCrbT1po9qUr81brPvtDOkUPvaVOv1ugrbuW7zDLfZddEpVzkr+kuqae6S
+7NGZGpEv9Q9RvyGFDW4T2lmdtOYQJeWO+fWNujmubmjurSxHqSqPyDvK0nH8
+8kz1tzj8rSj33Qu+6PbMfOAYpyrWFXvcaJ90at3F63nABoW6MQvmdGYaFQhf
+rv0ORpz5GqN/py6mWe8/UEsBAhcLFAAAAAgApnH3WEuJroJPAgAA4gkAAAcA
+CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB5+6n2ZQSwUGAAAAAAEAAQA+
+AAAAhQIAAAAA
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
@@ -543,6 +563,7 @@ AABzdHIuZGF0VVQFAAcKZZ9mUEsFBgAAAAABAAEAPgAAAHcCAAAAAA==
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="End User Affected" type="" description="" unit="" values="" default=""/>
 					<Tag name="Question Label-1" type="" description="" unit="" values="" default=""/>
 					<Tag name="Question Label-5" type="" description="" unit="" values="" default=""/>
 					<Tag name="Question Prompt" type="" description="" unit="" values="" default=""/>

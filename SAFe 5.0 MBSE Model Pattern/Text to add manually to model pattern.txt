@@ -44,4 +44,9 @@ insert the following section before "<RTFTemplates>" in the MDG file.  Check to 
 	 <Model name="Use Cases Viewpoint Model Pattern" default="yes" description="This a pattern to add a Use Cases Viewpoint to a Model" filter="Common" location="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\Use Cases Viewpoint Model Pattern.xml" icon="34"/> 
 	 <Model name="New Use Case" default="yes" description="This a pattern to add a New Use Case" filter="Common" location="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\NewUseCase.xml" icon="34"/>
     <Model name="Template Elements" default="yes" description="This a pattern contains Template Elements for element notes" filter="Common" location="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\Template Elements.xml" icon="34"/>
+    <Model name="Add New Feature with Canvas" default="yes" description="The is a pattern to add a new Feature with canvas" filter="Common" location="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\HF Study Activity Canvas.xml" icon="34"/>
 </ModelTemplates>
+
+
+
+to fix the script you need to search for "name="RenameElementsRecursivleyV2" type="normal" "      --> change "normal" to "project browser"

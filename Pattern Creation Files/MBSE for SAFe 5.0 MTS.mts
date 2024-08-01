@@ -1,7 +1,7 @@
 <MDG.Selections model="DBType=8;Connect=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Projects\EA Projects\SAFe and MBSE model with content.eapx;Persist Security Info=False;LazyLoad=1;">
 	<Technology id="SAFe5.0" name="MBSE for SAFe 5.0" version="0.0.26" notes="This is an agile Model Based Systems Engineering (aMBSE) MDG that is intended for complex safety critical systems." filename="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\MBSE for SAFe 5.0 MDG.xml"/>
 	<Profiles directory="C:\Projects\Github version control\aMBSE\Pattern Creation Files" files="MBSE for SAFe 5.0.xml"/>
-	<TagVals tags="Actor Type,Arch Decisions,Attainable,Baseline Comparitive Action,BlockType,Capability Type,CatalogueType,ConfidenceFactor,ContributionState,Customer Priority,EffectDirection,Email Address,End Date,End User Affected,Epic Type,ExecutionSprint,Feature Review Cycle,First Name,Gender,Hand Size,HypotethisState,InvestigationState,Key Stakeholders,Last Name,LikleyHood,measurable,ObservationContribution,PartCategory,PartCost,PartCostQuantity,PartManufacturingProcess,PartToolingCost,PartType,Phone Number,PITag,Primary Organization Responsible,Priority,Question Label-1,Question Label-5,Question Prompt,Question Type,Rationale,Realistic,RefDesignSpec,RefHFStudy,RefHFStudyStation,RefModule,RefPart,RefPartSpec,RefUseCase,ReqToolID,Requirement Category,RiskConsequences,Scenario Type,Severity,SMART Analysis,Specific,SpecMet,SpecUnits,SpecValue,SpecValueRule,Stakeholder Affected,Stakeholer Type,Start Date,Status,StoryPoints,subType,Test Type,Testable &amp; Traceable,TShirtSize,UseCaseLevel,UseCaseType,values,Verification Method,View Concerns,Visibility"/>
+	<TagVals tags="Actor Type,Arch Decisions,Attainable,Baseline Comparitive Action,BlockType,Capability Type,CatalogueType,ConfidenceFactor,ContributionState,Customer Priority,EffectDirection,Email Address,End Date,End User Affected,Epic Type,ExecutionSprint,Feature Review Cycle,First Name,Gender,Hand Size,HypotethisState,InvestigationState,Key Stakeholders,Last Name,LikleyHood,measurable,ObservationContribution,PartCategory,PartCost,PartCostQuantity,PartManufacturingProcess,PartToolingCost,PartType,Phone Number,PITag,Primary Organization Responsible,Priority,Question Label-1,Question Label-5,Question Prompt,Question Type,Rationale,Realistic,RefDesignSpec,RefFunction,RefHFStudy,RefHFStudyStation,RefModule,RefPart,RefPartSpec,RefUseCase,ReqToolID,Requirement Category,RiskConsequences,Scenario Type,Severity,SMART Analysis,Specific,SpecMet,SpecUnits,SpecValue,SpecValueRule,Stakeholder Affected,Stakeholer Type,Start Date,Status,StoryPoints,subType,Test Type,Testable &amp; Traceable,TShirtSize,UseCaseLevel,UseCaseType,values,Verification Method,View Concerns,Visibility"/>
 	<Images images=""/>
 	<DiagramProfile directory="C:\Projects\Github version control\aMBSE\Pattern Creation Files" files="MBSE for SAFe 5.0 Diagram.xml"/>
 	<UIToolboxes directory="C:\Projects\Github version control\aMBSE\Pattern Creation Files" files="MBSE for SAFe 5.0 Toolbox.xml"/>
@@ -27,6 +27,7 @@
 	<RTFTemplates>
 		<Template name="Diagram based- Specification Manager + Diag + Link Docs-2022-05-04-R0"/>
 		<Template name="Diagram based- Specification Manager + Diag + Link Docs-2022-05-04-Ra"/>
+		<Template name="Diagram Report-2024-08-01-R0"/>
 		<Template name="Generic Cover Page- 2021-12-21-R0"/>
 		<Template name="Mission Analysis Model-2021-12-9-R0"/>
 		<Template name="Mission Context Model-2021-12-9-R0"/>
@@ -34,6 +35,7 @@
 		<Template name="Problem Definition Report-2022-05-04-Ra"/>
 		<Template name="Root Cause Analysis Report"/>
 		<Template name="Six Sigma Lean Toolkit Cover Page-R0"/>
+		<Template name="Spec Report-2024-08-01-R0"/>
 		<Template name="Specification Manager + Diag + Link Docs-2021-12-12-R0"/>
 		<Template name="Specification Manager with Diagrams-R1"/>
 		<Template name="Template Cover Page- R0-2021-12-21"/>

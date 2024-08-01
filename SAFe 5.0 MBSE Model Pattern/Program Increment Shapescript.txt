@@ -1,0 +1,88 @@
+// BS_Perspective, 17/10/08
+
+shape main
+{
+	layouttype="border";
+	noshadow=true;
+	defsize(90,70);
+	setfillcolor(217,217,7);
+
+	addsubshape("top","N");
+	addsubshape("side","E");
+	addsubshape("front","CENTER");
+	
+	
+	shape top
+	{
+		preferredheight=10;
+		startpath();
+		moveto(0,100);
+		setfixedregion(0,0,10,0);
+		lineto(10,0);
+		lineto(100,0);
+		setfixedregion(90,0,100,0);
+		lineto(90,100);
+		lineto(0,100);
+		endpath();
+		fillandstrokepath();
+	}
+	
+	shape side
+	{
+		preferredwidth=10;
+		startpath();
+		moveto(0,100);
+		lineto(0,0);
+		setfixedregion(0,-10,0,0);
+		lineto(100,-10);
+		setfixedregion(0,90,0,100);
+		lineto(100,90);
+		lineto(0,100);
+		endpath();
+		fillandstrokepath();
+	}
+	
+	shape front
+	{
+			layouttype="border";
+			rectangle(0,0,100,100);
+
+		    print("#NAME#");
+			//addsubshape("frontname","center");
+			addsubshape("frontpadding","N");
+			addsubshape("header","center");
+			
+			shape frontpadding
+			{
+				preferredheight=35;
+			}
+			
+			shape frontname
+			{
+				h_align="center";
+				printwrapped("#name#");
+			}
+			
+			shape header
+	        {
+		    preferredheight=20;
+		    v_align="top";
+		    h_align="center";
+		    setfillcolor(250,250,125);
+		    rectangle(0,0,100,100);	  
+	        }
+			shape body
+	{
+		editableField="note";
+		v_align="top";
+		h_align="left";
+		print("#NOTES#");
+	}
+			
+	}
+}
+
+
+
+	
+	

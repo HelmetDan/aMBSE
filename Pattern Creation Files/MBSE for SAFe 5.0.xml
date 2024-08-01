@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.25j" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Assumption" metatype="Assumption" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -24,6 +24,7 @@
 					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefPart" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
+					<Tag name="Severity" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
@@ -33,6 +34,9 @@
 						<Property name="URI" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Delta" metatype="Delta" notes="" cx="125" cy="50" bgcolor="14013946" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
@@ -71,6 +75,19 @@
 						<Property name="URI" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="FeatureCatalogue" metatype="FeatureCatalogue" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Feedback" metatype="Feedback" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
@@ -174,12 +191,14 @@
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="End User Affected" type="" description="" unit="" values="" default=""/>
+					<Tag name="LikleyHood" type="" description="" unit="" values="" default=""/>
 					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefHFStudy" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefHFStudyStation" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefPart" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
+					<Tag name="Severity" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
@@ -189,6 +208,9 @@
 						<Property name="URI" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Outcome" metatype="Outcome" notes="" cx="155" cy="50" bgcolor="10551295" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAhEhFX5DSyufQAAAOwAAAAHABEAc3RyLmRhdFVUDQAHFFuM
@@ -204,7 +226,7 @@ c3RyLmRhdFVUBQAHFFuMY1BLBQYAAAAAAQABAD4AAACzAAAAAAA=
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="Pain" metatype="Pain" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Pain" metatype="Pain" notes="" cx="125" cy="50" bgcolor="10535167" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -233,6 +255,7 @@ c3RyLmRhdFVUBQAHFFuMY1BLBQYAAAAAAQABAD4AAACzAAAAAAA=
 					<Tag name="RefDesignSpec" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefPart" type="" description="" unit="" values="" default=""/>
 					<Tag name="SpecMet" type="" description="" unit="" values="" default=""/>
+					<Tag name="SpecUnits" type="" description="" unit="" values="" default=""/>
 					<Tag name="SpecValue" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
@@ -285,6 +308,9 @@ ci5kYXRVVAUAB6Ya9mJQSwUGAAAAAAEAAQA+AAAAcwIAAAAA
 						<Property name="URI" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Scenario" metatype="Scenario" notes="" cx="0" cy="0" bgcolor="15453831" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
@@ -346,14 +372,19 @@ AIAAAAAAc3RyLmRhdFVUBQAH8HGfZlBLBQYAAAAAAQABAD4AAAB7AgAAAAA=
 						<Property name="URI" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="TechnicalRisk" metatype="TechnicalRisk" notes="" cx="125" cy="50" bgcolor="65535" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Risk"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="LikleyHood" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
+					<Tag name="Severity" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
@@ -363,6 +394,9 @@ AIAAAAAAc3RyLmRhdFVUBQAH8HGfZlBLBQYAAAAAAQABAD4AAAB7AgAAAAA=
 						<Property name="URI" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Use Case" metatype="UseCase" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
@@ -481,6 +515,7 @@ AAABAAEAPgAAAFwFAAAAAA==
 					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
+					<Tag name="SpecUnits" type="" description="" unit="" values="" default=""/>
 					<Tag name="SpecValue" type="" description="" unit="" values="" default=""/>
 					<Tag name="SpecValueRule" type="" description="" unit="" values="" default=""/>
 					<Tag name="subType" type="" description="" unit="" values="" default=""/>
@@ -539,23 +574,20 @@ AAABAAEAPgAAAFwFAAAAAA==
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="SurveyQuestion" metatype="SurveyQuestion" notes="" cx="125" cy="50" bgcolor="10592733" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKZx91hLia6CTwIAAOIJAAAHABEAc3RyLmRhdFVUDQAHn7qf
-Zp+6n2afup9mzVbBbtNAFJxrkPgHi15SKRJQKIhWPSDgBggoEkeUxk66kNjB
-3hQK4t+Zee5mbbcpbiREZXm9Xs+bfftm1naFU4yxRIYEC/YcctzFHfyydoA5
-x85RYAXP49yQR7iHE46VSHlX8u7wAp1ztDLGlL3vRHo+XxEVEIqYEuPwk70h
-nuEBRnjKdneNKflkwsgx+WbMQDihdD5kG68xRjOm5F0xszoDZTpkbp53GZnG
-XF/G+xHPtzz7xH6z3CtyOK4nxzvmVpBnyZGa6QVeke0j2w89OVUjb6w1w3Ej
-ro6N+KSTff08aDMgRrWaQiqolxrasWqnjDzCHmsUMrqplgNyfGbE3PhyQ04s
-F2XfRp71RlYc8czYET0nqmCr2Yd4ZLrGVjVJcJ9HgpdkL/GVvRP2JuzNTIkV
-50g73FpV/lfmELON1+Iq5AnfmmsP+zxGnWtzLZ9YV2eVkboZfrBt6qkd6MmX
-m1t21trvtPz1e4NfrnPs/3aPqjuFds51zvHkW/b0TFuhplKh2m9sXY5ZL7Z0
-z+Y5/pWHQuymPdDHNcpmhgO87/ghaTmin6fiG+umDtJuk4fCGp4T8YUZKR+h
-tZaCrbT1po9qUr81brPvtDOkUPvaVOv1ugrbuW7zDLfZddEpVzkr+kuqae6S
-7NGZGpEv9Q9RvyGFDW4T2lmdtOYQJeWO+fWNujmubmjurSxHqSqPyDvK0nH8
-8kz1tzj8rSj33Qu+6PbMfOAYpyrWFXvcaJ90at3F63nABoW6MQvmdGYaFQhf
-rv0ORpz5GqN/py6mWe8/UEsBAhcLFAAAAAgApnH3WEuJroJPAgAA4gkAAAcA
-CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB5+6n2ZQSwUGAAAAAAEAAQA+
-AAAAhQIAAAAA
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKR991itqCta2AEAAHgIAAAHABEAc3RyLmRhdFVUDQAHDtCf
+Zg7Qn2YO0J9mzVTLSsNAFD3bCv5DsJsKBbUiotKFqDsVX+BS2iZto21Sk4la
+xX/33InTSYKpMSBKmJt5nHvmPk4SY4weZvDgYMqZjwCrWMGbtg1MuDdHiASK
+z1wju1hDn3sRXK4irg4+0QF3Y83ocvZMpOJ5QpRBiMeQGB+vnLWwh020sUu7
+vsBEPBnQs0e+ESMQnKBkbNHat/WRG13yJowsjUAibTE2xZVHph7z87huc5xz
+VPF91LHH5PCZT4ALxhaSZ8adlOkIJ2S7ob2qyCk1Upo1ZbjO+KW+Fu8Uok/P
+TW8axEithpAuyMzVaJ9VG9Oziw5rZCL6aS8b5Lijx0TzBRo50LFI9HnkU2Vk
+zB3FiH2iJ0SFtHJ7C9u6r9ZKTRxs8HFwTPYID5z1ORtwNtKdSHiHW+CWrIJv
+mY1PHa3ZLEQTKndXBzt82oV3Npdb1tXXlZHuenihzfZTvkBFvkCrpbnofTOn
+r/cSvSxT7F+rR6o7hHw5y5SjyDerqJl8h7KdMtU+03n5jHpaUz3ld/yWhoxv
+2TdQRTUSzQj7uCzowckpopqm7B+rnoJMBoc8v2c8Eo1gJZOQVjqrdHekIuk/
+4z+rTrKS/uTf2V6dLmpQT3PlN/xnzVmdfKUrqy4ZH1BLAQIXCxQAAAAIAKR9
+91itqCta2AEAAHgIAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcO
+0J9mUEsFBgAAAAABAAEAPgAAAA4CAAAAAA==
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
@@ -644,6 +676,7 @@ AACjAQAAAAA=
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
 					<Tag name="SAFeLevel" type="" description="" unit="" values="" default=""/>
 					<Tag name="SummedStoryPoints" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
@@ -1149,6 +1182,8 @@ gAAAAABzdHIuZGF0VVQFAAd/ZltfUEsFBgAAAAABAAEAPgAAAEoFAAAAAA==
 					<Apply type="Risk"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="LikleyHood" type="" description="" unit="" values="" default=""/>
+					<Tag name="Severity" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>

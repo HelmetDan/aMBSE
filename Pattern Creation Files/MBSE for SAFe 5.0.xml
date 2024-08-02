@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26a" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Assumption" metatype="Assumption" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -115,6 +115,7 @@
 				<TaggedValues>
 					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
+					<Tag name="SystemLevel" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Gap" metatype="Gap" notes="" cx="125" cy="50" bgcolor="42495" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">

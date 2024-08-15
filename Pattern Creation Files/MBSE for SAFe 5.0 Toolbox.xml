@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.26" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="F79E4FBF-6" name="MBSE for SAFe 5.0" version="0.0.26b" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Agile PM Artifacts" notes="This is the Agile PM Artifacts for problem definition" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -20,6 +20,32 @@
 					<Tag name="MBSE for SAFe 5.0::TechnicalRisk(UML::Risk)" type="" description="" unit="" values="" default="Technical Risk"/>
 					<Tag name="UML::Realization" type="" description="" unit="" values="" default="Realization"/>
 					<Tag name="UML::TraceLink" type="" description="" unit="" values="" default="Trace"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="aMBSE Behaviors" notes="For MBSE Behavioral Analysis" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="" type="" description="" unit="" values="" default="Extend"/>
+					<Tag name="MBSE for SAFe 5.0::Concern(UML::Class)" type="" description="" unit="" values="" default="Concern"/>
+					<Tag name="MBSE for SAFe 5.0::Function(UML::Activity)" type="" description="" unit="" values="" default="Function"/>
+					<Tag name="MBSE for SAFe 5.0::Objective(UML::UseCase)" type="" description="" unit="" values="" default="Objective"/>
+					<Tag name="MBSE for SAFe 5.0::Owns(UML::Association)" type="" description="" unit="" values="" default="Owns"/>
+					<Tag name="MBSE for SAFe 5.0::Persona(UML::Actor)" type="" description="" unit="" values="" default="Persona"/>
+					<Tag name="MBSE for SAFe 5.0::Responsibility (UML::Class)" type="" description="" unit="" values="" default="Responsibility"/>
+					<Tag name="MBSE for SAFe 5.0::Scenario(UML::UseCase)" type="" description="" unit="" values="" default="Scenario"/>
+					<Tag name="MBSE for SAFe 5.0::Stakeholder(UML::Actor)" type="" description="" unit="" values="" default="Stakeholder"/>
+					<Tag name="MBSE for SAFe 5.0::Use Case(UML::UseCase)" type="" description="" unit="" values="" default="Use Case"/>
+					<Tag name="MBSE for SAFe 5.0::Viewpoint(UML::Class)" type="" description="" unit="" values="" default="View Point"/>
+					<Tag name="UML::Actor" type="" description="" unit="" values="" default="Actor"/>
+					<Tag name="UML::Association" type="" description="" unit="" values="" default="Associate"/>
+					<Tag name="UML::ControlFlow" type="" description="" unit="" values="" default="Flow"/>
+					<Tag name="UML::Generalization" type="" description="" unit="" values="" default="Generalize"/>
+					<Tag name="UML::Realization" type="" description="" unit="" values="" default="Realize"/>
+					<Tag name="UML::UCExtend" type="" description="" unit="" values="" default="Extend"/>
+					<Tag name="UML::UCInclude" type="" description="" unit="" values="" default="Include"/>
+					<Tag name="UML::UseCaseLink" type="" description="" unit="" values="" default="Use"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Context Diagraming" notes="This has context diagram elements" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -725,36 +751,6 @@ tmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxrtmxr
 					<Tag name="MBSE for SAFe 5.0::SubSystem Requirement(UML::Requirement)" type="" description="" unit="" values="" default="SubSystem Requirement"/>
 					<Tag name="MBSE for SAFe 5.0::System Requirement(UML::Requirement)" type="" description="" unit="" values="" default="System Requirement"/>
 					<Tag name="MBSE for SAFe 5.0::User Need(UML::Requirement)" type="" description="" unit="" values="" default="User Need"/>
-				</TaggedValues>
-			</Stereotype>
-			<Stereotype name="MBSE Stakeholer" notes="For MBSE Stakeholder Analysis" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<AppliesTo>
-					<Apply type="ToolboxPage"/>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="" type="" description="" unit="" values="" default="Realize"/>
-					<Tag name="MBSE for SAFe 5.0::Concern(UML::Class)" type="" description="" unit="" values="" default="Concern"/>
-					<Tag name="MBSE for SAFe 5.0::Function(UML::Activity)" type="" description="" unit="" values="" default="Function"/>
-					<Tag name="MBSE for SAFe 5.0::Goal(UML::UseCase)" type="" description="" unit="" values="" default="Goal"/>
-					<Tag name="MBSE for SAFe 5.0::Job(UML::UseCase)" type="" description="" unit="" values="" default="Job"/>
-					<Tag name="MBSE for SAFe 5.0::Operational Objective(UML::UseCase)" type="" description="" unit="" values="" default="Operational Objective"/>
-					<Tag name="MBSE for SAFe 5.0::Owns(UML::Association)" type="" description="" unit="" values="" default="Owns"/>
-					<Tag name="MBSE for SAFe 5.0::Persona(UML::Actor)" type="" description="" unit="" values="" default="Persona"/>
-					<Tag name="MBSE for SAFe 5.0::Responsibility (UML::Class)" type="" description="" unit="" values="" default="Responsibility"/>
-					<Tag name="MBSE for SAFe 5.0::Scenario(UML::UseCase)" type="" description="" unit="" values="" default="Scenario"/>
-					<Tag name="MBSE for SAFe 5.0::Stakeholder(UML::Actor)" type="" description="" unit="" values="" default="Stakeholder"/>
-					<Tag name="MBSE for SAFe 5.0::Stakeholer Goal(UML::UseCase)" type="" description="" unit="" values="" default="Stakeholder Goal"/>
-					<Tag name="MBSE for SAFe 5.0::SubSystemUseCase(UML::UseCase)" type="" description="" unit="" values="" default="Subsystem Use Case"/>
-					<Tag name="MBSE for SAFe 5.0::SystemUseCase(UML::UseCase)" type="" description="" unit="" values="" default="System Use Case"/>
-					<Tag name="MBSE for SAFe 5.0::Use Case(UML::UseCase)" type="" description="" unit="" values="" default="Use Case"/>
-					<Tag name="MBSE for SAFe 5.0::Viewpoint(UML::Class)" type="" description="" unit="" values="" default="View Point"/>
-					<Tag name="UML::Actor" type="" description="" unit="" values="" default="Actor"/>
-					<Tag name="UML::Association" type="" description="" unit="" values="" default="Associate"/>
-					<Tag name="UML::Generalization" type="" description="" unit="" values="" default="Generalize"/>
-					<Tag name="UML::Realization" type="" description="" unit="" values="" default="Realize"/>
-					<Tag name="UML::UCExtend" type="" description="" unit="" values="" default="Extend"/>
-					<Tag name="UML::UCInclude" type="" description="" unit="" values="" default="Include"/>
-					<Tag name="UML::UseCaseLink" type="" description="" unit="" values="" default="Use"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Model Structure Toolbox" notes="This is for model pattern creation" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">

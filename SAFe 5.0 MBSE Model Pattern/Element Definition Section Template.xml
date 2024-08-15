@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no" ?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2024-08-13 07:11:45">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+			<XMI.exporterID>1605</XMI.exporterID>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="%#Template#% Elements" xmi.id="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="documentation" value="This diagram shows the standard definitions for feedback elements used in this methodology. It is important to note that Plus and Delta elements can be used in either a product or process where Gaps are specifically focused on the process where a product is applied.  &#xA;"/>
+						<UML:TaggedValue tag="parent" value="EAPK_2C69A0C8_5FA7_48ff_ADE4_EC97677574D9"/>
+						<UML:TaggedValue tag="created" value="2024-08-12 17:28:27"/>
+						<UML:TaggedValue tag="modified" value="2024-08-12 17:42:08"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="12"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Danie"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="12"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="%#element3#% Elements" xmi.id="EAID_09425DC9_C91E_499f_AEDD_7B04778B179B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element3#% are ******  , etc. %#element3#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element3#% ##&lt;/b&gt; - Name&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element3#% are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:28:40"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 06:43:23"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_09425DC9_C91E_499f_AEDD_7B04778B179B"/>
+										<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="1396"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="%#element6#% Elements" xmi.id="EAID_117A56D0_85A7_4717_8565_C7956E460A92" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element6#% are ******  , etc. %#element6#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element6#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element6#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:28:40"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 07:09:15"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_117A56D0_85A7_4717_8565_C7956E460A92"/>
+										<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="6"/>
+										<UML:TaggedValue tag="ea_localid" value="1404"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="%#element5#% Elements" xmi.id="EAID_2624520D_2634_48d3_AD93_B8BF924FC899" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element5#% are ******  , etc. %#element5#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element5#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element5#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:28:40"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 07:06:33"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_2624520D_2634_48d3_AD93_B8BF924FC899"/>
+										<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="5"/>
+										<UML:TaggedValue tag="ea_localid" value="1407"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="%#element2#% Elements" xmi.id="EAID_5A102F27_6A44_4374_9DF4_47627F0B5B36" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element2#% are ******  , etc. %#element2#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element2#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element2#% are.&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:28:40"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 06:36:01"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_5A102F27_6A44_4374_9DF4_47627F0B5B36"/>
+										<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="1398"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="%#element4#% Elements" xmi.id="EAID_86CA5F43_2D0C_43c9_97FD_E0DF2D3707C6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element4#% are ******  , etc. %#element4#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element4#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element4#% are&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:28:40"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 06:44:50"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_86CA5F43_2D0C_43c9_97FD_E0DF2D3707C6"/>
+										<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="1397"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="%#element8#% Elements" xmi.id="EAID_ABF5FC36_54CC_4d24_8E10_62772A3EBCFE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element8#% are ******  , etc. %#element8#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element8#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element8#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:28:40"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 07:10:38"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_ABF5FC36_54CC_4d24_8E10_62772A3EBCFE"/>
+										<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="8"/>
+										<UML:TaggedValue tag="ea_localid" value="1405"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="%#element1#% Elements" xmi.id="EAID_B3EF926E_2F0A_4099_9156_B347659D14E4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element1#% are ******  , etc. %#element1#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element1#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element1#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:28:40"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 06:35:09"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_B3EF926E_2F0A_4099_9156_B347659D14E4"/>
+										<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="1395"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="%#element7#% Elements" xmi.id="EAID_C02BE8A2_1A03_4b67_B0D9_A23F87458C2C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element7#% are ******  , etc. %#element7#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element7#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element7#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:28:40"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 07:09:51"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_C02BE8A2_1A03_4b67_B0D9_A23F87458C2C"/>
+										<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="7"/>
+										<UML:TaggedValue tag="ea_localid" value="1406"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Comment xmi.id="EAID_237B6C28_3599_4680_B86E_0A8720A1D385" visibility="public" namespace="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="date_created" value="2024-08-12 17:31:36"/>
+								<UML:TaggedValue tag="date_modified" value="2024-08-12 17:31:36"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="15809"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_30606AC7_9961_443b_975A_3F12008B4AD9" visibility="public" namespace="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="date_created" value="2024-08-12 17:33:38"/>
+								<UML:TaggedValue tag="date_modified" value="2024-08-12 17:33:38"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="15815"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_6FA492EA_D46D_48e1_8A5E_FB415C880492" visibility="public" namespace="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="This diagram shows the standard definitions for feedback elements used in this methodology. It is important to note that Plus and Delta elements can be used in either a product or process where Gaps are specifically focused on the process where a product is applied.  &#xA;"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="date_created" value="2024-08-12 17:32:02"/>
+								<UML:TaggedValue tag="date_modified" value="2024-08-12 17:36:53"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="styleex" value="NLH=0;NS=3;"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="15810"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="linkedFeature" value="&lt;P1&gt;=Element Note;&lt;P2&gt;=EAID_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC;&lt;P3&gt;=;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_85967E92_A96A_4657_AB59_969F3314709D" visibility="public" namespace="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="date_created" value="2024-08-12 17:33:35"/>
+								<UML:TaggedValue tag="date_modified" value="2024-08-12 17:33:35"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="15814"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_A39BF0FA_F3B5_4eff_B3BF_C833208DBAD0" visibility="public" namespace="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="date_created" value="2024-08-12 17:33:32"/>
+								<UML:TaggedValue tag="date_modified" value="2024-08-12 17:33:32"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="15813"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_BB1F3D3B_DB12_46b7_8580_5680C9ECB7F8" visibility="public" namespace="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="date_created" value="2024-08-12 17:33:41"/>
+								<UML:TaggedValue tag="date_modified" value="2024-08-12 17:33:41"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="15816"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_C420E6B4_56C9_442b_A254_47A7C4F8EF77" visibility="public" namespace="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="date_created" value="2024-08-12 17:33:44"/>
+								<UML:TaggedValue tag="date_modified" value="2024-08-12 17:33:44"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="15817"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_D9576A25_E4D8_4368_A569_99DAEC8627CF" visibility="public" namespace="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="date_created" value="2024-08-12 17:33:29"/>
+								<UML:TaggedValue tag="date_modified" value="2024-08-12 17:33:29"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="15812"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_ED31301F_459E_49d4_A7B3_9B6830DBD19B" visibility="public" namespace="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="date_created" value="2024-08-12 17:33:27"/>
+								<UML:TaggedValue tag="date_modified" value="2024-08-12 17:33:27"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="%#Template#% Elements"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="15811"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Package name="%#element1#% Elements" xmi.id="EAPK_B3EF926E_2F0A_4099_9156_B347659D14E4" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="%#element1#% are ******  , etc. %#element1#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element1#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element1#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="created" value="2024-08-12 17:28:40"/>
+								<UML:TaggedValue tag="modified" value="2024-08-13 06:35:09"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_58CE3E1A_C14E_4bce_93C5_8629DA2B73A3" visibility="public" namespace="EAPK_B3EF926E_2F0A_4099_9156_B347659D14E4">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element1#% are ******  , etc. %#element1#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element1#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element1#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_B3EF926E_2F0A_4099_9156_B347659D14E4"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:38:56"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 06:39:59"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="%#element1#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="15818"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="linkedFeature" value="&lt;P1&gt;=Element Note;&lt;P2&gt;=EAID_B3EF926E_2F0A_4099_9156_B347659D14E4;&lt;P3&gt;=;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="%#element2#% Elements" xmi.id="EAPK_5A102F27_6A44_4374_9DF4_47627F0B5B36" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="%#element2#% are ******  , etc. %#element2#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element2#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element2#% are.&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="created" value="2024-08-12 17:28:40"/>
+								<UML:TaggedValue tag="modified" value="2024-08-13 06:36:01"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2024-08-13 06:23:54"/>
+								<UML:TaggedValue tag="lastsavedate" value="2024-08-13 06:23:54"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_89A2B98F_FE6B_4d6a_860C_F0A659DB3987" visibility="public" namespace="EAPK_5A102F27_6A44_4374_9DF4_47627F0B5B36">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element2#% are ******  , etc. %#element2#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element2#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element2#% are.&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_5A102F27_6A44_4374_9DF4_47627F0B5B36"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:38:56"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-12 17:46:08"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="%#element2#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="15824"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="linkedFeature" value="&lt;P1&gt;=Element Note;&lt;P2&gt;=EAID_5A102F27_6A44_4374_9DF4_47627F0B5B36;&lt;P3&gt;=;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="%#element3#% Elements" xmi.id="EAPK_09425DC9_C91E_499f_AEDD_7B04778B179B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="%#element3#% are ******  , etc. %#element3#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element3#% ##&lt;/b&gt; - Name&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element3#% are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="created" value="2024-08-12 17:28:40"/>
+								<UML:TaggedValue tag="modified" value="2024-08-13 06:43:23"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2024-08-13 06:20:22"/>
+								<UML:TaggedValue tag="lastsavedate" value="2024-08-13 06:20:22"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_7ABCFB68_EBB0_44db_8AED_FA56AA26A7BF" visibility="public" namespace="EAPK_09425DC9_C91E_499f_AEDD_7B04778B179B">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element3#% are ******  , etc. %#element3#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element3#% ##&lt;/b&gt; - Name&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element3#% are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_09425DC9_C91E_499f_AEDD_7B04778B179B"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:38:56"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-12 17:46:08"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="%#element3#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="15820"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="linkedFeature" value="&lt;P1&gt;=Element Note;&lt;P2&gt;=EAID_09425DC9_C91E_499f_AEDD_7B04778B179B;&lt;P3&gt;=;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="%#element4#% Elements" xmi.id="EAPK_86CA5F43_2D0C_43c9_97FD_E0DF2D3707C6" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="%#element4#% are ******  , etc. %#element4#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element4#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element4#% are&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="created" value="2024-08-12 17:28:40"/>
+								<UML:TaggedValue tag="modified" value="2024-08-13 06:44:50"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2024-08-13 06:21:18"/>
+								<UML:TaggedValue tag="lastsavedate" value="2024-08-13 06:21:18"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="4"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_0E3A4E02_EF8C_4190_B979_A6E906BA4F2A" visibility="public" namespace="EAPK_86CA5F43_2D0C_43c9_97FD_E0DF2D3707C6">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element4#% are ******  , etc. %#element4#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element4#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element4#% are&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_86CA5F43_2D0C_43c9_97FD_E0DF2D3707C6"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:38:56"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 06:45:35"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="%#element4#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="15822"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="linkedFeature" value="&lt;P1&gt;=Element Note;&lt;P2&gt;=EAID_86CA5F43_2D0C_43c9_97FD_E0DF2D3707C6;&lt;P3&gt;=;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="%#element5#% Elements" xmi.id="EAPK_2624520D_2634_48d3_AD93_B8BF924FC899" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="%#element5#% are ******  , etc. %#element5#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element5#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element5#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="created" value="2024-08-12 17:28:40"/>
+								<UML:TaggedValue tag="modified" value="2024-08-13 07:06:33"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2024-08-13 07:05:25"/>
+								<UML:TaggedValue tag="lastsavedate" value="2024-08-13 07:05:25"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="5"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_7C6CBFF8_2479_46e1_9BF1_FFF005DF2ED5" visibility="public" namespace="EAPK_2624520D_2634_48d3_AD93_B8BF924FC899">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element5#% are ******  , etc. %#element5#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element5#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element5#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_2624520D_2634_48d3_AD93_B8BF924FC899"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:38:56"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 06:39:59"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="%#element5#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="15853"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="linkedFeature" value="&lt;P1&gt;=Element Note;&lt;P2&gt;=EAID_2624520D_2634_48d3_AD93_B8BF924FC899;&lt;P3&gt;=;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="%#element6#% Elements" xmi.id="EAPK_117A56D0_85A7_4717_8565_C7956E460A92" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="%#element6#% are ******  , etc. %#element6#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element6#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element6#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="created" value="2024-08-12 17:28:40"/>
+								<UML:TaggedValue tag="modified" value="2024-08-13 07:09:15"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2024-08-13 07:04:24"/>
+								<UML:TaggedValue tag="lastsavedate" value="2024-08-13 07:04:24"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="6"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_44D9C3FA_03E0_435d_85CF_D3CCF66C1338" visibility="public" namespace="EAPK_117A56D0_85A7_4717_8565_C7956E460A92">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element6#% are ******  , etc. %#element6#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element6#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element6#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_117A56D0_85A7_4717_8565_C7956E460A92"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:38:56"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 06:39:59"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="%#element6#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="15847"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="linkedFeature" value="&lt;P1&gt;=Element Note;&lt;P2&gt;=EAID_117A56D0_85A7_4717_8565_C7956E460A92;&lt;P3&gt;=;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="%#element7#% Elements" xmi.id="EAPK_C02BE8A2_1A03_4b67_B0D9_A23F87458C2C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="%#element7#% are ******  , etc. %#element7#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element7#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element7#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="created" value="2024-08-12 17:28:40"/>
+								<UML:TaggedValue tag="modified" value="2024-08-13 07:09:51"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2024-08-13 07:05:05"/>
+								<UML:TaggedValue tag="lastsavedate" value="2024-08-13 07:05:05"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="7"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_051EF9E2_8E46_4afc_AF06_01A2124037E1" visibility="public" namespace="EAPK_C02BE8A2_1A03_4b67_B0D9_A23F87458C2C">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element7#% are ******  , etc. %#element7#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element7#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element7#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02BE8A2_1A03_4b67_B0D9_A23F87458C2C"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:38:56"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 06:39:59"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="%#element7#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="15851"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="linkedFeature" value="&lt;P1&gt;=Element Note;&lt;P2&gt;=EAID_C02BE8A2_1A03_4b67_B0D9_A23F87458C2C;&lt;P3&gt;=;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="%#element8#% Elements" xmi.id="EAPK_ABF5FC36_54CC_4d24_8E10_62772A3EBCFE" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="%#element8#% are ******  , etc. %#element8#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element8#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element8#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+								<UML:TaggedValue tag="created" value="2024-08-12 17:28:40"/>
+								<UML:TaggedValue tag="modified" value="2024-08-13 07:10:38"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2024-08-13 07:04:45"/>
+								<UML:TaggedValue tag="lastsavedate" value="2024-08-13 07:04:45"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="8"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Danie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_C84B3459_E33A_4b1f_B25D_785088877A1C" visibility="public" namespace="EAPK_ABF5FC36_54CC_4d24_8E10_62772A3EBCFE">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="%#element8#% are ******  , etc. %#element8#% represent ****  to the system *****&#xA;&#xA;The following template shows the best practice used for documenting this element:&#xA;&#xA;&lt;b&gt;%#element8#% ##&lt;/b&gt; - Name&#xA;&#xA;&#xA;&#xA;&lt;b&gt;DESCRIPTION&lt;/b&gt;&#xA;%#element8#%  are .&#xA;&#xA;&lt;b&gt;CONTEXT&lt;/b&gt;&#xA;Provide brief context that includes:&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_ABF5FC36_54CC_4d24_8E10_62772A3EBCFE"/>
+										<UML:TaggedValue tag="date_created" value="2024-08-12 17:38:56"/>
+										<UML:TaggedValue tag="date_modified" value="2024-08-13 06:39:59"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="%#element8#% Elements"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Danie"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="15849"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="linkedFeature" value="&lt;P1&gt;=Element Note;&lt;P2&gt;=EAID_ABF5FC36_54CC_4d24_8E10_62772A3EBCFE;&lt;P3&gt;=;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="%#Template#% Elements" xmi.id="EAID_4FB6E50F_2E51_4c0a_8283_4A3059F79423" diagramType="ClassDiagram" owner="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Danie"/>
+				<UML:TaggedValue tag="created_date" value="2024-08-12 17:28:49"/>
+				<UML:TaggedValue tag="modified_date" value="2024-08-13 06:46:28"/>
+				<UML:TaggedValue tag="package" value="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="1551"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=1;Locked=0;Border=1;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=AFFDFEBB;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE for SAFe 5.0;STBLDgm=;ShowNotes=0;OPTIONS_FD40730D=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=560;Top=430;Right=770;Bottom=515;" subject="EAID_C420E6B4_56C9_442b_A254_47A7C4F8EF77" seqno="1" style="DUID=25B4F6C9;"/>
+				<UML:DiagramElement geometry="Left=97;Top=430;Right=307;Bottom=515;" subject="EAID_BB1F3D3B_DB12_46b7_8580_5680C9ECB7F8" seqno="2" style="DUID=94009CCC;"/>
+				<UML:DiagramElement geometry="Left=97;Top=316;Right=307;Bottom=401;" subject="EAID_30606AC7_9961_443b_975A_3F12008B4AD9" seqno="3" style="DUID=28F0A432;"/>
+				<UML:DiagramElement geometry="Left=97;Top=544;Right=307;Bottom=629;" subject="EAID_85967E92_A96A_4657_AB59_969F3314709D" seqno="4" style="DUID=6DFDF7BD;"/>
+				<UML:DiagramElement geometry="Left=557;Top=202;Right=767;Bottom=287;" subject="EAID_A39BF0FA_F3B5_4eff_B3BF_C833208DBAD0" seqno="5" style="DUID=CAE7BD9D;"/>
+				<UML:DiagramElement geometry="Left=560;Top=544;Right=770;Bottom=629;" subject="EAID_D9576A25_E4D8_4368_A569_99DAEC8627CF" seqno="6" style="DUID=04420287;"/>
+				<UML:DiagramElement geometry="Left=560;Top=316;Right=770;Bottom=401;" subject="EAID_ED31301F_459E_49d4_A7B3_9B6830DBD19B" seqno="7" style="DUID=64371657;"/>
+				<UML:DiagramElement geometry="Left=51;Top=73;Right=739;Bottom=183;" subject="EAID_6FA492EA_D46D_48e1_8A5E_FB415C880492" seqno="8" style="DUID=EB63C91D;font=Calibri;fontsz=140;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=101;Top=202;Right=311;Bottom=287;" subject="EAID_237B6C28_3599_4680_B86E_0A8720A1D385" seqno="9" style="DUID=E7C2E107;"/>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=820;Bottom=50;" subject="EAID_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC" seqno="10" style=" DUID=FD40730D;NSL=0;BFol=-1;LCol=-1;LWth=-1;black=0;italic=0;ul=0;charset=0;font=Calibri;fontsz=220;bold=1;pitch=34;BCol=14474460;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7E5F927C_0A10_488d_A753_013FA4674C3A" style="Mode=3;EOID=FD40730D;SOID=EB63C91D;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="%#element1#% Elements" xmi.id="EAID_6079EF38_5D88_47d6_95E9_20567FCDA04E" diagramType="ClassDiagram" owner="EAPK_B3EF926E_2F0A_4099_9156_B347659D14E4" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Danie"/>
+				<UML:TaggedValue tag="created_date" value="2024-08-12 17:38:47"/>
+				<UML:TaggedValue tag="modified_date" value="2024-08-13 06:42:58"/>
+				<UML:TaggedValue tag="package" value="EAPK_B3EF926E_2F0A_4099_9156_B347659D14E4"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="1552"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=1;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=4AB23B30;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE for SAFe 5.0;STBLDgm=;ShowNotes=0;OPTIONS_27843570=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=258;Top=66;Right=608;Bottom=456;" subject="EAID_58CE3E1A_C14E_4bce_93C5_8629DA2B73A3" seqno="1" style="DUID=5DE11B65;"/>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=621;Bottom=50;" subject="EAID_B3EF926E_2F0A_4099_9156_B347659D14E4" seqno="2" style="DUID=27843570;font=Calibri;fontsz=220;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;BCol=14474460;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F028F4C1_DD96_4a9a_9924_905CA6B74192" style="Mode=3;EOID=27843570;SOID=5DE11B65;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="%#element2#% Elements" xmi.id="EAID_3AE90CC1_0F95_4c31_AEEE_3F5567DB9F4D" diagramType="ClassDiagram" owner="EAPK_5A102F27_6A44_4374_9DF4_47627F0B5B36" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Danie"/>
+				<UML:TaggedValue tag="created_date" value="2024-08-12 17:38:47"/>
+				<UML:TaggedValue tag="modified_date" value="2024-08-13 06:37:30"/>
+				<UML:TaggedValue tag="package" value="EAPK_5A102F27_6A44_4374_9DF4_47627F0B5B36"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="0"/>
+				<UML:TaggedValue tag="ea_localid" value="1555"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=1;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=CD4654A1;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE for SAFe 5.0;STBLDgm=;ShowNotes=0;OPTIONS_69C3483C=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=231;Top=89;Right=497;Bottom=381;" subject="EAID_89A2B98F_FE6B_4d6a_860C_F0A659DB3987" seqno="1" style="DUID=4666DFD9;"/>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=500;Bottom=52;" subject="EAID_5A102F27_6A44_4374_9DF4_47627F0B5B36" seqno="2" style="DUID=69C3483C;font=Calibri;fontsz=220;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;BCol=14474460;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D1A66567_B727_4ffa_B5B5_23EF31CB1618" style="Mode=3;EOID=69C3483C;SOID=4666DFD9;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="%#element1#% Elements" xmi.id="EAID_AB27074A_D0E6_42c2_9EDC_1846AF400696" diagramType="ClassDiagram" owner="EAPK_09425DC9_C91E_499f_AEDD_7B04778B179B" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Danie"/>
+				<UML:TaggedValue tag="created_date" value="2024-08-12 17:38:47"/>
+				<UML:TaggedValue tag="modified_date" value="2024-08-13 07:11:10"/>
+				<UML:TaggedValue tag="package" value="EAPK_09425DC9_C91E_499f_AEDD_7B04778B179B"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="0"/>
+				<UML:TaggedValue tag="ea_localid" value="1553"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=1;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=2F171BDE;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE for SAFe 5.0;STBLDgm=;ShowNotes=0;OPTIONS_746122AF=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=191;Top=68;Right=598;Bottom=372;" subject="EAID_7ABCFB68_EBB0_44db_8AED_FA56AA26A7BF" seqno="1" style="DUID=D5E7522C;"/>
+				<UML:DiagramElement geometry="Left=5;Top=5;Right=625;Bottom=55;" subject="EAID_09425DC9_C91E_499f_AEDD_7B04778B179B" seqno="2" style="DUID=746122AF;font=Calibri;fontsz=220;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;BCol=14474460;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_C545A749_5F4A_4035_85C2_F33B4B4C5A68" style="Mode=3;EOID=746122AF;SOID=D5E7522C;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="%#element4#% Elements" xmi.id="EAID_2C37989A_6AB5_4567_BF23_BAAE718D5C24" diagramType="ClassDiagram" owner="EAPK_86CA5F43_2D0C_43c9_97FD_E0DF2D3707C6" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Danie"/>
+				<UML:TaggedValue tag="created_date" value="2024-08-12 17:38:47"/>
+				<UML:TaggedValue tag="modified_date" value="2024-08-13 07:11:10"/>
+				<UML:TaggedValue tag="package" value="EAPK_86CA5F43_2D0C_43c9_97FD_E0DF2D3707C6"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="0"/>
+				<UML:TaggedValue tag="ea_localid" value="1554"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=1;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=DEB5FCA0;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE for SAFe 5.0;STBLDgm=;ShowNotes=0;OPTIONS_135E5BA3=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=177;Top=70;Right=621;Bottom=450;" subject="EAID_0E3A4E02_EF8C_4190_B979_A6E906BA4F2A" seqno="1" style="DUID=E1647C0F;"/>
+				<UML:DiagramElement geometry="Left=8;Top=7;Right=627;Bottom=57;" subject="EAID_86CA5F43_2D0C_43c9_97FD_E0DF2D3707C6" seqno="2" style="DUID=135E5BA3;font=Calibri;fontsz=220;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;BCol=14474460;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F243441B_26BA_4748_A0D1_E2E906B244FF" style="Mode=3;EOID=135E5BA3;SOID=E1647C0F;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="%#element5#% Elements" xmi.id="EAID_A0391EC5_F241_41fa_9EE7_74E988C97A0C" diagramType="ClassDiagram" owner="EAPK_2624520D_2634_48d3_AD93_B8BF924FC899" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Danie"/>
+				<UML:TaggedValue tag="created_date" value="2024-08-12 17:38:47"/>
+				<UML:TaggedValue tag="modified_date" value="2024-08-13 07:06:19"/>
+				<UML:TaggedValue tag="package" value="EAPK_2624520D_2634_48d3_AD93_B8BF924FC899"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=12370374;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="0"/>
+				<UML:TaggedValue tag="ea_localid" value="1564"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=1;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=04630E59;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE for SAFe 5.0;STBLDgm=;ShowNotes=0;OPTIONS_0680AF5F=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=258;Top=66;Right=608;Bottom=456;" subject="EAID_7C6CBFF8_2479_46e1_9BF1_FFF005DF2ED5" seqno="1" style="DUID=EF3FC9D0;"/>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=621;Bottom=50;" subject="EAID_2624520D_2634_48d3_AD93_B8BF924FC899" seqno="2" style="font=Calibri;fontsz=220;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;BCol=14474460;DUID=0680AF5F;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_407C15F0_20C8_4766_AB35_88C82F3F8A4C" style="Mode=3;Color=-1;LWidth=0;SOID=EF3FC9D0;EOID=0680AF5F;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="%#element6#% Elements" xmi.id="EAID_7292CE8F_AE54_452f_90D3_7C838E7062E8" diagramType="ClassDiagram" owner="EAPK_117A56D0_85A7_4717_8565_C7956E460A92" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Danie"/>
+				<UML:TaggedValue tag="created_date" value="2024-08-12 17:38:47"/>
+				<UML:TaggedValue tag="modified_date" value="2024-08-13 07:11:10"/>
+				<UML:TaggedValue tag="package" value="EAPK_117A56D0_85A7_4717_8565_C7956E460A92"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="0"/>
+				<UML:TaggedValue tag="ea_localid" value="1561"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=1;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=56A25541;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE for SAFe 5.0;STBLDgm=;ShowNotes=0;OPTIONS_4ED6A65D=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=258;Top=66;Right=608;Bottom=456;" subject="EAID_44D9C3FA_03E0_435d_85CF_D3CCF66C1338" seqno="1" style="DUID=4FBB4BAB;"/>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=621;Bottom=50;" subject="EAID_117A56D0_85A7_4717_8565_C7956E460A92" seqno="2" style="font=Calibri;fontsz=220;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;BCol=14474460;DUID=4ED6A65D;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5AD02B97_FC9A_4109_9A3F_FC9CC82293A9" style="Mode=3;EOID=4ED6A65D;SOID=4FBB4BAB;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="%#element7#% Elements" xmi.id="EAID_B8E39E65_3AF4_4b25_8298_50917AA9DB50" diagramType="ClassDiagram" owner="EAPK_C02BE8A2_1A03_4b67_B0D9_A23F87458C2C" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Danie"/>
+				<UML:TaggedValue tag="created_date" value="2024-08-12 17:38:47"/>
+				<UML:TaggedValue tag="modified_date" value="2024-08-13 07:11:10"/>
+				<UML:TaggedValue tag="package" value="EAPK_C02BE8A2_1A03_4b67_B0D9_A23F87458C2C"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="0"/>
+				<UML:TaggedValue tag="ea_localid" value="1563"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=1;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=90474FBA;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE for SAFe 5.0;STBLDgm=;ShowNotes=0;OPTIONS_CF43C38C=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=258;Top=66;Right=608;Bottom=456;" subject="EAID_051EF9E2_8E46_4afc_AF06_01A2124037E1" seqno="1" style="DUID=BAC36722;"/>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=621;Bottom=50;" subject="EAID_C02BE8A2_1A03_4b67_B0D9_A23F87458C2C" seqno="2" style="font=Calibri;fontsz=220;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;BCol=14474460;DUID=CF43C38C;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_CC9D57D7_FC44_48e9_B6AD_B1AADE25F68B" style="Mode=3;EOID=CF43C38C;SOID=BAC36722;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="%#element8#% Elements" xmi.id="EAID_CB05C86F_3AD6_42c7_A98F_6520075BA13A" diagramType="ClassDiagram" owner="EAPK_ABF5FC36_54CC_4d24_8E10_62772A3EBCFE" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Danie"/>
+				<UML:TaggedValue tag="created_date" value="2024-08-12 17:38:47"/>
+				<UML:TaggedValue tag="modified_date" value="2024-08-13 07:11:11"/>
+				<UML:TaggedValue tag="package" value="EAPK_ABF5FC36_54CC_4d24_8E10_62772A3EBCFE"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=12370374;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="0"/>
+				<UML:TaggedValue tag="ea_localid" value="1562"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=1;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=8F05AB3A;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=MBSE for SAFe 5.0::MBSE for SAFe 5.0;STBLDgm=;ShowNotes=0;OPTIONS_D0971D37=CDS=1:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;NoFullScope=1;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=258;Top=66;Right=608;Bottom=456;" subject="EAID_C84B3459_E33A_4b1f_B25D_785088877A1C" seqno="1" style="DUID=701C0F5F;"/>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=621;Bottom=50;" subject="EAID_ABF5FC36_54CC_4d24_8E10_62772A3EBCFE" seqno="2" style="font=Calibri;fontsz=220;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;BCol=14474460;DUID=D0971D37;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2B5EE209_F46A_43e2_A42D_B247D634B072" style="Mode=3;EOID=D0971D37;SOID=701C0F5F;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EANoteLink xmi.id="EAID_C545A749_5F4A_4035_85C2_F33B4B4C5A68" source="EAID_7ABCFB68_EBB0_44db_8AED_FA56AA26A7BF" target="EAPK_09425DC9_C91E_499f_AEDD_7B04778B179B">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="linecolor" value="-1"/>
+				<UML:TaggedValue tag="linewidth" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</EANoteLink>
+		<EANoteLink xmi.id="EAID_5AD02B97_FC9A_4109_9A3F_FC9CC82293A9" source="EAID_44D9C3FA_03E0_435d_85CF_D3CCF66C1338" target="EAPK_117A56D0_85A7_4717_8565_C7956E460A92">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="linecolor" value="-1"/>
+				<UML:TaggedValue tag="linewidth" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</EANoteLink>
+		<EANoteLink xmi.id="EAID_407C15F0_20C8_4766_AB35_88C82F3F8A4C" source="EAID_7C6CBFF8_2479_46e1_9BF1_FFF005DF2ED5" target="EAPK_2624520D_2634_48d3_AD93_B8BF924FC899">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="linecolor" value="-1"/>
+				<UML:TaggedValue tag="linewidth" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</EANoteLink>
+		<EANoteLink xmi.id="EAID_D1A66567_B727_4ffa_B5B5_23EF31CB1618" source="EAID_89A2B98F_FE6B_4d6a_860C_F0A659DB3987" target="EAPK_5A102F27_6A44_4374_9DF4_47627F0B5B36">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="linecolor" value="-1"/>
+				<UML:TaggedValue tag="linewidth" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</EANoteLink>
+		<EANoteLink xmi.id="EAID_7E5F927C_0A10_488d_A753_013FA4674C3A" source="EAID_6FA492EA_D46D_48e1_8A5E_FB415C880492" target="EAPK_FA9EDDA6_C0B1_4141_A3A7_DDEC0AFA59BC">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="linecolor" value="-1"/>
+				<UML:TaggedValue tag="linewidth" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</EANoteLink>
+		<EANoteLink xmi.id="EAID_F243441B_26BA_4748_A0D1_E2E906B244FF" source="EAID_0E3A4E02_EF8C_4190_B979_A6E906BA4F2A" target="EAPK_86CA5F43_2D0C_43c9_97FD_E0DF2D3707C6">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="linecolor" value="-1"/>
+				<UML:TaggedValue tag="linewidth" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</EANoteLink>
+		<EANoteLink xmi.id="EAID_2B5EE209_F46A_43e2_A42D_B247D634B072" source="EAID_C84B3459_E33A_4b1f_B25D_785088877A1C" target="EAPK_ABF5FC36_54CC_4d24_8E10_62772A3EBCFE">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="linecolor" value="-1"/>
+				<UML:TaggedValue tag="linewidth" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</EANoteLink>
+		<EANoteLink xmi.id="EAID_F028F4C1_DD96_4a9a_9924_905CA6B74192" source="EAID_58CE3E1A_C14E_4bce_93C5_8629DA2B73A3" target="EAPK_B3EF926E_2F0A_4099_9156_B347659D14E4">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="linecolor" value="-1"/>
+				<UML:TaggedValue tag="linewidth" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</EANoteLink>
+		<EANoteLink xmi.id="EAID_CC9D57D7_FC44_48e9_B6AD_B1AADE25F68B" source="EAID_051EF9E2_8E46_4afc_AF06_01A2124037E1" target="EAPK_C02BE8A2_1A03_4b67_B0D9_A23F87458C2C">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="linecolor" value="-1"/>
+				<UML:TaggedValue tag="linewidth" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</EANoteLink>
+	</XMI.extensions>
+</XMI>

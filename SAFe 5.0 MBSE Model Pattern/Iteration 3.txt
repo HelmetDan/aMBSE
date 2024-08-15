@@ -1,0 +1,52 @@
+shape main
+{
+	layouttype="border";
+	noshadow=true;
+	defsize(90,70);
+	rectangle(0,0,100,100);
+	addsubshape("thename","N");
+	addsubshape("questionPrompt","Center");
+	addsubshape("notes","S");
+
+	shape thename
+	{
+		preferredheight=30;
+		layouttype="border";
+		h_align="center";
+		v_align="center";
+		setfillcolor(30,30,30); // Dark background
+		setpencolor(30,30,30);
+		rectangle(0,0,100,100);
+		setfontcolor(255,255,255); // White text
+		println("#name#");
+	}
+
+	shape questionPrompt
+	{
+		preferredheight=20;
+		layouttype="border";
+		h_align="left";
+		v_align="top";
+		setfillcolor(100,100,100); // Medium background
+		setpencolor(100,100,100);
+		rectangle(0,0,100,100);
+		setfontcolor(0,0,0); // Dark text
+		println("#tag:Question Prompt#");
+	}
+
+	shape notes
+	{
+		preferredheight=20; // Adjusted to fit better
+		layouttype="border";
+		h_align="left";
+		v_align="bottom";
+		setfillcolor(200,200,200); // Light background
+		setpencolor(200,200,200);
+		rectangle(0,0,100,-1100);
+		setfontcolor(0,0,0); // Dark text
+		//setorigin("W",50,50);
+		println("#notes#");
+	}
+}
+
+

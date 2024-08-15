@@ -26,7 +26,8 @@ insert the following section before "<RTFTemplates>" in the MDG file.  Check to 
 	 <Model name="New UI Screen Model Pattern" default="yes" description="This pattern is to create a New UI/UX screen in the UI UX Pattern" filter="Common" location="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\New Screen Model Pattern.xml" icon="34"/>
      <Model name="New Agile Project Management Model Pattern" default="yes" description="This pattern is to create an agile PM model mixing traditional PM and Agile" filter="Common" location="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\Agile Project Management.xml" icon="34"/>
 	 <Model name="Template Elements" default="yes" description="This a pattern contains Template Elements for element notes" filter="Common" location="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\Template Elements.xml" icon="34"/>
-</ModelTemplates>
+     <Model name="Meth- New Template for Element Definition" default="yes" description="Methodology development - element definition" filter="Common" location="C:\Projects\Github version control\aMBSE\SAFe 5.0 MBSE Model Pattern\Element Definition Section Template.xml" icon="34"/>
+	</ModelTemplates>
 
     <Model name="Create A New Product Model" default="yes" description="This a pattern to start of the Architecture Model for a new product" filter="Common" location="C:\Projects\MDGs\SAFe- MBSE\Product Architecture Model Pattern.xml" icon="34"/>
 	

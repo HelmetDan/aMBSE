@@ -1,0 +1,11 @@
+version 0.0.26b
+
+Stereo type updates:
+  - updated the operational objective to objective to align with sebok and incose handbook
+
+MDG Updated:
+updated the mission analysis V2 model pattern
+
+
+Model Pattern updates:
+

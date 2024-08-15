@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26a" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26b4" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Assumption" metatype="Assumption" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -548,7 +548,7 @@ AAABAAEAPgAAAFwFAAAAAA==
 					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Operational Objective" metatype="Operational Objective" notes="" cx="0" cy="0" bgcolor="16777215" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+			<Stereotype name="Objective" metatype="Objective" notes="" cx="0" cy="0" bgcolor="16777215" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
 				<AppliesTo>
 					<Apply type="UseCase"/>
 				</AppliesTo>
@@ -575,20 +575,23 @@ AAABAAEAPgAAAFwFAAAAAA==
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="SurveyQuestion" metatype="SurveyQuestion" notes="" cx="125" cy="50" bgcolor="10592733" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKR991itqCta2AEAAHgIAAAHABEAc3RyLmRhdFVUDQAHDtCf
-Zg7Qn2YO0J9mzVTLSsNAFD3bCv5DsJsKBbUiotKFqDsVX+BS2iZto21Sk4la
-xX/33InTSYKpMSBKmJt5nHvmPk4SY4weZvDgYMqZjwCrWMGbtg1MuDdHiASK
-z1wju1hDn3sRXK4irg4+0QF3Y83ocvZMpOJ5QpRBiMeQGB+vnLWwh020sUu7
-vsBEPBnQs0e+ESMQnKBkbNHat/WRG13yJowsjUAibTE2xZVHph7z87huc5xz
-VPF91LHH5PCZT4ALxhaSZ8adlOkIJ2S7ob2qyCk1Upo1ZbjO+KW+Fu8Uok/P
-TW8axEithpAuyMzVaJ9VG9Oziw5rZCL6aS8b5Lijx0TzBRo50LFI9HnkU2Vk
-zB3FiH2iJ0SFtHJ7C9u6r9ZKTRxs8HFwTPYID5z1ORtwNtKdSHiHW+CWrIJv
-mY1PHa3ZLEQTKndXBzt82oV3Npdb1tXXlZHuenihzfZTvkBFvkCrpbnofTOn
-r/cSvSxT7F+rR6o7hHw5y5SjyDerqJl8h7KdMtU+03n5jHpaUz3ld/yWhoxv
-2TdQRTUSzQj7uCzowckpopqm7B+rnoJMBoc8v2c8Eo1gJZOQVjqrdHekIuk/
-4z+rTrKS/uTf2V6dLmpQT3PlN/xnzVmdfKUrqy4ZH1BLAQIXCxQAAAAIAKR9
-91itqCta2AEAAHgIAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcO
-0J9mUEsFBgAAAAABAAEAPgAAAA4CAAAAAA==
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABBzDFnmjPDtXAIAAAwKAAAHABEAc3RyLmRhdFVUDQAHOBu6
+ZjgbumY4G7pmtVbLTttAFL3bIPEPVtkEKRItUFWAWCDoruVRkLqsQpyHS3DS
+2C4v8e895zqTGU9sx0FFkcfjmfs499wzdhIZSVem0pdA7jGLJJZN2ZAXHVsy
+xtqTTCSTFL8ntTyWD3KLtZmEeJrh6WhuHWM10YghZg+wTLGfwcpY0GMAm0ie
+MWvLgXyUjnzBuL2wmWGnB88u4g2BgHa04vUJo71bH2YMETcDshwBkbaBLcVT
+H5G6qK+P5w6uc1xNfFlPinky9zuVr/C9wfjDiZBHsZ6BlzPfN4yuy2kL+2Rk
+oOuchRo9Ajcj+B/LPpg4QtYd/AI5wf5vxE4UeYgV15rYJhjZ5x6QZJov0NxE
+HSxQB8o//f9oBxkvglWMFSKawGqKNYOyjsU84g2uR3iQy2CpC3URfASXTn4T
+7dqLZu5uX3wkxsb2ZjXbu8q2tR/JL0Qdq0WsfewJe0/2i31syd81bBOspcAR
+wX4MuwlG6qMte3oC7MiqTffPEH8md9rRLrzukIlcZfNeDjSGZcLPR56ojPps
+1ustZ9Wtjt1MC/l25TN+He/u1vgTnEfKGdWcd7KuMnaUek+RI1Y9bS2stjzV
+vOqsTDt1GnwfHZHNgVDh9RriiZ42Vk+xK253DL/fFW2Eeu9X6shnpfzdUK2u
+ajTvqTHjXXV2llXVtM4yrRH5UA7laimGq6FyJRYVWXyXmW9Tvme1t+73pZny
+muiuWnVUOxkv3l32vy3OxirN+ZVXq6s6q/FcT1sG6wV8esA1BWbiMF/8QOOZ
+/1G8hlhLYMd67DvpfypzmY0yDVqros5ydeXjP1BLAQIXCxQAAAAIABBzDFnm
+jPDtXAIAAAwKAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAc4G7pm
+UEsFBgAAAAABAAEAPgAAAJICAAAAAA==
 </Image>
 				<AppliesTo>
 					<Apply type="Class">

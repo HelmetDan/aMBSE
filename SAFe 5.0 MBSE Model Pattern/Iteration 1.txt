@@ -3,9 +3,9 @@ shape main
 	layouttype="border";
 	noshadow=true;
 	defsize(90,70);
-	rectangle(0,0,100,50);
+	rectangle(0,0,100,100);
 	addsubshape("thename","N");
-	addsubshape("questionPrompt","CENTER");
+	addsubshape("questionPrompt","Center");
 	addsubshape("notes","S");
 
 	shape thename
@@ -19,28 +19,6 @@ shape main
 		rectangle(0,0,100,100);
 		setfontcolor(255,255,255); // White text
 		println("#name#");
-		addsubshape("frontpadding","N");
-		addsubshape("header","center");
-		
-		shape frontpadding
-		{
-			preferredheight=35;
-		}
-		
-		shape frontname
-			{
-				h_align="center";
-				printwrapped("#name#");
-			}
-			
-			shape header
-	        {
-		    preferredheight=20;
-		    v_align="top";
-		    h_align="center";
-		    setfillcolor(30,30,30);
-		    rectangle(0,0,100,100);	  
-	        }
 	}
 
 	shape questionPrompt
@@ -51,7 +29,7 @@ shape main
 		v_align="top";
 		setfillcolor(100,100,100); // Medium background
 		setpencolor(100,100,100);
-		rectangle(0,0,100,50);
+		rectangle(0,0,100,040);
 		setfontcolor(0,0,0); // Dark text
 		println("#tag:Question Prompt#");
 	}
@@ -64,7 +42,7 @@ shape main
 		v_align="top";
 		setfillcolor(200,200,200); // Light background
 		setpencolor(200,200,200);
-		rectangle(0,0,100,100);
+		rectangle(0,0,100,-1100);
 		setfontcolor(0,0,0); // Dark text
 		println("#notes#");
 	}

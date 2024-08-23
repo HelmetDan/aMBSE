@@ -1,0 +1,199 @@
+!INC Local Scripts.EAConstants-JScript
+
+/*
+ * Script Name: Rename Elements Recursively with Progress - V3
+ * Author: Dan Menoher
+ * Purpose: Rename the elements recursively with progress update
+ * Works good, but is slow
+ */
+
+function replaceText(text, oldName, newName) {
+    return text.split(oldName).join(newName);
+}
+
+function renameElements(parentElement, oldName, newName, totalElements, processedElements) {
+    if (parentElement != null) {
+        processedElements.count++;
+
+        var theElement as EA.Element;
+        theElement = parentElement;
+
+        // Rename the element
+        theElement.Name = replaceText(theElement.Name, oldName, newName);
+        theElement.Notes = replaceText(theElement.Notes, oldName, newName);
+        theElement.Update();
+
+        // Update progress
+        Repository.WriteOutput("Script", "Processing element " + processedElements.count + " of " + totalElements.count + ": " + theElement.Name, 0);
+
+        // Recursively process child elements
+        for (var e = 0; e < theElement.Elements.Count; e++) {
+            var currentElement as EA.Element;
+            currentElement = theElement.Elements.GetAt(e);
+            renameElements(currentElement, oldName, newName, totalElements, processedElements);
+        }
+
+        // Rename diagrams within the element
+        for (var d = 0; d < theElement.Diagrams.Count; d++) {
+            var currentDiagram as EA.Diagram;
+            currentDiagram = theElement.Diagrams.GetAt(d);
+            currentDiagram.Name = replaceText(currentDiagram.Name, oldName, newName);
+            currentDiagram.Notes = replaceText(currentDiagram.Notes, oldName, newName);
+            currentDiagram.Update();
+
+            // Rename diagram objects within the diagram
+            for (var o = 0; o < currentDiagram.DiagramObjects.Count; o++) {
+                var currentDiagramObject as EA.DiagramObject;
+                currentDiagramObject = currentDiagram.DiagramObjects.GetAt(o);
+                var currentObjectElement as EA.Element;
+                currentObjectElement = Repository.GetElementByID(currentDiagramObject.ElementID);
+                if (currentObjectElement != null) {
+                    currentObjectElement.Alias = replaceText(currentObjectElement.Alias, oldName, newName);
+                    currentObjectElement.Update();
+                }
+            }
+        }
+
+        // Rename test elements within the element
+        for (var t = 0; t < theElement.Tests.Count; t++) {
+            var currentTest as EA.Test;
+            currentTest = theElement.Tests.GetAt(t);
+            currentTest.Name = replaceText(currentTest.Name, oldName, newName);
+            currentTest.Notes = replaceText(currentTest.Notes, oldName, newName);
+            currentTest.Input = replaceText(currentTest.Input, oldName, newName);
+            currentTest.Output = replaceText(currentTest.Output, oldName, newName);
+            currentTest.Update();
+        }
+    }
+}
+
+function renamePackages(parentPackage, oldName, newName, totalElements, processedElements) {
+    if (parentPackage != null) {
+        processedElements.count++;
+
+        // Rename the package
+        parentPackage.Name = replaceText(parentPackage.Name, oldName, newName);
+        parentPackage.Notes = replaceText(parentPackage.Notes, oldName, newName);
+        parentPackage.Update();
+
+        // Update progress
+        Repository.WriteOutput("Script", "Processing package " + processedElements.count + " of " + totalElements.count + ": " + parentPackage.Name, 0);
+
+        // Recursively process child packages
+        for (var p = 0; p < parentPackage.Packages.Count; p++) {
+            var currentPackage as EA.Package;
+            currentPackage = parentPackage.Packages.GetAt(p);
+            renamePackages(currentPackage, oldName, newName, totalElements, processedElements);
+        }
+
+        // Process elements in the package
+        for (var e = 0; e < parentPackage.Elements.Count; e++) {
+            var currentElement as EA.Element;
+            currentElement = parentPackage.Elements.GetAt(e);
+            renameElements(currentElement, oldName, newName, totalElements, processedElements);
+        }
+
+        // Rename diagrams within the package
+        for (var d = 0; d < parentPackage.Diagrams.Count; d++) {
+            var currentDiagram as EA.Diagram;
+            currentDiagram = parentPackage.Diagrams.GetAt(d);
+            currentDiagram.Name = replaceText(currentDiagram.Name, oldName, newName);
+            currentDiagram.Notes = replaceText(currentDiagram.Notes, oldName, newName);
+            currentDiagram.Update();
+
+            // Rename diagram objects within the diagram
+            for (var o = 0; o < currentDiagram.DiagramObjects.Count; o++) {
+                var currentDiagramObject as EA.DiagramObject;
+                currentDiagramObject = currentDiagram.DiagramObjects.GetAt(o);
+                var currentObjectElement as EA.Element;
+                currentObjectElement = Repository.GetElementByID(currentDiagramObject.ElementID);
+                if (currentObjectElement != null) {
+                    currentObjectElement.Alias = replaceText(currentObjectElement.Alias, oldName, newName);
+                    currentObjectElement.Update();
+                }
+            }
+        }
+    }
+}
+
+function countElementsAndPackages(parentPackage, totalElements) {
+    if (parentPackage != null) {
+        totalElements.count++;
+
+        // Count child packages
+        for (var p = 0; p < parentPackage.Packages.Count; p++) {
+            var currentPackage as EA.Package;
+            currentPackage = parentPackage.Packages.GetAt(p);
+            countElementsAndPackages(currentPackage, totalElements);
+        }
+
+        // Count elements in the package
+        for (var e = 0; e < parentPackage.Elements.Count; e++) {
+            var currentElement as EA.Element;
+            currentElement = parentPackage.Elements.GetAt(e);
+            totalElements.count++;
+        }
+
+        // Count diagrams in the package
+        for (var d = 0; d < parentPackage.Diagrams.Count; d++) {
+            totalElements.count++;
+        }
+    }
+}
+
+function main() {
+    // Show the script output window
+    Repository.EnsureOutputVisible("Script");
+
+    // Get the currently selected element or package in the tree to work on
+    var theElement as EA.Element;
+    var thePackage as EA.Package;
+    theElement = Repository.GetTreeSelectedObject();
+
+    // Combine input dialog
+    var input = Session.Input("Enter Old Name and New Name separated by a comma");
+    if (input == null || input.indexOf(",") == -1) {
+        Session.Prompt("Invalid input. Please enter both old and new names separated by a comma.", System.PromptType.promptOK);
+        return;
+    }
+
+    var inputs = input.split(",");
+    var oldName = inputs[0].trim();
+    var newName = inputs[1].trim();
+
+    // Validate inputs
+    if (oldName.length === 0 || newName.length === 0) {
+        Session.Prompt("Both Old Name and New Name must be provided.", System.PromptType.promptOK);
+        return;
+    }
+
+    var totalElements = { count: 0 };
+    var processedElements = { count: 0 };
+
+    if (theElement != null && (theElement.ObjectType == EA.ObjectType.otElement)) {
+        countElementsAndPackages(Repository.GetPackageByID(theElement.PackageID), totalElements);
+        Session.Output("Will replace items with name '" + oldName + "' to  '" + newName + "'. Total elements/packages: " + totalElements.count);
+        renameElements(theElement, oldName, newName, totalElements, processedElements);
+        theElement.Update();
+        var parentPackage = Repository.GetPackageByID(theElement.PackageID);
+        parentPackage.Elements.Refresh();
+        Repository.RefreshModelView(0);
+        Session.Prompt("Replaced items with name '" + oldName + "' to  '" + newName + "'.", System.PromptType.promptOK);
+    } else if (theElement != null && (theElement.ObjectType == EA.ObjectType.otPackage)) {
+        thePackage = theElement;
+        countElementsAndPackages(thePackage, totalElements);
+        Session.Output("Will replace items with name '" + oldName + "' to  '" + newName + "'. Total elements/packages: " + totalElements.count);
+        renamePackages(thePackage, oldName, newName, totalElements, processedElements);
+        thePackage.Update();
+        Repository.RefreshModelView(0);
+        Session.Prompt("Replaced items with name '" + oldName + "' to  '" + newName + "'.", System.PromptType.promptOK);
+    } else {
+        Session.Prompt("This script requires an element or package be selected in the Project Browser.\n" +
+            "Please select an element or package in the Project Browser and try again.", System.PromptType.promptOK);
+    }
+
+    // Notify completion
+    Session.Prompt("The renaming process has completed.", System.PromptType.promptOK);
+}
+
+main();

@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26b4" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26b5" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Assumption" metatype="Assumption" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -248,16 +248,18 @@ c3RyLmRhdFVUBQAHFFuMY1BLBQYAAAAAAQABAD4AAACzAAAAAAA=
 			<Stereotype name="Part Spec" metatype="Part Spec" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Requirement">
-						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroupings" value="Testable &amp; Traceable=SMART Analysis;Realistic=SMART Analysis;Attainable=SMART Analysis;measurable=SMART Analysis;Specific=SMART Analysis;"/>
 						<Property name="_tagGroups" value="SMART Analysis"/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="Level" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefDesignSpec" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefPart" type="" description="" unit="" values="" default=""/>
 					<Tag name="SpecMet" type="" description="" unit="" values="" default=""/>
 					<Tag name="SpecUnits" type="" description="" unit="" values="" default=""/>
 					<Tag name="SpecValue" type="" description="" unit="" values="" default=""/>
+					<Tag name="Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Plus" metatype="Plus" notes="" cx="125" cy="50" bgcolor="13237993" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
@@ -478,48 +480,55 @@ AAABAAEAPgAAAFwFAAAAAA==
 			<Stereotype name="Business Requirement" metatype="Business Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Requirement">
-						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroupings" value="Testable &amp; Traceable=SMART Analysis;Realistic=SMART Analysis;Attainable=SMART Analysis;measurable=SMART Analysis;Specific=SMART Analysis;"/>
 						<Property name="_tagGroups" value="SMART Analysis"/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="Attainable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Level" type="" description="" unit="" values="" default=""/>
 					<Tag name="measurable" type="" description="" unit="" values="" default=""/>
 					<Tag name="Realistic" type="" description="" unit="" values="" default=""/>
 					<Tag name="Specific" type="" description="" unit="" values="" default=""/>
 					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Derived Requirement" metatype="Derived Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Requirement">
-						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroupings" value="Testable &amp; Traceable=SMART Analysis;Realistic=SMART Analysis;Attainable=SMART Analysis;measurable=SMART Analysis;Specific=SMART Analysis;"/>
 						<Property name="_tagGroups" value="SMART Analysis"/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="Level" type="" description="" unit="" values="" default=""/>
 					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
 					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
 					<Tag name="subType" type="" description="" unit="" values="" default=""/>
+					<Tag name="Type" type="" description="" unit="" values="" default=""/>
 					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Design Spec" metatype="Design Spec" notes="This is an element to track the design spec for a component, module, or assembly." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Requirement">
-						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroupings" value="Testable &amp; Traceable=SMART Analysis;Realistic=SMART Analysis;Attainable=SMART Analysis;measurable=SMART Analysis;Specific=SMART Analysis;"/>
 						<Property name="_tagGroups" value="SMART Analysis"/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="Level" type="" description="" unit="" values="" default=""/>
 					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
 					<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefFunction" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="SMART Analysis" type="" description="" unit="" values="" default=""/>
 					<Tag name="SpecUnits" type="" description="" unit="" values="" default=""/>
 					<Tag name="SpecValue" type="" description="" unit="" values="" default=""/>
 					<Tag name="SpecValueRule" type="" description="" unit="" values="" default=""/>
 					<Tag name="subType" type="" description="" unit="" values="" default=""/>
+					<Tag name="Type" type="" description="" unit="" values="" default=""/>
 					<Tag name="Verification Method" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
@@ -638,7 +647,7 @@ AACjAQAAAAA=
 			<Stereotype name="SubSystem Requirement" metatype="SubSystem Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Requirement">
-						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroupings" value="Testable &amp; Traceable=SMART Analysis;Realistic=SMART Analysis;Attainable=SMART Analysis;measurable=SMART Analysis;Specific=SMART Analysis;"/>
 						<Property name="_tagGroups" value="SMART Analysis"/>
 					</Apply>
 				</AppliesTo>
@@ -830,7 +839,7 @@ AAAAAHN0ci5kYXRVVAUABzIhhWFQSwUGAAAAAAEAAQA+AAAATAIAAAAA
 			<Stereotype name="Regulatory Requirement" metatype="Regulatory Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Requirement">
-						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroupings" value="Testable &amp; Traceable=SMART Analysis;Realistic=SMART Analysis;Attainable=SMART Analysis;measurable=SMART Analysis;Specific=SMART Analysis;"/>
 						<Property name="_tagGroups" value="SMART Analysis"/>
 					</Apply>
 				</AppliesTo>
@@ -845,7 +854,7 @@ AAAAAHN0ci5kYXRVVAUABzIhhWFQSwUGAAAAAAEAAQA+AAAATAIAAAAA
 			<Stereotype name="System Requirement" metatype="System Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Requirement">
-						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroupings" value="Testable &amp; Traceable=SMART Analysis;Realistic=SMART Analysis;Attainable=SMART Analysis;measurable=SMART Analysis;Specific=SMART Analysis;"/>
 						<Property name="_tagGroups" value="SMART Analysis"/>
 					</Apply>
 				</AppliesTo>
@@ -860,7 +869,7 @@ AAAAAHN0ci5kYXRVVAUABzIhhWFQSwUGAAAAAAEAAQA+AAAATAIAAAAA
 			<Stereotype name="Software Requirement" metatype="Software Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Requirement">
-						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroupings" value="Testable &amp; Traceable=SMART Analysis;Realistic=SMART Analysis;Attainable=SMART Analysis;measurable=SMART Analysis;Specific=SMART Analysis;"/>
 						<Property name="_tagGroups" value="SMART Analysis"/>
 					</Apply>
 				</AppliesTo>
@@ -872,25 +881,27 @@ AAAAAHN0ci5kYXRVVAUABzIhhWFQSwUGAAAAAAEAAQA+AAAATAIAAAAA
 					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Hardware Requirement" metatype="Hardware Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Requirement" metatype="Requirement" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Requirement">
-						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroupings" value="Testable &amp; Traceable=SMART Analysis;Realistic=SMART Analysis;Attainable=SMART Analysis;measurable=SMART Analysis;Specific=SMART Analysis;"/>
 						<Property name="_tagGroups" value="SMART Analysis"/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="Attainable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Level" type="" description="" unit="" values="" default=""/>
 					<Tag name="measurable" type="" description="" unit="" values="" default=""/>
 					<Tag name="Realistic" type="" description="" unit="" values="" default=""/>
 					<Tag name="Specific" type="" description="" unit="" values="" default=""/>
 					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Firmware Requirement" metatype="Firmware Requirement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Requirement">
-						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroupings" value="Testable &amp; Traceable=SMART Analysis;Realistic=SMART Analysis;Attainable=SMART Analysis;measurable=SMART Analysis;Specific=SMART Analysis;"/>
 						<Property name="_tagGroups" value="SMART Analysis"/>
 					</Apply>
 				</AppliesTo>
@@ -924,16 +935,18 @@ AAAAAHN0ci5kYXRVVAUABzIhhWFQSwUGAAAAAAEAAQA+AAAATAIAAAAA
 			<Stereotype name="User Need" metatype="User Need" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Requirement">
-						<Property name="_tagGroupings" value="Specific=SMART Analysis;measurable=SMART Analysis;Attainable=SMART Analysis;Realistic=SMART Analysis;Testable &amp; Traceable=SMART Analysis;"/>
+						<Property name="_tagGroupings" value="Testable &amp; Traceable=SMART Analysis;Realistic=SMART Analysis;Attainable=SMART Analysis;measurable=SMART Analysis;Specific=SMART Analysis;"/>
 						<Property name="_tagGroups" value="SMART Analysis"/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="Attainable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Level" type="" description="" unit="" values="" default=""/>
 					<Tag name="measurable" type="" description="" unit="" values="" default=""/>
 					<Tag name="Realistic" type="" description="" unit="" values="" default=""/>
 					<Tag name="Specific" type="" description="" unit="" values="" default=""/>
 					<Tag name="Testable &amp; Traceable" type="" description="" unit="" values="" default=""/>
+					<Tag name="Type" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="510 Submittal" metatype="Licensing Submittal" notes="" cx="50" cy="100" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Deliverables" baseStereotypes="Deliverables">

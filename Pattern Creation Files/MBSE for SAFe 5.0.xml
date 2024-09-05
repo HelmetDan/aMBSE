@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26D" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26E" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Assumption" metatype="Assumption" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -36,6 +36,7 @@
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Delta" metatype="Delta" notes="" cx="125" cy="50" bgcolor="14013946" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
@@ -211,6 +212,7 @@
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Outcome" metatype="Outcome" notes="" cx="155" cy="50" bgcolor="10551295" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
@@ -313,6 +315,7 @@ ci5kYXRVVAUAB6Ya9mJQSwUGAAAAAAEAAQA+AAAAcwIAAAAA
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Scenario" metatype="Scenario" notes="" cx="0" cy="0" bgcolor="15453831" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
@@ -354,7 +357,7 @@ AIAAAAAAc3RyLmRhdFVUBQAH8HGfZlBLBQYAAAAAAQABAD4AAAB7AgAAAAA=
 			<Stereotype name="SubTask" metatype="SubTask" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="AgileObject" baseStereotypes="AgileObject">
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -363,6 +366,7 @@ AIAAAAAAc3RyLmRhdFVUBQAH8HGfZlBLBQYAAAAAAQABAD4AAAB7AgAAAAA=
 					<Tag name="JiraIssueKey" type="" description="" unit="" values="" default=""/>
 					<Tag name="ParentElement" type="" description="" unit="" values="" default=""/>
 					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="StoryPoints" type="" description="" unit="" values="" default=""/>
 					<Tag name="SummedStoryPoints" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
@@ -406,6 +410,7 @@ AIAAAAAAc3RyLmRhdFVUBQAH8HGfZlBLBQYAAAAAAQABAD4AAAB7AgAAAAA=
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Use Case" metatype="UseCase" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -477,7 +482,7 @@ AAABAAEAPgAAAFwFAAAAAA==
 </Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -486,6 +491,7 @@ AAABAAEAPgAAAFwFAAAAAA==
 					<Tag name="JiraIssueKey" type="" description="" unit="" values="" default=""/>
 					<Tag name="ParentElement" type="" description="" unit="" values="" default=""/>
 					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="ReqToolID" type="" description="" unit="" values="" default=""/>
 					<Tag name="StoryPoints" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
@@ -703,6 +709,7 @@ AACjAQAAAAA=
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="CatalogueType" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="SAFeLevel" type="" description="" unit="" values="" default=""/>
 					<Tag name="SummedStoryPoints" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
@@ -1213,6 +1220,8 @@ gAAAAABzdHIuZGF0VVQFAAd/ZltfUEsFBgAAAAABAAEAPgAAAEoFAAAAAA==
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="LikleyHood" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
 					<Tag name="Severity" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
@@ -1572,6 +1581,7 @@ AABzdHIuZGF0VVQFAAc/wSdfUEsFBgAAAAABAAEAPgAAAJYBAAAAAA==
 				<TaggedValues>
 					<Tag name="EndDate" type="" description="" unit="" values="" default=""/>
 					<Tag name="Priority" type="enumeration" description="" unit="" values="Highest,High,Medium,Low,Lowest,Will Not Do,Not Prioritized" default="Not Prioritized"/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="StartDate" type="" description="" unit="" values="" default=""/>
 					<Tag name="StoryPoints" type="enumeration" description="" unit="" values="0,0.5,1,2,3,5,8,13,20,40,Not Pointed,Should be Feature" default="Not Pointed"/>
 					<Tag name="SummedStoryPoints" type="" description="" unit="" values="" default=""/>
@@ -1978,7 +1988,7 @@ AIAAAAAAc3RyLmRhdFVUBQAH7u96X1BLBQYAAAAAAQABAD4AAAClBQAAAAA=
 </Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -1988,6 +1998,7 @@ AIAAAAAAc3RyLmRhdFVUBQAH7u96X1BLBQYAAAAAAQABAD4AAAClBQAAAAA=
 					<Tag name="JiraIssueKey" type="" description="" unit="" values="" default=""/>
 					<Tag name="MoSCoWPriority" type="enumeration" description="" unit="" values="Must Have,Should Have,Could Have,Will Not Do,Not Prioritized" default="Not Prioritized"/>
 					<Tag name="ParentElement" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="Start Date" type="" description="" unit="" values="" default=""/>
 					<Tag name="StoryPoints" type="enumeration" description="" unit="" values="0,0.5,1,2,3,5,8,13,20,40,Not Pointed,Should be Feature" default="Not Pointed"/>
 					<Tag name="SummedStoryPoints" type="" description="" unit="" values="" default=""/>
@@ -2032,7 +2043,7 @@ gAAAAABzdHIuZGF0VVQFAAfX73pfUEsFBgAAAAABAAEAPgAAAKQFAAAAAA==
 </Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -2042,6 +2053,7 @@ gAAAAABzdHIuZGF0VVQFAAfX73pfUEsFBgAAAAABAAEAPgAAAKQFAAAAAA==
 					<Tag name="JiraIssueKey" type="" description="" unit="" values="" default=""/>
 					<Tag name="MoSCoWPriority" type="enumeration" description="" unit="" values="Must Have,Should Have,Could Have,Will Not Do,Not Prioritized" default="Not Prioritized"/>
 					<Tag name="ParentElement" type="" description="" unit="" values="" default=""/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="Start Date" type="" description="" unit="" values="" default=""/>
 					<Tag name="StoryPoints" type="enumeration" description="" unit="" values="0,0.5,1,2,3,5,8,13,20,40,Not Pointed,Should be Feature" default="Not Pointed"/>
 					<Tag name="SummedStoryPoints" type="" description="" unit="" values="" default=""/>
@@ -2106,7 +2118,7 @@ AAAAAHN0ci5kYXRVVAUAB8dBNV9QSwUGAAAAAAEAAQA+AAAAowUAAAAA
 </Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -2116,6 +2128,7 @@ AAAAAHN0ci5kYXRVVAUAB8dBNV9QSwUGAAAAAAEAAQA+AAAAowUAAAAA
 					<Tag name="JiraIssueKey" type="" description="" unit="" values="" default=""/>
 					<Tag name="ParentElement" type="" description="" unit="" values="" default=""/>
 					<Tag name="Priority" type="enumeration" description="" unit="" values="Highest,High,Medium,Low,Lowest,Will Not Do,Not Prioritized" default="Not Prioritized"/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="StoryPoints" type="enumeration" description="" unit="" values="0,0.5,1,2,3,5,8,13,20,40,Not Pointed,Should be Feature" default="Not Pointed"/>
 				</TaggedValues>
 			</Stereotype>
@@ -2176,7 +2189,7 @@ AD4AAABXBQAAAAA=
 </Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -2184,6 +2197,7 @@ AD4AAABXBQAAAAA=
 					<Tag name="JiraIssueID" type="" description="" unit="" values="" default=""/>
 					<Tag name="JiraIssueKey" type="" description="" unit="" values="" default=""/>
 					<Tag name="Priority" type="enumeration" description="" unit="" values="Highest,High,Medium,Low,Lowest,Will Not Do,Not Prioritized" default="Not Prioritized"/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="StoryPoints" type="enumeration" description="" unit="" values="0,0.5,1,2,3,5,8,13,20,40,Not Pointed,Should be Feature" default="Not Pointed"/>
 					<Tag name="SummedStoryPoints" type="" description="" unit="" values="" default=""/>
 					<Tag name="VVStoryPoints" type="" description="" unit="" values="" default=""/>
@@ -2392,7 +2406,7 @@ AAAAAA==
 </Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -2402,6 +2416,7 @@ AAAAAA==
 					<Tag name="JiraIssueKey" type="" description="" unit="" values="" default=""/>
 					<Tag name="ParentElement" type="" description="" unit="" values="" default=""/>
 					<Tag name="Priority" type="enumeration" description="" unit="" values="Highest,High,Medium,Low,Lowest,Will Not Do,Not Prioritized" default="Not Prioritized"/>
+					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="StoryPoints" type="enumeration" description="" unit="" values="0,0.5,1,2,3,5,8,13,20,40,Not Pointed,Should be Feature" default="Not Pointed"/>
 					<Tag name="SummedStoryPoints" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>

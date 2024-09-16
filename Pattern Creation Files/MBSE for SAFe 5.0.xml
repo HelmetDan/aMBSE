@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26F" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26G1" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Assumption" metatype="Assumption" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -116,6 +116,7 @@
 				<TaggedValues>
 					<Tag name="Priority" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
+					<Tag name="Summary" type="" description="" unit="" values="" default=""/>
 					<Tag name="SystemLevel" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
@@ -152,6 +153,7 @@
 					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
 					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
 					<Tag name="Severity" type="enumeration" description="" unit="" values="Negligible,Marginal,Serious,Critical,Catastrophic,High,Medium,Low" default=""/>
+					<Tag name="Summary" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="HFStudyStation" metatype="HFStudyStation" notes="The study station is the make up of the study and what specific components, setups and actions are performed." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -162,6 +164,7 @@
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="RefHFStudy" type="" description="" unit="" values="" default=""/>
+					<Tag name="Summary" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Initive" metatype="Initive" notes="" cx="125" cy="50" bgcolor="14053594" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
@@ -202,6 +205,7 @@
 					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
 					<Tag name="Severity" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
+					<Tag name="Summary" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="OpenQuestionsRegister" metatype="OpenQuestionsRegister" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -400,6 +404,7 @@ AIAAAAAAc3RyLmRhdFVUBQAH8HGfZlBLBQYAAAAAAQABAD4AAAB7AgAAAAA=
 					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
 					<Tag name="Severity" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
+					<Tag name="Summary" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="TechnicalRiskRegister" metatype="TechnicalRiskRegister" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -419,6 +424,7 @@ AIAAAAAAc3RyLmRhdFVUBQAH8HGfZlBLBQYAAAAAAQABAD4AAAB7AgAAAAA=
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="RefModule" type="" description="" unit="" values="" default=""/>
+					<Tag name="Summary" type="" description="" unit="" values="" default=""/>
 					<Tag name="UseCaseLevel" type="" description="" unit="" values="" default=""/>
 					<Tag name="UseCaseType" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
@@ -600,6 +606,7 @@ AAABAAEAPgAAAFwFAAAAAA==
 					<Tag name="Scenario Type" type="" description="" unit="" values="" default=""/>
 					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
 					<Tag name="Stakeholer Type" type="" description="" unit="" values="" default=""/>
+					<Tag name="Summary" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="SurveyQuestion" metatype="SurveyQuestion" notes="" cx="125" cy="50" bgcolor="10592733" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
@@ -950,6 +957,7 @@ AAAAAHN0ci5kYXRVVAUABzIhhWFQSwUGAAAAAAEAAQA+AAAATAIAAAAA
 				<TaggedValues>
 					<Tag name="Actor Type" type="" description="" unit="" values="" default=""/>
 					<Tag name="Stakeholder Affected" type="" description="" unit="" values="" default=""/>
+					<Tag name="Summary" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="User Need" metatype="User Need" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -1224,6 +1232,7 @@ gAAAAABzdHIuZGF0VVQFAAd/ZltfUEsFBgAAAAABAAEAPgAAAEoFAAAAAA==
 					<Tag name="RefUseCase" type="" description="" unit="" values="" default=""/>
 					<Tag name="Severity" type="" description="" unit="" values="" default=""/>
 					<Tag name="Status" type="" description="" unit="" values="" default=""/>
+					<Tag name="Summary" type="" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Quarter" metatype="Quarter" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">

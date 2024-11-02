@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26G1" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26G2" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Assumption" metatype="Assumption" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -1302,6 +1302,7 @@ AQA+AAAAWAUAAAAA
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="ElementUse" type="" description="" unit="" values="" default=""/>
 					<Tag name="End Date" type="" description="" unit="" values="" default=""/>
 					<Tag name="ExecutiveSummary" type="" description="" unit="" values="" default=""/>
 					<Tag name="JiraIssueID" type="" description="" unit="" values="" default=""/>
@@ -1858,6 +1859,7 @@ AAEAPgAAAOAFAAAAAA==
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="ElementUse" type="" description="" unit="" values="" default=""/>
 					<Tag name="End Date" type="" description="" unit="" values="" default=""/>
 					<Tag name="ExecutiveSummary" type="" description="" unit="" values="" default=""/>
 					<Tag name="JiraIssueID" type="" description="" unit="" values="" default=""/>

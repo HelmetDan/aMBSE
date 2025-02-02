@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26G2" notes="MBSE for SAFe 5.0"/>
+	<Documentation id="98EDA0FA-B" name="MBSE for SAFe 5.0" version="0.0.26J" notes="MBSE for SAFe 5.0"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Assumption" metatype="Assumption" notes="" cx="125" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -8,6 +8,44 @@
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Bug" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGJHQlpAdaL8FgUAADYgAAAHABEAc3RyLmRhdFVUDQAH5TOf
+Z+Uzn2flM59n7VldaxtHFL2vW8h/EM2LA4bGjWU5lDzEThxKIaSRQx6LLMW1
+Gn0YSW5IS/97z5m7VzOzM7tamcquIQiNRrt37sc59979mKVcyUCu5ZN0ZIrZ
+WGbySL6Tv93YkQmOfZW53MgKn6+l5At8v5cLHF/ICEcW+PdTueJKfsOaCTT9
+Dl0mO4HUJTR4uT+zckPIzSAX63zlVvch+xdme3IgXXkq+/IMv0/WUi/hy0iW
+8PUCo8W1V/H0BDbnsPMZx/fx/Yiv6VA9fcit5AzWJvicQporFtD0xp1Rbwaw
+M6mRexJ4pdreubhur6uIYuy7GPtRjDPMp5hz7RRHB1i9ckeIp8Z6Kq/lrZxj
+fF9GbXo5esw6NYj5zCikKTOM7YVj9yrgvYDcwp2lZs5GYGCMcQW5F2D06Vpy
+Ew99fAf43sDzFLFQRx36H7BSI/TRppoUo8J5O3Q2Z4iKMe65LOT3AKP/9fbr
++TpxnDCD98ts/rEcfU4X8gM+51hHbC9dlkwwY91cO20XLo4OMFq6kZVEJPV/
+yOgSvpOPayfPdYzyCyzqCspQ3xyVqfLUTC1fnL4hRkoQBVYvLYwhTxzU19Da
+y/KYZUuR1LBGexihRR20Sh0zWPRMGM6xdMiuzyL2h1CKGFpGsqN9Anua8Tw7
+LSNe4Zde7ctzOY7Ws0fN1hLGVdWC5jrtm438empPbVDDlYuV+MxdzZLlvJfH
+zoejihexHcU3lvknw9RJwtSuOKBf18IrRBhnfZRHGaSrMVbPx1xTF7sgsze0
+k2rJ8cFaYG9jP616HbMT61O/N2vUGpygd5oMq4sdRr1inhxKr9Tle4zXb/ND
+/FZtGdrNVp5hLbsQ9ammUKufpyhPHdcjh3YzOmmFVf3N4RfLWObyE2bvaXl8
+99mrvW9YE9XzMhd70bqYT5433mwk8lxl815kOVevr5KI77ezfqvqTTUWM19f
+xZs69esHzrzGen/M765j9Urc0y7MO8t22ZbarMaw+T4ilzVn5bFvWfMQssZf
+50IO3yQc7oqd+7jK3Y4v1cS78XqEuxmZXI38fGf41sUW45x7xqhGZlePNLI4
+tl/+Z7Gl1dquDkeQGuCpyroFn1rnGG8QCWNZYO7fN9Tb7jZaz3WbJuv6DN3O
+uj7rh++s6uzneQ1ZfZuw2o6n9tyH0S+FnY7c6pshf0Wzqs1HnOMyZXszH806
+Us5yiL3bOWKGVno3mKLCZ6v6iLquV1Zl4j7L5zZqOkb89qzm19m8CdsU+9v0
+4ZTjHPq/Juhvh2s7ruj/EGeJk38vZcjlr07Wa21WzbXNa2M9qT8LRLYUvi3j
+e0PWjOKXz44uYuIV8rCBuVxV5FB/n6DeDsf23ISR+v5XfQNWvYtIva9GqGhW
+K+C/qaN8jT7k6uonPLdnsH1WKG5h92+6VySCvWwtxezFFcWnY6Lu34rn2KMG
+PkM02df3WfHb9NgDZZCWeZdovui9ap39HPrnd4b+dk8fTdmZXjO3uYfL9bpq
+5aW9NIfdhzvDbnPlbYcgzx8hwqqdpgpJ899QstG02v+chbDP1sWyiW3lQseQ
+j+ZdREobU+32eQtpv89bCHcDx8K81n2lS/xjnx6t15l/fk2YAfTa8mWbHT7V
+pHe6XMVdL9sN70DyQv4Q3fvjLtxYdBfOZyfXd8qPajCpMIN5VdFnYLJ8gI9W
+B+2OHNKfhfeptKp7rQWu4NvvOSoiZ6I9Iow2V0Pcj6XFFaRmwp3Jx2uUHwd7
+45orOvsXUEsBAhcLFAAAAAgAYkdCWkB1ovwWBQAANiAAAAcACQAAAAAAAAAA
+AACAAAAAAHN0ci5kYXRVVAUAB+Uzn2dQSwUGAAAAAAEAAQA+AAAATAUAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Defect"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Challenge" metatype="Challenge" notes="" cx="125" cy="50" bgcolor="14481663" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
@@ -359,9 +397,43 @@ AIAAAAAAc3RyLmRhdFVUBQAH8HGfZlBLBQYAAAAAAQABAD4AAAB7AgAAAAA=
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="SubTask" metatype="SubTask" notes="" cx="150" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="AgileObject" baseStereotypes="AgileObject">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAPZDQlr8AwzyHwUAAHwgAAAHABEAc3RyLmRhdFVUDQAHfy2f
+Z38tn2d/LZ9n7VldbxNHFL2vrsR/sMpLkCwVSBwHIR4gEFRVQjQO4rFybNK4
+9UdkO0UU8d97zty9npmd2fU6qhMiIcvr8e79mHvOvXdnd5ZyKQO5kk/SlilG
+Y5nJA/lJvrpjWyY490Xmci0rfL4Uki/w/VnOcX4hI5xZ4N/zQuNS/oDOBJb+
+hC2TnUDqAha83D9ZuSHkZpCLbb522n3I/ovRnjyRrjyWjuzj99Fa6iXmMpIl
+5nqOo8W1V5rpK/icw8/fON/B9yO+ZkPt9CG3khN4m+BzDGlqLGDprbuisxnA
+z6RC7lEwK7X23sV1c1utKMa+i7EfxTjDeIoxdac4O4D2yp0hnhrrsbyRd3KG
+42kRtdnl0WPWrkDMZ0ZL6jLD2F44di8D3luQW7irtMzRCAyMcVxB7gUYfbyW
+3MRDH98BvteYeYpYaKMK/Q/Q1Ah9tKklxajlZjt0PmeIijHuuSzk9wmO/tf7
+r+ar7zhhBneKbKZuR54GOV2nf5boP83o/4LPGfTIzYXLsglGrLsrZ+3c4dAG
+xkt3ZCWSCf0fZsQSsZPPKydPPaL0GR5VgzK0N0dlqzwt08pnZ2+IIyWIIquf
+HsaQJ44619Dby+KcZVsr6QEa7UGENm3QK23M4NEzaTzF0mF2+CxkfwmliKFl
+NDviJ7CvFcOr0yLiFX45q448k6NInz1utpYwrsoetFbo33zk9Wk99UELly5W
+4jN3NU+W87M8cnM4LM0i9qP4xjLfMky9SpjaFQec15XwDhPGWR3lYQbpcozl
+6zHXtMUuyuwN/aRWcnywFtgb2Y/Ls47Zie3pvDdb1BqcoPeaDKuLHUpnxTw5
+kF5hy/cob9/GB/gt+zK0673sQ5ddiPbUUmjVj1OUp47rkUO7Hp20wsrzzeEX
+y1jm8hNm73FxfvfZq71vWBHVsyIXe5FezCevG292JPLUsnEv8pyr19dJxHfb
+WX9U9aYai5mvruJNnfrNPWdeY7075nfXsXoF7mkX5sq0WbalPssxbF5H5LLm
+pDj3I2vuQ9b4+1zI4duEw12xcxd3uZvxpZa4Gq9GuJuRydXIr7eGb1VsMc65
+Z4xyZHb3SCOLY/vtO4strdZmdTiC1ABPVdYt+NQ6x/EakTCWBcb+fUW1726t
+91y3qfOuz9DNvOuzfvjOq8p/nteQ1XcJq814as59GP1S2OnIrb5Z8nc0q9p8
+xDkuU7Y381FvI+Ush9j7nSNmaKWrwRQVPltVR9R1vbIsE/dZPrfR0hHit2c1
+r2fjOmxT7G/Sh1OOc+j/nqC/Ha7NuOL8h7hKnPx7KUMuf3eyXmujcq5t1o3t
+pPNZILKl8G0Z3zuyZhS/fHZ0ERPvkAc1zOWqIof6aYJ6MxybcxNG6vtf+Q1Y
+eRWRzr4coaJZroD/p47yNXqfq6uf8NycweZZobiF3b9urUgEe9laitmLK0rf
+oR+5O2U+BzgLWuAzRJ1/fZ8Vv02PZ6AM0jNXiTYXXatW+c+hf3Zr6G/39FGX
+nek9c5s1XK7XlSsv7aU57D7cGnabK287BHn9EBGW/dRVSJr/hpIdzar9z3kI
++2xVLJvYVi70GPJRvwtJaWOq2T5xS5rvE7eEu4ljYV7rvtIF/rFPj9Z6Nj+v
+E2YAZ235ss0OoVrSlS61uOtlu+ltSJ7LX6J7h9yFG4vuwvnspH67+KgFkwoz
+mO9ZtG72i95jT6b0rOsC45XxX4utEU4L79vsXCouJ6KdIow5V0nc1WW0K0jN
+hPuTD9dYPyz2mn3G6Og/UEsBAhcLFAAAAAgA9kNCWvwDDPIfBQAAfCAAAAcA
+CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB38tn2dQSwUGAAAAAAEAAQA+
+AAAAVQUAAAAA
+</Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -488,7 +560,7 @@ AAABAAEAPgAAAFwFAAAAAA==
 </Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -1999,7 +2071,7 @@ AIAAAAAAc3RyLmRhdFVUBQAH7u96X1BLBQYAAAAAAQABAD4AAAClBQAAAAA=
 </Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -2054,7 +2126,7 @@ gAAAAABzdHIuZGF0VVQFAAfX73pfUEsFBgAAAAABAAEAPgAAAKQFAAAAAA==
 </Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -2129,7 +2201,7 @@ AAAAAHN0ci5kYXRVVAUAB8dBNV9QSwUGAAAAAAEAAQA+AAAAowUAAAAA
 </Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -2200,7 +2272,7 @@ AD4AAABXBQAAAAA=
 </Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
@@ -2417,7 +2489,7 @@ AAAAAA==
 </Image>
 				<AppliesTo>
 					<Apply type="Task">
-						<Property name="_tagGroupings" value="JiraIssueID=Jira;JiraIssueKey=Jira;"/>
+						<Property name="_tagGroupings" value="JiraIssueKey=Jira;JiraIssueID=Jira;"/>
 						<Property name="_tagGroups" value="Jira"/>
 					</Apply>
 				</AppliesTo>
